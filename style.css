@@ -80,3 +80,27 @@ body {
 #complete-btn:hover {
     background-color: #218838;
 }
+
+#completed-tasks-container {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+#completed-tasks-list {
+    list-style-type: none;
+    padding-left: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#completed-tasks-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+#completed-tasks-list li:last-child {
+    border-bottom: none;
+}
