@@ -42,3 +42,41 @@ body {
 #task-title {
     margin-top: 0;
 }
+
+.filters {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-actions {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#complete-btn, #reset-btn, #filter-btn {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#complete-btn:hover, #reset-btn:hover, #filter-btn:hover {
+    background-color: #5a6268;
+}
+
+#complete-btn {
+    background-color: #28a745;
+}
+
+#complete-btn:hover {
+    background-color: #218838;
+}

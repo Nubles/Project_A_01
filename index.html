@@ -9,10 +9,24 @@
 <body>
     <div class="container">
         <h1>Task Randomizer</h1>
-        <button id="randomize-btn">Get Random Task</button>
+
+        <div class="filters">
+            <select id="location-filter"></select>
+            <select id="points-filter"></select>
+            <input type="text" id="keyword-filter" placeholder="Keyword search...">
+        </div>
+
+        <div class="task-actions">
+            <button id="randomize-btn">Get Random Task</button>
+            <button id="reset-btn">Reset All Tasks</button>
+        </div>
+
+        <p>Available tasks: <span id="task-count">0</span></p>
+
         <div id="task-container">
             <h2 id="task-title"></h2>
             <p id="task-info"></p>
+            <button id="complete-btn" style="display: none;">Complete Task</button>
         </div>
     </div>
     <script src="script.js"></script>
