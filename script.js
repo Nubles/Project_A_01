@@ -1284,43 +1284,149 @@ Wilderness: General	Equip an Eldritch Crossbow.	Equip an Eldritch crossbow.	92 R
 Misthalin: Varrock	Equip an igneous Kal-Zuk cape.	Equip an igneous Kal-Zuk cape.	90 Crafting Crafting
 Completion of the Excuse Me, That's My Seat achievement	 400	<0.1%`;
 
-const lines = taskData.split('\n');
-lines.shift(); // remove header
-
-const processedRows = [];
-for (const line of lines) {
-    // A simple check to see if a line is a continuation of a previous line.
-    // This is not perfect, but should handle the provided data better.
-    // A better implementation would be to use a more robust CSV parser.
-    if (line.split('\t').length >= 5) {
-        processedRows.push(line);
-    } else {
-        if (processedRows.length > 0) {
-            processedRows[processedRows.length - 1] += ' ' + line.trim();
-        }
-    }
-}
-
-const tasks = [];
-for (const row of processedRows) {
-    const parts = row.split('\t');
-    if (parts.length >= 3) {
-        tasks.push({
-            task: parts[1],
-            information: parts[2]
-        });
-    }
-}
-
-console.log('Number of tasks parsed:', tasks.length);
+let allTasks = [];
+let availableTasks = [];
+let completedTasks = new Set(JSON.parse(localStorage.getItem('completedTasks')) || []);
 
 const randomizeBtn = document.getElementById('randomize-btn');
 const taskTitleEl = document.getElementById('task-title');
 const taskInfoEl = document.getElementById('task-info');
+const completeBtn = document.getElementById('complete-btn');
+const resetBtn = document.getElementById('reset-btn');
+const taskCountEl = document.getElementById('task-count');
+const locationFilter = document.getElementById('location-filter');
+const pointsFilter = document.getElementById('points-filter');
+const keywordFilter = document.getElementById('keyword-filter');
 
-randomizeBtn.addEventListener('click', () => {
-    const randomIndex = Math.floor(Math.random() * tasks.length);
-    const randomTask = tasks[randomIndex];
-    taskTitleEl.textContent = randomTask.task;
-    taskInfoEl.textContent = randomTask.information;
-});
+let currentTask = null;
+
+function parseTasks() {
+    const lines = taskData.split('\n');
+    lines.shift(); // remove header
+
+    const processedRows = [];
+    for (const line of lines) {
+        if (line.split('\t').length >= 5) {
+            processedRows.push(line);
+        } else {
+            if (processedRows.length > 0) {
+                processedRows[processedRows.length - 1] += ' ' + line.trim();
+            }
+        }
+    }
+
+    allTasks = processedRows.map((row, index) => {
+        const parts = row.split('\t');
+        return {
+            id: index,
+            locality: parts[0],
+            task: parts[1],
+            information: parts[2],
+            requirements: parts[3],
+            pts: parseInt(parts[4], 10),
+            comp: parts[5]
+        };
+    });
+}
+
+function updateAvailableTasks() {
+    const location = locationFilter.value;
+    const points = parseInt(pointsFilter.value, 10);
+    const keyword = keywordFilter.value.toLowerCase();
+
+    availableTasks = allTasks.filter(task => {
+        const isCompleted = completedTasks.has(task.id);
+        if (isCompleted) return false;
+
+        const locationMatch = location === 'all' || task.locality === location;
+        const pointsMatch = isNaN(points) || task.pts === points;
+        const keywordMatch = keyword === '' || task.task.toLowerCase().includes(keyword) || task.information.toLowerCase().includes(keyword);
+
+        return locationMatch && pointsMatch && keywordMatch;
+    });
+
+    taskCountEl.textContent = availableTasks.length;
+}
+
+function populateFilters() {
+    const locations = [...new Set(allTasks.map(task => task.locality))];
+    locationFilter.innerHTML = '<option value="all">All Locations</option>';
+    for (const location of locations.sort()) {
+        const option = document.createElement('option');
+        option.value = location;
+        option.textContent = location;
+        locationFilter.appendChild(option);
+    }
+
+    const points = [...new Set(allTasks.map(task => task.pts))];
+    pointsFilter.innerHTML = '<option value="all">All Points</option>';
+    for (const point of points.sort((a, b) => a - b)) {
+        const option = document.createElement('option');
+        option.value = point;
+        option.textContent = `${point} pts`;
+        pointsFilter.appendChild(option);
+    }
+}
+
+function displayRandomTask() {
+    updateAvailableTasks();
+    if (availableTasks.length === 0) {
+        taskTitleEl.textContent = "No tasks available!";
+        taskInfoEl.textContent = "Try adjusting your filters or resetting your completed tasks.";
+        completeBtn.style.display = 'none';
+        currentTask = null;
+        return;
+    }
+
+    const randomIndex = Math.floor(Math.random() * availableTasks.length);
+    currentTask = availableTasks[randomIndex];
+
+    taskTitleEl.textContent = currentTask.task;
+    taskInfoEl.textContent = currentTask.information;
+    completeBtn.style.display = 'inline-block';
+}
+
+function completeCurrentTask() {
+    if (currentTask) {
+        completedTasks.add(currentTask.id);
+        localStorage.setItem('completedTasks', JSON.stringify([...completedTasks]));
+
+        taskTitleEl.textContent = '';
+        taskInfoEl.textContent = '';
+        completeBtn.style.display = 'none';
+        currentTask = null;
+
+        updateAvailableTasks();
+    }
+}
+
+function resetTasks() {
+    completedTasks.clear();
+    localStorage.removeItem('completedTasks');
+
+    // Also reset filters
+    locationFilter.value = 'all';
+    pointsFilter.value = 'all';
+    keywordFilter.value = '';
+
+    updateAvailableTasks();
+
+    taskTitleEl.textContent = '';
+    taskInfoEl.textContent = '';
+    completeBtn.style.display = 'none';
+    currentTask = null;
+}
+
+// Event Listeners
+randomizeBtn.addEventListener('click', displayRandomTask);
+completeBtn.addEventListener('click', completeCurrentTask);
+resetBtn.addEventListener('click', resetTasks);
+locationFilter.addEventListener('change', updateAvailableTasks);
+pointsFilter.addEventListener('change', updateAvailableTasks);
+keywordFilter.addEventListener('input', updateAvailableTasks);
+
+
+// Initialization
+parseTasks();
+populateFilters();
+updateAvailableTasks();
