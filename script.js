@@ -1296,10 +1296,19 @@ const resetBtn = document.getElementById('reset-btn');
 const taskCountEl = document.getElementById('task-count');
 const locationFilter = document.getElementById('location-filter');
 const pointsFilter = document.getElementById('points-filter');
+const skillFilter = document.getElementById('skill-filter');
 const keywordFilter = document.getElementById('keyword-filter');
 const completedTasksListEl = document.getElementById('completed-tasks-list');
 
 let currentTask = null;
+
+const SKILL_LIST = [
+    'Agility', 'Archaeology', 'Attack', 'Construction', 'Cooking', 'Crafting',
+    'Defence', 'Divination', 'Dungeoneering', 'Farming', 'Firemaking', 'Fishing',
+    'Fletching', 'Herblore', 'Constitution', 'Hunter', 'Invention', 'Magic',
+    'Mining', 'Necromancy', 'Prayer', 'Ranged', 'Runecrafting', 'Slayer',
+    'Smithing', 'Strength', 'Summoning', 'Thieving', 'Woodcutting'
+];
 
 function parseTasks() {
     const rawLines = taskData.trim().split('\n');
@@ -1338,14 +1347,24 @@ function parseTasks() {
 
     allTasks = stitchedLines.map((line, index) => {
         const parts = line.split('\t');
+        const requirements = parts[3] || '';
+
+        const skillsInTask = [];
+        for (const skill of SKILL_LIST) {
+            if (requirements.toLowerCase().includes(skill.toLowerCase())) {
+                skillsInTask.push(skill);
+            }
+        }
+
         return {
             id: index,
             locality: parts[0] || '',
             task: parts[1] || '',
             information: parts[2] || '',
-            requirements: parts[3] || '',
+            requirements: requirements,
             pts: parseInt(parts[4], 10) || 0,
-            comp: parts[5] || ''
+            comp: parts[5] || '',
+            skills: skillsInTask
         };
     }).filter(task => task.task); // Filter out any potentially empty tasks
 }
@@ -1354,6 +1373,7 @@ function parseTasks() {
 function updateAvailableTasks() {
     const location = locationFilter.value;
     const points = parseInt(pointsFilter.value, 10);
+    const skill = skillFilter.value;
     const keyword = keywordFilter.value.toLowerCase();
 
     availableTasks = allTasks.filter(task => {
@@ -1362,12 +1382,13 @@ function updateAvailableTasks() {
 
         const locationMatch = location === 'all' || task.locality === location;
         const pointsMatch = isNaN(points) || task.pts === points;
+        const skillMatch = skill === 'all' || task.skills.includes(skill);
         const keywordMatch = keyword === '' ||
                              task.task.toLowerCase().includes(keyword) ||
                              task.information.toLowerCase().includes(keyword) ||
                              task.requirements.toLowerCase().includes(keyword);
 
-        return locationMatch && pointsMatch && keywordMatch;
+        return locationMatch && pointsMatch && skillMatch && keywordMatch;
     });
 
     taskCountEl.textContent = availableTasks.length;
@@ -1390,6 +1411,15 @@ function populateFilters() {
         option.value = point;
         option.textContent = `${point} pts`;
         pointsFilter.appendChild(option);
+    }
+
+    const skills = [...new Set(allTasks.flatMap(task => task.skills))];
+    skillFilter.innerHTML = '<option value="all">All Skills</option>';
+    for (const skill of skills.sort()) {
+        const option = document.createElement('option');
+        option.value = skill;
+        option.textContent = skill;
+        skillFilter.appendChild(option);
     }
 }
 
@@ -1447,6 +1477,7 @@ function resetTasks() {
 
         locationFilter.value = 'all';
         pointsFilter.value = 'all';
+        skillFilter.value = 'all';
         keywordFilter.value = '';
 
         updateAvailableTasks();
@@ -1469,6 +1500,10 @@ document.addEventListener('DOMContentLoaded', () => {
         displayRandomTask();
     });
     pointsFilter.addEventListener('change', () => {
+        updateAvailableTasks();
+        displayRandomTask();
+    });
+    skillFilter.addEventListener('change', () => {
         updateAvailableTasks();
         displayRandomTask();
     });
