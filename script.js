@@ -1407,7 +1407,11 @@ function displayRandomTask() {
     currentTask = availableTasks[randomIndex];
 
     taskTitleEl.textContent = currentTask.task;
-    taskInfoEl.innerHTML = `<strong>Location:</strong> ${currentTask.locality}<br><strong>Points:</strong> ${currentTask.pts}<br><strong>Info:</strong> ${currentTask.information}<br><strong>Requires:</strong> ${currentTask.requirements}`;
+
+    // Clean up duplicate words in requirements
+    const requirementsText = currentTask.requirements.replace(/\b(\w+)\s+\1\b/g, '$1');
+
+    taskInfoEl.innerHTML = `<strong>Location:</strong> ${currentTask.locality}<br><strong>Points:</strong> ${currentTask.pts}<br><strong>Info:</strong> ${currentTask.information}<br><strong>Requires:</strong> ${requirementsText}`;
     completeBtn.style.display = 'inline-block';
 }
 
