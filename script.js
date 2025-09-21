@@ -1297,6 +1297,7 @@ const taskCountEl = document.getElementById('task-count');
 const locationFilter = document.getElementById('location-filter');
 const pointsFilter = document.getElementById('points-filter');
 const keywordFilter = document.getElementById('keyword-filter');
+const completedTasksListEl = document.getElementById('completed-tasks-list');
 
 let currentTask = null;
 
@@ -1397,6 +1398,17 @@ function completeCurrentTask() {
         currentTask = null;
 
         updateAvailableTasks();
+        renderCompletedTasks();
+    }
+}
+
+function renderCompletedTasks() {
+    completedTasksListEl.innerHTML = '';
+    const completed = allTasks.filter(task => completedTasks.has(task.id));
+    for (const task of completed) {
+        const li = document.createElement('li');
+        li.textContent = task.task;
+        completedTasksListEl.appendChild(li);
     }
 }
 
@@ -1410,6 +1422,7 @@ function resetTasks() {
     keywordFilter.value = '';
 
     updateAvailableTasks();
+    renderCompletedTasks();
 
     taskTitleEl.textContent = '';
     taskInfoEl.textContent = '';
@@ -1430,3 +1443,4 @@ keywordFilter.addEventListener('input', updateAvailableTasks);
 parseTasks();
 populateFilters();
 updateAvailableTasks();
+renderCompletedTasks();
