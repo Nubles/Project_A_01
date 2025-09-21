@@ -4,32 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Randomizer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>Task Randomizer</h1>
 
-        <div class="filters">
-            <select id="location-filter"></select>
-            <select id="points-filter"></select>
-            <input type="text" id="keyword-filter" placeholder="Keyword search...">
+        <div class="controls-grid">
+            <div class="filters card">
+                <select id="location-filter"></select>
+                <select id="points-filter"></select>
+                <input type="text" id="keyword-filter" placeholder="Keyword search...">
+            </div>
+
+            <div class="task-actions card">
+                <button id="randomize-btn">Get Random Task</button>
+                <button id="reset-btn">Reset All Tasks</button>
+            </div>
         </div>
 
-        <div class="task-actions">
-            <button id="randomize-btn">Get Random Task</button>
-            <button id="reset-btn">Reset All Tasks</button>
-        </div>
+        <p class="task-count-display">Available tasks: <span id="task-count">0</span></p>
 
-        <p>Available tasks: <span id="task-count">0</span></p>
-
-        <div id="task-container">
+        <div id="task-container" class="card">
             <h2 id="task-title"></h2>
             <p id="task-info"></p>
             <button id="complete-btn" style="display: none;">Complete Task</button>
         </div>
 
-        <div id="completed-tasks-container">
+        <div id="completed-tasks-container" class="card">
             <h2>Completed Tasks</h2>
             <ul id="completed-tasks-list"></ul>
         </div>

@@ -1,106 +1,164 @@
+:root {
+    --primary-bg: #1a1a2e;
+    --secondary-bg: #16213e;
+    --card-bg: #0f3460;
+    --text-color: #e94560;
+    --primary-accent: #e94560;
+    --secondary-accent: #ffffff;
+    --border-radius: 12px;
+    --font-family: 'Poppins', sans-serif;
+}
+
 body {
-    font-family: sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: var(--font-family);
+    background-color: var(--primary-bg);
+    color: var(--text-color);
     margin: 0;
+    padding: 2rem;
 }
 
 .container {
+    max-width: 900px;
+    margin: 0 auto;
     text-align: center;
-    background-color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--primary-accent);
+}
+
+.card {
+    background-color: var(--secondary-bg);
     padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: var(--border-radius);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    margin-bottom: 2rem;
+    text-align: left;
 }
 
-#randomize-btn {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+.controls-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
 }
 
-#randomize-btn:hover {
-    background-color: #0056b3;
-}
-
-#task-container {
-    margin-top: 2rem;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    min-height: 100px;
-}
-
-#task-title {
-    margin-top: 0;
-}
-
-.filters {
-    margin-bottom: 1rem;
+.filters, .task-actions {
     display: flex;
+    flex-direction: column;
     gap: 1rem;
     justify-content: center;
-    align-items: center;
 }
 
 .task-actions {
-    margin-bottom: 1rem;
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
+    text-align: center;
 }
 
-#complete-btn, #reset-btn, #filter-btn {
-    background-color: #6c757d;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
+select, input[type="text"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid var(--card-bg);
+    border-radius: var(--border-radius);
+    background-color: var(--primary-bg);
+    color: var(--secondary-accent);
+    font-family: var(--font-family);
     font-size: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    transition: all 0.3s ease;
 }
 
-#complete-btn:hover, #reset-btn:hover, #filter-btn:hover {
-    background-color: #5a6268;
+select:focus, input[type="text"]:focus {
+    outline: none;
+    border-color: var(--primary-accent);
+    box-shadow: 0 0 10px var(--primary-accent);
+}
+
+button {
+    background-color: var(--primary-accent);
+    color: var(--secondary-accent);
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+#reset-btn {
+    background-color: transparent;
+    border: 2px solid var(--primary-accent);
+    color: var(--primary-accent);
+}
+
+#reset-btn:hover {
+    background-color: var(--primary-accent);
+    color: var(--secondary-accent);
 }
 
 #complete-btn {
     background-color: #28a745;
+    margin-top: 1rem;
 }
 
 #complete-btn:hover {
     background-color: #218838;
 }
 
-#completed-tasks-container {
-    margin-top: 2rem;
-    text-align: left;
+.task-count-display {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#task-container {
+    text-align: center;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#task-title {
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: var(--secondary-accent);
+}
+
+#task-info {
+    color: var(--secondary-accent);
+    font-size: 1.1rem;
+}
+
+#completed-tasks-container h2 {
+    font-size: 1.5rem;
+    color: var(--primary-accent);
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 #completed-tasks-list {
     list-style-type: none;
-    padding-left: 0;
-    max-height: 200px;
+    padding: 0;
+    max-height: 300px;
     overflow-y: auto;
-    border: 1px solid #ddd;
-    padding: 1rem;
-    border-radius: 5px;
 }
 
 #completed-tasks-list li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #eee;
-}
-
-#completed-tasks-list li:last-child {
-    border-bottom: none;
+    background-color: var(--primary-bg);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 0.5rem;
+    color: var(--secondary-accent);
+    border-left: 5px solid var(--primary-accent);
 }
