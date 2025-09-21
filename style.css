@@ -57,6 +57,21 @@ h1 {
     text-align: center;
 }
 
+.player-lookup {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.player-lookup input {
+    flex-grow: 1;
+}
+
+.player-lookup button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+}
+
 select, input[type="text"] {
     width: 100%;
     padding: 0.8rem;
@@ -161,4 +176,36 @@ button:hover {
     margin-bottom: 0.5rem;
     color: var(--secondary-accent);
     border-left: 5px solid var(--primary-accent);
+}
+
+#req-check-container {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.req-met {
+    color: #28a745;
+    background-color: rgba(40, 167, 69, 0.1);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin: 0;
+}
+
+.req-unmet {
+    color: #dc3545;
+    background-color: rgba(220, 53, 69, 0.1);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin: 0;
+}
+
+.req-note {
+    color: #6c757d;
+    background-color: rgba(108, 117, 125, 0.1);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin: 0;
 }
