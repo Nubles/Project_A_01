@@ -1310,17 +1310,6 @@ const SKILL_LIST = [
     'Smithing', 'Strength', 'Summoning', 'Thieving', 'Woodcutting'
 ];
 
-const HISCORES_URL = 'https://secure.runescape.com/m=hiscore_leagues/index_lite.ws?player=';
-const SKILL_MAP = [
-    'Overall', 'Attack', 'Defence', 'Strength', 'Constitution', 'Ranged', 'Prayer', 'Magic',
-    'Cooking', 'Woodcutting', 'Fletching', 'Fishing', 'Firemaking', 'Crafting', 'Smithing',
-    'Mining', 'Herblore', 'Agility', 'Thieving', 'Slayer', 'Farming', 'Runecrafting',
-    'Hunter', 'Construction', 'Summoning', 'Dungeoneering', 'Divination', 'Invention',
-    'Archaeology', 'Necromancy'
-];
-
-var playerStats = null; // Use var to make it a property of the window object for testing
-
 function parseTasks() {
     const rawLines = taskData.trim().split('\n');
     rawLines.shift(); // remove header
@@ -1361,26 +1350,11 @@ function parseTasks() {
         const requirements = parts[3] || '';
 
         const skillsInTask = [];
-        const skillReqs = {};
         const reqLower = requirements.toLowerCase();
 
-        // First, a simple check for any skill name
         for (const skill of SKILL_LIST) {
             if (reqLower.includes(skill.toLowerCase())) {
                 skillsInTask.push(skill);
-            }
-        }
-
-        // Then, a more detailed parse for level requirements
-        const reqPattern = /(\d+)\s+(\w+)/g;
-        let match;
-        while ((match = reqPattern.exec(requirements)) !== null) {
-            const level = parseInt(match[1], 10);
-            const skillName = match[2];
-            // Find the canonical skill name
-            const canonicalSkill = SKILL_LIST.find(s => s.toLowerCase() === skillName.toLowerCase());
-            if (canonicalSkill) {
-                skillReqs[canonicalSkill] = level;
             }
         }
 
@@ -1392,8 +1366,7 @@ function parseTasks() {
             requirements: requirements,
             pts: parseInt(parts[4], 10) || 0,
             comp: parts[5] || '',
-            skills: skillsInTask,
-            skillReqs: skillReqs
+            skills: skillsInTask
         };
     }).filter(task => task.task); // Filter out any potentially empty tasks
 }
@@ -1480,34 +1453,7 @@ function displayRandomTask(keepCurrent = false) {
 
     taskInfoEl.innerHTML = `<strong>Location:</strong> ${currentTask.locality}<br><strong>Points:</strong> ${currentTask.pts}<br><strong>Info:</strong> ${currentTask.information}<br><strong>Requires:</strong> ${requirementsText}`;
 
-    checkRequirements(playerStats, currentTask);
-
     completeBtn.style.display = 'inline-block';
-}
-
-function checkRequirements(stats, task) {
-    const reqCheckContainer = document.getElementById('req-check-container');
-    reqCheckContainer.innerHTML = ''; // Clear previous results
-
-    if (!stats) {
-        reqCheckContainer.innerHTML = `<p class="req-note">Look up a player to check skill requirements.</p>`;
-        return;
-    }
-
-    const unmetReqs = [];
-    for (const [skill, level] of Object.entries(task.skillReqs)) {
-        if (stats[skill] < level) {
-            unmetReqs.push(`${level} ${skill}`);
-        }
-    }
-
-    if (Object.keys(task.skillReqs).length === 0) {
-         reqCheckContainer.innerHTML = `<p class="req-note">This task has no specific skill level requirements.</p>`;
-    } else if (unmetReqs.length === 0) {
-        reqCheckContainer.innerHTML = `<p class="req-met">✅ You meet all skill level requirements!</p>`;
-    } else {
-        reqCheckContainer.innerHTML = `<p class="req-unmet">❌ You do not meet the following requirements: ${unmetReqs.join(', ')}</p>`;
-    }
 }
 
 function completeCurrentTask() {
@@ -1555,49 +1501,7 @@ function resetTasks() {
     }
 }
 
-async function lookupPlayer() {
-    const playerNameInput = document.getElementById('player-name');
-    const playerName = playerNameInput.value.trim();
-    if (!playerName) {
-        alert('Please enter a player name.');
-        return;
-    }
-
-    try {
-        const response = await fetch(HISCORES_URL + playerName);
-        if (!response.ok) {
-            throw new Error(`Hiscores not found for player: ${playerName}. Status: ${response.status}`);
-        }
-        const data = await response.text();
-        playerStats = parseHiscores(data);
-        alert(`Successfully looked up stats for ${playerName}.`);
-        // Refresh the current task display to check requirements
-        if(currentTask) {
-            displayRandomTask(true); // pass a flag to not randomize again
-        }
-    } catch (error) {
-        console.error('Error fetching hiscores:', error);
-        alert(`Could not fetch hiscores. This may be because the player does not exist, or the API is unavailable. It's also possible your browser is blocking the request due to CORS policy.`);
-        playerStats = null;
-    }
-}
-
-function parseHiscores(data) {
-    const stats = {};
-    const lines = data.split('\n');
-    for (let i = 0; i < SKILL_MAP.length; i++) {
-        if (lines[i]) {
-            const [rank, level, xp] = lines[i].split(',');
-            stats[SKILL_MAP[i]] = parseInt(level, 10);
-        }
-    }
-    return stats;
-}
-
 document.addEventListener('DOMContentLoaded', () => {
-    const lookupBtn = document.getElementById('lookup-btn');
-
-    lookupBtn.addEventListener('click', lookupPlayer);
     randomizeBtn.addEventListener('click', () => displayRandomTask(false));
     completeBtn.addEventListener('click', completeCurrentTask);
     resetBtn.addEventListener('click', resetTasks);
