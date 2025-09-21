@@ -832,7 +832,7 @@ Misthalin: Lumbridge	Fully grow a magic tree in Lumbridge.	Fully grow a magic tr
 Misthalin: City of Um	Defeat Hermod, the Spirit of War.	Defeat Hermod, the Spirit of War once.	Completion of  The Spirit of War	 80	<0.1%
 Misthalin: City of Um	Defeat Hermod, the Spirit of War.	Defeat Hermod, the Spirit of War 100 times.	Completion of  The Spirit of War	 80	<0.1%
 Misthalin: City of Um	Rest whilst listening to the Dead Beats in the City of Um.	Rest whilst listening to the Dead Beats in the City of Um.	Completion of  That Old Black Magic	 80	<0.1%
-Misthalin: City of Um	Smelt a necronium bar at the smithy in the City of Um.	Smith a necronium bar at the smithy in the City of Um.	70 Smithing Smithing
+Misthalin: City of Um	Smelt a necronium bar at the smithy in the City of Um.	Smelt a necronium bar at the smithy in the City of Um.	70 Smithing Smithing
 Partial completion of  Necromancy!	 80	4%
 Misthalin: City of Um	Create a passing bracelet, performing each step in the City of Um.	Create a passing bracelet, performing each step in the City of Um.	60 Necromancy Necromancy  for bar, 79 Crafting Crafting , 68 Magic Magic
 Ensouled bar, moonstone, runes for Lvl-5 Enchant. The moonstone is most easily obtained from completing  Housing of Parliament, which requires 54 Necromancy Necromancy .	 80	0.1%
@@ -1302,33 +1302,54 @@ const completedTasksListEl = document.getElementById('completed-tasks-list');
 let currentTask = null;
 
 function parseTasks() {
-    const lines = taskData.split('\n');
-    lines.shift(); // remove header
+    const rawLines = taskData.trim().split('\n');
+    rawLines.shift(); // remove header
 
-    const processedRows = [];
-    for (const line of lines) {
-        if (line.split('\t').length >= 5) {
-            processedRows.push(line);
-        } else {
-            if (processedRows.length > 0) {
-                processedRows[processedRows.length - 1] += ' ' + line.trim();
-            }
+    // First pass: identify all possible localities
+    const localities = new Set();
+    for (const line of rawLines) {
+        const parts = line.split('\t');
+        if (parts.length === 6) {
+            localities.add(parts[0]);
         }
     }
 
-    allTasks = processedRows.map((row, index) => {
-        const parts = row.split('\t');
+    // Second pass: stitch lines together
+    const stitchedLines = [];
+    let currentTaskLine = "";
+    for (const line of rawLines) {
+        if (!line.trim()) continue;
+        const firstPart = line.split('\t')[0];
+
+        // A line is a "start" if its first column is a known locality.
+        if (localities.has(firstPart)) {
+             if (currentTaskLine) {
+                stitchedLines.push(currentTaskLine);
+            }
+            currentTaskLine = line;
+        } else {
+            // Otherwise, it's a continuation of the previous line.
+            currentTaskLine += ' ' + line.trim();
+        }
+    }
+    if (currentTaskLine) {
+        stitchedLines.push(currentTaskLine);
+    }
+
+    allTasks = stitchedLines.map((line, index) => {
+        const parts = line.split('\t');
         return {
             id: index,
-            locality: parts[0],
-            task: parts[1],
-            information: parts[2],
-            requirements: parts[3],
-            pts: parseInt(parts[4], 10),
-            comp: parts[5]
+            locality: parts[0] || '',
+            task: parts[1] || '',
+            information: parts[2] || '',
+            requirements: parts[3] || '',
+            pts: parseInt(parts[4], 10) || 0,
+            comp: parts[5] || ''
         };
-    });
+    }).filter(task => task.task); // Filter out any potentially empty tasks
 }
+
 
 function updateAvailableTasks() {
     const location = locationFilter.value;
@@ -1341,7 +1362,10 @@ function updateAvailableTasks() {
 
         const locationMatch = location === 'all' || task.locality === location;
         const pointsMatch = isNaN(points) || task.pts === points;
-        const keywordMatch = keyword === '' || task.task.toLowerCase().includes(keyword) || task.information.toLowerCase().includes(keyword);
+        const keywordMatch = keyword === '' ||
+                             task.task.toLowerCase().includes(keyword) ||
+                             task.information.toLowerCase().includes(keyword) ||
+                             task.requirements.toLowerCase().includes(keyword);
 
         return locationMatch && pointsMatch && keywordMatch;
     });
@@ -1383,7 +1407,7 @@ function displayRandomTask() {
     currentTask = availableTasks[randomIndex];
 
     taskTitleEl.textContent = currentTask.task;
-    taskInfoEl.textContent = currentTask.information;
+    taskInfoEl.innerHTML = `<strong>Location:</strong> ${currentTask.locality}<br><strong>Points:</strong> ${currentTask.pts}<br><strong>Info:</strong> ${currentTask.information}<br><strong>Requires:</strong> ${currentTask.requirements}`;
     completeBtn.style.display = 'inline-block';
 }
 
@@ -1405,42 +1429,52 @@ function completeCurrentTask() {
 function renderCompletedTasks() {
     completedTasksListEl.innerHTML = '';
     const completed = allTasks.filter(task => completedTasks.has(task.id));
-    for (const task of completed) {
+    for (const task of completed.sort((a,b) => a.task.localeCompare(b.task))) {
         const li = document.createElement('li');
-        li.textContent = task.task;
+        li.textContent = `[${task.pts} pts] ${task.task}`;
         completedTasksListEl.appendChild(li);
     }
 }
 
 function resetTasks() {
-    completedTasks.clear();
-    localStorage.removeItem('completedTasks');
+    if (confirm('Are you sure you want to reset all completed tasks? This cannot be undone.')) {
+        completedTasks.clear();
+        localStorage.removeItem('completedTasks');
 
-    // Also reset filters
-    locationFilter.value = 'all';
-    pointsFilter.value = 'all';
-    keywordFilter.value = '';
+        locationFilter.value = 'all';
+        pointsFilter.value = 'all';
+        keywordFilter.value = '';
 
+        updateAvailableTasks();
+        renderCompletedTasks();
+
+        taskTitleEl.textContent = 'Welcome!';
+        taskInfoEl.textContent = 'Click "Get Random Task" to start.';
+        completeBtn.style.display = 'none';
+        currentTask = null;
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    randomizeBtn.addEventListener('click', displayRandomTask);
+    completeBtn.addEventListener('click', completeCurrentTask);
+    resetBtn.addEventListener('click', resetTasks);
+
+    locationFilter.addEventListener('change', () => {
+        updateAvailableTasks();
+        displayRandomTask();
+    });
+    pointsFilter.addEventListener('change', () => {
+        updateAvailableTasks();
+        displayRandomTask();
+    });
+    keywordFilter.addEventListener('input', updateAvailableTasks);
+
+    parseTasks();
+    populateFilters();
     updateAvailableTasks();
     renderCompletedTasks();
 
-    taskTitleEl.textContent = '';
-    taskInfoEl.textContent = '';
-    completeBtn.style.display = 'none';
-    currentTask = null;
-}
-
-// Event Listeners
-randomizeBtn.addEventListener('click', displayRandomTask);
-completeBtn.addEventListener('click', completeCurrentTask);
-resetBtn.addEventListener('click', resetTasks);
-locationFilter.addEventListener('change', updateAvailableTasks);
-pointsFilter.addEventListener('change', updateAvailableTasks);
-keywordFilter.addEventListener('input', updateAvailableTasks);
-
-
-// Initialization
-parseTasks();
-populateFilters();
-updateAvailableTasks();
-renderCompletedTasks();
+    taskTitleEl.textContent = 'Welcome!';
+    taskInfoEl.textContent = 'Click "Get Random Task" to start.';
+});
