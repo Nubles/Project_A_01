@@ -1297,6 +1297,7 @@ const taskCountEl = document.getElementById('task-count');
 const locationFilter = document.getElementById('location-filter');
 const pointsFilter = document.getElementById('points-filter');
 const skillFilter = document.getElementById('skill-filter');
+const completableToggle = document.getElementById('completable-toggle');
 const keywordFilter = document.getElementById('keyword-filter');
 const completedTasksListEl = document.getElementById('completed-tasks-list');
 
@@ -1309,6 +1310,8 @@ const SKILL_LIST = [
     'Mining', 'Necromancy', 'Prayer', 'Ranged', 'Runecrafting', 'Slayer',
     'Smithing', 'Strength', 'Summoning', 'Thieving', 'Woodcutting'
 ];
+
+var playerStats = null; // Use var to make it a property of the window object for testing
 
 function parseTasks() {
     const rawLines = taskData.trim().split('\n');
@@ -1350,11 +1353,26 @@ function parseTasks() {
         const requirements = parts[3] || '';
 
         const skillsInTask = [];
+        const skillReqs = {};
         const reqLower = requirements.toLowerCase();
 
+        // First, a simple check for any skill name
         for (const skill of SKILL_LIST) {
             if (reqLower.includes(skill.toLowerCase())) {
                 skillsInTask.push(skill);
+            }
+        }
+
+        // Then, a more detailed parse for level requirements
+        const reqPattern = /(\d+)\s+(\w+)/g;
+        let match;
+        while ((match = reqPattern.exec(requirements)) !== null) {
+            const level = parseInt(match[1], 10);
+            const skillName = match[2];
+            // Find the canonical skill name
+            const canonicalSkill = SKILL_LIST.find(s => s.toLowerCase() === skillName.toLowerCase());
+            if (canonicalSkill) {
+                skillReqs[canonicalSkill] = level;
             }
         }
 
@@ -1366,7 +1384,8 @@ function parseTasks() {
             requirements: requirements,
             pts: parseInt(parts[4], 10) || 0,
             comp: parts[5] || '',
-            skills: skillsInTask
+            skills: skillsInTask,
+            skillReqs: skillReqs
         };
     }).filter(task => task.task); // Filter out any potentially empty tasks
 }
@@ -1390,7 +1409,15 @@ function updateAvailableTasks() {
                              task.information.toLowerCase().includes(keyword) ||
                              task.requirements.toLowerCase().includes(keyword);
 
-        return locationMatch && pointsMatch && skillMatch && keywordMatch;
+        let completableMatch = true;
+        if (completableToggle.checked && playerStats) {
+            const unmetReqs = getUnmetRequirements(playerStats, task);
+            if (unmetReqs.length > 0) {
+                completableMatch = false;
+            }
+        }
+
+        return locationMatch && pointsMatch && skillMatch && keywordMatch && completableMatch;
     });
 
     taskCountEl.textContent = availableTasks.length;
@@ -1501,7 +1528,116 @@ function resetTasks() {
     }
 }
 
+function getUnmetRequirements(stats, task) {
+    const unmetReqs = [];
+    if (!stats) return unmetReqs; // Cannot check reqs without stats
+
+    for (const [skill, level] of Object.entries(task.skillReqs)) {
+        if (!stats[skill] || stats[skill] < level) {
+            unmetReqs.push(`${level} ${skill}`);
+        }
+    }
+    return unmetReqs;
+}
+
+function displayRequirementStatus(stats, task) {
+    const reqCheckContainer = document.getElementById('req-check-container');
+    reqCheckContainer.innerHTML = ''; // Clear previous results
+
+    if (!stats) {
+        reqCheckContainer.innerHTML = `<p class="req-note">Look up a player to check skill requirements.</p>`;
+        return;
+    }
+
+    const unmetReqs = getUnmetRequirements(stats, task);
+
+    if (Object.keys(task.skillReqs).length === 0) {
+         reqCheckContainer.innerHTML = `<p class="req-note">This task has no specific skill level requirements.</p>`;
+    } else if (unmetReqs.length === 0) {
+        reqCheckContainer.innerHTML = `<p class="req-met">✅ You meet all skill level requirements!</p>`;
+    } else {
+        reqCheckContainer.innerHTML = `<p class="req-unmet">❌ You do not meet the following requirements: ${unmetReqs.join(', ')}</p>`;
+    }
+}
+
+async function lookupPlayer() {
+    const playerNameInput = document.getElementById('player-name');
+    const playerName = playerNameInput.value.trim();
+    if (!playerName) {
+        alert('Please enter a player name.');
+        return;
+    }
+
+    const apiUrl = `https://sync.runescape.wiki/runescape/player/${playerName}/LEAGUE_1`;
+
+    try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+            throw new Error(`Hiscores not found for player: ${playerName}. Status: ${response.status}`);
+        }
+        const data = await response.json();
+        const playerData = parseWikiHiscores(data);
+        playerStats = playerData.stats;
+
+        // Display the stats
+        displayPlayerStats(playerStats);
+
+        alert(`Successfully looked up stats for ${playerName}.`);
+
+        updateAvailableTasks();
+        renderCompletedTasks();
+
+        if(currentTask) {
+            displayRandomTask(true); // Re-check requirements for the current task
+        }
+    } catch (error) {
+        console.error('Error fetching hiscores:', error);
+        alert(`Could not fetch hiscores. The player may not exist or the wiki API may be down.`);
+        playerStats = null;
+        displayPlayerStats(null); // Clear the stats panel on error
+    }
+}
+
+function parseWikiHiscores(data) {
+    return {
+        stats: data.levels || {},
+        completedTaskIds: data.league_tasks || []
+    };
+}
+
+function displayPlayerStats(stats) {
+    const statsContent = document.getElementById('stats-content');
+    if (!stats || Object.keys(stats).length === 0) {
+        statsContent.innerHTML = '<p>Look up a player to see their stats.</p>';
+        return;
+    }
+
+    let totalLevel = 0;
+    let statsHTML = '';
+
+    const displaySkills = SKILL_LIST.filter(skill => skill !== 'Overall' && stats[skill]);
+
+    for (const skillName of displaySkills) {
+        const level = stats[skillName] || 0;
+        totalLevel += level;
+        statsHTML += `
+            <div class="stat-item">
+                <span class="level">${level}</span>
+                <span class="name">${skillName}</span>
+            </div>
+        `;
+    }
+
+    statsContent.innerHTML = `
+        <div id="total-level">Total Level: ${totalLevel}</div>
+        ${statsHTML}
+    `;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+    const lookupBtn = document.getElementById('lookup-btn');
+
+    lookupBtn.addEventListener('click', lookupPlayer);
     randomizeBtn.addEventListener('click', () => displayRandomTask(false));
     completeBtn.addEventListener('click', completeCurrentTask);
     resetBtn.addEventListener('click', resetTasks);
@@ -1518,6 +1654,7 @@ document.addEventListener('DOMContentLoaded', () => {
         updateAvailableTasks();
         displayRandomTask();
     });
+    completableToggle.addEventListener('change', updateAvailableTasks);
     keywordFilter.addEventListener('input', updateAvailableTasks);
 
     parseTasks();
