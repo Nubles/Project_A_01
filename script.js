@@ -1585,6 +1585,9 @@ async function lookupPlayer() {
         // Sync completed tasks
         syncCompletedTasks(playerData.completedTaskIds);
 
+        // Display the stats
+        displayPlayerStats(playerStats);
+
         alert(`Successfully looked up stats and synced completed tasks for ${playerName}.`);
 
         updateAvailableTasks();
@@ -1618,6 +1621,36 @@ function syncCompletedTasks(taskIds) {
         completedTasks.add(taskId);
     }
     localStorage.setItem('completedTasks', JSON.stringify([...completedTasks]));
+}
+
+function displayPlayerStats(stats) {
+    const statsContent = document.getElementById('stats-content');
+    if (!stats || Object.keys(stats).length === 0) {
+        statsContent.innerHTML = '<p>Look up a player to see their stats.</p>';
+        return;
+    }
+
+    let totalLevel = 0;
+    let statsHTML = '';
+
+    // Use the order from SKILL_LIST, but skip 'Overall' which doesn't exist in the new API response
+    const displaySkills = SKILL_LIST.filter(skill => skill !== 'Overall' && stats[skill]);
+
+    for (const skillName of displaySkills) {
+        const level = stats[skillName] || 0;
+        totalLevel += level;
+        statsHTML += `
+            <div class="stat-item">
+                <span class="level">${level}</span>
+                <span class="name">${skillName}</span>
+            </div>
+        `;
+    }
+
+    statsContent.innerHTML = `
+        <div id="total-level">Total Level: ${totalLevel}</div>
+        ${statsHTML}
+    `;
 }
 
 document.addEventListener('DOMContentLoaded', () => {

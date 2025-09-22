@@ -18,8 +18,15 @@ body {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1400px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.main-content {
     text-align: center;
 }
 
@@ -256,6 +263,49 @@ input:checked + .slider:before {
     padding: 1rem;
     border-radius: var(--border-radius);
     margin: 0;
+}
+
+#stats-panel {
+    position: sticky;
+    top: 2rem;
+    text-align: left;
+}
+
+#stats-panel h2 {
+    text-align: center;
+    color: var(--primary-accent);
+}
+
+#stats-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+}
+
+.stat-item {
+    background-color: var(--primary-bg);
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--secondary-accent);
+}
+
+.stat-item .level {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--primary-accent);
+}
+
+#total-level {
+    grid-column: 1 / -1; /* Span full width */
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--secondary-accent);
+    background-color: var(--card-bg);
+    padding: 1rem;
+    border-radius: var(--border-radius);
 }
 
 .req-unmet {
