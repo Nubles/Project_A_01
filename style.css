@@ -182,6 +182,23 @@ button:hover {
     font-size: 1.1rem;
 }
 
+#task-info a {
+    color: #80deea; /* Light cyan */
+    text-decoration: none;
+}
+#task-info a:hover {
+    text-decoration: underline;
+}
+
+#task-info ul {
+    padding-left: 20px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+#task-info ul:last-child {
+    margin-bottom: 0;
+}
+
 #completed-tasks-container h2 {
     font-size: 1.5rem;
     color: var(--primary-accent);
