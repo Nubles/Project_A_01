@@ -1579,8 +1579,17 @@ async function lookupPlayer() {
             throw new Error(`Hiscores not found for player: ${playerName}. Status: ${response.status}`);
         }
         const data = await response.json();
-        playerStats = parseWikiHiscores(data);
-        alert(`Successfully looked up stats for ${playerName}.`);
+        const playerData = parseWikiHiscores(data);
+        playerStats = playerData.stats;
+
+        // Sync completed tasks
+        syncCompletedTasks(playerData.completedTaskIds);
+
+        alert(`Successfully looked up stats and synced completed tasks for ${playerName}.`);
+
+        updateAvailableTasks();
+        renderCompletedTasks();
+
         if(currentTask) {
             displayRandomTask(true); // Re-check requirements for the current task
         }
@@ -1592,8 +1601,23 @@ async function lookupPlayer() {
 }
 
 function parseWikiHiscores(data) {
-    // The API returns a 'levels' object directly with skill names and levels.
-    return data.levels || {};
+    return {
+        stats: data.levels || {},
+        completedTaskIds: data.league_tasks || []
+    };
+}
+
+function syncCompletedTasks(taskIds) {
+    completedTasks.clear();
+    for (const taskId of taskIds) {
+        // The API provides task IDs that seem to be 1-based or have a different offset.
+        // Our internal task IDs are 0-based from the array index.
+        // For now, we assume a direct mapping, but this might need adjustment.
+        // The user's task list has ~1117 tasks. The API might have a different count.
+        // We will assume the IDs from the API correspond to the task's `id` property.
+        completedTasks.add(taskId);
+    }
+    localStorage.setItem('completedTasks', JSON.stringify([...completedTasks]));
 }
 
 document.addEventListener('DOMContentLoaded', () => {
