@@ -357,10 +357,26 @@ async function lookupPlayer() {
         // Display the stats
         displayPlayerStats(playerStats);
 
-        alert(`Successfully looked up stats for ${playerName}.`);
+        if (playerData.completedTaskIds && playerData.completedTaskIds.length > 0) {
+            const confirmOverwrite = confirm(
+                `Found ${playerData.completedTaskIds.length} completed tasks for ${playerName}. ` +
+                `Do you want to replace your current completed task list with this player's progress?`
+            );
 
+            if (confirmOverwrite) {
+                completedTasks = new Set(playerData.completedTaskIds);
+                localStorage.setItem('completedTasks', JSON.stringify([...completedTasks]));
+                alert(`Completed tasks have been updated based on ${playerName}'s progress.`);
+            }
+        } else {
+            alert(`Successfully looked up stats for ${playerName}. No completed task data was found.`);
+        }
+
+
+        // Refresh all UI components that depend on task completion
         updateAvailableTasks();
         renderCompletedTasks();
+        renderTaskBrowser();
 
         if(currentTask) {
             displayRandomTask(true); // Re-check requirements for the current task
