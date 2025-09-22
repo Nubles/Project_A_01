@@ -153,7 +153,8 @@ function formatRequirements(requirements) {
     });
 
     if (skills.length > 0) {
-        const cleanedSkills = skills.map(s => s.replace(/(\d+\s+\w+)\s+\w+/i, '$1'));
+        // Clean up skill names (e.g., "19 Mining Mining" -> "19 Mining")
+        const cleanedSkills = skills.map(s => s.split(' ').slice(0, 2).join(' '));
         formattedHtml += `<strong>Skills:</strong><ul>${cleanedSkills.map(s => `<li>${s}</li>`).join('')}</ul>`;
     }
 
