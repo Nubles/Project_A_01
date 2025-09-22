@@ -1297,6 +1297,7 @@ const taskCountEl = document.getElementById('task-count');
 const locationFilter = document.getElementById('location-filter');
 const pointsFilter = document.getElementById('points-filter');
 const skillFilter = document.getElementById('skill-filter');
+const completableToggle = document.getElementById('completable-toggle');
 const keywordFilter = document.getElementById('keyword-filter');
 const completedTasksListEl = document.getElementById('completed-tasks-list');
 
@@ -1310,7 +1311,7 @@ const SKILL_LIST = [
     'Smithing', 'Strength', 'Summoning', 'Thieving', 'Woodcutting'
 ];
 
-let playerStats = null;
+var playerStats = null; // Use var to make it a property of the window object for testing
 
 function parseTasks() {
     const rawLines = taskData.trim().split('\n');
@@ -1408,7 +1409,15 @@ function updateAvailableTasks() {
                              task.information.toLowerCase().includes(keyword) ||
                              task.requirements.toLowerCase().includes(keyword);
 
-        return locationMatch && pointsMatch && skillMatch && keywordMatch;
+        let completableMatch = true;
+        if (completableToggle.checked && playerStats) {
+            const unmetReqs = getUnmetRequirements(playerStats, task);
+            if (unmetReqs.length > 0) {
+                completableMatch = false;
+            }
+        }
+
+        return locationMatch && pointsMatch && skillMatch && keywordMatch && completableMatch;
     });
 
     taskCountEl.textContent = availableTasks.length;
@@ -1471,12 +1480,24 @@ function displayRandomTask(keepCurrent = false) {
 
     taskInfoEl.innerHTML = `<strong>Location:</strong> ${currentTask.locality}<br><strong>Points:</strong> ${currentTask.pts}<br><strong>Info:</strong> ${currentTask.information}<br><strong>Requires:</strong> ${requirementsText}`;
 
-    checkRequirements(playerStats, currentTask);
+    displayRequirementStatus(playerStats, currentTask);
 
     completeBtn.style.display = 'inline-block';
 }
 
-function checkRequirements(stats, task) {
+function getUnmetRequirements(stats, task) {
+    const unmetReqs = [];
+    if (!stats) return unmetReqs; // Cannot check reqs without stats
+
+    for (const [skill, level] of Object.entries(task.skillReqs)) {
+        if (!stats[skill] || stats[skill] < level) {
+            unmetReqs.push(`${level} ${skill}`);
+        }
+    }
+    return unmetReqs;
+}
+
+function displayRequirementStatus(stats, task) {
     const reqCheckContainer = document.getElementById('req-check-container');
     reqCheckContainer.innerHTML = ''; // Clear previous results
 
@@ -1485,12 +1506,7 @@ function checkRequirements(stats, task) {
         return;
     }
 
-    const unmetReqs = [];
-    for (const [skill, level] of Object.entries(task.skillReqs)) {
-        if (!stats[skill] || stats[skill] < level) {
-            unmetReqs.push(`${level} ${skill}`);
-        }
-    }
+    const unmetReqs = getUnmetRequirements(stats, task);
 
     if (Object.keys(task.skillReqs).length === 0) {
          reqCheckContainer.innerHTML = `<p class="req-note">This task has no specific skill level requirements.</p>`;
@@ -1534,6 +1550,7 @@ function resetTasks() {
         locationFilter.value = 'all';
         pointsFilter.value = 'all';
         skillFilter.value = 'all';
+        completableToggle.checked = false;
         keywordFilter.value = '';
 
         updateAvailableTasks();
@@ -1599,6 +1616,7 @@ document.addEventListener('DOMContentLoaded', () => {
         updateAvailableTasks();
         displayRandomTask();
     });
+    completableToggle.addEventListener('change', updateAvailableTasks);
     keywordFilter.addEventListener('input', updateAvailableTasks);
 
     parseTasks();
