@@ -257,14 +257,6 @@ input:checked + .slider:before {
     font-size: 1.1rem;
 }
 
-.req-met {
-    color: #28a745;
-    background-color: rgba(40, 167, 69, 0.1);
-    padding: 1rem;
-    border-radius: var(--border-radius);
-    margin: 0;
-}
-
 #stats-panel {
     position: sticky;
     top: 2rem;
@@ -306,6 +298,14 @@ input:checked + .slider:before {
     background-color: var(--card-bg);
     padding: 1rem;
     border-radius: var(--border-radius);
+}
+
+.req-met {
+    color: #28a745;
+    background-color: rgba(40, 167, 69, 0.1);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin: 0;
 }
 
 .req-unmet {

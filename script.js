@@ -1480,41 +1480,7 @@ function displayRandomTask(keepCurrent = false) {
 
     taskInfoEl.innerHTML = `<strong>Location:</strong> ${currentTask.locality}<br><strong>Points:</strong> ${currentTask.pts}<br><strong>Info:</strong> ${currentTask.information}<br><strong>Requires:</strong> ${requirementsText}`;
 
-    displayRequirementStatus(playerStats, currentTask);
-
     completeBtn.style.display = 'inline-block';
-}
-
-function getUnmetRequirements(stats, task) {
-    const unmetReqs = [];
-    if (!stats) return unmetReqs; // Cannot check reqs without stats
-
-    for (const [skill, level] of Object.entries(task.skillReqs)) {
-        if (!stats[skill] || stats[skill] < level) {
-            unmetReqs.push(`${level} ${skill}`);
-        }
-    }
-    return unmetReqs;
-}
-
-function displayRequirementStatus(stats, task) {
-    const reqCheckContainer = document.getElementById('req-check-container');
-    reqCheckContainer.innerHTML = ''; // Clear previous results
-
-    if (!stats) {
-        reqCheckContainer.innerHTML = `<p class="req-note">Look up a player to check skill requirements.</p>`;
-        return;
-    }
-
-    const unmetReqs = getUnmetRequirements(stats, task);
-
-    if (Object.keys(task.skillReqs).length === 0) {
-         reqCheckContainer.innerHTML = `<p class="req-note">This task has no specific skill level requirements.</p>`;
-    } else if (unmetReqs.length === 0) {
-        reqCheckContainer.innerHTML = `<p class="req-met">✅ You meet all skill level requirements!</p>`;
-    } else {
-        reqCheckContainer.innerHTML = `<p class="req-unmet">❌ You do not meet the following requirements: ${unmetReqs.join(', ')}</p>`;
-    }
 }
 
 function completeCurrentTask() {
@@ -1550,7 +1516,6 @@ function resetTasks() {
         locationFilter.value = 'all';
         pointsFilter.value = 'all';
         skillFilter.value = 'all';
-        completableToggle.checked = false;
         keywordFilter.value = '';
 
         updateAvailableTasks();
@@ -1560,6 +1525,38 @@ function resetTasks() {
         taskInfoEl.textContent = 'Click "Get Random Task" to start.';
         completeBtn.style.display = 'none';
         currentTask = null;
+    }
+}
+
+function getUnmetRequirements(stats, task) {
+    const unmetReqs = [];
+    if (!stats) return unmetReqs; // Cannot check reqs without stats
+
+    for (const [skill, level] of Object.entries(task.skillReqs)) {
+        if (!stats[skill] || stats[skill] < level) {
+            unmetReqs.push(`${level} ${skill}`);
+        }
+    }
+    return unmetReqs;
+}
+
+function displayRequirementStatus(stats, task) {
+    const reqCheckContainer = document.getElementById('req-check-container');
+    reqCheckContainer.innerHTML = ''; // Clear previous results
+
+    if (!stats) {
+        reqCheckContainer.innerHTML = `<p class="req-note">Look up a player to check skill requirements.</p>`;
+        return;
+    }
+
+    const unmetReqs = getUnmetRequirements(stats, task);
+
+    if (Object.keys(task.skillReqs).length === 0) {
+         reqCheckContainer.innerHTML = `<p class="req-note">This task has no specific skill level requirements.</p>`;
+    } else if (unmetReqs.length === 0) {
+        reqCheckContainer.innerHTML = `<p class="req-met">✅ You meet all skill level requirements!</p>`;
+    } else {
+        reqCheckContainer.innerHTML = `<p class="req-unmet">❌ You do not meet the following requirements: ${unmetReqs.join(', ')}</p>`;
     }
 }
 
@@ -1582,13 +1579,10 @@ async function lookupPlayer() {
         const playerData = parseWikiHiscores(data);
         playerStats = playerData.stats;
 
-        // Sync completed tasks
-        syncCompletedTasks(playerData.completedTaskIds);
-
         // Display the stats
         displayPlayerStats(playerStats);
 
-        alert(`Successfully looked up stats and synced completed tasks for ${playerName}.`);
+        alert(`Successfully looked up stats for ${playerName}.`);
 
         updateAvailableTasks();
         renderCompletedTasks();
@@ -1600,6 +1594,7 @@ async function lookupPlayer() {
         console.error('Error fetching hiscores:', error);
         alert(`Could not fetch hiscores. The player may not exist or the wiki API may be down.`);
         playerStats = null;
+        displayPlayerStats(null); // Clear the stats panel on error
     }
 }
 
@@ -1608,19 +1603,6 @@ function parseWikiHiscores(data) {
         stats: data.levels || {},
         completedTaskIds: data.league_tasks || []
     };
-}
-
-function syncCompletedTasks(taskIds) {
-    completedTasks.clear();
-    for (const taskId of taskIds) {
-        // The API provides task IDs that seem to be 1-based or have a different offset.
-        // Our internal task IDs are 0-based from the array index.
-        // For now, we assume a direct mapping, but this might need adjustment.
-        // The user's task list has ~1117 tasks. The API might have a different count.
-        // We will assume the IDs from the API correspond to the task's `id` property.
-        completedTasks.add(taskId);
-    }
-    localStorage.setItem('completedTasks', JSON.stringify([...completedTasks]));
 }
 
 function displayPlayerStats(stats) {
@@ -1633,7 +1615,6 @@ function displayPlayerStats(stats) {
     let totalLevel = 0;
     let statsHTML = '';
 
-    // Use the order from SKILL_LIST, but skip 'Overall' which doesn't exist in the new API response
     const displaySkills = SKILL_LIST.filter(skill => skill !== 'Overall' && stats[skill]);
 
     for (const skillName of displaySkills) {
