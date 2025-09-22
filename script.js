@@ -358,13 +358,21 @@ async function lookupPlayer() {
         displayPlayerStats(playerStats);
 
         if (playerData.completedTaskIds && playerData.completedTaskIds.length > 0) {
+            // Filter the incoming task IDs to only include those the player has the stats for.
+            const verifiedCompletedIds = playerData.completedTaskIds.filter(taskId => {
+                const task = allTasks.find(t => t.id === taskId);
+                if (!task) return false;
+                const unmetReqs = getUnmetRequirements(playerStats, task);
+                return unmetReqs.length === 0;
+            });
+
             const confirmOverwrite = confirm(
-                `Found ${playerData.completedTaskIds.length} completed tasks for ${playerName}. ` +
+                `Found ${verifiedCompletedIds.length} verifiable completed tasks for ${playerName}. ` +
                 `Do you want to replace your current completed task list with this player's progress?`
             );
 
             if (confirmOverwrite) {
-                completedTasks = new Set(playerData.completedTaskIds);
+                completedTasks = new Set(verifiedCompletedIds);
                 localStorage.setItem('completedTasks', JSON.stringify([...completedTasks]));
                 alert(`Completed tasks have been updated based on ${playerName}'s progress.`);
             }
