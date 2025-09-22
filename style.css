@@ -199,6 +199,14 @@ button:hover {
     margin-bottom: 0;
 }
 
+.req-section {
+    margin-bottom: 1rem;
+}
+
+.req-section:last-child {
+    margin-bottom: 0;
+}
+
 #completed-tasks-container h2 {
     font-size: 1.5rem;
     color: var(--primary-accent);
