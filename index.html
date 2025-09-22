@@ -10,10 +10,15 @@
 <body>
     <div class="container">
         <div class="main-content">
-            <h1>Task Randomizer</h1>
+            <div class="view-switcher">
+                <button id="show-randomizer-btn" class="view-btn active">Randomizer</button>
+                <button id="show-browser-btn" class="view-btn">Task Browser</button>
+            </div>
 
-            <div class="controls-grid">
-                <div class="filters card">
+            <div id="randomizer-view">
+                <h1>Task Randomizer</h1>
+                <div class="controls-grid">
+                    <div class="filters card">
                     <select id="location-filter"></select>
                     <select id="points-filter"></select>
                     <select id="skill-filter"></select>
@@ -43,12 +48,40 @@
                 <div id="req-check-container"></div>
                 <h2 id="task-title"></h2>
                 <p id="task-info"></p>
-                <button id="complete-btn" style="display: none;">Complete Task</button>
+                <div id="task-interaction-btns">
+                    <button id="pin-btn" style="display: none;">Pin Task</button>
+                    <button id="complete-btn" style="display: none;">Complete Task</button>
+                </div>
             </div>
 
             <div id="completed-tasks-container" class="card">
                 <h2>Completed Tasks</h2>
                 <ul id="completed-tasks-list"></ul>
+            </div>
+
+            <div id="pinned-tasks-container" class="card">
+                <h2>Pinned Tasks</h2>
+                <ul id="pinned-tasks-list"></ul>
+            </div>
+            </div> <!-- closing randomizer-view -->
+
+            <div id="task-browser-view" style="display: none;">
+                <h1>Task Browser</h1>
+                <div class="card">
+                    <table id="task-browser-table">
+                        <thead>
+                            <tr>
+                                <th>Task</th>
+                                <th>Location</th>
+                                <th>Points</th>
+                                <th>Requirements</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be inserted by script.js -->
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
         <div id="stats-panel" class="card">
