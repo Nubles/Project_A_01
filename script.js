@@ -119,45 +119,47 @@ function populateFilters() {
 }
 
 function formatRequirements(requirements) {
-    if (!requirements || requirements === 'N/A') {
+    if (!requirements || requirements.trim() === 'N/A') {
         return 'None';
     }
 
     let formattedHtml = '';
-    let remainingReqs = requirements;
+    let reqs = requirements;
 
     // 1. Extract and link quests
-    const questRegex = /(?:Partial c|C)ompletion of\s+(.*?)(?=\s+and|,|$)/g;
-    let questMatches;
-    let quests = [];
-    while ((questMatches = questRegex.exec(remainingReqs)) !== null) {
-        const questName = questMatches[1].trim();
-        const wikiUrl = `https://runescape.wiki/w/${questName.replace(/ /g, '_')}`;
-        quests.push(`<a href="${wikiUrl}" target="_blank">${questName}</a>`);
-    }
-    if (quests.length > 0) {
-        formattedHtml += `<strong>Quests:</strong><ul>${quests.map(q => `<li>${q}</li>`).join('')}</ul>`;
-        remainingReqs = remainingReqs.replace(questRegex, '').trim();
+    const questRegex = /((?:Partial c|C)ompletion of\s+.*?(?=\s*\d+\s\w+|$|Completion of|Partial completion of))/g;
+    const questMatches = reqs.match(questRegex) || [];
+    if (questMatches.length > 0) {
+        const questLinks = questMatches.map(matchText => {
+            // Extract just the quest name for the URL
+            const questName = matchText.replace(/(?:Partial c|C)ompletion of\s+/, '').trim();
+            const wikiUrl = `https://runescape.wiki/w/${questName.replace(/ /g, '_')}`;
+            return `<li><a href="${wikiUrl}" target="_blank">${matchText.trim()}</a></li>`;
+        }).join('');
+        formattedHtml += `<strong>Quests:</strong><ul>${questLinks}</ul>`;
+        // Remove the matched quests from the string
+        questMatches.forEach(m => reqs = reqs.replace(m, ''));
     }
 
     // 2. Extract skill levels
     let skills = [];
-    for (const skill of SKILL_LIST) {
-        const skillRegex = new RegExp(`(\\d+)\\s+${skill}`, 'i');
-        const match = remainingReqs.match(skillRegex);
-        if (match) {
-            skills.push(`${match[1]} ${skill}`);
-            remainingReqs = remainingReqs.replace(skillRegex, '').trim();
+    SKILL_LIST.forEach(skill => {
+        const skillRegex = new RegExp(`(\\d+)\\s+${skill}(?:\\s+${skill})?`, 'ig');
+        const skillMatches = reqs.match(skillRegex);
+        if (skillMatches) {
+            skills = [...skills, ...skillMatches];
+            skillMatches.forEach(m => reqs = reqs.replace(m, ''));
         }
-    }
+    });
+
     if (skills.length > 0) {
         formattedHtml += `<strong>Skills:</strong><ul>${skills.map(s => `<li>${s}</li>`).join('')}</ul>`;
     }
 
     // 3. Display other items
-    remainingReqs = remainingReqs.replace(/, ,/g, ',').replace(/,$/, '').trim();
-    if (remainingReqs) {
-        formattedHtml += `<strong>Other:</strong><ul><li>${remainingReqs}</li></ul>`;
+    const otherReqs = reqs.replace(/, ,/g, ',').replace(/,$/, '').replace(/\s\s+/g, ' ').trim();
+    if (otherReqs && otherReqs !== ',') {
+        formattedHtml += `<strong>Other:</strong><ul><li>${otherReqs}</li></ul>`;
     }
 
     return formattedHtml;
