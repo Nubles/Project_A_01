@@ -1575,13 +1575,8 @@ async function lookupPlayer() {
 }
 
 function parseWikiHiscores(data) {
-    const stats = {};
-    if (data.skills) {
-        for (const [skillName, skillData] of Object.entries(data.skills)) {
-            stats[skillName.charAt(0).toUpperCase() + skillName.slice(1)] = skillData.level;
-        }
-    }
-    return stats;
+    // The API returns a 'levels' object directly with skill names and levels.
+    return data.levels || {};
 }
 
 document.addEventListener('DOMContentLoaded', () => {
