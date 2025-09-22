@@ -30,6 +30,26 @@ body {
     text-align: center;
 }
 
+.view-switcher {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.view-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid var(--primary-accent);
+    color: var(--primary-accent);
+}
+
+.view-btn.active, .view-btn:hover {
+    background-color: var(--primary-accent);
+    color: var(--secondary-accent);
+}
+
 h1 {
     font-size: 3rem;
     font-weight: 700;
@@ -183,7 +203,73 @@ button:hover {
     margin-bottom: 0.5rem;
     color: var(--secondary-accent);
     border-left: 5px solid var(--primary-accent);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.undo-btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    background-color: #6c757d;
+    margin-left: 1rem;
+    text-transform: none;
+    font-weight: 400;
+}
+
+.undo-btn:hover {
+    background-color: #5a6268;
+}
+
+#pin-btn {
+    background-color: #00bcd4;
+}
+
+#pin-btn:hover {
+    background-color: #0097a7;
+}
+
+#pinned-tasks-container h2 {
+    font-size: 1.5rem;
+    color: var(--primary-accent);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#pinned-tasks-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#pinned-tasks-list li {
+    background-color: var(--primary-bg);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 0.5rem;
+    color: var(--secondary-accent);
+    border-left: 5px solid #00bcd4; /* A different color for pinned tasks */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unpin-btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    background-color: #00bcd4;
+    margin-left: 1rem;
+    text-transform: none;
+    font-weight: 400;
+    border: none;
+    color: white;
+}
+
+.unpin-btn:hover {
+    background-color: #0097a7;
+}
+
 
 /* Toggle Switch Styles */
 .toggle-container {
@@ -306,6 +392,51 @@ input:checked + .slider:before {
     padding: 1rem;
     border-radius: var(--border-radius);
     margin: 0;
+}
+
+#task-browser-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+#task-browser-table th, #task-browser-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--card-bg);
+}
+
+#task-browser-table th {
+    background-color: var(--card-bg);
+    color: var(--primary-accent);
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+}
+
+#task-browser-table th::after {
+    content: '';
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.5;
+    border: 4px solid transparent;
+}
+
+#task-browser-table th.th-sort-asc::after {
+    border-bottom-color: var(--secondary-accent);
+    opacity: 1;
+}
+
+#task-browser-table th.th-sort-desc::after {
+    border-top-color: var(--secondary-accent);
+    opacity: 1;
+}
+
+
+#task-browser-table tbody tr:hover {
+    background-color: var(--card-bg);
 }
 
 .req-unmet {
