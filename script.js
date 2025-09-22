@@ -1310,6 +1310,8 @@ const SKILL_LIST = [
     'Smithing', 'Strength', 'Summoning', 'Thieving', 'Woodcutting'
 ];
 
+let playerStats = null;
+
 function parseTasks() {
     const rawLines = taskData.trim().split('\n');
     rawLines.shift(); // remove header
@@ -1350,11 +1352,26 @@ function parseTasks() {
         const requirements = parts[3] || '';
 
         const skillsInTask = [];
+        const skillReqs = {};
         const reqLower = requirements.toLowerCase();
 
+        // First, a simple check for any skill name
         for (const skill of SKILL_LIST) {
             if (reqLower.includes(skill.toLowerCase())) {
                 skillsInTask.push(skill);
+            }
+        }
+
+        // Then, a more detailed parse for level requirements
+        const reqPattern = /(\d+)\s+(\w+)/g;
+        let match;
+        while ((match = reqPattern.exec(requirements)) !== null) {
+            const level = parseInt(match[1], 10);
+            const skillName = match[2];
+            // Find the canonical skill name
+            const canonicalSkill = SKILL_LIST.find(s => s.toLowerCase() === skillName.toLowerCase());
+            if (canonicalSkill) {
+                skillReqs[canonicalSkill] = level;
             }
         }
 
@@ -1366,7 +1383,8 @@ function parseTasks() {
             requirements: requirements,
             pts: parseInt(parts[4], 10) || 0,
             comp: parts[5] || '',
-            skills: skillsInTask
+            skills: skillsInTask,
+            skillReqs: skillReqs
         };
     }).filter(task => task.task); // Filter out any potentially empty tasks
 }
@@ -1453,7 +1471,34 @@ function displayRandomTask(keepCurrent = false) {
 
     taskInfoEl.innerHTML = `<strong>Location:</strong> ${currentTask.locality}<br><strong>Points:</strong> ${currentTask.pts}<br><strong>Info:</strong> ${currentTask.information}<br><strong>Requires:</strong> ${requirementsText}`;
 
+    checkRequirements(playerStats, currentTask);
+
     completeBtn.style.display = 'inline-block';
+}
+
+function checkRequirements(stats, task) {
+    const reqCheckContainer = document.getElementById('req-check-container');
+    reqCheckContainer.innerHTML = ''; // Clear previous results
+
+    if (!stats) {
+        reqCheckContainer.innerHTML = `<p class="req-note">Look up a player to check skill requirements.</p>`;
+        return;
+    }
+
+    const unmetReqs = [];
+    for (const [skill, level] of Object.entries(task.skillReqs)) {
+        if (!stats[skill] || stats[skill] < level) {
+            unmetReqs.push(`${level} ${skill}`);
+        }
+    }
+
+    if (Object.keys(task.skillReqs).length === 0) {
+         reqCheckContainer.innerHTML = `<p class="req-note">This task has no specific skill level requirements.</p>`;
+    } else if (unmetReqs.length === 0) {
+        reqCheckContainer.innerHTML = `<p class="req-met">✅ You meet all skill level requirements!</p>`;
+    } else {
+        reqCheckContainer.innerHTML = `<p class="req-unmet">❌ You do not meet the following requirements: ${unmetReqs.join(', ')}</p>`;
+    }
 }
 
 function completeCurrentTask() {
@@ -1501,7 +1546,48 @@ function resetTasks() {
     }
 }
 
+async function lookupPlayer() {
+    const playerNameInput = document.getElementById('player-name');
+    const playerName = playerNameInput.value.trim();
+    if (!playerName) {
+        alert('Please enter a player name.');
+        return;
+    }
+
+    const apiUrl = `https://sync.runescape.wiki/runescape/player/${playerName}/LEAGUE_1`;
+
+    try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+            throw new Error(`Hiscores not found for player: ${playerName}. Status: ${response.status}`);
+        }
+        const data = await response.json();
+        playerStats = parseWikiHiscores(data);
+        alert(`Successfully looked up stats for ${playerName}.`);
+        if(currentTask) {
+            displayRandomTask(true); // Re-check requirements for the current task
+        }
+    } catch (error) {
+        console.error('Error fetching hiscores:', error);
+        alert(`Could not fetch hiscores. The player may not exist or the wiki API may be down.`);
+        playerStats = null;
+    }
+}
+
+function parseWikiHiscores(data) {
+    const stats = {};
+    if (data.skills) {
+        for (const [skillName, skillData] of Object.entries(data.skills)) {
+            stats[skillName.charAt(0).toUpperCase() + skillName.slice(1)] = skillData.level;
+        }
+    }
+    return stats;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+    const lookupBtn = document.getElementById('lookup-btn');
+
+    lookupBtn.addEventListener('click', lookupPlayer);
     randomizeBtn.addEventListener('click', () => displayRandomTask(false));
     completeBtn.addEventListener('click', completeCurrentTask);
     resetBtn.addEventListener('click', resetTasks);
