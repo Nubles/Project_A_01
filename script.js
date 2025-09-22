@@ -136,7 +136,7 @@ function formatRequirements(requirements) {
             const wikiUrl = `https://runescape.wiki/w/${questName.replace(/ /g, '_')}`;
             return `<li><a href="${wikiUrl}" target="_blank">${matchText.trim()}</a></li>`;
         }).join('');
-        formattedHtml += `<strong>Quests:</strong><ul>${questLinks}</ul>`;
+        formattedHtml += `<div class="req-section"><strong>Quests:</strong><ul>${questLinks}</ul></div>`;
         // Remove the matched quests from the string
         questMatches.forEach(m => reqs = reqs.replace(m, ''));
     }
@@ -155,13 +155,13 @@ function formatRequirements(requirements) {
     if (skills.length > 0) {
         // Clean up skill names (e.g., "19 Mining Mining" -> "19 Mining")
         const cleanedSkills = skills.map(s => s.split(' ').slice(0, 2).join(' '));
-        formattedHtml += `<strong>Skills:</strong><ul>${cleanedSkills.map(s => `<li>${s}</li>`).join('')}</ul>`;
+        formattedHtml += `<div class="req-section"><strong>Skills:</strong><ul>${cleanedSkills.map(s => `<li>${s}</li>`).join('')}</ul></div>`;
     }
 
     // 3. Display other items
     const otherReqs = reqs.replace(/, ,/g, ',').replace(/,$/, '').replace(/\s\s+/g, ' ').trim();
     if (otherReqs && otherReqs !== ',') {
-        formattedHtml += `<strong>Other:</strong><ul><li>${otherReqs}</li></ul>`;
+        formattedHtml += `<div class="req-section"><strong>Other:</strong> ${otherReqs}</div>`;
     }
 
     return formattedHtml;
