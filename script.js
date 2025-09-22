@@ -153,7 +153,8 @@ function formatRequirements(requirements) {
     });
 
     if (skills.length > 0) {
-        formattedHtml += `<strong>Skills:</strong><ul>${skills.map(s => `<li>${s}</li>`).join('')}</ul>`;
+        const cleanedSkills = skills.map(s => s.replace(/(\d+\s+\w+)\s+\w+/i, '$1'));
+        formattedHtml += `<strong>Skills:</strong><ul>${cleanedSkills.map(s => `<li>${s}</li>`).join('')}</ul>`;
     }
 
     // 3. Display other items
@@ -195,7 +196,8 @@ function displayRandomTask(keepCurrent = false) {
         <p><strong>Location:</strong> ${currentTask.locality}</p>
         <p><strong>Points:</strong> ${currentTask.pts}</p>
         <p><strong>Info:</strong> ${currentTask.information}</p>
-        <div><strong>Requires:</strong> ${requirementsHtml}</div>
+        <div><strong>Requires:</strong></div>
+        ${requirementsHtml}
     `;
 
     completeBtn.style.display = 'inline-block';
