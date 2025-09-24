@@ -1,6 +1,7 @@
 let allTasks = [];
 let availableTasks = [];
 let completedTasks = new Set(JSON.parse(localStorage.getItem('completedTasks')) || []);
+let pinnedTasks = new Set(JSON.parse(localStorage.getItem('pinnedTasks')) || []);
 
 const randomizeBtn = document.getElementById('randomize-btn');
 const taskTitleEl = document.getElementById('task-title');
@@ -11,67 +12,206 @@ const taskCountEl = document.getElementById('task-count');
 const locationFilter = document.getElementById('location-filter');
 const pointsFilter = document.getElementById('points-filter');
 const skillFilter = document.getElementById('skill-filter');
-const completableToggle = document.getElementById('completable-toggle');
 const keywordFilter = document.getElementById('keyword-filter');
 const completedTasksListEl = document.getElementById('completed-tasks-list');
+const pinnedTasksListEl = document.getElementById('pinned-tasks-list');
+const pinBtn = document.getElementById('pin-btn');
+
+const showRandomizerBtn = document.getElementById('show-randomizer-btn');
+const showBrowserBtn = document.getElementById('show-browser-btn');
+const randomizerView = document.getElementById('randomizer-view');
+const taskBrowserView = document.getElementById('task-browser-view');
+const taskBrowserTableBody = document.querySelector('#task-browser-table tbody');
 
 let currentTask = null;
+let playerStats = null;
 
-function updateAvailableTasks() {
+const playerNameInput = document.getElementById('player-name');
+const lookupBtn = document.getElementById('lookup-btn');
+const statsContentEl = document.getElementById('stats-content');
+const completableToggle = document.getElementById('completable-toggle');
+
+
+function renderPlayerStats() {
+    statsContentEl.innerHTML = '';
+    if (!playerStats) {
+        statsContentEl.innerHTML = '<p>Look up a player to see their stats.</p>';
+        return;
+    }
+
+    let totalLevel = 0;
+    const skillOrder = [
+        "Attack", "Strength", "Defence", "Ranged", "Prayer", "Magic", "Runecrafting", "Construction", "Constitution",
+        "Agility", "Herblore", "Thieving", "Crafting", "Fletching", "Slayer", "Hunter", "Mining", "Smithing",
+        "Fishing", "Cooking", "Firemaking", "Woodcutting", "Farming", "Divination", "Summoning",
+        "Dungeoneering", "Invention", "Archaeology", "Necromancy"
+    ];
+
+    for (const skill of skillOrder) {
+        if (playerStats[skill]) {
+            const level = playerStats[skill];
+            totalLevel += level;
+            const statItem = document.createElement('div');
+            statItem.className = 'stat-item';
+            statItem.innerHTML = `
+                <span class="skill-name">${skill}</span>
+                <span class="level">${level}</span>
+            `;
+            statsContentEl.appendChild(statItem);
+        }
+    }
+    const totalLevelEl = document.createElement('div');
+    totalLevelEl.id = 'total-level';
+    totalLevelEl.textContent = `Total Level: ${totalLevel}`;
+    statsContentEl.prepend(totalLevelEl);
+}
+
+async function fetchPlayerStats() {
+    const playerName = playerNameInput.value.trim();
+    if (!playerName) {
+        alert('Please enter a player name.');
+        return;
+    }
+
+    statsContentEl.innerHTML = '<p>Loading stats...</p>';
+
+    try {
+        const response = await fetch(`https://sync.runescape.wiki/runescape/player/${playerName}/LEAGUE_1`);
+        if (!response.ok) {
+            throw new Error(`Player not found or API error (status: ${response.status})`);
+        }
+        const data = await response.json();
+        playerStats = data.levels;
+        renderPlayerStats();
+        updateAvailableTasks(); // Re-filter tasks with the new stats
+    } catch (error) {
+        console.error('Failed to fetch player stats:', error);
+        statsContentEl.innerHTML = `<p>Could not load stats for "${playerName}". Please check the name and try again.</p>`;
+        playerStats = null;
+        updateAvailableTasks(); // Re-filter tasks without stats
+    }
+}
+
+
+function getFilteredTasks() {
     const location = locationFilter.value;
     const points = parseInt(pointsFilter.value, 10);
     const skill = skillFilter.value;
     const keyword = keywordFilter.value.toLowerCase();
+    const showOnlyCompletable = completableToggle.checked;
 
-    availableTasks = allTasks.filter(task => {
-        const isCompleted = completedTasks.has(task.id);
-        if (isCompleted) return false;
+    return allTasks.filter(task => {
+        if (completedTasks.has(task.id)) return false;
 
         const locationMatch = location === 'all' || task.locality === location;
-        const pointsMatch = isNaN(points) || task.pts === points;
-
-        // Check if task.skills is an array before calling includes
-        const skillMatch = skill === 'all' || (Array.isArray(task.skills) && task.skills.includes(skill));
-
+        const pointsMatch = isNaN(points) || task.points === points;
+        const skillMatch = skill === 'all' || (task.skills && task.skills.includes(skill));
         const keywordMatch = keyword === '' ||
                              task.task.toLowerCase().includes(keyword) ||
                              task.information.toLowerCase().includes(keyword) ||
                              task.requirements.toLowerCase().includes(keyword);
 
-        return locationMatch && pointsMatch && skillMatch && keywordMatch;
-    });
+        let meetsRequirements = true;
+        if (showOnlyCompletable && playerStats) {
+            const reqString = task.requirements;
+            const skillReqRegex = /(\d+)\s+(\w+)/g;
+            let match;
+            while ((match = skillReqRegex.exec(reqString)) !== null) {
+                const requiredLevel = parseInt(match[1], 10);
+                const skillName = match[2].toLowerCase();
+                const playerLevel = playerStats[skillName] || 0;
 
+                if (playerLevel < requiredLevel) {
+                    meetsRequirements = false;
+                    break;
+                }
+            }
+        }
+
+        return locationMatch && pointsMatch && skillMatch && keywordMatch && meetsRequirements;
+    });
+}
+
+function updateAvailableTasks() {
+    availableTasks = getFilteredTasks();
     taskCountEl.textContent = availableTasks.length;
 }
 
 function populateFilters() {
     const locations = [...new Set(allTasks.map(task => task.locality))];
     locationFilter.innerHTML = '<option value="all">All Locations</option>';
-    for (const location of locations.sort()) {
+    locations.sort().forEach(location => {
         const option = document.createElement('option');
         option.value = location;
         option.textContent = location;
         locationFilter.appendChild(option);
-    }
+    });
 
-    const points = [...new Set(allTasks.map(task => task.pts))];
+    const points = [...new Set(allTasks.map(task => task.points))];
     pointsFilter.innerHTML = '<option value="all">All Points</option>';
-    for (const point of points.sort((a, b) => a - b)) {
+    points.sort((a, b) => a - b).forEach(point => {
         const option = document.createElement('option');
         option.value = point;
         option.textContent = `${point} pts`;
         pointsFilter.appendChild(option);
-    }
+    });
 
     const skills = [...new Set(allTasks.flatMap(task => task.skills || []))];
     skillFilter.innerHTML = '<option value="all">All Skills</option>';
-    for (const skill of skills.sort()) {
+    skills.sort().forEach(skill => {
         const option = document.createElement('option');
         option.value = skill;
         option.textContent = skill;
         skillFilter.appendChild(option);
-    }
+    });
 }
+
+function formatRequirements(requirements) {
+    let html = '';
+    const questRegex = /quest:\s*([^,]+)/gi;
+    const skillRegex = /(\d+\s+\w+)/g;
+
+    let questMatches = [];
+    let skillMatches = [];
+    let otherReqs = requirements;
+
+    let match;
+    while ((match = questRegex.exec(requirements)) !== null) {
+        questMatches.push(match[1].trim());
+        otherReqs = otherReqs.replace(match[0], '');
+    }
+
+    while ((match = skillRegex.exec(otherReqs)) !== null) {
+        skillMatches.push(match[1].trim());
+        otherReqs = otherReqs.replace(match[1], '');
+    }
+
+    otherReqs = otherReqs.replace(/,/g, ' ').trim();
+
+    if (questMatches.length > 0) {
+        html += '<div class="req-section"><strong>Quests:</strong><ul>';
+        questMatches.forEach(quest => {
+            const questLink = `https://runescape.wiki/w/${quest.replace(/ /g, '_')}`;
+            html += `<li><a href="${questLink}" target="_blank">${quest}</a></li>`;
+        });
+        html += '</ul></div>';
+    }
+
+    if (skillMatches.length > 0) {
+        html += '<div class="req-section"><strong>Skills:</strong><ul>';
+        skillMatches.forEach(skill => {
+            html += `<li>${skill}</li>`;
+        });
+        html += '</ul></div>';
+    }
+
+    if (otherReqs) {
+        html += `<div class="req-section"><strong>Other:</strong> ${otherReqs}</div>`;
+    }
+
+    return html || 'None';
+}
+
 
 function displayRandomTask() {
     updateAvailableTasks();
@@ -79,6 +219,7 @@ function displayRandomTask() {
         taskTitleEl.textContent = "No tasks available!";
         taskInfoEl.innerHTML = "<p>Try adjusting your filters or resetting your completed tasks.</p>";
         completeBtn.style.display = 'none';
+        pinBtn.style.display = 'none';
         currentTask = null;
         return;
     }
@@ -86,27 +227,23 @@ function displayRandomTask() {
     currentTask = availableTasks[randomIndex];
 
     taskTitleEl.textContent = currentTask.task;
-    taskInfoEl.innerHTML = `
-        <p><strong>Location:</strong> ${currentTask.locality}</p>
-        <p><strong>Points:</strong> ${currentTask.pts}</p>
-        <p><strong>Info:</strong> ${currentTask.information}</p>
-        <p><strong>Requires:</strong> ${currentTask.requirements}</p>
-    `;
+    taskInfoEl.innerHTML = formatRequirements(currentTask.requirements);
 
     completeBtn.style.display = 'inline-block';
+    pinBtn.style.display = 'inline-block';
+    pinBtn.textContent = pinnedTasks.has(currentTask.id) ? 'Unpin Task' : 'Pin Task';
 }
 
 function completeCurrentTask() {
     if (currentTask) {
         completedTasks.add(currentTask.id);
         localStorage.setItem('completedTasks', JSON.stringify([...completedTasks]));
-
-        taskTitleEl.textContent = '';
-        taskInfoEl.textContent = '';
-        completeBtn.style.display = 'none';
-        currentTask = null;
-
-        updateAvailableTasks();
+        if (pinnedTasks.has(currentTask.id)) {
+            pinnedTasks.delete(currentTask.id);
+            localStorage.setItem('pinnedTasks', JSON.stringify([...pinnedTasks]));
+            renderPinnedTasks();
+        }
+        displayRandomTask();
         renderCompletedTasks();
     }
 }
@@ -114,31 +251,80 @@ function completeCurrentTask() {
 function renderCompletedTasks() {
     completedTasksListEl.innerHTML = '';
     const completed = allTasks.filter(task => completedTasks.has(task.id));
-    for (const task of completed.sort((a,b) => a.task.localeCompare(b.task))) {
+    completed.sort((a, b) => a.task.localeCompare(b.task)).forEach(task => {
         const li = document.createElement('li');
-        li.textContent = `[${task.pts} pts] ${task.task}`;
+        li.innerHTML = `<span>[${task.points} pts] ${task.task}</span>`;
+        const undoBtn = document.createElement('button');
+        undoBtn.textContent = 'Undo';
+        undoBtn.className = 'undo-btn';
+        undoBtn.onclick = () => {
+            completedTasks.delete(task.id);
+            localStorage.setItem('completedTasks', JSON.stringify([...completedTasks]));
+            renderCompletedTasks();
+            updateAvailableTasks();
+        };
+        li.appendChild(undoBtn);
         completedTasksListEl.appendChild(li);
+    });
+}
+
+function renderPinnedTasks() {
+    pinnedTasksListEl.innerHTML = '';
+    const pinned = allTasks.filter(task => pinnedTasks.has(task.id));
+    pinned.sort((a, b) => a.task.localeCompare(b.task)).forEach(task => {
+        const li = document.createElement('li');
+        li.innerHTML = `<span>[${task.points} pts] ${task.task}</span>`;
+        const unpinBtn = document.createElement('button');
+        unpinBtn.textContent = 'Unpin';
+        unpinBtn.className = 'unpin-btn';
+        unpinBtn.onclick = () => {
+            pinnedTasks.delete(task.id);
+            localStorage.setItem('pinnedTasks', JSON.stringify([...pinnedTasks]));
+            renderPinnedTasks();
+            if (currentTask && currentTask.id === task.id) {
+                pinBtn.textContent = 'Pin Task';
+            }
+        };
+        li.appendChild(unpinBtn);
+        pinnedTasksListEl.appendChild(li);
+    });
+}
+
+function togglePin() {
+    if (!currentTask) return;
+    if (pinnedTasks.has(currentTask.id)) {
+        pinnedTasks.delete(currentTask.id);
+        pinBtn.textContent = 'Pin Task';
+    } else {
+        pinnedTasks.add(currentTask.id);
+        pinBtn.textContent = 'Unpin Task';
     }
+    localStorage.setItem('pinnedTasks', JSON.stringify([...pinnedTasks]));
+    renderPinnedTasks();
 }
 
 function resetTasks() {
     if (confirm('Are you sure you want to reset all completed tasks? This cannot be undone.')) {
         completedTasks.clear();
         localStorage.removeItem('completedTasks');
-
-        locationFilter.value = 'all';
-        pointsFilter.value = 'all';
-        skillFilter.value = 'all';
-        keywordFilter.value = '';
-
         updateAvailableTasks();
         renderCompletedTasks();
-
-        taskTitleEl.textContent = 'Welcome!';
-        taskInfoEl.textContent = 'Click "Get Random Task" to start.';
-        completeBtn.style.display = 'none';
-        currentTask = null;
     }
+}
+
+function renderTaskBrowser() {
+    taskBrowserTableBody.innerHTML = '';
+    const tasksToRender = getFilteredTasks();
+    tasksToRender.forEach(task => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td>${task.task}</td>
+            <td>${task.locality}</td>
+            <td>${task.points}</td>
+            <td>${task.requirements}</td>
+        `;
+        taskBrowserTableBody.appendChild(row);
+    });
 }
 
 async function initializeApp() {
@@ -149,20 +335,20 @@ async function initializeApp() {
         }
         allTasks = await response.json();
 
-        // Parse skills from requirements
         allTasks.forEach(task => {
             task.skills = [];
-            const skillRegex = /\d+\s+(\w+)/g;
+            const skillRegex = /(\d+)\s+(\w+)/g;
             let match;
             while ((match = skillRegex.exec(task.requirements)) !== null) {
                 task.skills.push(match[2]);
             }
         });
 
-        // Once data is loaded and processed, initialize the app
         populateFilters();
         updateAvailableTasks();
         renderCompletedTasks();
+        renderPinnedTasks();
+        renderTaskBrowser();
         taskTitleEl.textContent = 'Welcome!';
         taskInfoEl.innerHTML = 'Click "Get Random Task" to start.';
 
@@ -177,12 +363,35 @@ document.addEventListener('DOMContentLoaded', () => {
     randomizeBtn.addEventListener('click', displayRandomTask);
     completeBtn.addEventListener('click', completeCurrentTask);
     resetBtn.addEventListener('click', resetTasks);
+    pinBtn.addEventListener('click', togglePin);
 
-    const filterElements = [locationFilter, pointsFilter, skillFilter, keywordFilter];
-    filterElements.forEach(el => {
-        el.addEventListener('change', updateAvailableTasks);
+    showRandomizerBtn.addEventListener('click', () => {
+        randomizerView.style.display = 'block';
+        taskBrowserView.style.display = 'none';
+        showRandomizerBtn.classList.add('active');
+        showBrowserBtn.classList.remove('active');
     });
-    keywordFilter.addEventListener('input', updateAvailableTasks);
+
+    showBrowserBtn.addEventListener('click', () => {
+        randomizerView.style.display = 'none';
+        taskBrowserView.style.display = 'block';
+        showRandomizerBtn.classList.remove('active');
+        showBrowserBtn.classList.add('active');
+        renderTaskBrowser();
+    });
+
+    const filterElements = [locationFilter, pointsFilter, skillFilter, keywordFilter, completableToggle];
+    filterElements.forEach(el => {
+        el.addEventListener('change', () => {
+            updateAvailableTasks();
+            renderTaskBrowser();
+        });
+    });
+    keywordFilter.addEventListener('input', () => {
+        updateAvailableTasks();
+        renderTaskBrowser();
+    });
+    lookupBtn.addEventListener('click', fetchPlayerStats);
 
     initializeApp();
 });

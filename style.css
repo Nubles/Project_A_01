@@ -18,10 +18,10 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 2rem;
     align-items: flex-start;
 }
@@ -84,6 +84,21 @@ h1 {
     text-align: center;
 }
 
+
+.player-lookup {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.player-lookup input {
+    flex-grow: 1;
+}
+
+.player-lookup button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+}
 
 select, input[type="text"] {
     width: 100%;
@@ -352,6 +367,49 @@ input:checked + .slider:before {
     border-radius: var(--border-radius);
     font-weight: 600;
     font-size: 1.1rem;
+}
+
+#stats-panel {
+    position: sticky;
+    top: 2rem;
+    text-align: left;
+}
+
+#stats-panel h2 {
+    text-align: center;
+    color: var(--primary-accent);
+}
+
+#stats-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+}
+
+.stat-item {
+    background-color: var(--primary-bg);
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--secondary-accent);
+}
+
+.stat-item .level {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--primary-accent);
+}
+
+#total-level {
+    grid-column: 1 / -1; /* Span full width */
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--secondary-accent);
+    background-color: var(--card-bg);
+    padding: 1rem;
+    border-radius: var(--border-radius);
 }
 
 .req-met {
