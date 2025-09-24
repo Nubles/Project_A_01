@@ -84,9 +84,9 @@ async function fetchPlayerStats() {
         const data = await response.json();
 
         completedTasks.clear();
-        // The API returns completed tasks in a `tasks` property.
-        if (data.tasks && Array.isArray(data.tasks)) {
-            data.tasks.forEach(completedTaskId => {
+        // The API returns completed tasks in a `league_tasks` property.
+        if (data.league_tasks && Array.isArray(data.league_tasks)) {
+            data.league_tasks.forEach(completedTaskId => {
                 if (taskIdMap.has(completedTaskId)) {
                     const internalId = taskIdMap.get(completedTaskId);
                     completedTasks.add(internalId);
