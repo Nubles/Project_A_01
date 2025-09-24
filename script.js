@@ -182,26 +182,29 @@ function populateFilters() {
 }
 
 function formatRequirements(requirements) {
-    let html = '';
-    const questRegex = /quest:\s*([^,]+)/gi;
-    const skillRegex = /(\d+\s+\w+)/g;
+    if (!requirements || requirements.trim().toLowerCase() === 'n/a') {
+        return 'None';
+    }
 
+    let html = '';
     let questMatches = [];
     let skillMatches = [];
     let otherReqs = requirements;
 
+    const questRegex = /quest:\s*([^,]+)/gi;
     let match;
-    while ((match = questRegex.exec(requirements)) !== null) {
+    while ((match = questRegex.exec(otherReqs)) !== null) {
         questMatches.push(match[1].trim());
-        otherReqs = otherReqs.replace(match[0], '');
     }
+    otherReqs = otherReqs.replace(questRegex, '');
 
+    const skillRegex = /(\d[\d,]*)\s+([a-zA-Z]+(?:\s+[a-zA-Z]+)*)/g;
     while ((match = skillRegex.exec(otherReqs)) !== null) {
-        skillMatches.push(match[1].trim());
-        otherReqs = otherReqs.replace(match[1], '');
+        skillMatches.push(match[0].trim());
     }
+    otherReqs = otherReqs.replace(skillRegex, '');
 
-    otherReqs = otherReqs.replace(/,/g, ' ').trim();
+    otherReqs = otherReqs.replace(/,/g, ' ').replace(/\s\s+/g, ' ').trim();
 
     if (questMatches.length > 0) {
         html += '<div class="req-section"><strong>Quests:</strong><ul>';
@@ -213,7 +216,7 @@ function formatRequirements(requirements) {
     }
 
     if (skillMatches.length > 0) {
-        html += '<div class="req-section"><strong>Skills:</strong><ul>';
+        html += '<div class="req-section"><strong>Skills & Items:</strong><ul>';
         skillMatches.forEach(skill => {
             html += `<li>${skill}</li>`;
         });
