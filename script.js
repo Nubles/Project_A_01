@@ -7,6 +7,7 @@ let taskIdMap = new Map();
 const randomizeBtn = document.getElementById('randomize-btn');
 const taskTitleEl = document.getElementById('task-title');
 const taskInfoEl = document.getElementById('task-info');
+const taskPointsEl = document.getElementById('task-points');
 const completeBtn = document.getElementById('complete-btn');
 const resetBtn = document.getElementById('reset-btn');
 const taskCountEl = document.getElementById('task-count');
@@ -272,6 +273,7 @@ function displayRandomTask() {
     if (availableTasks.length === 0) {
         taskTitleEl.textContent = "No tasks available!";
         taskInfoEl.innerHTML = "<p>Try adjusting your filters or resetting your completed tasks.</p>";
+        taskPointsEl.textContent = '';
         completeBtn.style.display = 'none';
         pinBtn.style.display = 'none';
         currentTask = null;
@@ -281,6 +283,7 @@ function displayRandomTask() {
     currentTask = availableTasks[randomIndex];
 
     taskTitleEl.textContent = currentTask.task;
+    taskPointsEl.textContent = `${currentTask.points} Points`;
     taskInfoEl.innerHTML = formatRequirements(currentTask.requirements);
 
     completeBtn.style.display = 'inline-block';
@@ -407,11 +410,13 @@ async function initializeApp() {
         renderPinnedTasks();
         renderTaskBrowser();
         taskTitleEl.textContent = 'Welcome!';
+        taskPointsEl.textContent = '';
         taskInfoEl.innerHTML = 'Click "Get Random Task" to start.';
 
     } catch (error) {
         console.error('Failed to load task data:', error);
         taskTitleEl.textContent = 'Error!';
+        taskPointsEl.textContent = '';
         taskInfoEl.textContent = 'Could not load task data. Please try refreshing the page.';
     }
 }

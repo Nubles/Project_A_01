@@ -178,6 +178,13 @@ button:hover {
     color: var(--secondary-accent);
 }
 
+#task-points {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary-accent);
+    margin-bottom: 1rem;
+}
+
 #task-info {
     color: var(--secondary-accent);
     font-size: 1.1rem;
