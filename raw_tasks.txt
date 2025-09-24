@@ -3,8 +3,8 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 463	Anachronia	Observe all the large dragonkin statues around Anachronia.	Observe all the large dragonkin statues around Anachronia.	N/A	10	2.7%
 464	Anachronia	Surge under the spine on Anachronia.	Complete Spinal Surgery.	5 Agility	10	27.6%
 461	Anachronia	Set sail for Anachronia.	Set sail for Anachronia on The Stormbreaker docked at Varrock Dig Site.	N/A	10	49.5%
-465	Anachronia	Complete the quest: Helping Laniakea (miniquest).	Complete the Helping Laniakea miniquest.	See quest page	10	0.1%
-466	Anachronia	Complete the quest: Raksha, the Shadow Colossus.	Complete Raksha, the Shadow Colossus quest.	See quest page	10	6.6%
+465	Anachronia	Complete the quest: Helping Laniakea (miniquest).	Complete the Helping Laniakea miniquest.	Quest: Helping Laniakea (miniquest)	10	0.1%
+466	Anachronia	Complete the quest: Raksha, the Shadow Colossus.	Complete Raksha, the Shadow Colossus quest.	Quest: Raksha, the Shadow Colossus	10	6.6%
 467	Anachronia	Obtain 100 potent herbs from Herby Werby.	Obtain 100 potent herbs from Herby Werby.	1 Herblore	10	32.8%
 468	Anachronia	Build your Player Lodge on Anachronia.	Build your Player Lodge on Anachronia.	40 Construction	30	0.4%
 469	Anachronia	Purchase the herb bag and the herb bag upgrade from the Herby Werby reward shop.	Purchase the herb bag and the herb bag upgrade from the Herby Werby reward shop.	1 Herblore	30	<0.1%
@@ -17,11 +17,11 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 476	Anachronia	Complete the Anachronia agility course in under 7 minutes.	Complete the Anachronia agility course in under 7 minutes.	85 Agility	80	1.3%
 477	Anachronia	Complete all frog breeds.	Complete all frog breeds.	42 Farming, 45 Construction	80	<0.1%
 478	Anachronia	Purchase the Quick Traps upgrade from Irwinsson's Hunter Mark shop.	Purchase the quick traps upgrade from the Hunter Mark Shop.	50 hunter marks	80	<0.1%
-479	Anachronia	Complete the quest: Osseous Rex.	Complete the Osseous Rex quest.	See quest page	80	0.7%
+479	Anachronia	Complete the quest: Osseous Rex.	Complete the Osseous Rex quest.	Quest: Osseous Rex	80	0.7%
 480	Anachronia	Clear an Overgrown idol on Anachronia.	Clear an overgrown idol on Anachronia.	81 Woodcutting	80	0.2%
 481	Anachronia	Defeat any of the Rex Matriarchs.	Defeat any of the Rex Matriarchs once.	N/A	80	5.9%
 482	Anachronia	Defeat any of the Rex Matriarchs. (100 times)	Defeat any of the Rex Matriarchs 100 times.	N/A	80	1.1%
-483	Anachronia	Complete the quest: Desperate Times.	Complete the Desperate Times quest.	See quest page	80	1%
+483	Anachronia	Complete the quest: Desperate Times.	Complete the Desperate Times quest.	Quest: Desperate Times	80	1%
 484	Anachronia	Find all the hidden Zygomites on Anachronia.	Find all of the ancient zygomites on Anachronia. See the page for a route.	85 Agility	80	<0.1%
 485	Anachronia	Equip Laniakea's spear.	Equip Laniakea's spear.	82 Attack	80	1%
 486	Anachronia	Harvest an Arbuck herb.	Harvest an arbuck herb.	77 Farming	80	3.1%
@@ -40,7 +40,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 498	Anachronia	Use Potterington Blend #102 Fertiliser or dinosaur 'propellant' on Prehistoric Potterington.	Use Potterington blend 102 fertiliser or dinosaur 'propellant' on Prehistoric Potterington.	102 Farming	150	<0.1%
 499	Anachronia	Find an unchecked egg in the pile of dinosaur eggs south of Anachronia dinosaur farm.	Find a dinosaur egg in the pile of dinosaur eggs on Anachronia Farm.	42 Farming, 45 Construction	150	<0.1%
 501	Anachronia	Defeat Raksha, the Shadow Colossus. (100 times)	Defeat Raksha, the Shadow Colossus 100 times.	Completion of Raksha, the Shadow Colossus	150	<0.1%
-502	Anachronia	Complete the quest: Desperate Measures.	Complete the Desperate Measures quest.	See quest page	150	0.2%
+502	Anachronia	Complete the quest: Desperate Measures.	Complete the Desperate Measures quest.	Quest: Desperate Measures	150	0.2%
 503	Anachronia	Equip a Terrasaur maul.	Equip a terrasaur maul.	90 Attack	150	<0.1%
 505	Anachronia	Complete a big game encounter without stepping into the creature's vision ring.	Complete a Big Game Hunter encounter without stepping into the creature's vision ring.	75 Hunter, 55 Slayer	150	<0.1%
 508	Anachronia	Craft 500 Time Runes.	Craft 500 time runes.	102 Runecrafting	150	<0.1%
@@ -51,10 +51,10 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 506	Anachronia	Complete a big game encounter with 3 creatures active.	Complete a Big Game Hunter encounter with 3 creatures active.	75 Hunter, 55 Slayer	150	<0.1%
 507	Anachronia	Breed a shiny dinosaur.	Breed a shiny dinosaur.	42 Farming, 45 Construction	150	<0.1%
 510	Anachronia	Equip Skeka's hypnowand.	Equip Skeka's hypnowand.	99 Archaeology	150	<0.1%
-511	Anachronia	Complete the quest: Extinction.	Complete the Extinction quest.	See quest page	150	<0.1%
+511	Anachronia	Complete the quest: Extinction.	Complete the Extinction quest.	Quest: Extinction	150	<0.1%
 217	Asgarnia: Burthorpe	Complete a lap of the Burthorpe Agility course.	Complete a lap of the Burthorpe Agility Course.	1 Agility	10	76.8%
 221	Asgarnia: Falador	Kill a goblin raider boss in the Goblin Village.	Kill 15 goblins in the Goblin Village to spawn a Goblin raider boss.	N/A	10	46.9%
-222	Asgarnia: Falador	Complete the quest: Witch's House.	Complete Witch's House	See quest page	10	34.9%
+222	Asgarnia: Falador	Complete the quest: Witch's House.	Complete Witch's House	Quest: Witch's House	10	34.9%
 223	Asgarnia: Falador	Sit down with Tiffy in Falador park.	Sit on the bench with Sir Tiffy Cashien in Falador Park.	N/A	10	73.2%
 224	Asgarnia: Falador	Pray to Bandos's remains.	Pray to Bandos's remains (just south-east of Goblin Village.	N/A	10	60.8%
 225	Asgarnia: Falador	Dance in the Falador party room.	Dance in the Falador party room.	N/A	10	69.7%
@@ -119,7 +119,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 283	Desert: General	Use any of the magic carpets in the desert.	Use any of the magic carpets in the desert.	1,000 gp	10	49.7%
 284	Desert: General	Harvest a rose at Het's Oasis.	Harvest a rose at Het's Oasis.	30 Farming	10	26.6%
 273	Desert: General	Clear the Fort debris at the Kharid-et Dig Site.	Clear the fort debris at the Kharid-et Dig Site.	12 Archaeology	30	60.1%
-278	Desert: General	Complete the quest: One Piercing Note.	Complete One Piercing Note.	See quest page	30	20.9%
+278	Desert: General	Complete the quest: One Piercing Note.	Complete One Piercing Note.	Quest: One Piercing Note	30	20.9%
 285	Desert: General	Complete a lap of the Het's Oasis agility course.	Complete a lap of the Het's Oasis agility course.	65 Agility	30	8.6%
 286	Desert: General	Defeat the Kalphite Queen.	Defeat the Kalphite Queen.	N/A	30	7.2%
 287	Desert: General	Defeat the Kalphite Queen. (100 times)	Defeat the Kalphite Queen 100 times.	N/A	30	<0.1%
@@ -133,8 +133,8 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 295	Desert: General	Search the Grand Gold Chest in room 4 of Pyramid Plunder in Sophanem.	Search the Grand Gold Chest in room 4 of Pyramid Plunder in Sophanem.	51 Thieving	30	3.3%
 296	Desert: General	Search the Grand Gold Chest in room 5 of Pyramid Plunder in Sophanem.	Search the Grand Gold Chest in room 5 of Pyramid Plunder in Sophanem.	61 Thieving	30	2.3%
 297	Desert: General	Search the Grand Gold Chest in room 6 of Pyramid Plunder in Sophanem.	Search the Grand Gold Chest in room 6 of Pyramid Plunder in Sophanem.	71 Thieving	30	1.7%
-298	Desert: General	Complete the quest: Smoking Kills.	Complete Smoking Kills.	See quest page	30	4.5%
-299	Desert: General	Complete the quest: Desert Treasure.	Complete Desert Treasure.	See quest page	30	0.5%
+298	Desert: General	Complete the quest: Smoking Kills.	Complete Smoking Kills.	Quest: Smoking Kills	30	4.5%
+299	Desert: General	Complete the quest: Desert Treasure.	Complete Desert Treasure.	Quest: Desert Treasure	30	0.5%
 300	Desert: General	Fully repair the statue of Het.	Repair the statue of Het at Het's Oasis.	200 pieces of Het	30	0.9%
 301	Desert: General	Defeat the Kalphite King.	Defeat the Kalphite King.	N/A	80	4.5%
 302	Desert: General	Defeat the Kalphite King. (100 times)	Defeat the Kalphite King 100 times.	N/A	80	0.1%
@@ -160,7 +160,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 322	Desert: Menaphos	Find an Off-hand khopesh of the Kharidian in Shifting Tombs.	Find an off-hand khopesh of the Kharidian in Shifting Tombs.	50 Dungeoneering, 50 Agility, 50 Thieving, or 50 Construction	80	<0.1%
 323	Desert: General	Search the Grand Gold Chest in room 7 of Pyramid Plunder in Sophanem.	Search the Grand Gold Chest in room 7 of Pyramid Plunder in Sophanem.	81 Thieving	80	1.4%
 324	Desert: General	Search the Grand Gold Chest in room 8 of Pyramid Plunder in Sophanem.	Search the Grand Gold Chest in room 8 of Pyramid Plunder in Sophanem.	91 Thieving	80	1.3%
-325	Desert: Menaphos	Complete the quest: Beneath Scabaras' Sands.	Complete Beneath Scabaras' Sands.	See quest page	80	<0.1%
+325	Desert: Menaphos	Complete the quest: Beneath Scabaras' Sands.	Complete Beneath Scabaras' Sands.	Quest: Beneath Scabaras' Sands	80	<0.1%
 326	Desert: General	Kill a desert strykewyrm wearing a Full Slayer Helm and wielding an ancient staff.	Kill a desert strykewyrm wearing a full Slayer helm and wielding an ancient staff.	77 Slayer, 50 Magic, 20 Defence, 55 Crafting	80	<0.1%
 328	Desert: General	Defeat Telos, the Warden.	Defeat Telos, the Warden.	80 Attack, 80 Prayer, 80 Magic, 80 Ranged	80	0.6%
 327	Desert: General	Complete the task set: Elite Desert.	Complete the Elite Desert achievements.	See Elite Desert achievements page	150	<0.1%
@@ -192,8 +192,8 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 353	Fremennik: Mainland	Defeat a Dagannoth in the Fremennik Province.	Defeat a dagannoth in the Fremennik Province.	N/A	30	22.8%
 354	Fremennik: Mainland	Equip a Helm of Neitiznot.	Equip a Helm of Neitiznot.	55 Defence	30	1%
 355	Fremennik: Mainland	Defeat a Jelly in the Fremennik Province.	Defeat a jelly in the Fremennik Province.	52 Slayer	30	17.1%
-356	Fremennik: Mainland	Complete the quest: Throne of Miscellania.	Complete Throne of Miscellania.	See quest page	30	1.6%
-357	Fremennik: Mainland	Complete the quest: Royal Trouble.	Complete Royal Trouble.	See quest page	30	1.3%
+356	Fremennik: Mainland	Complete the quest: Throne of Miscellania.	Complete Throne of Miscellania.	Quest: Throne of Miscellania	30	1.6%
+357	Fremennik: Mainland	Complete the quest: Royal Trouble.	Complete Royal Trouble.	Quest: Royal Trouble	30	1.3%
 358	Fremennik: Mainland	Equip a Granite Shield.	Equip a granite shield.	55 Defence, 55 Strength	30	0.4%
 359	Fremennik: Mainland	Equip a full set of Graahk, Larupia or Kyatt hunter gear.	Equip a full set of graahk, larupia or kyatt hunter gear.	31 Hunter	30	1.7%
 360	Fremennik: Mainland	Defeat any of the Dagannoth Kings.	Defeat any of the Dagannoth Kings 1 time.	N/A	30	7%
@@ -440,7 +440,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 1105	Global	Reach at least level 30 in all non-elite skills.	Reach at least level 30 in all non-elite skills.	All skills except Invention at level 30	30	14.6%
 418	Global	Equip a Spottier Cape.	Equip a spottier cape.	66 Hunter	30	0.6%
 432	Global	Hunt 10 Spotted Kebbits with the help of a falcon.	Hunt 10 spotted kebbits with using falconry.	43 Hunter	30	3%
-433	Global	Complete the quest: The Needle Skips.	Complete The Needle Skips.	See quest page	30	2.6%
+433	Global	Complete the quest: The Needle Skips.	Complete The Needle Skips.	Quest: The Needle Skips	30	2.6%
 443	Global	Catch a Monkfish.	Catch a raw monkfish.	62 Fishing	80	2.2%
 444	Global	Recover all data for one memory-storage bot in the Hall of Memories.	Recover all data for memory-storage bot (Aagi) in the Hall of Memories.	70 Divination	80	2.7%
 459	Global	Mine 25 Platinum Ore south of Piscatoris Fishing Colony.	Mine 25 platinum ores south of Piscatoris Fishing Colony.	70 Mining	80	<0.1%
@@ -684,7 +684,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 403	Kandarin: Gnomes	Complete the Gnome Stronghold Agility Course.	Complete the Gnome Stronghold Agility Course.	1 Agility	10	39.8%
 404	Kandarin: Feldip Hills	Catch a Crimson Swift in the Feldip Hills.	Catch a crimson swift in the Feldip Hills.	1 Hunter	10	7.1%
 405	Kandarin: Ardougne	Defeat a Tortoise with riders in Kandarin.	Defeat a tortoise with riders in Kandarin.	N/A	10	29.3%
-406	Kandarin: Seers Village	Complete the quest: You Are It.	Complete You Are It.	See quest page	10	16.5%
+406	Kandarin: Seers Village	Complete the quest: You Are It.	Complete You Are It.	Quest: You Are It	10	16.5%
 407	Kandarin: Gnomes	Let Brimstail teleport you to the Rune Essence mine.	Let Brimstail teleport you to the Rune Essence mine.	N/A	10	19.4%
 408	Kandarin: Feldip Hills	Equip a Marksman hat.	Equip a marksman hat.	125 chompy bird kills	10	<0.1%
 410	Kandarin: Ardougne	Learn how many beans make five (complete the Player Owned Farm tutorial).	Complete the player-owned farm tutorial at Manor Farm.	17 Farming, 20 Construction	10	39.2%
@@ -702,7 +702,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 424	Kandarin: Ardougne	Defeat a Fire Giant in Kandarin.	Defeat a fire giant in Kandarin.	N/A	30	17.4%
 425	Kandarin: Seers Village	Use the Chivalry Prayer.	Use the Chivalry prayer.	60 Prayer, 65 Defence	30	0.9%
 426	Kandarin: Yanille	Be on the winning side in a game of Castle Wars.	Win a game of Castle Wars.	N/A	30	0.2%
-427	Kandarin: Seers Village	Complete the quest: Elemental Workshop II.	Complete Elemental Workshop II.	See quest page	30	3.8%
+427	Kandarin: Seers Village	Complete the quest: Elemental Workshop II.	Complete Elemental Workshop II.	Quest: Elemental Workshop II	30	3.8%
 428	Kandarin: Feldip Hills	Equip an Ogre Forester Hat.	Equip an ogre forester hat.	300 chompy bird kills	30	<0.1%
 429	Kandarin: Ardougne	Complete the task set: Easy Ardougne.	Complete the Easy Ardougne achievements.	See Easy Ardougne achievements page	30	0.7%
 430	Kandarin: Gnomes	Create the listed gnome cocktails.	Make one of each type of cocktail.	37 Cooking	30	3.4%
@@ -746,7 +746,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 587	Karamja	Mine a drakolith rock in the Tai Bwo Wannai mine.	Mine a drakolith rock in the Tai Bwo Wannai mine.	60 Mining	30	33.8%
 588	Karamja	Mine a ruby from a gem rock in Shilo Village.	Mine a ruby from a gem rock in Shilo Village.	30 Mining	30	5.4%
 589	Karamja	Enter the Hardwood Grove in Tai Bwo Wannai.	Enter the Hardwood Grove in Tai Bwo Wannai.	Completion of Jungle Potion	30	3.5%
-590	Karamja	Complete the quest: Dragon Slayer.	Complete Dragon Slayer.	See quest page	30	22.9%
+590	Karamja	Complete the quest: Dragon Slayer.	Complete Dragon Slayer.	Quest: Dragon Slayer	30	22.9%
 591	Karamja	Check a grown banana tree on Karamja.	Check a grown banana tree on Karamja.	33 Farming	30	9%
 592	Karamja	Defeat a TzHaar.	Defeat a TzHaar.	N/A	30	36%
 593	Karamja	Equip an Obsidian cape.	Equip an obsidian cape.	N/A	30	2.2%
@@ -799,7 +799,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 29	Misthalin: Lumbridge	Kill a giant spider in Lumbridge or Lumbridge Swamp.	Kill a giant spider in Lumbridge or Lumbridge Swamp.	N/A	10	90.9%
 30	Misthalin: Lumbridge	Milk a cow.	Milk a cow.	A bucket	10	88.2%
 32	Misthalin: Lumbridge	Talk to Hans and find out how old you are.	Talk to Hans and find out how old you are.	N/A	10	90.7%
-33	Misthalin: Lumbridge	Complete the quest: The Blood Pact.	Complete The Blood Pact.	See quest page	10	79%
+33	Misthalin: Lumbridge	Complete the quest: The Blood Pact.	Complete The Blood Pact.	Quest: The Blood Pact	10	79%
 35	Misthalin: Draynor Village	Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.	Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.	1 Fishing	10	84.8%
 36	Misthalin: Lumbridge	Smelt a steel bar in the furnace in Lumbridge.	Smelt a steel bar in the furnace in Lumbridge.	20 Smithing	10	63.1%
 37	Misthalin: Lumbridge	Cook some rat meat on a fire in Lumbridge Swamp.	Cook some rat meat on a campfire in Lumbridge Swamp.	1 Cooking	10	87.3%
@@ -807,7 +807,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 39	Misthalin: Lumbridge	Craft a water rune at the Water Altar.	Craft a water rune at the Water altar.	5 Runecrafting	10	44.7%
 40	Misthalin: Lumbridge	Complete a task from Jacquelyn, the Lumbridge Slayer master.	Complete a task from Jacquelyn, the Lumbridge Slayer master.	1 Slayer	10	79%
 41	Misthalin: Lumbridge	Fill a Charmed Sack with corruption at the Nexus in Lumbridge Swamp.	Fill a charmed sack with corruption at the Nexus in Lumbridge Swamp.	1 Prayer	10	78.4%
-61	Misthalin: Draynor Village	Complete the quest: Necromancy!.	Complete Necromancy!	See quest page	10	70.2%
+61	Misthalin: Draynor Village	Complete the quest: Necromancy!.	Complete Necromancy!	Quest: Necromancy!	10	70.2%
 62	Misthalin: City of Um	Upgrade a piece of Death Skull or Deathwarden equipment to tier 20.	Upgrade a piece of death skull or deathwarden equipment to tier 20.	20 Necromancy, 15 Smithing or 15 Crafting	10	27.3%
 63	Misthalin: City of Um	Craft some spirit or bone runes.	Craft some spirit or bone runes.	1 Runecrafting	10	24.1%
 64	Misthalin: City of Um	Complete a Lesser Necroplasm ritual.	Complete a Lesser Necroplasm ritual.	5 Necromancy	10	47.1%
@@ -833,15 +833,15 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 8	Misthalin: Draynor Village	Siphon from a nature esshound in the Runespan.	Siphon from a nature esshound in the Runespan.	44 Runecrafting	30	28.4%
 9	Misthalin: Draynor Village	Siphon Rune dust from a RuneSphere in the RuneSpan.	Siphon rune dust from a Runesphere in the RuneSpan.	1 Runecrafting	30	11.2%
 17	Misthalin: Edgeville	Fully complete the Stronghold of Player Safety.	Fully complete the Stronghold of Player Safety by pulling an old lever on the upper floor and then opening the treasure chest in the secure sector.	N/A	30	38.1%
-23	Misthalin: Fort Forinthry	Complete the quest: New Foundations.	Complete New Foundations.	See quest page	30	35.7%
+23	Misthalin: Fort Forinthry	Complete the quest: New Foundations.	Complete New Foundations.	Quest: New Foundations	30	35.7%
 26	Misthalin: Lumbridge	Complete the task set: Beginner Lumbridge.	Given by Explorer Jack in Lumbridge for completing all Beginner Tasks in Lumbridge.	See Beginner Lumbridge achievements page	30	46.6%
-34	Misthalin: Draynor Village	Complete the quest: Duck Quest.	Complete Duck Quest.	See quest page	30	26.3%
+34	Misthalin: Draynor Village	Complete the quest: Duck Quest.	Complete Duck Quest.	Quest: Duck Quest	30	26.3%
 42	Misthalin: Lumbridge	Complete the task set: Easy Lumbridge.	Given by Bob, the axe seller in Lumbridge, for completing all Easy Tasks in Lumbridge.	See Easy Lumbridge achievements page	30	20.1%
 43	Misthalin: Lumbridge	Complete the task set: Medium Lumbridge.	Given by Ned in Draynor Village for completing all Medium Tasks in Lumbridge.	See Medium Lumbridge achievements page	30	6%
 44	Misthalin: Lumbridge	Drink from the Tears of Guthix.	Drink from the Tears of Guthix.	Completion of Tears of Guthix quest	30	3.9%
 45	Misthalin: Lumbridge	Complete world 25 in Shattered Worlds.	Reach world 25 in Shattered Worlds.	N/A	30	10.5%
 46	Misthalin: Lumbridge	Catch 20 implings in Puro-Puro.	Catch 20 implings in Puro-Puro.	17 Hunter	30	5.8%
-47	Misthalin: Lumbridge	Complete the quest: Sheep Shearer (miniquest).	Complete Sheep Shearer miniquest.	N/A	30	61.6%
+47	Misthalin: Lumbridge	Complete the quest: Sheep Shearer (miniquest).	Complete Sheep Shearer miniquest.	Quest: Sheep Shearer (miniquest)	30	61.6%
 48	Misthalin: Lumbridge	Cut a willow tree east of Lumbridge Castle.	Cut the willow tree east of Lumbridge Castle, by the bridge across the River Lum.	20 Woodcutting	30	64%
 49	Misthalin: Lumbridge	Craft 50 Water Runes.	Craft 50 water runes.	5 Runecrafting	30	43.2%
 50	Misthalin: Lumbridge	Pickpocket a H.A.M. member.	Pickpocket a H.A.M. member.	15 Thieving	30	60.3%
@@ -861,8 +861,8 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 106	Misthalin: Varrock	Complete the task set: Medium Varrock.	Given by Reldo in Varrock Palace's library for completing all Medium Tasks in Varrock.	See Medium Varrock achievements page	30	<0.1%
 107	Misthalin: Edgeville	Browse through Oziach's Armour Shop.	Browse through Oziach's Armour Shop.	Completion of Dragon Slayer quest	30	20.4%
 108	Misthalin: Varrock	Enter the Cooks' Guild.	Enter the Cooks' Guild.	32 Cooking	30	37.9%
-109	Misthalin: Varrock	Complete the quest: Demon Slayer.	Complete Demon Slayer.	See quest page	30	41.2%
-110	Misthalin: Varrock	Complete the quest: Vampyre Slayer.	Complete Vampyre Slayer.	See quest page	30	45.4%
+109	Misthalin: Varrock	Complete the quest: Demon Slayer.	Complete Demon Slayer.	Quest: Demon Slayer	30	41.2%
+110	Misthalin: Varrock	Complete the quest: Vampyre Slayer.	Complete Vampyre Slayer.	Quest: Vampyre Slayer	30	45.4%
 111	Misthalin: Varrock	Mine 50 pure essence.	Mine 50 pure essence.	30 Mining	30	66.4%
 112	Misthalin: Varrock	Pickpocket a guard in Varrock Palace's courtyard.	Pickpocket a Varrock guard.	40 Thieving	30	30.2%
 113	Misthalin: Varrock	Gather and convert 50 bright memories.	Gather and convert 50 bright memories.	20 Divination	30	44.2%
@@ -954,7 +954,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 714	Morytania	Equip a Salve Amulet (e).	Equip a salve amulet (e).	Completion of Lair of Tarn Razorlor (miniquest)	30	6.6%
 715	Morytania	Make a batch of cannonballs in Port Phasmatys.	Make a batch of cannonballs in Port Phasmatys.	35 Smithing	30	1%
 716	Morytania	Catch 10 Green salamanders.	Catch 10 Green salamanders.	29 Hunter	30	8.8%
-717	Morytania	Complete the quest: Haunted Mine.	Complete Haunted Mine.	See quest page	30	14%
+717	Morytania	Complete the quest: Haunted Mine.	Complete Haunted Mine.	Quest: Haunted Mine	30	14%
 718	Morytania	Harvest bittercap mushrooms in the farming patch near Canifis.	Harvest bittercap mushrooms in the farming patch near Canifis.	53 Farming	30	5.7%
 719	Morytania	Complete the task set: Medium Morytania.	Complete the Medium Morytania achievements.	See Medium Morytania achievements page	30	<0.1%
 720	Morytania	Take a hard companion through a hard route of Temple Trekking.	Take a hard companion through a hard route of Temple Trekking.	Completion of In Aid of the Myreque	80	0.1%
@@ -967,7 +967,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 727	Morytania	Equip a full set of Torag's equipment, including the hammer.	Equip a full set of Torag's equipment, including the hammer.	70 Defence, 70 Attack	80	<0.1%
 728	Morytania	Equip a full set of Verac's equipment, including the flail.	Equip a full set of Verac's equipment, including the flail.	70 Defence, 70 Attack	80	<0.1%
 729	Morytania	Equip a full set of Karil's equipment, including the 2h crossbow.	Equip a full set of Karil's equipment, including the 2h crossbow.	70 Defence, 70 Ranged	80	<0.1%
-730	Morytania	Complete the quest: The Branches of Darkmeyer.	Complete The Branches of Darkmeyer.	See quest page	80	0.1%
+730	Morytania	Complete the quest: The Branches of Darkmeyer.	Complete The Branches of Darkmeyer.	Quest: The Branches of Darkmeyer	80	0.1%
 731	Morytania	Burn 20 Blisterwood logs.	Burn 20 blisterwood logs.	76 Woodcutting, 76 Firemaking	80	<0.1%
 732	Morytania	Fully level up all Temple Trekking companions.	Fully level up all Temple Trekking companions.	Completion of In Aid of the Myreque	80	<0.1%
 733	Morytania	Catch 5 sharks in Burgh de Rott.	Catch 5 sharks in Burgh de Rott.	76 Fishing	80	<0.1%
@@ -994,7 +994,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 757	Morytania	Read the book acquired from Roberta outside the Everlight porcelain clay mine.	Read On the Origin of Centaurs.	42 Archaeology	150	<0.1%
 754	Morytania	Fully explore the history of the Everlight Dig Site.	Complete the Mastery - Everlight achievements.	98 Archaeology	150	<0.1%
 755	Morytania	Complete all Araxxor and Araxxi combat achievements.	Complete all Araxxor and Araxxi combat achievements.	See Araxxor achievements page	150	<0.1%
-756	Morytania	Complete the quest: River of Blood.	Complete River of Blood.	See quest page	150	<0.1%
+756	Morytania	Complete the quest: River of Blood.	Complete River of Blood.	Quest: River of Blood	150	<0.1%
 514	Elven Lands: Tirranwn	Cook a Rabbit in Tirannwn.	Cook a raw rabbit in Tirannwn.	1 Cooking	10	27.4%
 515	Elven Lands: Tirranwn	Attempt to pass a leaf trap.	Attempt to pass a leaf trap.	N/A	10	36.2%
 516	Elven Lands: Tirranwn	Use the Bank in Lletya.	Use the bank in Lletya.	N/A	10	33%
