@@ -19,40 +19,41 @@
                 <h1>Task Randomizer</h1>
                 <div class="controls-grid">
                     <div class="filters card">
-                        <select id="location-filter"></select>
-                        <select id="points-filter"></select>
-                        <select id="skill-filter"></select>
-                        <input type="text" id="keyword-filter" placeholder="Keyword search...">
-                        <div class="toggle-container">
-                            <label class="switch">
-                                <input type="checkbox" id="completable-toggle">
-                                <span class="slider"></span>
-                            </label>
-                            <span>Only show completable tasks</span>
-                        </div>
-                    </div>
-
-                    <div class="task-actions card">
-                        <div class="player-lookup">
-                            <input type="text" id="player-name" placeholder="Enter your name...">
-                            <button id="lookup-btn">Look Up</button>
-                        </div>
-                        <button id="randomize-btn">Get Random Task</button>
-                        <button id="reset-btn">Reset All Tasks</button>
+                    <select id="location-filter"></select>
+                    <select id="points-filter"></select>
+                    <select id="skill-filter"></select>
+                    <input type="text" id="keyword-filter" placeholder="Keyword search...">
+                    <div class="toggle-container">
+                        <label class="switch">
+                            <input type="checkbox" id="completable-toggle">
+                            <span class="slider"></span>
+                        </label>
+                        <span>Only show completable tasks</span>
                     </div>
                 </div>
 
-                <p class="task-count-display">Available tasks: <span id="task-count">0</span></p>
-
-                <div id="task-container" class="card">
-                    <div id="req-check-container"></div>
-                    <h2 id="task-title"></h2>
-                    <div id="task-info"></div>
-                    <div id="task-interaction-btns">
-                        <button id="pin-btn" style="display: none;">Pin Task</button>
-                        <button id="complete-btn" style="display: none;">Complete Task</button>
+                <div class="task-actions card">
+                    <div class="player-lookup">
+                        <input type="text" id="player-name" placeholder="Enter your name...">
+                        <button id="lookup-btn">Look Up</button>
                     </div>
+                    <button id="randomize-btn">Get Random Task</button>
+                    <button id="reset-btn">Reset All Tasks</button>
                 </div>
+            </div>
+
+            <p class="task-count-display">Available tasks: <span id="task-count">0</span></p>
+
+            <div id="task-container" class="card">
+                <div id="req-check-container"></div>
+                <h2 id="task-title"></h2>
+                <div id="task-info"></div>
+                <div id="task-interaction-btns">
+                    <button id="pin-btn" style="display: none;">Pin Task</button>
+                    <button id="complete-btn" style="display: none;">Complete Task</button>
+                </div>
+            </div>
+
             </div> <!-- closing randomizer-view -->
 
             <div id="task-browser-view" style="display: none;">
@@ -81,13 +82,13 @@
                     <p>Look up a player to see their stats.</p>
                 </div>
             </div>
-            <div id="completed-tasks-container" class="card">
-                <h2>Completed Tasks</h2>
-                <ul id="completed-tasks-list"></ul>
-            </div>
             <div id="pinned-tasks-container" class="card">
                 <h2>Pinned Tasks</h2>
                 <ul id="pinned-tasks-list"></ul>
+            </div>
+            <div id="completed-tasks-container" class="card">
+                <h2>Completed Tasks</h2>
+                <ul id="completed-tasks-list"></ul>
             </div>
         </div>
     </div>

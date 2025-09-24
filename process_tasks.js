@@ -12,8 +12,13 @@ const prefixes = [
 ];
 
 function isNewRecord(line) {
-    // A line is considered a new record if it starts with a digit (our new Task ID).
-    return /^\d/.test(line);
+    // A line is considered a new record if it starts with one of the known prefixes followed by a tab.
+    for (const prefix of prefixes) {
+        if (line.startsWith(prefix + '\t')) {
+            return true;
+        }
+    }
+    return false;
 }
 
 // This function takes an array of lines that constitute a single record,
@@ -28,19 +33,13 @@ function processRecord(recordLines, id) {
 
     const columns = fullRecordString.split('\t');
 
-    // After joining, a valid record should have exactly 7 columns.
-    if (columns.length !== 7) {
-        console.error(`Skipping malformed record (column count is ${columns.length}, expected 7): ${fullRecordString}`);
+    // After joining, a valid record should have exactly 6 columns.
+    if (columns.length !== 6) {
+        console.error(`Skipping malformed record (column count is ${columns.length}, expected 6): ${fullRecordString}`);
         return null;
     }
 
-    const taskId = parseInt(columns[0].trim(), 10);
-    if (isNaN(taskId)) {
-        console.error(`Skipping malformed record (invalid taskId): ${fullRecordString}`);
-        return null;
-    }
-
-    const points = parseInt(columns[5].trim(), 10);
+    const points = parseInt(columns[4].trim(), 10);
     if (isNaN(points)) {
         console.error(`Skipping malformed record (invalid points): ${fullRecordString}`);
         return null;
@@ -48,11 +47,10 @@ function processRecord(recordLines, id) {
 
     return {
         id: id,
-        taskId: taskId,
-        locality: columns[1].trim(),
-        task: columns[2].trim(),
-        information: columns[3].trim(),
-        requirements: columns[4].trim(),
+        locality: columns[0].trim(),
+        task: columns[1].trim(),
+        information: columns[2].trim(),
+        requirements: columns[3].trim(),
         points: points
     };
 }

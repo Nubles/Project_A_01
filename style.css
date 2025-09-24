@@ -1,17 +1,18 @@
 :root {
-    --primary-bg: #1a1a2e;
-    --secondary-bg: #16213e;
-    --card-bg: #0f3460;
-    --text-color: #e94560;
-    --primary-accent: #e94560;
-    --secondary-accent: #ffffff;
+    --background-color: #1a1a1a;
+    --panel-bg-color: #3d2a2a;
+    --primary-accent-color: #e76f51;
+    --secondary-accent-color: #ffb703;
+    --text-color: #fffcf2;
+    --link-color: #ffb703;
+    --border-color: #6d4a4a;
     --border-radius: 12px;
     --font-family: 'Poppins', sans-serif;
 }
 
 body {
     font-family: var(--font-family);
-    background-color: var(--primary-bg);
+    background-color: var(--background-color);
     color: var(--text-color);
     margin: 0;
     padding: 2rem;
@@ -41,29 +42,30 @@ body {
     padding: 0.8rem 1.5rem;
     font-size: 1rem;
     background-color: transparent;
-    border: 2px solid var(--primary-accent);
-    color: var(--primary-accent);
+    border: 2px solid var(--primary-accent-color);
+    color: var(--primary-accent-color);
 }
 
 .view-btn.active, .view-btn:hover {
-    background-color: var(--primary-accent);
-    color: var(--secondary-accent);
+    background-color: var(--primary-accent-color);
+    color: var(--text-color);
 }
 
 h1 {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 2rem;
-    color: var(--primary-accent);
+    color: var(--primary-accent-color);
 }
 
 .card {
-    background-color: var(--secondary-bg);
+    background-color: var(--panel-bg-color);
     padding: 2rem;
     border-radius: var(--border-radius);
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
     margin-bottom: 2rem;
     text-align: left;
+    border: 1px solid var(--border-color);
 }
 
 .controls-grid {
@@ -103,10 +105,10 @@ h1 {
 select, input[type="text"] {
     width: 100%;
     padding: 0.8rem;
-    border: 2px solid var(--card-bg);
+    border: 2px solid var(--border-color);
     border-radius: var(--border-radius);
-    background-color: var(--primary-bg);
-    color: var(--secondary-accent);
+    background-color: var(--background-color);
+    color: var(--text-color);
     font-family: var(--font-family);
     font-size: 1rem;
     transition: all 0.3s ease;
@@ -114,13 +116,13 @@ select, input[type="text"] {
 
 select:focus, input[type="text"]:focus {
     outline: none;
-    border-color: var(--primary-accent);
-    box-shadow: 0 0 10px var(--primary-accent);
+    border-color: var(--primary-accent-color);
+    box-shadow: 0 0 10px var(--primary-accent-color);
 }
 
 button {
-    background-color: var(--primary-accent);
-    color: var(--secondary-accent);
+    background-color: var(--primary-accent-color);
+    color: var(--text-color);
     border: none;
     padding: 1rem 2rem;
     font-size: 1.1rem;
@@ -138,13 +140,13 @@ button:hover {
 
 #reset-btn {
     background-color: transparent;
-    border: 2px solid var(--primary-accent);
-    color: var(--primary-accent);
+    border: 2px solid var(--primary-accent-color);
+    color: var(--primary-accent-color);
 }
 
 #reset-btn:hover {
-    background-color: var(--primary-accent);
-    color: var(--secondary-accent);
+    background-color: var(--primary-accent-color);
+    color: var(--text-color);
 }
 
 #complete-btn {
@@ -175,16 +177,16 @@ button:hover {
 #task-title {
     margin-top: 0;
     font-size: 1.8rem;
-    color: var(--secondary-accent);
+    color: var(--text-color);
 }
 
 #task-info {
-    color: var(--secondary-accent);
+    color: var(--text-color);
     font-size: 1.1rem;
 }
 
 #task-info a {
-    color: #80deea; /* Light cyan */
+    color: var(--link-color);
     text-decoration: none;
 }
 #task-info a:hover {
@@ -210,7 +212,7 @@ button:hover {
 
 #completed-tasks-container h2 {
     font-size: 1.5rem;
-    color: var(--primary-accent);
+    color: var(--primary-accent-color);
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -223,12 +225,12 @@ button:hover {
 }
 
 #completed-tasks-list li {
-    background-color: var(--primary-bg);
+    background-color: var(--background-color);
     padding: 1rem;
     border-radius: var(--border-radius);
     margin-bottom: 0.5rem;
-    color: var(--secondary-accent);
-    border-left: 5px solid var(--primary-accent);
+    color: var(--text-color);
+    border-left: 5px solid var(--primary-accent-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -257,7 +259,7 @@ button:hover {
 
 #pinned-tasks-container h2 {
     font-size: 1.5rem;
-    color: var(--primary-accent);
+    color: var(--primary-accent-color);
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -270,12 +272,12 @@ button:hover {
 }
 
 #pinned-tasks-list li {
-    background-color: var(--primary-bg);
+    background-color: var(--background-color);
     padding: 1rem;
     border-radius: var(--border-radius);
     margin-bottom: 0.5rem;
-    color: var(--secondary-accent);
-    border-left: 5px solid #00bcd4; /* A different color for pinned tasks */
+    color: var(--text-color);
+    border-left: 5px solid var(--secondary-accent-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -307,7 +309,7 @@ button:hover {
 }
 
 .toggle-container span {
-    color: var(--secondary-accent);
+    color: var(--text-color);
     font-size: 0.9rem;
 }
 
@@ -349,11 +351,11 @@ button:hover {
 }
 
 input:checked + .slider {
-    background-color: var(--primary-accent);
+    background-color: var(--primary-accent-color);
 }
 
 input:focus + .slider {
-    box-shadow: 0 0 1px var(--primary-accent);
+    box-shadow: 0 0 1px var(--primary-accent-color);
 }
 
 input:checked + .slider:before {
@@ -380,7 +382,7 @@ input:checked + .slider:before {
 
 #stats-panel h2 {
     text-align: center;
-    color: var(--primary-accent);
+    color: var(--primary-accent-color);
 }
 
 #stats-content {
@@ -394,27 +396,27 @@ input:checked + .slider:before {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 0;
-    border-bottom: 1px solid var(--card-bg);
+    border-bottom: 1px solid var(--border-color);
     font-size: 1rem; /* Uniform font size */
 }
 
 .stat-item .skill-name {
     font-weight: 600;
-    color: var(--secondary-accent);
+    color: var(--text-color);
 }
 
 .stat-item .level {
     font-weight: 600;
     font-size: 1rem; /* Matching font size */
-    color: var(--primary-accent);
+    color: var(--secondary-accent-color);
 }
 
 #total-level {
     font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
-    color: var(--secondary-accent);
-    background-color: var(--card-bg);
+    color: var(--text-color);
+    background-color: var(--primary-accent-color);
     padding: 1rem;
     border-radius: var(--border-radius);
     margin-top: 1rem;
@@ -451,12 +453,12 @@ input:checked + .slider:before {
 #task-browser-table th, #task-browser-table td {
     padding: 0.75rem;
     text-align: left;
-    border-bottom: 1px solid var(--card-bg);
+    border-bottom: 1px solid var(--border-color);
 }
 
 #task-browser-table th {
-    background-color: var(--card-bg);
-    color: var(--primary-accent);
+    background-color: var(--panel-bg-color);
+    color: var(--primary-accent-color);
     font-weight: 600;
     cursor: pointer;
     position: relative;
@@ -473,18 +475,18 @@ input:checked + .slider:before {
 }
 
 #task-browser-table th.th-sort-asc::after {
-    border-bottom-color: var(--secondary-accent);
+    border-bottom-color: var(--secondary-accent-color);
     opacity: 1;
 }
 
 #task-browser-table th.th-sort-desc::after {
-    border-top-color: var(--secondary-accent);
+    border-top-color: var(--secondary-accent-color);
     opacity: 1;
 }
 
 
 #task-browser-table tbody tr:hover {
-    background-color: var(--card-bg);
+    background-color: var(--panel-bg-color);
 }
 
 .req-unmet {
