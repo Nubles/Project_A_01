@@ -204,7 +204,7 @@ function formatRequirements(requirements) {
     let skillMatches = [];
     let otherReqs = requirements;
 
-    const questRegex = /quest:\s*([^,]+)/gi;
+    const questRegex = /(?:completion of|quest:)\s*([^,]+)/gi;
     let match;
     while ((match = questRegex.exec(otherReqs)) !== null) {
         questMatches.push(match[1].trim());
