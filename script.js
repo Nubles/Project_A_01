@@ -16,6 +16,9 @@ const keywordFilter = document.getElementById('keyword-filter');
 const completedTasksListEl = document.getElementById('completed-tasks-list');
 const pinnedTasksListEl = document.getElementById('pinned-tasks-list');
 const pinBtn = document.getElementById('pin-btn');
+const undockBtn = document.getElementById('undock-btn');
+const dockBtn = document.getElementById('dock-btn');
+const pinnedTasksContainer = document.getElementById('pinned-tasks-container');
 
 const showRandomizerBtn = document.getElementById('show-randomizer-btn');
 const showBrowserBtn = document.getElementById('show-browser-btn');
@@ -364,6 +367,45 @@ document.addEventListener('DOMContentLoaded', () => {
     completeBtn.addEventListener('click', completeCurrentTask);
     resetBtn.addEventListener('click', resetTasks);
     pinBtn.addEventListener('click', togglePin);
+
+    undockBtn.addEventListener('click', () => {
+        pinnedTasksContainer.classList.add('movable');
+        undockBtn.style.display = 'none';
+        dockBtn.style.display = 'inline-block';
+    });
+
+    dockBtn.addEventListener('click', () => {
+        pinnedTasksContainer.classList.remove('movable');
+        pinnedTasksContainer.style.top = '';
+        pinnedTasksContainer.style.left = '';
+        undockBtn.style.display = 'inline-block';
+        dockBtn.style.display = 'none';
+    });
+
+    let isDragging = false;
+    let offsetX, offsetY;
+
+    const header = pinnedTasksContainer.querySelector('.panel-header');
+
+    header.addEventListener('mousedown', (e) => {
+        if (pinnedTasksContainer.classList.contains('movable')) {
+            isDragging = true;
+            // Calculate offset from the top-left of the element, not the page
+            offsetX = e.offsetX;
+            offsetY = e.offsetY;
+        }
+    });
+
+    document.addEventListener('mousemove', (e) => {
+        if (isDragging) {
+            pinnedTasksContainer.style.left = `${e.clientX - offsetX}px`;
+            pinnedTasksContainer.style.top = `${e.clientY - offsetY}px`;
+        }
+    });
+
+    document.addEventListener('mouseup', () => {
+        isDragging = false;
+    });
 
     showRandomizerBtn.addEventListener('click', () => {
         randomizerView.style.display = 'block';
