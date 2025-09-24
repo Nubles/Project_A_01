@@ -398,13 +398,14 @@ document.addEventListener('DOMContentLoaded', () => {
         renderTaskBrowser();
     });
 
-    const filterElements = [locationFilter, pointsFilter, skillFilter, keywordFilter, completableToggle];
-    filterElements.forEach(el => {
+    const changeFilterElements = [locationFilter, pointsFilter, skillFilter, completableToggle];
+    changeFilterElements.forEach(el => {
         el.addEventListener('change', () => {
             updateAvailableTasks();
             renderTaskBrowser();
         });
     });
+
     keywordFilter.addEventListener('input', () => {
         updateAvailableTasks();
         renderTaskBrowser();
