@@ -162,18 +162,31 @@ function populateFilters() {
         locationFilter.appendChild(option);
     });
 
-    const points = [...new Set(allTasks.map(task => task.points))];
+    // Use a hardcoded map for points to ensure correct tiers and labels
+    const pointsTiers = {
+        10: 'Easy',
+        30: 'Medium',
+        80: 'Hard',
+        150: 'Elite',
+        400: 'Master'
+    };
     pointsFilter.innerHTML = '<option value="all">All Points</option>';
-    points.sort((a, b) => a - b).forEach(point => {
+    for (const [value, label] of Object.entries(pointsTiers)) {
         const option = document.createElement('option');
-        option.value = point;
-        option.textContent = `${point} pts`;
+        option.value = value;
+        option.textContent = `${label} (${value} pts)`;
         pointsFilter.appendChild(option);
-    });
+    }
 
-    const skills = [...new Set(allTasks.flatMap(task => task.skills || []))];
+    // Use a hardcoded list of official skills to prevent incorrect entries
+    const officialSkills = [
+        "Attack", "Strength", "Defence", "Ranged", "Prayer", "Magic", "Runecrafting", "Construction", "Constitution",
+        "Agility", "Herblore", "Thieving", "Crafting", "Fletching", "Slayer", "Hunter", "Mining", "Smithing",
+        "Fishing", "Cooking", "Firemaking", "Woodcutting", "Farming", "Divination", "Summoning",
+        "Dungeoneering", "Invention", "Archaeology", "Necromancy"
+    ];
     skillFilter.innerHTML = '<option value="all">All Skills</option>';
-    skills.sort().forEach(skill => {
+    officialSkills.sort().forEach(skill => {
         const option = document.createElement('option');
         option.value = skill;
         option.textContent = skill;
