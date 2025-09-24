@@ -202,6 +202,7 @@ function formatRequirements(requirements) {
     let html = '';
     let questMatches = [];
     let skillMatches = [];
+    let achievementMatches = [];
     let otherReqs = requirements;
 
     const questRegex = /(?:completion of|quest:)\s*([^,]+)/gi;
@@ -210,6 +211,12 @@ function formatRequirements(requirements) {
         questMatches.push(match[1].trim());
     }
     otherReqs = otherReqs.replace(questRegex, '');
+
+    const achievementRegex = /Achievement:\s*([^,]+)/gi;
+    while ((match = achievementRegex.exec(otherReqs)) !== null) {
+        achievementMatches.push(match[1].trim());
+    }
+    otherReqs = otherReqs.replace(achievementRegex, '');
 
     const skillRegex = /(\d[\d,]*)\s+([a-zA-Z]+(?:\s+[a-zA-Z]+)*)/g;
     while ((match = skillRegex.exec(otherReqs)) !== null) {
@@ -227,6 +234,22 @@ function formatRequirements(requirements) {
         });
         html += '</ul></div>';
     }
+
+    if (achievementMatches.length > 0) {
+        html += '<div class="req-section"><strong>Achievements:</strong><ul>';
+        achievementMatches.forEach(ach => {
+            let achLink;
+            const specialCases = ["TzTok-Jad", "Har-Aken", "Sanctum of Rebirth", "Rasial, the First Necromancer", "Araxxor"];
+            if (specialCases.includes(ach)) {
+                 achLink = `https://runescape.wiki/w/Combat_Achievements#${ach.replace(/ /g, '_')}`;
+            } else {
+                 achLink = `https://runescape.wiki/w/${ach.replace(/ /g, '_')}_achievements`;
+            }
+            html += `<li><a href="${achLink}" target="_blank">${ach}</a></li>`;
+        });
+        html += '</ul></div>';
+    }
+
 
     if (skillMatches.length > 0) {
         html += '<div class="req-section"><strong>Skills & Items:</strong><ul>';

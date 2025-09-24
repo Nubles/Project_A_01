@@ -64,8 +64,8 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 219	Asgarnia: Burthorpe	Equip a defender.	Equip a defender.	Combined Attack and Strength level of 130	30	7.9%
 220	Asgarnia: Burthorpe	Charge an Amulet of Glory in the Heroes' Guild.	Charge an amulet of glory in the Heroes' Guild.	80 Crafting, 68 Magic	30	0.3%
 226	Asgarnia: Falador	Enter the Crafting Guild.	Enter the Crafting Guild.	40 Crafting	30	40.9%
-227	Asgarnia: Falador	Complete the task set: Easy Falador.	See Easy Falador achievements page	See Easy Falador achievements page	30	2.8%
-228	Asgarnia: Falador	Complete the task set: Medium Falador.	See Medium Falador achievements page	See Medium Falador achievements page	30	<0.1%
+227	Asgarnia: Falador	Complete the task set: Easy Falador.	Achievement: Easy Falador	Achievement: Easy Falador	30	2.8%
+228	Asgarnia: Falador	Complete the task set: Medium Falador.	Achievement: Medium Falador	Achievement: Medium Falador	30	<0.1%
 229	Asgarnia: Falador	Defeat the Giant Mole.	Kill the giant mole.	N/A	30	31.1%
 230	Asgarnia: Falador	Defeat the Giant Mole. (50 times)	Kill the giant mole 50 times.	N/A	30	0.2%
 231	Asgarnia: Falador	Steal some Wine of Zamorak from the Captured Temple, south of Goblin Village.	Steal some wine of Zamorak from the Captured Temple, south of Goblin Village.	33 Magic	30	18.4%
@@ -76,7 +76,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 269	Asgarnia: Taverley	Kill a blue dragon in Taverley dungeon.	Kill a blue dragon in Taverley dungeon.	70 Agility	30	19.5%
 270	Asgarnia: Taverley	Open the crystal chest in Taverley.	Open the crystal chest in Taverley.	A crystal key	30	14.9%
 236	Asgarnia: Falador	Reach 100% respect at the Artisans' Workshop.	Reach 100% respect at the Artisans' Workshop.	1 Smithing	80	22.3%
-237	Asgarnia: Falador	Complete the task set: Hard Falador.	Complete the Hard Falador achievements.	See Hard Falador achievements page	80	<0.1%
+237	Asgarnia: Falador	Complete the task set: Hard Falador.	Complete the Hard Falador achievements.	Achievement: Hard Falador	80	<0.1%
 246	Asgarnia: Burthorpe	Defeat any God Wars Dungeon boss 100 times.	Defeat any God Wars Dungeon boss 100 times.	Partial completion of Troll Stronghold	80	12.4%
 247	Asgarnia: Burthorpe	Defeat any God Wars Dungeon boss 250 times.	Defeat any God Wars Dungeon boss 250 times.	Partial completion of Troll Stronghold	80	4.3%
 248	Asgarnia: Burthorpe	Defeat Commander Zilyana.	Defeat Commander Zilyana	70 Agility	80	3%
@@ -89,7 +89,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 264	Asgarnia: Port Sarim	Defeat the Queen Black Dragon.	Defeat the Queen Black Dragon.	60 Summoning	80	2.7%
 265	Asgarnia: Port Sarim	Defeat the Queen Black Dragon. (100 times)	Defeat the Queen Black Dragon 100 times.	60 Summoning	80	<0.1%
 266	Asgarnia: Port Sarim	Bury some frost dragon bones.	Bury some frost dragon bones.	85 Dungeoneering	80	0.6%
-238	Asgarnia: Falador	Complete the task set: Elite Falador.	Complete the Elite Falador achievements.	See Elite Falador achievements page	150	<0.1%
+238	Asgarnia: Falador	Complete the task set: Elite Falador.	Complete the Elite Falador achievements.	Achievement: Elite Falador	150	<0.1%
 239	Asgarnia: Falador	Complete the Invention tutorial.	Complete the Invention tutorial.	80 Divination, 80 Smithing, 80 Crafting	150	1.7%
 240	Asgarnia: Falador	Defeat Vorago, if you think you're hard enough.	Defeat Vorago.	N/A	150	<0.1%
 241	Asgarnia: Falador	Defeat Vorago, if you think you're hard enough. (50 times)	Defeat Vorago 50 times.	N/A	150	<0.1%
@@ -124,8 +124,8 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 286	Desert: General	Defeat the Kalphite Queen.	Defeat the Kalphite Queen.	N/A	30	7.2%
 287	Desert: General	Defeat the Kalphite Queen. (100 times)	Defeat the Kalphite Queen 100 times.	N/A	30	<0.1%
 288	Desert: General	Defeat 100 bosses in the Dominion Tower.	Defeat 100 bosses in the Dominion Tower.	Completion of at least 20 various quests	30	<0.1%
-289	Desert: General	Complete the task set: Easy Desert.	Easy desert tasks.	See Easy Desert achievements page	30	0.3%
-290	Desert: General	Complete the task set: Medium Desert.	Medium desert tasks.	See Medium Desert achievements page	30	<0.1%
+289	Desert: General	Complete the task set: Easy Desert.	Easy desert tasks.	Achievement: Easy Desert	30	0.3%
+290	Desert: General	Complete the task set: Medium Desert.	Medium desert tasks.	Achievement: Medium Desert	30	<0.1%
 291	Desert: Menaphos	Steal from the lamp stall in Menaphos.	Steal from the lamp stall in Menaphos.	46 Thieving	30	9.3%
 292	Desert: General	Buy some runes from Ali Morrisane.	Buy some runes from Ali Morrisane.	Completion of the runes portion of Ali the Trader	30	0.5%
 293	Desert: Menaphos	Catch a catfish.	Catch a raw catfish.	60 Fishing	30	12.1%
@@ -141,7 +141,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 303	Desert: General	Equip a drygore weapon.	Equip a drygore weapon.	90 Attack	80	1.4%
 304	Desert: General	Become an honorary druid at the Garden of Kharid.	Purchase the Druid/Druidess title for 50,000 Crux Eqal favour	50 Farming	80	0.7%
 305	Desert: General	Deploy a dreadnip.	Deploy a dreadnip.	450 Dominion Tower kills	80	<0.1%
-306	Desert: General	Complete the task set: Hard Desert.	Complete the Hard Desert achievements.	See Hard Desert achievements page	80	<0.1%
+306	Desert: General	Complete the task set: Hard Desert.	Complete the Hard Desert achievements.	Achievement: Hard Desert	80	<0.1%
 307	Desert: General	Defeat Avaryss and Nymora.	Defeat the Twin Furies.	80 Ranged	80	1%
 308	Desert: General	Defeat Gregorovic.	Defeat Gregorovic.	80 Prayer	80	2.5%
 309	Desert: General	Defeat Vindicta and Gorvek.	Defeat Vindicta.	80 Attack	80	11.2%
@@ -163,7 +163,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 325	Desert: Menaphos	Complete the quest: Beneath Scabaras' Sands.	Complete Beneath Scabaras' Sands.	Quest: Beneath Scabaras' Sands	80	<0.1%
 326	Desert: General	Kill a desert strykewyrm wearing a Full Slayer Helm and wielding an ancient staff.	Kill a desert strykewyrm wearing a full Slayer helm and wielding an ancient staff.	77 Slayer, 50 Magic, 20 Defence, 55 Crafting	80	<0.1%
 328	Desert: General	Defeat Telos, the Warden.	Defeat Telos, the Warden.	80 Attack, 80 Prayer, 80 Magic, 80 Ranged	80	0.6%
-327	Desert: General	Complete the task set: Elite Desert.	Complete the Elite Desert achievements.	See Elite Desert achievements page	150	<0.1%
+327	Desert: General	Complete the task set: Elite Desert.	Complete the Elite Desert achievements.	Achievement: Elite Desert	150	<0.1%
 329	Desert: General	Defeat Telos, the Warden at 100% enrage.	Defeat Telos, the Warden at 100% enrage.	80 Attack, 80 Prayer, 80 Magic, 80 Ranged	150	0.1%
 330	Desert: General	Defeat Telos, the Warden at 500% enrage.	Defeat Telos, the Warden at 500% enrage.	80 Attack, 80 Prayer, 80 Magic, 80 Ranged	150	<0.1%
 331	Desert: Menaphos	Craft some Soul runes.	Craft some soul runes.	90 Runecrafting	150	<0.1%
@@ -198,7 +198,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 359	Fremennik: Mainland	Equip a full set of Graahk, Larupia or Kyatt hunter gear.	Equip a full set of graahk, larupia or kyatt hunter gear.	31 Hunter	30	1.7%
 360	Fremennik: Mainland	Defeat any of the Dagannoth Kings.	Defeat any of the Dagannoth Kings 1 time.	N/A	30	7%
 361	Fremennik: Mainland	Defeat any of the Dagannoth Kings.	Defeat any of the Dagannoth Kings 100 times.	N/A	30	0.4%
-362	Fremennik: Mainland	Complete the task set: Easy Fremennik.	Complete the Easy Fremennik achievements.	See Easy Fremennik achievements page	30	0.9%
+362	Fremennik: Mainland	Complete the task set: Easy Fremennik.	Complete the Easy Fremennik achievements.	Achievement: Easy Fremennik Province	30	0.9%
 363	Fremennik: Mainland	Ride a mine cart into Keldagrim.	Ride a mine cart into Keldagrim.	Completion of The Giant Dwarf	30	2.7%
 364	Fremennik: Mainland	Travel to the Mammoth Iceberg.	Travel to the Mammoth Iceberg.	N/A	30	11.4%
 365	Fremennik: Mainland	Steal from the fish stall in Rellekka.	Steal from the fish stall in Rellekka.	42 Thieving	30	2%
@@ -207,7 +207,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 368	Fremennik: Mainland	Chop 10 Artic[sic] Pine trees.	Chop 10 arctic pine trees.	54 Woodcutting	30	1.4%
 369	Fremennik: Mainland	Kill 25 Yaks.	Kill 25 yaks.	Partial completion of The Fremennik Isles	30	1.1%
 370	Fremennik: Mainland	Interact with a pet rock.	Interact with a pet rock.	Partial completion of The Fremennik Trials	30	2.2%
-383	Fremennik: Mainland	Complete the task set: Medium Fremennik.	Complete the Medium Fremennik achievements.	See Medium Fremennik achievements page	30	<0.1%
+383	Fremennik: Mainland	Complete the task set: Medium Fremennik.	Complete the Medium Fremennik achievements.	Achievement: Medium Fremennik Province	30	<0.1%
 371	Fremennik: Lunar Isles	Cast Fertile Soil.	Cast Fertile Soil.	83 Magic	80	0.1%
 372	Fremennik: Mainland	Build a Gilded Altar.	Build a gilded altar in your player-owned house's chapel.	75 Construction	80	0.2%
 373	Fremennik: Mainland	Trap a Sabre-Toothed Kyatt.	Trap a sabre-toothed kyatt.	55 Hunter	80	1.8%
@@ -225,7 +225,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 386	Fremennik: Mainland	Use a Crystal triskelion key to obtain some treasures.	Use a crystal triskelion to obtain some treasures.	N/A	80	3.4%
 388	Fremennik: Mainland	Create a Catherby Teleport Tablet.	Create a Catherby teleport tablet.	87 Magic, 67 Construction	80	<0.1%
 392	Fremennik: Mainland	Gather a seed from an Aquanite using Seedicide.	Gather a seed from an aquanite using Seedicide.	78 Slayer	80	1%
-393	Fremennik: Mainland	Complete the task set: Hard Fremennik.	Complete the Hard Fremennik achievements.	See Hard Fremennik achievements page	80	<0.1%
+393	Fremennik: Mainland	Complete the task set: Hard Fremennik.	Complete the Hard Fremennik achievements.	Achievement: Hard Fremennik Province	80	<0.1%
 387	Fremennik: Lunar Isles	Cast Spellbook Swap from the Lunar spellbook.	Cast Spellbook Swap from the lunar spellbook.	96 Magic	150	<0.1%
 389	Fremennik: Mainland	Equip Every Dagannoth King Ring.	Equip every Dagannoth King ring.	N/A	150	0.2%
 390	Fremennik: Mainland	Equip a Completed God Book.	Equip a completed god book.	Completion of Horror from the Deep	150	0.1%
@@ -235,7 +235,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 397	Fremennik: Lunar Isles	Perform a Powerful Necroplasm ritual at the Ungael ritual site.	Perform a powerful necroplasm ritual at the Ungael ritual site.	90 Necromancy	150	<0.1%
 398	Fremennik: Mainland	Defeat the Abomination once after Hero's Welcome.	Defeat the Abomination once after Hero's Welcome.	N/A	150	<0.1%
 399	Fremennik: Mainland	Summon a Pack Mammoth.	Summon a pack mammoth.	96 Summoning	150	<0.1%
-400	Fremennik: Mainland	Complete the task set: Elite Fremennik.	Complete the Elite Fremennik achievements.	See Elite Fremennik achievements page	150	<0.1%
+400	Fremennik: Mainland	Complete the task set: Elite Fremennik.	Complete the Elite Fremennik achievements.	Achievement: Elite Fremennik Province	150	<0.1%
 401	Fremennik: Mainland	Complete the Ungael combat activity on hard mode.	Complete the Ungael combat activity on hard mode.	N/A	150	<0.1%
 402	Fremennik: Mainland	Use the Trap Telekinesis spell to catch Azure Skillchompas 25 times.	Use the Trap Telekinesis spell to catch azure skillchompas 25 times.	70 Magic	150	<0.1%
 396	Fremennik: Mainland	Equip every completed God Book.	Equip every completed god book.	Completion of Horror from the Deep	150	<0.1%
@@ -704,10 +704,10 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 426	Kandarin: Yanille	Be on the winning side in a game of Castle Wars.	Win a game of Castle Wars.	N/A	30	0.2%
 427	Kandarin: Seers Village	Complete the quest: Elemental Workshop II.	Complete Elemental Workshop II.	Quest: Elemental Workshop II	30	3.8%
 428	Kandarin: Feldip Hills	Equip an Ogre Forester Hat.	Equip an ogre forester hat.	300 chompy bird kills	30	<0.1%
-429	Kandarin: Ardougne	Complete the task set: Easy Ardougne.	Complete the Easy Ardougne achievements.	See Easy Ardougne achievements page	30	0.7%
+429	Kandarin: Ardougne	Complete the task set: Easy Ardougne.	Complete the Easy Ardougne achievements.	Achievement: Easy Ardougne	30	0.7%
 430	Kandarin: Gnomes	Create the listed gnome cocktails.	Make one of each type of cocktail.	37 Cooking	30	3.4%
 431	Kandarin: Ardougne	Earn a total amount of 10,000 beans.	Earn a total of 10,000 beans from selling animals in player-owned farm.	17 Farming	30	<0.1%
-434	Kandarin: Ardougne	Complete the task set: Medium Ardougne.	Complete the Medium Ardougne achievements.	See Medium Ardougne achievements page	30	<0.1%
+434	Kandarin: Ardougne	Complete the task set: Medium Ardougne.	Complete the Medium Ardougne achievements.	Achievement: Medium Ardougne	30	<0.1%
 435	Kandarin: Ardougne	Throw coins into the deep sea whirlpool.	Throw some gold coins into the whirlpool at the Deep Sea Fishing platform.	68 Fishing	80	0.7%
 436	Kandarin: Ardougne	Solve the Archaeology mystery: Leap of Faith.	Solve the Leap of Faith Archaeology mystery.	70 Archaeology	80	1%
 437	Kandarin: Ardougne	Collect all breeds of chinchompa at the Player Owned Farm.	Breed all types of chinchompas.	54 Farming, 20 Construction	80	<0.1%
@@ -717,13 +717,13 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 441	Kandarin: Ardougne	Catch 50 Red Chinchompas in Kandarin.	Catch 50 carnivorous chinchompas in Kandarin.	63 Hunter	80	0.4%
 442	Kandarin: Feldip Hills	Equip an Ogre Expert hat.	Equip an Ogre Expert hat.	1,000 chompy bird kills	80	<0.1%
 445	Kandarin: Seers Village	Use the Piety Prayer.	Use the Piety Prayer.	70 Prayer, 70 Defence	80	0.5%
-446	Kandarin: Ardougne	Complete the task set: Hard Ardougne.	Complete the Hard Ardougne achievements.	See Hard Ardougne achievements page	80	<0.1%
+446	Kandarin: Ardougne	Complete the task set: Hard Ardougne.	Complete the Hard Ardougne achievements.	Achievement: Hard Ardougne	80	<0.1%
 449	Kandarin: Ardougne	Equip a dragon full helm.	Equip a dragon full helm.	60 Defence	150	<0.1%
 450	Kandarin: Ardougne	Chop an Elder Tree until it no longer has logs remaining.	Chop an elder tree until it no longer has logs remaining.	90 Woodcutting	150	<0.1%
 451	Kandarin: Ardougne	Obtain a Crystal Geode from a Crystal Tree.	Obtain a crystal geode from a crystal tree.	94 Farming	150	<0.1%
 452	Kandarin: Ardougne	Reach Howl's Workshop in the Stormguard Citadel.	Partial completion of the Howl's Floating Workshop mystery.	95 Archaeology	150	<0.1%
 453	Kandarin: Feldip Hills	Equip a Dragon Archer hat.	Equip a Dragon Archer hat.	2,000 chompy bird kills	150	<0.1%
-454	Kandarin: Ardougne	Complete the task set: Elite Ardougne.	Complete the Elite Ardougne achievements.	See Elite Ardougne achievements page	150	<0.1%
+454	Kandarin: Ardougne	Complete the task set: Elite Ardougne.	Complete the Elite Ardougne achievements.	Achievement: Elite Ardougne	150	<0.1%
 455	Kandarin: Ardougne	Successfully breed a royal dragon.	Breed a royal dragon.	92 Farming	150	<0.1%
 457	Kandarin: Ardougne	Defeat an Automaton after 'The World Wakes'.	Defeat an automaton after The World Wakes.	N/A	150	<0.1%
 456	Kandarin: Feldip Hills	Equip an Expert Dragon Archer hat.	Equip an Expert Dragon Archer hat.	4,000 chompy bird kills	150	<0.1%
@@ -738,7 +738,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 579	Karamja	Pick a pineapple on Karamja.	Pick a pineapple on Karamja from the pineapple plants near the lodestone.	N/A	10	43.4%
 580	Karamja	Enter the Brimhaven Dungeon.	Enter the Brimhaven Dungeon.	875 coins	10	48.1%
 581	Karamja	Cross the spiky pit using the stepping stones within Brimhaven Dungeon.	Cross the spiky pit using the stepping stones within Brimhaven Dungeon.	12 Agility	10	37.3%
-582	Karamja	Complete the task set: Easy Karamja.	Complete the Easy Karamja achievements.	See Easy Karamja achievements page	30	9.2%
+582	Karamja	Complete the task set: Easy Karamja.	Complete the Easy Karamja achievements.	Achievement: Easy Karamja	30	9.2%
 583	Karamja	Craft 50 Nature runes.	Craft 50 nature runes.	44 Runecrafting	30	9.9%
 584	Karamja	Catch a salmon on Karamja.	Catch a salmon on Karamja.	30 Fishing	30	4.5%
 585	Karamja	Get Stiles to exchange some of your fish for bank notes.	Get Stiles to exchange some of your fish for bank notes.	N/A	30	23.8%
@@ -756,7 +756,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 597	Karamja	Equip a Tzhaar-Ket-Om.	Equip a Tzhaar-Ket-Om.	60 Strength	30	0.7%
 598	Karamja	Equip a Toktz-Xil-Ak.	Equip a Toktz-Xil-Ak.	60 Attack	30	0.4%
 599	Karamja	Equip a Toktz-Xil-Ek.	Equip a Toktz-Xil-Ek.	60 Attack	30	0.4%
-600	Karamja	Complete the task set: Medium Karamja.	Complete the Medium Karamja achievements.	See Medium Karamja achievements page	30	<0.1%
+600	Karamja	Complete the task set: Medium Karamja.	Complete the Medium Karamja achievements.	Achievement: Medium Karamja	30	<0.1%
 601	Karamja	Use the stepping stone across the river in Shilo village.	Use the stepping stones Agility Shortcut in Shilo Village.	74 Agility	80	0.4%
 602	Karamja	Equip a full set of Obsidian armour.	Equip a full set of obsidian armour.	60 Defence, 80 Smithing	80	0.1%
 603	Karamja	Equip a Red Topaz Machete.	Equip a red topaz machete.	N/A	80	0.4%
@@ -770,7 +770,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 611	Karamja	Access the Gemstone cavern.	Access the gemstone cavern.	Hard Karamja achievements	80	0.1%
 612	Karamja	Catch a Draconic jadinko at Herblore Habitat.	Catch a draconic jadinko at Herblore Habitat.	80 Hunter	80	<0.1%
 613	Karamja	Craft a Bolas.	Craft a bolas.	87 Fletching, 80 Slayer	80	0.1%
-614	Karamja	Complete the task set: Hard Karamja.	Complete the Hard Karamja achievements.	See Hard Karamja achievements page	80	<0.1%
+614	Karamja	Complete the task set: Hard Karamja.	Complete the Hard Karamja achievements.	Achievement: Hard Karamja	80	<0.1%
 615	Karamja	Collect 60 Agility Arena tickets from the Brimhaven Agility Arena.	Receive 60 Agility Arena tickets	N/A	80	0.7%
 617	Karamja	Defeat TzTok-Jad in less than 45:00.	Defeat TzTok-Jad in less than 45:00.	N/A	80	6.9%
 618	Karamja	Complete the Fight Kiln.	Complete the Fight Kiln.	Completion of The Elder Kiln	80	0.9%
@@ -779,13 +779,13 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 622	Karamja	Equip a TokHaar-Kal-Mej.	Equip a TokHaar-Kal-Mej.	Completion of The Elder Kiln	80	<0.1%
 623	Karamja	Equip a TokHaar-Kal-Mor.	Equip a TokHaar-Kal-Mor.	Completion of The Elder Kiln	80	0.1%
 624	Karamja	Complete the Fight Kiln and collect an uncut onyx.	Complete the Fight Kiln and collect an uncut onyx.	Completion of The Elder Kiln	80	0.1%
-629	Karamja	Complete all TzTok-Jad combat achievements.	Complete all TzTok-Jad combat achievements.	See TzTok-Jad achievements page	80	<0.1%
+629	Karamja	Complete all TzTok-Jad combat achievements.	Complete all TzTok-Jad combat achievements.	Achievement: TzTok-Jad	80	<0.1%
 616	Karamja	Purchase an uncut onyx from Tzhaar-Hur-Lek's ore and gem store.	Purchase an uncut onyx from TzHaar-Hur-Lek's Ore and Gem Store.	N/A	150	<0.1%
 619	Karamja	Defeat the Har-Aken. (10 times)	Defeat Har-Aken 10 times.	Completion of The Elder Kiln	150	<0.1%
 625	Karamja	Defeat 10 gemstone dragons inside the Gemstone cavern.	Defeat 10 gemstone dragons inside the Gemstone cavern.	95 Slayer	150	<0.1%
 626	Karamja	Equip a piece of Gemstone armour.	Equip a piece of gemstone armour.	95 Slayer, 80 Defence, 80 Smithing	150	<0.1%
-627	Karamja	Complete the task set: Elite Karamja.	Complete the Elite Karamja achievements.	See Elite Karamja achievements page	150	<0.1%
-628	Karamja	Complete all Har-Aken combat achievements.	Complete all Har-Aken combat achievements.	See Har-Aken achievements page	150	<0.1%
+627	Karamja	Complete the task set: Elite Karamja.	Complete the Elite Karamja achievements.	Achievement: Elite Karamja	150	<0.1%
+628	Karamja	Complete all Har-Aken combat achievements.	Complete all Har-Aken combat achievements.	Achievement: Har-Aken	150	<0.1%
 0	Misthalin: Lumbridge	Progress through the Leagues tutorial to unlock your first relic.	Progress through the Leagues tutorial to unlock your first relic.	N/A	10	100%
 2	Misthalin: Draynor Village	Climb to the top of the Wizards' Tower.	Climb to the top of the Wizards' Tower.	N/A	10	78.8%
 3	Misthalin: Draynor Village	Have Ned make you some rope from balls of wool.	Have Ned make you some rope from 4 balls of wool.	N/A	10	53%
@@ -834,10 +834,10 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 9	Misthalin: Draynor Village	Siphon Rune dust from a RuneSphere in the RuneSpan.	Siphon rune dust from a Runesphere in the RuneSpan.	1 Runecrafting	30	11.2%
 17	Misthalin: Edgeville	Fully complete the Stronghold of Player Safety.	Fully complete the Stronghold of Player Safety by pulling an old lever on the upper floor and then opening the treasure chest in the secure sector.	N/A	30	38.1%
 23	Misthalin: Fort Forinthry	Complete the quest: New Foundations.	Complete New Foundations.	Quest: New Foundations	30	35.7%
-26	Misthalin: Lumbridge	Complete the task set: Beginner Lumbridge.	Given by Explorer Jack in Lumbridge for completing all Beginner Tasks in Lumbridge.	See Beginner Lumbridge achievements page	30	46.6%
+26	Misthalin: Lumbridge	Complete the task set: Beginner Lumbridge.	Given by Explorer Jack in Lumbridge for completing all Beginner Tasks in Lumbridge.	Achievement: Beginner Lumbridge & Draynor	30	46.6%
 34	Misthalin: Draynor Village	Complete the quest: Duck Quest.	Complete Duck Quest.	Quest: Duck Quest	30	26.3%
-42	Misthalin: Lumbridge	Complete the task set: Easy Lumbridge.	Given by Bob, the axe seller in Lumbridge, for completing all Easy Tasks in Lumbridge.	See Easy Lumbridge achievements page	30	20.1%
-43	Misthalin: Lumbridge	Complete the task set: Medium Lumbridge.	Given by Ned in Draynor Village for completing all Medium Tasks in Lumbridge.	See Medium Lumbridge achievements page	30	6%
+42	Misthalin: Lumbridge	Complete the task set: Easy Lumbridge.	Given by Bob, the axe seller in Lumbridge, for completing all Easy Tasks in Lumbridge.	Achievement: Easy Lumbridge & Draynor	30	20.1%
+43	Misthalin: Lumbridge	Complete the task set: Medium Lumbridge.	Given by Ned in Draynor Village for completing all Medium Tasks in Lumbridge.	Achievement: Medium Lumbridge & Draynor	30	6%
 44	Misthalin: Lumbridge	Drink from the Tears of Guthix.	Drink from the Tears of Guthix.	Completion of Tears of Guthix quest	30	3.9%
 45	Misthalin: Lumbridge	Complete world 25 in Shattered Worlds.	Reach world 25 in Shattered Worlds.	N/A	30	10.5%
 46	Misthalin: Lumbridge	Catch 20 implings in Puro-Puro.	Catch 20 implings in Puro-Puro.	17 Hunter	30	5.8%
@@ -855,10 +855,10 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 71	Misthalin: City of Um	Upgrade a piece of Death Skull or Deathwarden equipment to tier 50.	Upgrade a piece of Death Skull or Deathwarden equipment to tier 50.	20 Necromancy	30	12.8%
 72	Misthalin: City of Um	Complete a communion ritual using a memento.	Complete a communion ritual using a memento.	5 Necromancy	30	28.5%
 73	Misthalin: City of Um	Conjure a Phantom Guardian at the City of Um ritual site.	Conjure a Phantom Guardian at the Um ritual site.	70 Necromancy	30	4.2%
-74	Misthalin: City of Um	Complete the task set: Easy Underworld.	Complete the Easy Underworld achievements.	See Easy Underworld achievements page	30	19.4%
-84	Misthalin: City of Um	Complete the task set: Medium Underworld.	Complete the Medium Underworld achievements.	See Medium Underworld achievements page	30	4.7%
-105	Misthalin: Varrock	Complete the task set: Easy Varrock.	Given by Rat Burgiss south of Varrock for completing all Easy Tasks in Varrock.	See Easy Varrock achievements page	30	3.4%
-106	Misthalin: Varrock	Complete the task set: Medium Varrock.	Given by Reldo in Varrock Palace's library for completing all Medium Tasks in Varrock.	See Medium Varrock achievements page	30	<0.1%
+74	Misthalin: City of Um	Complete the task set: Easy Underworld.	Complete the Easy Underworld achievements.	Achievement: Easy City of Um	30	19.4%
+84	Misthalin: City of Um	Complete the task set: Medium Underworld.	Complete the Medium Underworld achievements.	Achievement: Medium City of Um	30	4.7%
+105	Misthalin: Varrock	Complete the task set: Easy Varrock.	Given by Rat Burgiss south of Varrock for completing all Easy Tasks in Varrock.	Achievement: Easy Varrock	30	3.4%
+106	Misthalin: Varrock	Complete the task set: Medium Varrock.	Given by Reldo in Varrock Palace's library for completing all Medium Tasks in Varrock.	Achievement: Medium Varrock	30	<0.1%
 107	Misthalin: Edgeville	Browse through Oziach's Armour Shop.	Browse through Oziach's Armour Shop.	Completion of Dragon Slayer quest	30	20.4%
 108	Misthalin: Varrock	Enter the Cooks' Guild.	Enter the Cooks' Guild.	32 Cooking	30	37.9%
 109	Misthalin: Varrock	Complete the quest: Demon Slayer.	Complete Demon Slayer.	Quest: Demon Slayer	30	41.2%
@@ -869,12 +869,12 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 10	Misthalin: Draynor Village	Siphon from a death esswraith in the RuneSpan.	Siphon from a death esswraith in the RuneSpan.	66 Runecrafting	80	3.4%
 12	Misthalin: Draynor Village	Obtain the Massive Pouch from the RuneSpan.	Obtain the massive pouch from the RuneSpan.	90 Runecrafting	80	<0.1%
 14	Misthalin: Draynor Village	Equip the full Master Runecrafter skilling outfit.	Equip the full master runecrafter robes set.	50 Runecrafting	80	<0.1%
-18	Misthalin: Edgeville	Complete the task set: Hard Varrock.	Complete all of the Hard Varrock achievements and claim rewards from Vannaka in Edgeville.	See Hard Varrock achievements page	80	<0.1%
+18	Misthalin: Edgeville	Complete the task set: Hard Varrock.	Complete all of the Hard Varrock achievements and claim rewards from Vannaka in Edgeville.	Achievement: Hard Varrock	80	<0.1%
 19	Misthalin: Edgeville	Make a waka canoe near Edgeville.	Make a waka canoe near Edgeville.	57 Woodcutting	80	12.6%
 20	Misthalin: Edgeville	Chop down the Edgeville elder tree.	Chop down the Edgeville elder tree.	90 Woodcutting	80	0.1%
 24	Misthalin: Fort Forinthry	Upgrade the workshop in Fort Forinthry to Tier 3.	Upgrade the workshop in Fort Forinthry to tier 3.	75 Construction	80	0.1%
 31	Misthalin: Lumbridge	Enter Zanaris via Lumbridge Swamp.	Enter Zanaris via Lumbridge Swamp.	Partial completion of Lost City	80	16.8%
-55	Misthalin: Lumbridge	Complete the task set: Hard Lumbridge.	Complete all Hard Tasks in Lumbridge and claim rewards from Ned in Draynor Village.	See Hard Lumbridge achievements page	80	0.6%
+55	Misthalin: Lumbridge	Complete the task set: Hard Lumbridge.	Complete all Hard Tasks in Lumbridge and claim rewards from Ned in Draynor Village.	Achievement: Hard Lumbridge & Draynor	80	0.6%
 56	Misthalin: Lumbridge	Unlock the Bladed Dive ability from Shattered Worlds.	Unlock the Bladed Dive ability from Shattered Worlds.	63,000,000 shattered anima	80	0.1%
 57	Misthalin: Lumbridge	Smith a mithril platebody on the anvil in the jailhouse sewers.	Smith a mithril platebody on the anvil in Draynor Sewers.	30 Smithing	80	37.4%
 58	Misthalin: Lumbridge	Fully grow a magic tree in Lumbridge.	Fully grow a magic tree in Lumbridge.	75 Farming	80	0.6%
@@ -895,10 +895,10 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 120	Misthalin: Varrock	Defeat the Arch-Glacor.	Defeat the Arch-Glacor.	N/A	80	11.7%
 762	Misthalin: City of Um	Defeat Nakatra, Devourer Eternal.	Defeat Nakatra, Devourer Eternal.	Completion of Soul Searching	80	0.1%
 764	Misthalin: City of Um	Cleanse the Gate of Elidinis.	Cleanse the Gate of Elidinis.	Completion of Ode of the Devourer	80	10%
-766	Misthalin: City of Um	Complete the task set: Hard Underworld.	Complete the Hard Underworld achievements.	See Hard Underworld achievements page	80	<0.1%
+766	Misthalin: City of Um	Complete the task set: Hard Underworld.	Complete the Hard Underworld achievements.	Achievement: Hard City of Um	80	<0.1%
 11	Misthalin: Draynor Village	Navigate the RuneSpan using a Greater Conjuration Platorm.	Navigate the RuneSpan using a greater conjuration platform.	81 Runecrafting	150	<0.1%
 13	Misthalin: Draynor Village	Obtain the Greater Runic Staff from the RuneSpan.	Obtain the greater runic staff from the RuneSpan.	75 Runecrafting	150	<0.1%
-21	Misthalin: Edgeville	Complete the task set: Elite Varrock.	Given by Vannaka in Edgeville for completing all of the Elite Varrock achievements.	See Elite Varrock achievements page	150	<0.1%
+21	Misthalin: Edgeville	Complete the task set: Elite Varrock.	Given by Vannaka in Edgeville for completing all of the Elite Varrock achievements.	Achievement: Elite Varrock	150	<0.1%
 25	Misthalin: Fort Forinthry	Upgrade the guardhouse in Fort Forinthry to Tier 3.	Upgrade the guardhouse in Fort Forinthry to tier 3.	77 Construction	150	<0.1%
 59	Misthalin: Lumbridge	Defeat 150 tormented demons.	Defeat 150 tormented demons.	Completion of While Guthix Sleeps	150	<0.1%
 60	Misthalin: Lumbridge	Equip a dragon crossbow.	Equip a dragon crossbow.	64 Ranged	150	<0.1%
@@ -922,13 +922,13 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 761	Misthalin: City of Um	Upgrade a set of Death Skull equipment to tier 90.	Upgrade a set of Death Skull equipment to tier 90.	90 Necromancy	150	<0.1%
 763	Misthalin: City of Um	Defeat Nakatra, Devourer Eternal. (100 times)	Defeat Nakatra, Devourer Eternal 100 times.	Completion of Soul Searching	150	<0.1%
 765	Misthalin: City of Um	Cleanse the Gate of Elidinis. (100 times)	Cleanse The Gate of Elidinis 100 times.	Completion of Ode of the Devourer	150	<0.1%
-769	Misthalin: City of Um	Complete the task set: Elite Underworld.	Complete the Elite Underworld achievements.	See Elite Underworld achievements page	150	<0.1%
+769	Misthalin: City of Um	Complete the task set: Elite Underworld.	Complete the Elite Underworld achievements.	Achievement: Elite City of Um	150	<0.1%
 1114	Misthalin: Fort Forinthry	Defeat Zemouregal & Vorkath.	Defeat Zemouregal & Vorkath.	N/A	150	<0.1%
 1115	Misthalin: Fort Forinthry	Defeat Zemouregal & Vorkath. (100 times)	Defeat Zemouregal & Vorkath 100 times.	N/A	150	<0.1%
 122	Misthalin: Varrock	Equip an Ek-ZekKil.	Equip an Ek-ZekKil.	95 Melee	150	<0.1%
 123	Misthalin: Varrock	Equip a Fractured Staff of Armadyl.	Equip a Fractured Staff of Armadyl.	95 Magic	150	<0.1%
-767	Misthalin: City of Um	Complete all Sanctum of Rebirth combat achievements.	Complete all Sanctum of Rebirth combat achievements.	See Sanctum of Rebirth achievements page	150	<0.1%
-768	Misthalin: City of Um	Complete all of Rasial, the First Necromancer's combat achievements.	Complete all of Rasial, the First Necromancer's combat achievements.	See Rasial, the First Necromancer achievements page	150	<0.1%
+767	Misthalin: City of Um	Complete all Sanctum of Rebirth combat achievements.	Complete all Sanctum of Rebirth combat achievements.	Achievement: Sanctum of Rebirth	150	<0.1%
+768	Misthalin: City of Um	Complete all of Rasial, the First Necromancer's combat achievements.	Complete all of Rasial, the First Necromancer's combat achievements.	Achievement: Rasial, the First Necromancer	150	<0.1%
 1116	Misthalin: Varrock	Equip an igneous Kal-Zuk cape.	Equip an igneous Kal-Zuk cape.	99 Defence	150	<0.1%
 693	Morytania	Take an easy companion through an easy route of Temple Trekking.	Complete an Easy Temple Trek.	Completion of In Aid of the Myreque	10	0.6%
 694	Morytania	Craft your own snelm in Morytania.	Craft a snelm.	15 Crafting	10	25.2%
@@ -941,7 +941,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 701	Morytania	Defeat 5 Feral Vampyres in the Haunted Woods.	Defeat 5 feral vampyres in the Haunted Woods.	Access to Morytania	10	35.2%
 702	Morytania	Use an ectophial to return to Port Phasmatys.	Use an ectophial to return to Port Phasmatys.	Completion of Ghosts Ahoy	10	13.2%
 703	Morytania	Visit Dragontooth Island by boat.	Visit Dragontooth Island by boat.	Ghostspeak amulet	10	16%
-704	Morytania	Complete the task set: Easy Morytania.	Complete the Easy Morytania achievements.	See Easy Morytania achievements page	30	0.1%
+704	Morytania	Complete the task set: Easy Morytania.	Complete the Easy Morytania achievements.	Achievement: Easy Morytania	30	0.1%
 705	Morytania	Take a medium companion through a medium route of Temple Trekking.	Take a medium companion through a medium route of Temple Trekking.	Completion of In Aid of the Myreque	30	0.3%
 706	Morytania	Visit Mos Le'Harmless.	Visit Mos Le'Harmless.	Partial completion of Cabin Fever	30	1.6%
 707	Morytania	Visit Harmony Island.	Visit Harmony Island.	Partial completion of The Great Brain Robbery	30	<0.1%
@@ -956,7 +956,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 716	Morytania	Catch 10 Green salamanders.	Catch 10 Green salamanders.	29 Hunter	30	8.8%
 717	Morytania	Complete the quest: Haunted Mine.	Complete Haunted Mine.	Quest: Haunted Mine	30	14%
 718	Morytania	Harvest bittercap mushrooms in the farming patch near Canifis.	Harvest bittercap mushrooms in the farming patch near Canifis.	53 Farming	30	5.7%
-719	Morytania	Complete the task set: Medium Morytania.	Complete the Medium Morytania achievements.	See Medium Morytania achievements page	30	<0.1%
+719	Morytania	Complete the task set: Medium Morytania.	Complete the Medium Morytania achievements.	Achievement: Medium Morytania	30	<0.1%
 720	Morytania	Take a hard companion through a hard route of Temple Trekking.	Take a hard companion through a hard route of Temple Trekking.	Completion of In Aid of the Myreque	80	0.1%
 721	Morytania	Mine 30 Phasmatite.	Mine 30 phasmatite at Port Phasmatys south mine.	70 Mining	80	29.7%
 722	Morytania	Defeat 25 Gargoyles.	Defeat 25 gargoyles.	75 Slayer	80	2.4%
@@ -971,7 +971,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 731	Morytania	Burn 20 Blisterwood logs.	Burn 20 blisterwood logs.	76 Woodcutting, 76 Firemaking	80	<0.1%
 732	Morytania	Fully level up all Temple Trekking companions.	Fully level up all Temple Trekking companions.	Completion of In Aid of the Myreque	80	<0.1%
 733	Morytania	Catch 5 sharks in Burgh de Rott.	Catch 5 sharks in Burgh de Rott.	76 Fishing	80	<0.1%
-734	Morytania	Complete the task set: Hard Morytania.	Complete the Hard Morytania achievements.	See Hard Morytania achievements page	80	<0.1%
+734	Morytania	Complete the task set: Hard Morytania.	Complete the Hard Morytania achievements.	Achievement: Hard Morytania	80	<0.1%
 735	Morytania	Defeat 30 Abyssal Demons.	Defeat 30 abyssal demons.	85 Slayer	150	0.2%
 736	Morytania	Harvest 200 radiant energy from Radiant Wisps.	Harvest 200 radiant energy from radiant wisps.	85 Divination	150	0.1%
 737	Morytania	Defeat 20 Celestial Dragons.	Defeat 20 celestial dragons.	Completion of One of a Kind	150	<0.1%
@@ -989,11 +989,11 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 749	Morytania	Equip a Vengeful Kiteshield.	Equip a vengeful kiteshield.	90 Defence	150	<0.1%
 750	Morytania	Complete all the Everlight mysteries.	Complete all of the Everlight Dig Site mysteries.	98 Archaeology	150	<0.1%
 751	Morytania	Obtain an Araxyte Pheremone drop.	Obtain an araxyte pheremone drop.	N/A	150	<0.1%
-752	Morytania	Complete the task set: Elite Morytania.	Complete the Elite Morytania achievements.	See Elite Morytania achievements page	150	<0.1%
+752	Morytania	Complete the task set: Elite Morytania.	Complete the Elite Morytania achievements.	Achievement: Elite Morytania	150	<0.1%
 753	Morytania	Enter the Morytania Slayer Tower resource dungeon.	Enter the Morytania Slayer Tower resource dungeon.	95 Dungeoneering	150	<0.1%
 757	Morytania	Read the book acquired from Roberta outside the Everlight porcelain clay mine.	Read On the Origin of Centaurs.	42 Archaeology	150	<0.1%
 754	Morytania	Fully explore the history of the Everlight Dig Site.	Complete the Mastery - Everlight achievements.	98 Archaeology	150	<0.1%
-755	Morytania	Complete all Araxxor and Araxxi combat achievements.	Complete all Araxxor and Araxxi combat achievements.	See Araxxor achievements page	150	<0.1%
+755	Morytania	Complete all Araxxor and Araxxi combat achievements.	Complete all Araxxor and Araxxi combat achievements.	Achievement: Araxxor	150	<0.1%
 756	Morytania	Complete the quest: River of Blood.	Complete River of Blood.	Quest: River of Blood	150	<0.1%
 514	Elven Lands: Tirranwn	Cook a Rabbit in Tirannwn.	Cook a raw rabbit in Tirannwn.	1 Cooking	10	27.4%
 515	Elven Lands: Tirranwn	Attempt to pass a leaf trap.	Attempt to pass a leaf trap.	N/A	10	36.2%
@@ -1004,7 +1004,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 520	Elven Lands: Tirranwn	Activate the lodestone in Prifddinas.	Activate the Prifddinas lodestone.	N/A	10	60.5%
 521	Elven Lands: Tirranwn	Activate the lodestone in Tirannwn.	Activate the Tirannwn lodestone.	N/A	10	37.1%
 522	Elven Lands: Tirranwn	Restore your prayer using the altar in Lletya.	Restore your prayer using the altar in Lletya.	1 Prayer	10	28.5%
-523	Elven Lands: Tirranwn	Complete the task set: Easy Tirannwn.	Complete the Easy Tirannwn achievements.	See Easy Tirannwn achievements page	30	<0.1%
+523	Elven Lands: Tirranwn	Complete the task set: Easy Tirannwn.	Complete the Easy Tirannwn achievements.	Achievement: Easy Tirannwn	30	<0.1%
 524	Elven Lands: Tirranwn	Check a grown Papaya Tree in Lletya.	Check a grown papaya tree in Lletya.	57 Farming	30	3.8%
 525	Elven Lands: Tirranwn	Craft 50 Death Runes.	Craft 50 death runes.	65 Runecrafting	30	1.4%
 526	Elven Lands: Tirranwn	Move your house to Prifddinas.	Move your player-owned house's location to Prifddinas by speaking to an estate agent.	75 Construction	30	1.2%
@@ -1013,7 +1013,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 529	Elven Lands: Tirranwn	Catch 10 Pawyas in Isafdar.	Catch 10 pawyas in Isafdar.	66 Hunter	30	0.2%
 530	Elven Lands: Tirranwn	Mine 200 soft clay in Prifddinas.	Mine 200 soft clay in Prifddinas.	75 Mining	30	23.2%
 531	Elven Lands: Tirranwn	Use the fairy ring in the Amlodd district.	Use the fairy ring in the Amlodd district.	Partial completion of A Fairy Tale II - Cure a Queen	30	3.7%
-532	Elven Lands: Tirranwn	Complete the task set: Medium Tirannwn.	Complete the Medium Tirannwn achievements.	See Medium Tirannwn achievements page	30	<0.1%
+532	Elven Lands: Tirranwn	Complete the task set: Medium Tirannwn.	Complete the Medium Tirannwn achievements.	Achievement: Medium Tirannwn	30	<0.1%
 533	Elven Lands: Tirranwn	Plant a mushroom seed in the mushroom patch in Isafdar.	Plant a mushroom seed in the mushroom patch in Isafdar.	53 Farming	80	<0.1%
 534	Elven Lands: Tirranwn	Defeat 30 Cadarn warriors in Prifddinas.	Defeat 30 Cadarn warriors in Prifddinas.	N/A	80	4.4%
 535	Elven Lands: Tirranwn	Harvest some harmony moss from a harmony pillar.	Harvest some harmony moss from a harmony pillar.	75 Farming	80	1%
@@ -1031,7 +1031,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 547	Elven Lands: Tirranwn	Chop 50 Magic logs in Tirannwn.	Chop 50 magic logs in Tirannwn.	80 Woodcutting	80	0.6%
 548	Elven Lands: Tirranwn	Open the crystal chest in Prifddinas 10 times.	Open the crystal chest in Prifddinas 10 times.	N/A	80	4.1%
 549	Elven Lands: Tirranwn	Charge a piece of Dragonstone jewellery using the Tears of Seren.	Charge a piece of dragonstone jewellery using the Tears of Seren.	Completion of Legends' Quest	80	<0.1%
-550	Elven Lands: Tirranwn	Complete the task set: Hard Tirannwn.	Complete the Hard Tirannwn achievements.	See Hard Tirannwn achievements page	80	<0.1%
+550	Elven Lands: Tirranwn	Complete the task set: Hard Tirannwn.	Complete the Hard Tirannwn achievements.	Achievement: Hard Tirannwn	80	<0.1%
 551	Elven Lands: Tirranwn	Enter the Gorajo Hoardstalker resource dungeon.	Enter the Gorajo Hoardstalker resource dungeon.	95 Dungeoneering	150	<0.1%
 552	Elven Lands: Tirranwn	Have Lady Ithell create a crystal pickaxe, hatchet, or mattock.	Have Lady Ithell create a crystal pickaxe, hatchet, or mattock.	70 Smithing, 70 Invention	150	<0.1%
 553	Elven Lands: Tirranwn	Find all of the memoriam crystals in Prifddinas.	Find all of the memoriam crystals in Prifddinas.	N/A	150	<0.1%
@@ -1046,7 +1046,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 562	Elven Lands: Tirranwn	Mine 50 Light animica in Isafdar.	Mine 50 light animica in Isafdar.	90 Mining	150	<0.1%
 563	Elven Lands: Tirranwn	Chop 25 Elder logs in Tirannwn.	Chop 25 elder logs in Tirannwn.	90 Woodcutting	150	<0.1%
 564	Elven Lands: Tirranwn	Catch 75 Crystal skillchompas in Isafdar.	Catch 75 crystal skillchompas in Isafdar.	97 Hunter	150	<0.1%
-565	Elven Lands: Tirranwn	Complete the task set: Elite Tirannwn.	Complete the Elite Tirannwn achievements.	See Elite Tirannwn achievements page	150	<0.1%
+565	Elven Lands: Tirranwn	Complete the task set: Elite Tirannwn.	Complete the Elite Tirannwn achievements.	Achievement: Elite Tirannwn	150	<0.1%
 566	Elven Lands: Tirranwn	Complete a Seren symbol.	Create a Seren's symbol.	75 Farming, 75 Prayer	150	<0.1%
 567	Elven Lands: Tirranwn	Obtain the titles of the elven clans.	Obtain the titles of the elven clans.	Various	150	<0.1%
 568	Elven Lands: Tirranwn	Perform well enough in Rush of Blood to impress Morvran.	Complete the Make Them Bleed achievement.	N/A	150	<0.1%
@@ -1063,7 +1063,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 637	Wilderness: Daemonheim	Make use of either an autoheater, gem bag, herbicide, bonecrusher or charming imp.	Make use of either an autoheater, gem bag, herbicide, bonecrusher or charming imp.	2000 dungeoneering token	10	50.6%
 638	Wilderness: General	Enter the chaos tunnels from an entrance in the Wilderness.	Enter the Chaos Tunnels from an entrance in the Wilderness.	N/A	10	43.2%
 639	Wilderness: General	Defeat a Black Unicorn in the Wilderness.	Defeat a black unicorn in the Wilderness.	N/A	10	54.6%
-640	Wilderness: General	Complete the task set: Easy Wilderness.	Complete the Easy Wilderness achievements.	See Easy Wilderness achievements page	30	8.5%
+640	Wilderness: General	Complete the task set: Easy Wilderness.	Complete the Easy Wilderness achievements.	Achievement: Easy Wilderness	30	8.5%
 641	Wilderness: General	Defeat the King Black Dragon.	Defeat the King Black Dragon once.	N/A	30	24.5%
 642	Wilderness: General	Defeat the King Black Dragon. (100 times)	Defeat the King Black Dragon 100 times.	N/A	30	0.4%
 643	Wilderness: General	Sacrifice Dragon bones on the Chaos Altar.	Sacrifice dragon bones on the chaos altar in the Wilderness.	1 Prayer	30	31.6%
@@ -1078,7 +1078,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 652	Wilderness: General	Defeat Bossy McBoss Face.	Defeat Bossy McBoss Face.	N/A	30	2%
 653	Wilderness: General	Activate and teleport from each of the Wilderness teleport obelisks.	Activate and teleport from each of the Wilderness teleport obelisks.	N/A	30	10.2%
 654	Wilderness: General	Defeat Bossy McBossface's first mate.	Defeat Bossy McBossface's first mate.	N/A	30	1%
-655	Wilderness: General	Complete the task set: Medium Wilderness.	Complete the Medium Wilderness achievements.	See Medium Wilderness achievements page	30	0.7%
+655	Wilderness: General	Complete the task set: Medium Wilderness.	Complete the Medium Wilderness achievements.	Achievement: Medium Wilderness	30	0.7%
 656	Wilderness: General	Defeat the King Black Dragon while wearing black dragonhide in six equipment slots. Can only be completed in a solo instance.	Defeat the King Black Dragon while wearing black dragonhide in six equipment slots.	60 Defence	80	1.6%
 657	Wilderness: General	Defeat one of each revenant creature in the Forinthry dungeon.	Defeat one of each revenant creature in the Forinthry dungeon.	N/A	80	2.1%
 658	Wilderness: General	Equip a Statius's warhammer.	Equip a Statius's warhammer.	78 Attack	80	<0.1%
@@ -1091,7 +1091,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 665	Wilderness: General	Equip a pair of Steadfast boots.	Equip a pair of steadfast boots.	85 Defence	80	<0.1%
 666	Wilderness: General	Equip a pair of Glaiven boots.	Equip a pair of glaiven boots.	85 Defence	80	<0.1%
 667	Wilderness: General	Equip a pair of Ragefire boots.	Equip a pair of ragefire boots.	85 Defence	80	<0.1%
-668	Wilderness: General	Complete the task set: Hard Wilderness.	Complete the Hard Wilderness achievements.	See Hard Wilderness achievements page	80	<0.1%
+668	Wilderness: General	Complete the task set: Hard Wilderness.	Complete the Hard Wilderness achievements.	Achievement: Hard Wilderness	80	<0.1%
 678	Wilderness: Daemonheim	Equip a Chaotic weapon or kiteshield.	Equip a chaotic weapon or kiteshield.	80 Dungeoneering, 80 Attack OR 80 Ranged OR 80 Magic OR 80 Defence	80	0.1%
 669	Wilderness: General	Equip the Hellfire bow.	Equip the hellfire bow.	N/A	150	<0.1%
 670	Wilderness: General	Complete a slayer task from Mandrith.	Complete a slayer task from Mandrith.	N/A	150	<0.1%
@@ -1105,7 +1105,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 679	Wilderness: General	Defeat every miniboss inside the Dragonkin Laboratory.	Defeat every miniboss inside the Dragonkin Laboratory.	95 Dungeoneering	150	<0.1%
 680	Wilderness: General	Defeat the Black Stone Dragon.	Defeat the black stone dragon once.	N/A	150	<0.1%
 681	Wilderness: General	Defeat the Black Stone Dragon. (25 times)	Defeat the black stone dragon 25 times.	N/A	150	<0.1%
-682	Wilderness: General	Complete the task set: Elite Wilderness.	Complete the Elite Wilderness achievements.	See Elite Wilderness achievements page	150	<0.1%
+682	Wilderness: General	Complete the task set: Elite Wilderness.	Complete the Elite Wilderness achievements.	Achievement: Elite Wilderness	150	<0.1%
 683	Wilderness: General	Defeat 25 Hydrix dragons in the Wilderness.	Defeat 25 hydrix dragons in the Wilderness.	101 Slayer	150	<0.1%
 684	Wilderness: General	Defeat 10 Abyssal lords in the Wilderness.	Defeat 10 abyssal lords in the Wilderness.	115 Slayer	150	<0.1%
 685	Wilderness: Daemonheim	Mine 30 Primal ores.	Mine 30 primal ores.	99 Mining	150	<0.1%
