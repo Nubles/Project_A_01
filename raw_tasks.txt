@@ -31,27 +31,27 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 492	Anachronia	Get caught by each of the big game creatures once.	Get caught by each of the Big Game Hunter creatures once.	96 Hunter, 76 Slayer	80	<0.1%
 493	Anachronia	Complete a big game encounter without using movement abilities.	Complete a Big Game Hunter encounter without using movement abilities.	75 Hunter, 55 Slayer	80	0.2%
 500	Anachronia	Defeat Raksha, the Shadow Colossus.	Defeat Raksha, the Shadow Colossus once.	Completion of Raksha, the Shadow Colossus	80	0.3%
-489	Anachronia	Discover all the totem pieces on Anachronia.	Discover all the totem pieces on Anachronia.	N/A	150	<0.1%
-491	Anachronia	Unlock the double Surge or double Escape ability upgrade.	Unlock the double Surge or double Escape ability upgrade.	85 Agility	150	<0.1%
-494	Anachronia	Harvest a Dragonfruit plant in the cactus patch in the north of Anachronia.	Harvest a dragonfruit cactus in the cactus patch in the north of Anachronia.	81 Farming	150	0.2%
-495	Anachronia	Kill 50 Dinosaurs.	Kill 50 dinosaurs.	N/A	150	0.2%
-496	Anachronia	Kill 50 Vile Blooms.	Kill 50 vile blooms.	N/A	150	0.2%
-497	Anachronia	Solve the Archaeology mystery: Teleport Node On.	Activate all Orthen teleportation devices on Anachronia.	90 Archaeology	150	<0.1%
-498	Anachronia	Use Potterington Blend #102 Fertiliser or dinosaur 'propellant' on Prehistoric Potterington.	Use Potterington blend 102 fertiliser or dinosaur 'propellant' on Prehistoric Potterington.	102 Farming	150	<0.1%
-499	Anachronia	Find an unchecked egg in the pile of dinosaur eggs south of Anachronia dinosaur farm.	Find a dinosaur egg in the pile of dinosaur eggs on Anachronia Farm.	42 Farming, 45 Construction	150	<0.1%
-501	Anachronia	Defeat Raksha, the Shadow Colossus. (100 times)	Defeat Raksha, the Shadow Colossus 100 times.	Completion of Raksha, the Shadow Colossus	150	<0.1%
-502	Anachronia	Complete the quest: Desperate Measures.	Complete the Desperate Measures quest.	Quest: Desperate Measures	150	0.2%
-503	Anachronia	Equip a Terrasaur maul.	Equip a terrasaur maul.	90 Attack	150	<0.1%
-505	Anachronia	Complete a big game encounter without stepping into the creature's vision ring.	Complete a Big Game Hunter encounter without stepping into the creature's vision ring.	75 Hunter, 55 Slayer	150	<0.1%
-508	Anachronia	Craft 500 Time Runes.	Craft 500 time runes.	102 Runecrafting	150	<0.1%
-509	Anachronia	Solve the Archaeology mystery: Fragmented Memories.	Complete the Fragmented Memories Archaeology mystery.	99 Archaeology	150	<0.1%
-512	Anachronia	Fletch any type of Elder God arrow.	Fletch any type of Elder God arrow.	95 Fletching	150	0.1%
-513	Anachronia	Cast the Crumble Undead spell.	Cast the Crumble Undead spell.	39 Magic	150	<0.1%
-504	Anachronia	Fully upgrade the Town Hall in the base camp on Anachronia.	Fully upgrade the town hall in the base camp on Anachronia.	90 Construction	150	<0.1%
-506	Anachronia	Complete a big game encounter with 3 creatures active.	Complete a Big Game Hunter encounter with 3 creatures active.	75 Hunter, 55 Slayer	150	<0.1%
-507	Anachronia	Breed a shiny dinosaur.	Breed a shiny dinosaur.	42 Farming, 45 Construction	150	<0.1%
-510	Anachronia	Equip Skeka's hypnowand.	Equip Skeka's hypnowand.	99 Archaeology	150	<0.1%
-511	Anachronia	Complete the quest: Extinction.	Complete the Extinction quest.	Quest: Extinction	150	<0.1%
+489	Anachronia	Discover all the totem pieces on Anachronia.	Discover all the totem pieces on Anachronia.	N/A	200	<0.1%
+491	Anachronia	Unlock the double Surge or double Escape ability upgrade.	Unlock the double Surge or double Escape ability upgrade.	85 Agility	200	<0.1%
+494	Anachronia	Harvest a Dragonfruit plant in the cactus patch in the north of Anachronia.	Harvest a dragonfruit cactus in the cactus patch in the north of Anachronia.	81 Farming	200	0.2%
+495	Anachronia	Kill 50 Dinosaurs.	Kill 50 dinosaurs.	N/A	200	0.2%
+496	Anachronia	Kill 50 Vile Blooms.	Kill 50 vile blooms.	N/A	200	0.2%
+497	Anachronia	Solve the Archaeology mystery: Teleport Node On.	Activate all Orthen teleportation devices on Anachronia.	90 Archaeology	200	<0.1%
+498	Anachronia	Use Potterington Blend #102 Fertiliser or dinosaur 'propellant' on Prehistoric Potterington.	Use Potterington blend 102 fertiliser or dinosaur 'propellant' on Prehistoric Potterington.	102 Farming	200	<0.1%
+499	Anachronia	Find an unchecked egg in the pile of dinosaur eggs south of Anachronia dinosaur farm.	Find a dinosaur egg in the pile of dinosaur eggs on Anachronia Farm.	42 Farming, 45 Construction	200	<0.1%
+501	Anachronia	Defeat Raksha, the Shadow Colossus. (100 times)	Defeat Raksha, the Shadow Colossus 100 times.	Completion of Raksha, the Shadow Colossus	200	<0.1%
+502	Anachronia	Complete the quest: Desperate Measures.	Complete the Desperate Measures quest.	Quest: Desperate Measures	200	0.2%
+503	Anachronia	Equip a Terrasaur maul.	Equip a terrasaur maul.	90 Attack	200	<0.1%
+505	Anachronia	Complete a big game encounter without stepping into the creature's vision ring.	Complete a Big Game Hunter encounter without stepping into the creature's vision ring.	75 Hunter, 55 Slayer	200	<0.1%
+508	Anachronia	Craft 500 Time Runes.	Craft 500 time runes.	102 Runecrafting	200	<0.1%
+509	Anachronia	Solve the Archaeology mystery: Fragmented Memories.	Complete the Fragmented Memories Archaeology mystery.	99 Archaeology	200	<0.1%
+512	Anachronia	Fletch any type of Elder God arrow.	Fletch any type of Elder God arrow.	95 Fletching	200	0.1%
+513	Anachronia	Cast the Crumble Undead spell.	Cast the Crumble Undead spell.	39 Magic	200	<0.1%
+504	Anachronia	Fully upgrade the Town Hall in the base camp on Anachronia.	Fully upgrade the town hall in the base camp on Anachronia.	90 Construction	200	<0.1%
+506	Anachronia	Complete a big game encounter with 3 creatures active.	Complete a Big Game Hunter encounter with 3 creatures active.	75 Hunter, 55 Slayer	200	<0.1%
+507	Anachronia	Breed a shiny dinosaur.	Breed a shiny dinosaur.	42 Farming, 45 Construction	200	<0.1%
+510	Anachronia	Equip Skeka's hypnowand.	Equip Skeka's hypnowand.	99 Archaeology	200	<0.1%
+511	Anachronia	Complete the quest: Extinction.	Complete the Extinction quest.	Quest: Extinction	200	<0.1%
 217	Asgarnia: Burthorpe	Complete a lap of the Burthorpe Agility course.	Complete a lap of the Burthorpe Agility Course.	1 Agility	10	76.8%
 221	Asgarnia: Falador	Kill a goblin raider boss in the Goblin Village.	Kill 15 goblins in the Goblin Village to spawn a Goblin raider boss.	N/A	10	46.9%
 222	Asgarnia: Falador	Complete the quest: Witch's House.	Complete Witch's House	Quest: Witch's House	10	34.9%
@@ -89,23 +89,23 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 264	Asgarnia: Port Sarim	Defeat the Queen Black Dragon.	Defeat the Queen Black Dragon.	60 Summoning	80	2.7%
 265	Asgarnia: Port Sarim	Defeat the Queen Black Dragon. (100 times)	Defeat the Queen Black Dragon 100 times.	60 Summoning	80	<0.1%
 266	Asgarnia: Port Sarim	Bury some frost dragon bones.	Bury some frost dragon bones.	85 Dungeoneering	80	0.6%
-238	Asgarnia: Falador	Complete the task set: Elite Falador.	Complete the Elite Falador achievements.	Achievement: Elite Falador	150	<0.1%
-239	Asgarnia: Falador	Complete the Invention tutorial.	Complete the Invention tutorial.	80 Divination, 80 Smithing, 80 Crafting	150	1.7%
-240	Asgarnia: Falador	Defeat Vorago, if you think you're hard enough.	Defeat Vorago.	N/A	150	<0.1%
-241	Asgarnia: Falador	Defeat Vorago, if you think you're hard enough. (50 times)	Defeat Vorago 50 times.	N/A	150	<0.1%
-242	Asgarnia: Falador	Equip a seismic wand or seismic singularity.	Equip a seismic wand or singularity.	90 Magic	150	<0.1%
-243	Asgarnia: Falador	Harvest some starbloom flowers from the flower patch south of Falador.	Harvest some starbloom flowers from the flower patch south of Falador.	84 Farming	150	<0.1%
-244	Asgarnia: Falador	Unlock the Royale Cannon from the Artisans' Workshop reward shop.	Unlock the royale dwarf multicannon from the Artisans' Workshop Reward Shop.	100% respect	150	<0.1%
-245	Asgarnia: Falador	Equip a piece of masterwork melee armour.	Equip a piece of masterwork melee armour.	99 Smithing	150	0.1%
-255	Asgarnia: Burthorpe	Equip a full set of Bandos armour.	Equip a full set of Bandos armour.	70 Defence	150	1.9%
-256	Asgarnia: Burthorpe	Equip a full set of Armadyl armour.	Equip a full set of Armadyl armour.	70 Defence	150	<0.1%
-257	Asgarnia: Burthorpe	Equip a full set of subjugation armour.	Equip a full set of subjugation armour.	70 Defence	150	0.5%
-258	Asgarnia: Burthorpe	Equip a piece of Torva, Pernix or Virtus armour.	Equip a piece of Torva, Pernix or Virtus armour.	80 Defence	150	<0.1%
-259	Asgarnia: Burthorpe	Defeat Nex, the Angel of Death.	Kill Nex: Angel of Death.	N/A	150	<0.1%
-260	Asgarnia: Burthorpe	Defeat Nex, the Angel of Death. (50 times)	Kill Nex: Angel of Death 50 times.	N/A	150	<0.1%
-267	Asgarnia: Port Sarim	Kill a living wyvern.	Kill a wyvern.	96 Slayer	150	<0.1%
-261	Asgarnia: Burthorpe	Complete all of the Combat Achievements for God Wars Dungeon bosses, including Nex.	Complete all of the Combat Achievements for God Wars Dungeon bosses, including Nex.	N/A	150	<0.1%
-262	Asgarnia: Burthorpe	Unlock all the prayers from the Praesul Codex.	Unlock all the prayers from the Praesul codex.	99 Prayer	150	<0.1%
+238	Asgarnia: Falador	Complete the task set: Elite Falador.	Complete the Elite Falador achievements.	Achievement: Elite Falador	200	<0.1%
+239	Asgarnia: Falador	Complete the Invention tutorial.	Complete the Invention tutorial.	80 Divination, 80 Smithing, 80 Crafting	200	1.7%
+240	Asgarnia: Falador	Defeat Vorago, if you think you're hard enough.	Defeat Vorago.	N/A	200	<0.1%
+241	Asgarnia: Falador	Defeat Vorago, if you think you're hard enough. (50 times)	Defeat Vorago 50 times.	N/A	200	<0.1%
+242	Asgarnia: Falador	Equip a seismic wand or seismic singularity.	Equip a seismic wand or singularity.	90 Magic	200	<0.1%
+243	Asgarnia: Falador	Harvest some starbloom flowers from the flower patch south of Falador.	Harvest some starbloom flowers from the flower patch south of Falador.	84 Farming	200	<0.1%
+244	Asgarnia: Falador	Unlock the Royale Cannon from the Artisans' Workshop reward shop.	Unlock the royale dwarf multicannon from the Artisans' Workshop Reward Shop.	100% respect	200	<0.1%
+245	Asgarnia: Falador	Equip a piece of masterwork melee armour.	Equip a piece of masterwork melee armour.	99 Smithing	200	0.1%
+255	Asgarnia: Burthorpe	Equip a full set of Bandos armour.	Equip a full set of Bandos armour.	70 Defence	200	1.9%
+256	Asgarnia: Burthorpe	Equip a full set of Armadyl armour.	Equip a full set of Armadyl armour.	70 Defence	200	<0.1%
+257	Asgarnia: Burthorpe	Equip a full set of subjugation armour.	Equip a full set of subjugation armour.	70 Defence	200	0.5%
+258	Asgarnia: Burthorpe	Equip a piece of Torva, Pernix or Virtus armour.	Equip a piece of Torva, Pernix or Virtus armour.	80 Defence	200	<0.1%
+259	Asgarnia: Burthorpe	Defeat Nex, the Angel of Death.	Kill Nex: Angel of Death.	N/A	200	<0.1%
+260	Asgarnia: Burthorpe	Defeat Nex, the Angel of Death. (50 times)	Kill Nex: Angel of Death 50 times.	N/A	200	<0.1%
+267	Asgarnia: Port Sarim	Kill a living wyvern.	Kill a wyvern.	96 Slayer	200	<0.1%
+261	Asgarnia: Burthorpe	Complete all of the Combat Achievements for God Wars Dungeon bosses, including Nex.	Complete all of the Combat Achievements for God Wars Dungeon bosses, including Nex.	N/A	200	<0.1%
+262	Asgarnia: Burthorpe	Unlock all the prayers from the Praesul Codex.	Unlock all the prayers from the Praesul codex.	99 Prayer	200	<0.1%
 271	Desert: Menaphos	Enter Menaphos.	Enter Menaphos.	N/A	10	50.5%
 272	Desert: General	Catch a whirligig at Het's Oasis.	Catch a whirligig at Het's Oasis.	1 Hunter	10	47.1%
 274	Desert: General	Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem.	Search the grand gold chest in room 1 of Pyramid Plunder in Sophanem.	21 Thieving	10	4%
@@ -163,19 +163,19 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 325	Desert: Menaphos	Complete the quest: Beneath Scabaras' Sands.	Complete Beneath Scabaras' Sands.	Quest: Beneath Scabaras' Sands	80	<0.1%
 326	Desert: General	Kill a desert strykewyrm wearing a Full Slayer Helm and wielding an ancient staff.	Kill a desert strykewyrm wearing a full Slayer helm and wielding an ancient staff.	77 Slayer, 50 Magic, 20 Defence, 55 Crafting	80	<0.1%
 328	Desert: General	Defeat Telos, the Warden.	Defeat Telos, the Warden.	80 Attack, 80 Prayer, 80 Magic, 80 Ranged	80	0.6%
-327	Desert: General	Complete the task set: Elite Desert.	Complete the Elite Desert achievements.	Achievement: Elite Desert	150	<0.1%
-329	Desert: General	Defeat Telos, the Warden at 100% enrage.	Defeat Telos, the Warden at 100% enrage.	80 Attack, 80 Prayer, 80 Magic, 80 Ranged	150	0.1%
-330	Desert: General	Defeat Telos, the Warden at 500% enrage.	Defeat Telos, the Warden at 500% enrage.	80 Attack, 80 Prayer, 80 Magic, 80 Ranged	150	<0.1%
-331	Desert: Menaphos	Craft some Soul runes.	Craft some soul runes.	90 Runecrafting	150	<0.1%
-332	Desert: General	Defeat a Camel Warrior.	Defeat a camel warrior.	96 Slayer	150	<0.1%
-333	Desert: General	Escape Kharid-et by boat.	Complete the Aquatic Escape achievement.	93 Archaeology	150	<0.1%
-334	Desert: General	Defeat the Kalphite King solo.	Kill the Kalphite King solo.	N/A	150	<0.1%
-335	Desert: General	Cast Ice Barrage in the desert.	Cast Ice Barrage in the desert.	94 Magic	150	<0.1%
-337	Desert: General	Craft a Zaros godsword, Seren godbow or staff of Sliske.	Craft a Zaros godsword, Seren godbow or staff of Sliske.	92 Smithing	150	<0.1%
-1112	Desert: Menaphos	Defeat Amascut, the Devourer.	Defeat Amascut, the Devourer.	N/A	150	<0.1%
-336	Desert: General	Defeat Telos, the Warden at 1,000% enrage.	Defeat Telos, the Warden at 1000% enrage.	80 Attack, 80 Prayer, 80 Magic, 80 Ranged	150	<0.1%
-338	Desert: General	Complete all of the Combat Achievements for the Heart of Gielinor bosses (excluding Telos).	Complete all of the Combat Achievements for the Heart of Gielinor bosses (excluding Telos).	N/A	150	<0.1%
-1113	Desert: Menaphos	Defeat Amascut, the Devourer. (100 times)	Defeat Amascut, the Devourer 100 times.	N/A	150	<0.1%
+327	Desert: General	Complete the task set: Elite Desert.	Complete the Elite Desert achievements.	Achievement: Elite Desert	200	<0.1%
+329	Desert: General	Defeat Telos, the Warden at 100% enrage.	Defeat Telos, the Warden at 100% enrage.	80 Attack, 80 Prayer, 80 Magic, 80 Ranged	200	0.1%
+330	Desert: General	Defeat Telos, the Warden at 500% enrage.	Defeat Telos, the Warden at 500% enrage.	80 Attack, 80 Prayer, 80 Magic, 80 Ranged	200	<0.1%
+331	Desert: Menaphos	Craft some Soul runes.	Craft some soul runes.	90 Runecrafting	200	<0.1%
+332	Desert: General	Defeat a Camel Warrior.	Defeat a camel warrior.	96 Slayer	200	<0.1%
+333	Desert: General	Escape Kharid-et by boat.	Complete the Aquatic Escape achievement.	93 Archaeology	200	<0.1%
+334	Desert: General	Defeat the Kalphite King solo.	Kill the Kalphite King solo.	N/A	200	<0.1%
+335	Desert: General	Cast Ice Barrage in the desert.	Cast Ice Barrage in the desert.	94 Magic	200	<0.1%
+337	Desert: General	Craft a Zaros godsword, Seren godbow or staff of Sliske.	Craft a Zaros godsword, Seren godbow or staff of Sliske.	92 Smithing	200	<0.1%
+1112	Desert: Menaphos	Defeat Amascut, the Devourer.	Defeat Amascut, the Devourer.	N/A	200	<0.1%
+336	Desert: General	Defeat Telos, the Warden at 1,000% enrage.	Defeat Telos, the Warden at 1000% enrage.	80 Attack, 80 Prayer, 80 Magic, 80 Ranged	200	<0.1%
+338	Desert: General	Complete all of the Combat Achievements for the Heart of Gielinor bosses (excluding Telos).	Complete all of the Combat Achievements for the Heart of Gielinor bosses (excluding Telos).	N/A	200	<0.1%
+1113	Desert: Menaphos	Defeat Amascut, the Devourer. (100 times)	Defeat Amascut, the Devourer 100 times.	N/A	200	<0.1%
 339	Fremennik: Lunar Isles	Switch to the Lunar Spellbook at the astral altar.	Switch to the Lunar Spellbook at the astral altar.	Completion of Lunar Diplomacy	10	0.6%
 340	Fremennik: Mainland	Defeat a Rock Crab in the Fremennik Province.	Defeat a Rock Crab in the Fremennik Province.	N/A	10	36.7%
 341	Fremennik: Mainland	Defeat a Cockatrice in the Fremennik Province.	Defeat a cockatrice in the Fremennik Province.	25 Slayer	10	18.9%
@@ -226,19 +226,19 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 388	Fremennik: Mainland	Create a Catherby Teleport Tablet.	Create a Catherby teleport tablet.	87 Magic, 67 Construction	80	<0.1%
 392	Fremennik: Mainland	Gather a seed from an Aquanite using Seedicide.	Gather a seed from an aquanite using Seedicide.	78 Slayer	80	1%
 393	Fremennik: Mainland	Complete the task set: Hard Fremennik.	Complete the Hard Fremennik achievements.	Achievement: Hard Fremennik Province	80	<0.1%
-387	Fremennik: Lunar Isles	Cast Spellbook Swap from the Lunar spellbook.	Cast Spellbook Swap from the lunar spellbook.	96 Magic	150	<0.1%
-389	Fremennik: Mainland	Equip Every Dagannoth King Ring.	Equip every Dagannoth King ring.	N/A	150	0.2%
-390	Fremennik: Mainland	Equip a Completed God Book.	Equip a completed god book.	Completion of Horror from the Deep	150	0.1%
-391	Fremennik: Mainland	Defeat 20 Acheron Mammoths.	Defeat 20 acheron mammoths.	96 Slayer	150	<0.1%
-394	Fremennik: Mainland	Cast the Paradox spell on any tree, rock, fishing spot, or box trap.	Cast the Paradox spell on any tree, rock, fishing spot, or box trap.	99 Necromancy	150	<0.1%
-395	Fremennik: Mainland	Build a Demonic Throne.	Build a demonic throne.	99 Construction	150	<0.1%
-397	Fremennik: Lunar Isles	Perform a Powerful Necroplasm ritual at the Ungael ritual site.	Perform a powerful necroplasm ritual at the Ungael ritual site.	90 Necromancy	150	<0.1%
-398	Fremennik: Mainland	Defeat the Abomination once after Hero's Welcome.	Defeat the Abomination once after Hero's Welcome.	N/A	150	<0.1%
-399	Fremennik: Mainland	Summon a Pack Mammoth.	Summon a pack mammoth.	96 Summoning	150	<0.1%
-400	Fremennik: Mainland	Complete the task set: Elite Fremennik.	Complete the Elite Fremennik achievements.	Achievement: Elite Fremennik Province	150	<0.1%
-401	Fremennik: Mainland	Complete the Ungael combat activity on hard mode.	Complete the Ungael combat activity on hard mode.	N/A	150	<0.1%
-402	Fremennik: Mainland	Use the Trap Telekinesis spell to catch Azure Skillchompas 25 times.	Use the Trap Telekinesis spell to catch azure skillchompas 25 times.	70 Magic	150	<0.1%
-396	Fremennik: Mainland	Equip every completed God Book.	Equip every completed god book.	Completion of Horror from the Deep	150	<0.1%
+387	Fremennik: Lunar Isles	Cast Spellbook Swap from the Lunar spellbook.	Cast Spellbook Swap from the lunar spellbook.	96 Magic	200	<0.1%
+389	Fremennik: Mainland	Equip Every Dagannoth King Ring.	Equip every Dagannoth King ring.	N/A	200	0.2%
+390	Fremennik: Mainland	Equip a Completed God Book.	Equip a completed god book.	Completion of Horror from the Deep	200	0.1%
+391	Fremennik: Mainland	Defeat 20 Acheron Mammoths.	Defeat 20 acheron mammoths.	96 Slayer	200	<0.1%
+394	Fremennik: Mainland	Cast the Paradox spell on any tree, rock, fishing spot, or box trap.	Cast the Paradox spell on any tree, rock, fishing spot, or box trap.	99 Necromancy	200	<0.1%
+395	Fremennik: Mainland	Build a Demonic Throne.	Build a demonic throne.	99 Construction	200	<0.1%
+397	Fremennik: Lunar Isles	Perform a Powerful Necroplasm ritual at the Ungael ritual site.	Perform a powerful necroplasm ritual at the Ungael ritual site.	90 Necromancy	200	<0.1%
+398	Fremennik: Mainland	Defeat the Abomination once after Hero's Welcome.	Defeat the Abomination once after Hero's Welcome.	N/A	200	<0.1%
+399	Fremennik: Mainland	Summon a Pack Mammoth.	Summon a pack mammoth.	96 Summoning	200	<0.1%
+400	Fremennik: Mainland	Complete the task set: Elite Fremennik.	Complete the Elite Fremennik achievements.	Achievement: Elite Fremennik Province	200	<0.1%
+401	Fremennik: Mainland	Complete the Ungael combat activity on hard mode.	Complete the Ungael combat activity on hard mode.	N/A	200	<0.1%
+402	Fremennik: Mainland	Use the Trap Telekinesis spell to catch Azure Skillchompas 25 times.	Use the Trap Telekinesis spell to catch azure skillchompas 25 times.	70 Magic	200	<0.1%
+396	Fremennik: Mainland	Equip every completed God Book.	Equip every completed god book.	Completion of Horror from the Deep	200	<0.1%
 127	Global	Level up any of your skills for the first time.	Level up any of your skills for the first time.	N/A	10	98.4%
 128	Global	Reach level 5 in any skill.	Reach level 5 in any skill.	N/A	10	97.7%
 129	Global	Reach level 10 in any skill.	Reach level 10 in any skill.	N/A	10	97%
@@ -532,155 +532,155 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 1106	Global	Reach at least level 40 in all non-elite skills.	Reach at least level 40 in all non-elite skills.	All skills except Invention at level 40	80	3.6%
 1107	Global	Reach at least level 60 in all non-elite skills.	Reach at least level 60 in all non-elite skills.	All skills except Invention at level 60	80	0.2%
 1108	Global	Reach at least level 70 in all non-elite skills.	Reach at least level 70 in all non-elite skills.	All skills except Invention at level 70	80	<0.1%
-140	Global	Reach maximum combat level.	Reach maximum combat level.	138 Combat	150	1.6%
-145	Global	Reach total level 2000.	Reach total level 2000.	2000 Skills Total level	150	<0.1%
-821	Global	Complete 50 Slayer tasks.	Complete 50 Slayer tasks.	N/A	150	<0.1%
-822	Global	Complete 75 Slayer tasks.	Complete 75 Slayer tasks.	N/A	150	<0.1%
-890	Global	Obtain 125 Quest Points.	Obtain 125 quest points.	125 Quest points	150	0.2%
-911	Global	Collect 75 unique items for the Hard clue rewards collection log.	Collect 75 unique items for the hard clue rewards collection log.	N/A	150	<0.1%
-946	Global	Complete 10 Soul Reaper tasks.	Complete 10 Soul Reaper tasks.	N/A	150	0.2%
-958	Global	Complete 75 Elite clue scrolls.	Complete 75 elite clue scrolls.	N/A	150	<0.1%
-959	Global	Complete 150 Elite clue scrolls.	Complete 150 elite clue scrolls.	N/A	150	<0.1%
-961	Global	Complete 25 Master clue scrolls.	Complete 25 master clue scrolls.	N/A	150	1.2%
-962	Global	Complete 75 Master clue scrolls.	Complete 75 master clue scrolls.	N/A	150	<0.1%
-967	Global	Collect 35 unique items for the Elite clue rewards collection log.	Collect 35 unique items for the elite clue rewards collection log.	N/A	150	2.5%
-969	Global	Collect 10 unique items for the Master clue rewards collection log.	Collect 10 unique items for the master clue rewards collection log.	N/A	150	10.8%
-970	Global	Collect 15 unique items for the Master clue rewards collection log.	Collect 15 unique items for the master clue rewards collection log.	N/A	150	8.3%
-971	Global	Collect 30 unique items for the Master clue rewards collection log.	Collect 30 unique items for the master clue rewards collection log.	N/A	150	4.5%
-972	Global	Make 25 Powerburst Potions.	Make 25 powerbursts.	92 Herblore	150	<0.1%
-973	Global	Make 25 Bomb Potions.	Make 25 bomb potions.	93 Herblore	150	<0.1%
-974	Global	Make 5 Perfect Plus Potions.	Make 5 perfect plus potions.	84 Herblore	150	<0.1%
-975	Global	Make 15 Overload Potions.	Make 15 overloads.	96 Herblore	150	<0.1%
-976	Global	Make a Spiritual Prayer Potion.	Make a spiritual prayer potion.	97 Herblore	150	<0.1%
-977	Global	Fletch 200 Magic stocks.	Fletch 200 magic stocks.	82 Fletching	150	0.2%
-978	Global	Fletch 750 Elder arrow shafts.	Fletch 750 elder arrow shafts.	90 Fletching	150	<0.1%
-979	Global	Fletch 20 Elder shortbow (unstrung)	Fletch 20 unstrung elder shortbows	90 Fletching	150	<0.1%
-980	Global	Fletch an Eternal magic shortbow (Martial) or Primal crossbow (martial).	Fletch an eternal magic shortbow (martial) or primal crossbow (martial).	95 Fletching	150	<0.1%
-981	Global	Fletch 1,000 Eternal magic shafts.	Fletch 1,000 eternal magic shafts.	90 Fletching	150	<0.1%
-982	Global	Fletch 1,500 Primal arrows.	Fletch 1,500 primal arrows.	92 Fletching	150	<0.1%
-983	Global	Fletch an Eternal Magic Wood Box.	Fletch an eternal magic wood box.	90 Fletching	150	<0.1%
-984	Global	Fletch 350 Rune darts.	Fletch 350 rune darts.	81 Fletching	150	0.1%
-985	Global	Smith a Primal Ore Box.	Smith a primal ore box.	99 Smithing	150	<0.1%
-986	Global	Smith 10,000 Armour Spikes.	Smith 10,000 armour spikes.	80 Smithing	150	<0.1%
-987	Global	Smith 10,000 Primal Armour Spikes.	Smith 10,000 primal armour spikes.	99 Smithing	150	<0.1%
-988	Global	Mine each of the 10 ores on the surface of the Daemonheim peninsula in under 5 minutes.	Mine each of the 10 ores on the surface of the Daemonheim peninsula in under 5 minutes.	80 Mining	150	<0.1%
-989	Global	Mine 70 Banite Ore.	Mine 70 banite ore.	80 Mining	150	8.4%
-990	Global	Mine 100 Dark or Light Animica.	Mine 100 dark or light animica.	90 Mining	150	0.3%
-991	Global	Open 10 Metamorphic Geodes.	Open 10 metamorphic geodes. These are found randomly while mining from rocks which require at least level 60 Mining	60 Mining	150	0.3%
-992	Global	Harvest 40 Grimy Lantadyme.	Harvest 40 grimy lantadyme.	73 Farming	150	<0.1%
-993	Global	Harvest 50 Grimy Fellstalk.	Harvest 50 grimy fellstalk.	91 Farming	150	<0.1%
-994	Global	Plant an Avocado seed in a bush patch.	Plant an avocado seed in a bush patch.	69 Farming	150	<0.1%
-995	Global	Harvest 20 Lychee.	Harvest 20 lychee.	99 Farming	150	<0.1%
-996	Global	Harvest 24 Starbloom Flowers.	Harvest 24 starbloom flowers.	84 Farming	150	<0.1%
-997	Global	Catch 150 Rocktail.	Catch 150 raw rocktails.	90 Fishing	150	<0.1%
-998	Global	Catch 200 Sailfish.	Catch 200 raw sailfish.	97 Fishing	150	<0.1%
-999	Global	Catch 150 Blue Blubber Jellyfish.	Catch 150 raw blue blubber jellyfish.	91 Fishing	150	<0.1%
-1000	Global	Obtain the highest boost available in the 'Fishing Frenzy' activity.	Obtain the highest boost available in the 'Fishing Frenzy' activity at Deep Sea Fishing.	94 Fishing	150	<0.1%
-1001	Global	Catch a Cavefish.	Catch a raw cavefish.	85 Fishing, 80 Cooking	150	<0.1%
-1003	Global	Manually bury or scatter each of the listed bones and ashes.	Complete the Bury All achievement.	90 Prayer	150	<0.1%
-1004	Global	Activate Soul Split prayer.	Activate Soul Split prayer.	92 Prayer	150	<0.1%
-1005	Global	Catch a Dragon Impling.	Catch a dragon impling.	80 Hunter	150	<0.1%
-1006	Global	Catch a Kingly Impling.	Catch a kingly impling.	90 Hunter	150	<0.1%
-1007	Global	Equip a full set of Bane armour.	Equip a full set of bane armour.	80 Smithing, 80 Defence	150	0.2%
-1008	Global	Equip a full set of Elder Rune armour.	Equip a full set of elder rune armour.	90 Smithing, 90 Defence	150	0.2%
-1009	Global	Cast a Surge spell.	Cast a Surge spell.	81 Magic	150	0.3%
-1010	Global	Burn 100 Magic Logs	Burn 100 magic logs	75 Firemaking	150	0.1%
-1011	Global	Burn 10 Elder logs.	Burn 10 elder logs.	90 Firemaking	150	<0.1%
-1012	Global	Reach level 99 in the Agility skill.	Reach level 99 Agility.	99 Agility	150	<0.1%
-1013	Global	Reach level 99 in the Archaeology skill.	Reach level 99 Archaeology.	99 Archaeology	150	<0.1%
-1014	Global	Reach level 99 in the Attack skill.	Reach level 99 Attack.	99 Attack	150	<0.1%
-1015	Global	Reach level 99 in the Construction skill.	Reach level 99 Construction.	99 Construction	150	<0.1%
-1016	Global	Reach level 99 in the Cooking skill.	Reach level 99 Cooking.	99 Cooking	150	<0.1%
-1017	Global	Reach level 99 in the Crafting skill.	Reach level 99 Crafting.	99 Crafting	150	<0.1%
-1018	Global	Reach level 99 in the Defence skill.	Reach level 99 Defence.	99 Defence	150	<0.1%
-1019	Global	Reach level 99 in the Divination skill.	Reach level 99 Divination.	99 Divination	150	<0.1%
-1020	Global	Reach level 99 in the Dungeoneering skill.	Reach level 99 Dungeoneering.	99 Dungeoneering	150	<0.1%
-1021	Global	Reach level 99 in the Farming skill.	Reach level 99 Farming.	99 Farming	150	<0.1%
-1022	Global	Reach level 99 in the Firemaking skill. (Where arson is its own reward.)	Reach level 99 Firemaking.	99 Firemaking	150	<0.1%
-1023	Global	Reach level 99 in the Fishing skill.	Reach level 99 Fishing.	99 Fishing	150	<0.1%
-1024	Global	Reach level 99 in the Fletching skill.	Reach level 99 Fletching.	99 Fletching	150	<0.1%
-1025	Global	Reach level 99 in the Herblore skill.	Reach level 99 Herblore.	99 Herblore	150	<0.1%
-1026	Global	Reach level 99 in the Constitution skill.	Reach level 99 Constitution.	99 Constitution	150	<0.1%
-1027	Global	Reach level 99 in the Hunter skill.	Reach level 99 Hunter.	99 Hunter	150	<0.1%
-1028	Global	Reach level 99 in the Invention skill.	Reach level 99 Invention.	99 Invention	150	<0.1%
-1029	Global	Reach level 99 in the Magic skill.	Reach level 99 Magic.	99 Magic	150	<0.1%
-1030	Global	Reach level 99 in the Mining skill.	Reach level 99 Mining.	99 Mining	150	<0.1%
-1031	Global	Reach level 99 in the Necromancy skill.	Reach level 99 Necromancy.	99 Necromancy	150	<0.1%
-1032	Global	Reach level 99 in the Prayer skill.	Reach level 99 Prayer.	99 Prayer	150	<0.1%
-1033	Global	Reach level 99 in the Ranged skill.	Reach level 99 Ranged.	99 Ranged	150	<0.1%
-1034	Global	Reach level 99 in the Runecrafting skill.	Reach level 99 Runecrafting.	99 Runecrafting	150	<0.1%
-1035	Global	Reach level 99 in the Slayer skill.	Reach level 99 Slayer.	99 Slayer	150	<0.1%
-1036	Global	Reach level 99 in the Smithing skill.	Reach level 99 Smithing.	99 Smithing	150	<0.1%
-1037	Global	Reach level 99 in the Strength skill.	Reach level 99 Strength.	99 Strength	150	<0.1%
-1038	Global	Reach level 99 in the Summoning skill.	Reach level 99 Summoning.	99 Summoning	150	<0.1%
-1039	Global	Reach level 99 in the Thieving skill.	Reach level 99 Thieving.	99 Thieving	150	<0.1%
-1040	Global	Reach level 99 in the Woodcutting skill.	Reach level 99 Woodcutting.	99 Woodcutting	150	<0.1%
-1041	Global	Reach level 110 in the Mining skill.	Reach level 110 Mining.	110 Mining	150	<0.1%
-1042	Global	Reach level 110 in the Smithing skill.	Reach level 110 Smithing.	110 Smithing	150	<0.1%
-1043	Global	Reach level 110 in the Crafting skill.	Reach level 110 Crafting	110 Crafting	150	<0.1%
-1044	Global	Reach level 110 in the Firemaking skill.	Reach level 110 Firemaking.	110 Firemaking	150	<0.1%
-1045	Global	Reach level 110 in the Fletching skill.	Reach level 110 Fletching.	110 Fletching	150	<0.1%
-1046	Global	Reach level 110 in the Woodcutting skill.	Reach level 110 Woodcutting.	110 Woodcutting	150	<0.1%
-1047	Global	Reach level 110 in the Runecrafting skill.	Reach level 110 Runecrafting.	110 Runecrafting	150	<0.1%
-1048	Global	Reach level 120 in the Dungeoneering skill.	Reach level 120 Dungeoneering.	120 Dungeoneering	150	<0.1%
-1049	Global	Reach level 120 in the Farming skill.	Reach level 120 Farming.	120 Farming	150	<0.1%
-1050	Global	Reach level 120 in the Herblore skill.	Reach level 120 Herblore.	120 Herblore	150	<0.1%
-1051	Global	Reach level 120 in the Slayer skill.	Reach level 120 Slayer.	120 Slayer	150	<0.1%
-1052	Global	Reach level 120 in the Invention skill.	Reach level 120 Invention.	120 Invention	150	<0.1%
-1053	Global	Reach level 120 in the Archaeology skill.	Reach level 120 Archaeology	120 Archaeology	150	<0.1%
-1054	Global	Reach level 120 in the Necromancy skill.	Reach level 120 Necromancy.	120 Necromancy	150	<0.1%
-1055	Global	Obtain 50 Million Agility XP.	Obtain 50 million Agility XP.	50,000,000 Agility XP	150	<0.1%
-1056	Global	Obtain 50 Million Construction XP.	Obtain 50 million Construction XP.	50,000,000 Construction XP	150	<0.1%
-1057	Global	Obtain 50 Million Cooking XP.	Obtain 50 million Cooking XP.	50,000,000 Cooking XP	150	<0.1%
-1058	Global	Obtain 50 Million Crafting XP.	Obtain 50 million Crafting XP.	50,000,000 Crafting XP	150	<0.1%
-1059	Global	Obtain 50 Million Farming XP.	Obtain 50 million Farming XP.	50,000,000 Farming XP	150	<0.1%
-1060	Global	Obtain 50 Million Firemaking XP.	Obtain 50 million Firemaking XP.	50,000,000 Firemaking XP	150	<0.1%
-1061	Global	Obtain 50 Million Fishing XP.	Obtain 50 million Fishing XP.	50,000,000 Fishing XP	150	<0.1%
-1062	Global	Obtain 50 Million Fletching XP.	Obtain 50 million Fletching XP.	50,000,000 Fletching XP	150	<0.1%
-1063	Global	Obtain 50 Million Herblore XP.	Obtain 50 million Herblore XP.	50,000,000 Herblore XP	150	<0.1%
-1064	Global	Obtain 50 Million Hunter XP.	Obtain 50 million Hunter XP.	50,000,000 Hunter XP	150	<0.1%
-1065	Global	Obtain 50 Million Mining XP.	Obtain 50 million Mining XP.	50,000,000 Mining XP	150	<0.1%
-1066	Global	Obtain 50 Million Prayer XP.	Obtain 50 million Prayer XP.	50,000,000 Prayer XP	150	<0.1%
-1067	Global	Obtain 50 Million Runecrafting XP.	Obtain 50 million Runecrafting XP.	50,000,000 Runecrafting XP	150	<0.1%
-1068	Global	Obtain 50 Million Slayer XP.	Obtain 50 million Slayer XP.	50,000,000 Slayer XP	150	<0.1%
-1069	Global	Obtain 50 Million Smithing XP.	Obtain 50 million Smithing XP.	50,000,000 Smithing XP	150	<0.1%
-1070	Global	Obtain 50 Million Thieving XP.	Obtain 50 million Thieving XP.	50,000,000 Thieving XP	150	<0.1%
-1071	Global	Obtain 50 Million Woodcutting XP.	Obtain 50 million Woodcutting XP.	50,000,000 Woodcutting XP	150	<0.1%
-1072	Global	Obtain 50 Million Dungeoneering XP.	Obtain 50 million Dungeoneering XP.	50,000,000 Dungeoneering XP	150	<0.1%
-1073	Global	Obtain 50 Million Invention XP.	Obtain 50 million Invention XP.	50,000,000 Invention XP	150	<0.1%
-1074	Global	Obtain 50 Million Divination XP.	Obtain 50 million Divination XP.	50,000,000 Divination XP	150	<0.1%
-1075	Global	Obtain 50 Million Archaeology XP.	Obtain 50 million Archaeology XP.	50,000,000 Archaeology XP	150	<0.1%
-1076	Global	Obtain 50 Million Attack XP.	Obtain 50 million Attack XP.	50,000,000 Attack XP	150	<0.1%
-1077	Global	Obtain 50 Million Constitution XP.	Obtain 50 million Constitution XP.	50,000,000 Constitution XP	150	<0.1%
-1078	Global	Obtain 50 Million Strength XP.	Obtain 50 million Strength XP.	50,000,000 Strength XP	150	<0.1%
-1079	Global	Obtain 50 Million Defence XP.	Obtain 50 million Defence XP.	50,000,000 Defence XP	150	<0.1%
-1080	Global	Obtain 50 Million Ranged XP.	Obtain 50 million Ranged XP.	50,000,000 Ranged XP	150	<0.1%
-1081	Global	Obtain 50 Million Magic XP.	Obtain 50 million Magic XP.	50,000,000 Magic XP	150	<0.1%
-1082	Global	Obtain 50 Million Summoning XP.	Obtain 50 million Summoning XP.	50,000,000 Summoning XP	150	<0.1%
-1083	Global	Obtain 50 Million Necromancy XP.	Obtain 50 million Necromancy XP.	50,000,000 Necromancy XP	150	<0.1%
-1084	Global	Complete 750 clues of any tier.	Complete 750 clues of any tier.	N/A	150	<0.1%
-1085	Global	Complete 1000 clues of any tier.	Complete 1000 clues of any tier.	N/A	150	<0.1%
-1086	Global	Make 5 Elder Overload Salve Potions.	Make 5 elder overload salves.	107 Herblore	150	<0.1%
-1087	Global	Equip an Eternal Magic shortbow.	Equip an eternal magic shortbow.	95 Ranged, 90 Defence	150	<0.1%
-1094	Global	Equip a full set of Primal armour.	Equip a full set of primal armour.	99 Smithing, 99 Defence	150	<0.1%
-1103	Global	Reach level 90 in any skill.	Reach level 90 in any skill.	Any skill at level 90	150	11.3%
-1104	Global	Reach level 95 in any skill.	Reach level 95 in any skill.	Any skill at level 95	150	2.1%
-1109	Global	Reach at least level 80 in all non-elite skills.	Reach at least level 80 in all non-elite skills.	All skills except Invention at level 80	150	<0.1%
-1110	Global	Reach at least level 90 in all non-elite skills.	Reach at least level 90 in all non-elite skills.	All skills except Invention at level 90	150	<0.1%
-447	Global	Help the Archivist recover all core memory data in the Hall of Memories.	Recover all core memory data in the Hall of Memories.	70 Divination	150	<0.1%
-448	Global	Attune and hand all engrams in to the Memorial to Guthix.	Hand all engrams in to the Memorial to Guthix.	82 Divination	150	<0.1%
-146	Global	Reach maximum total level.	Reach maximum total level.	Maximum total level	150	<0.1%
-963	Global	Complete 150 Master clue scrolls.	Complete 150 master clue scrolls.	N/A	150	<0.1%
-1088	Global	Work with Ramarno (in Camdozaal) to obtain a pickaxe of life and death.	Create a pickaxe of life and death.	99 Mining	150	<0.1%
-1089	Global	Have something planted and living in every farming patch.	Have something planted and living in every farming patch.	99 Farming	150	<0.1%
-1090	Global	Work with Ramarno (in Camdozaal) to obtain a hatchet of bloom and blight.	Create a hatchet of bloom and blight.	99 Woodcutting	150	<0.1%
-1091	Global	Equip any Masterwork weapon.	Equip any masterwork weapon.	92 Attack	150	<0.1%
-1092	Global	Equip a full set of Masterwork armour.	Equip a full set of masterwork armour.	99 Smithing, 92 Defence	150	<0.1%
-1093	Global	Unlock the Richie pet from helping Richie accumulate wealth at the Grand Exchange.	Donate 100,000,000 GP to Richie.	100,000,000 gp	150	<0.1%
-1095	Global	Obtain 200 Million XP in any single skill.	Obtain 200 Million XP in any single skill.	200,000,000 XP in any skill	150	<0.1%
-1096	Global	Fill all of the Treasure Trail hidey-holes. You can find a complete list of hidey-holes at the noticeboard by Zaida.	Fill all of the Treasure Trail hidey-holes.	Various	150	<0.1%
-1097	Global	Obtain a dye, or a piece of Third-age or Second-age gear from a clue scroll.	Obtain a dye, or a piece of Third-age or Second-age gear from a clue scroll.	N/A	150	<0.1%
-1111	Global	Reach at least level 95 in all non-elite skills.	Reach at least level 95 in all non-elite skills.	All skills except Invention at level 95	150	<0.1%
+140	Global	Reach maximum combat level.	Reach maximum combat level.	138 Combat	200	1.6%
+145	Global	Reach total level 2000.	Reach total level 2000.	2000 Skills Total level	200	<0.1%
+821	Global	Complete 50 Slayer tasks.	Complete 50 Slayer tasks.	N/A	200	<0.1%
+822	Global	Complete 75 Slayer tasks.	Complete 75 Slayer tasks.	N/A	200	<0.1%
+890	Global	Obtain 125 Quest Points.	Obtain 125 quest points.	125 Quest points	200	0.2%
+911	Global	Collect 75 unique items for the Hard clue rewards collection log.	Collect 75 unique items for the hard clue rewards collection log.	N/A	200	<0.1%
+946	Global	Complete 10 Soul Reaper tasks.	Complete 10 Soul Reaper tasks.	N/A	200	0.2%
+958	Global	Complete 75 Elite clue scrolls.	Complete 75 elite clue scrolls.	N/A	200	<0.1%
+959	Global	Complete 150 Elite clue scrolls.	Complete 150 elite clue scrolls.	N/A	200	<0.1%
+961	Global	Complete 25 Master clue scrolls.	Complete 25 master clue scrolls.	N/A	200	1.2%
+962	Global	Complete 75 Master clue scrolls.	Complete 75 master clue scrolls.	N/A	200	<0.1%
+967	Global	Collect 35 unique items for the Elite clue rewards collection log.	Collect 35 unique items for the elite clue rewards collection log.	N/A	200	2.5%
+969	Global	Collect 10 unique items for the Master clue rewards collection log.	Collect 10 unique items for the master clue rewards collection log.	N/A	200	10.8%
+970	Global	Collect 15 unique items for the Master clue rewards collection log.	Collect 15 unique items for the master clue rewards collection log.	N/A	200	8.3%
+971	Global	Collect 30 unique items for the Master clue rewards collection log.	Collect 30 unique items for the master clue rewards collection log.	N/A	200	4.5%
+972	Global	Make 25 Powerburst Potions.	Make 25 powerbursts.	92 Herblore	200	<0.1%
+973	Global	Make 25 Bomb Potions.	Make 25 bomb potions.	93 Herblore	200	<0.1%
+974	Global	Make 5 Perfect Plus Potions.	Make 5 perfect plus potions.	84 Herblore	200	<0.1%
+975	Global	Make 15 Overload Potions.	Make 15 overloads.	96 Herblore	200	<0.1%
+976	Global	Make a Spiritual Prayer Potion.	Make a spiritual prayer potion.	97 Herblore	200	<0.1%
+977	Global	Fletch 200 Magic stocks.	Fletch 200 magic stocks.	82 Fletching	200	0.2%
+978	Global	Fletch 750 Elder arrow shafts.	Fletch 750 elder arrow shafts.	90 Fletching	200	<0.1%
+979	Global	Fletch 20 Elder shortbow (unstrung)	Fletch 20 unstrung elder shortbows	90 Fletching	200	<0.1%
+980	Global	Fletch an Eternal magic shortbow (Martial) or Primal crossbow (martial).	Fletch an eternal magic shortbow (martial) or primal crossbow (martial).	95 Fletching	200	<0.1%
+981	Global	Fletch 1,000 Eternal magic shafts.	Fletch 1,000 eternal magic shafts.	90 Fletching	200	<0.1%
+982	Global	Fletch 1,500 Primal arrows.	Fletch 1,500 primal arrows.	92 Fletching	200	<0.1%
+983	Global	Fletch an Eternal Magic Wood Box.	Fletch an eternal magic wood box.	90 Fletching	200	<0.1%
+984	Global	Fletch 350 Rune darts.	Fletch 350 rune darts.	81 Fletching	200	0.1%
+985	Global	Smith a Primal Ore Box.	Smith a primal ore box.	99 Smithing	200	<0.1%
+986	Global	Smith 10,000 Armour Spikes.	Smith 10,000 armour spikes.	80 Smithing	200	<0.1%
+987	Global	Smith 10,000 Primal Armour Spikes.	Smith 10,000 primal armour spikes.	99 Smithing	200	<0.1%
+988	Global	Mine each of the 10 ores on the surface of the Daemonheim peninsula in under 5 minutes.	Mine each of the 10 ores on the surface of the Daemonheim peninsula in under 5 minutes.	80 Mining	200	<0.1%
+989	Global	Mine 70 Banite Ore.	Mine 70 banite ore.	80 Mining	200	8.4%
+990	Global	Mine 100 Dark or Light Animica.	Mine 100 dark or light animica.	90 Mining	200	0.3%
+991	Global	Open 10 Metamorphic Geodes.	Open 10 metamorphic geodes. These are found randomly while mining from rocks which require at least level 60 Mining	60 Mining	200	0.3%
+992	Global	Harvest 40 Grimy Lantadyme.	Harvest 40 grimy lantadyme.	73 Farming	200	<0.1%
+993	Global	Harvest 50 Grimy Fellstalk.	Harvest 50 grimy fellstalk.	91 Farming	200	<0.1%
+994	Global	Plant an Avocado seed in a bush patch.	Plant an avocado seed in a bush patch.	69 Farming	200	<0.1%
+995	Global	Harvest 20 Lychee.	Harvest 20 lychee.	99 Farming	200	<0.1%
+996	Global	Harvest 24 Starbloom Flowers.	Harvest 24 starbloom flowers.	84 Farming	200	<0.1%
+997	Global	Catch 150 Rocktail.	Catch 150 raw rocktails.	90 Fishing	200	<0.1%
+998	Global	Catch 200 Sailfish.	Catch 200 raw sailfish.	97 Fishing	200	<0.1%
+999	Global	Catch 150 Blue Blubber Jellyfish.	Catch 150 raw blue blubber jellyfish.	91 Fishing	200	<0.1%
+1000	Global	Obtain the highest boost available in the 'Fishing Frenzy' activity.	Obtain the highest boost available in the 'Fishing Frenzy' activity at Deep Sea Fishing.	94 Fishing	200	<0.1%
+1001	Global	Catch a Cavefish.	Catch a raw cavefish.	85 Fishing, 80 Cooking	200	<0.1%
+1003	Global	Manually bury or scatter each of the listed bones and ashes.	Complete the Bury All achievement.	90 Prayer	200	<0.1%
+1004	Global	Activate Soul Split prayer.	Activate Soul Split prayer.	92 Prayer	200	<0.1%
+1005	Global	Catch a Dragon Impling.	Catch a dragon impling.	80 Hunter	200	<0.1%
+1006	Global	Catch a Kingly Impling.	Catch a kingly impling.	90 Hunter	200	<0.1%
+1007	Global	Equip a full set of Bane armour.	Equip a full set of bane armour.	80 Smithing, 80 Defence	200	0.2%
+1008	Global	Equip a full set of Elder Rune armour.	Equip a full set of elder rune armour.	90 Smithing, 90 Defence	200	0.2%
+1009	Global	Cast a Surge spell.	Cast a Surge spell.	81 Magic	200	0.3%
+1010	Global	Burn 100 Magic Logs	Burn 100 magic logs	75 Firemaking	200	0.1%
+1011	Global	Burn 10 Elder logs.	Burn 10 elder logs.	90 Firemaking	200	<0.1%
+1012	Global	Reach level 99 in the Agility skill.	Reach level 99 Agility.	99 Agility	200	<0.1%
+1013	Global	Reach level 99 in the Archaeology skill.	Reach level 99 Archaeology.	99 Archaeology	200	<0.1%
+1014	Global	Reach level 99 in the Attack skill.	Reach level 99 Attack.	99 Attack	200	<0.1%
+1015	Global	Reach level 99 in the Construction skill.	Reach level 99 Construction.	99 Construction	200	<0.1%
+1016	Global	Reach level 99 in the Cooking skill.	Reach level 99 Cooking.	99 Cooking	200	<0.1%
+1017	Global	Reach level 99 in the Crafting skill.	Reach level 99 Crafting.	99 Crafting	200	<0.1%
+1018	Global	Reach level 99 in the Defence skill.	Reach level 99 Defence.	99 Defence	200	<0.1%
+1019	Global	Reach level 99 in the Divination skill.	Reach level 99 Divination.	99 Divination	200	<0.1%
+1020	Global	Reach level 99 in the Dungeoneering skill.	Reach level 99 Dungeoneering.	99 Dungeoneering	200	<0.1%
+1021	Global	Reach level 99 in the Farming skill.	Reach level 99 Farming.	99 Farming	200	<0.1%
+1022	Global	Reach level 99 in the Firemaking skill. (Where arson is its own reward.)	Reach level 99 Firemaking.	99 Firemaking	200	<0.1%
+1023	Global	Reach level 99 in the Fishing skill.	Reach level 99 Fishing.	99 Fishing	200	<0.1%
+1024	Global	Reach level 99 in the Fletching skill.	Reach level 99 Fletching.	99 Fletching	200	<0.1%
+1025	Global	Reach level 99 in the Herblore skill.	Reach level 99 Herblore.	99 Herblore	200	<0.1%
+1026	Global	Reach level 99 in the Constitution skill.	Reach level 99 Constitution.	99 Constitution	200	<0.1%
+1027	Global	Reach level 99 in the Hunter skill.	Reach level 99 Hunter.	99 Hunter	200	<0.1%
+1028	Global	Reach level 99 in the Invention skill.	Reach level 99 Invention.	99 Invention	200	<0.1%
+1029	Global	Reach level 99 in the Magic skill.	Reach level 99 Magic.	99 Magic	200	<0.1%
+1030	Global	Reach level 99 in the Mining skill.	Reach level 99 Mining.	99 Mining	200	<0.1%
+1031	Global	Reach level 99 in the Necromancy skill.	Reach level 99 Necromancy.	99 Necromancy	200	<0.1%
+1032	Global	Reach level 99 in the Prayer skill.	Reach level 99 Prayer.	99 Prayer	200	<0.1%
+1033	Global	Reach level 99 in the Ranged skill.	Reach level 99 Ranged.	99 Ranged	200	<0.1%
+1034	Global	Reach level 99 in the Runecrafting skill.	Reach level 99 Runecrafting.	99 Runecrafting	200	<0.1%
+1035	Global	Reach level 99 in the Slayer skill.	Reach level 99 Slayer.	99 Slayer	200	<0.1%
+1036	Global	Reach level 99 in the Smithing skill.	Reach level 99 Smithing.	99 Smithing	200	<0.1%
+1037	Global	Reach level 99 in the Strength skill.	Reach level 99 Strength.	99 Strength	200	<0.1%
+1038	Global	Reach level 99 in the Summoning skill.	Reach level 99 Summoning.	99 Summoning	200	<0.1%
+1039	Global	Reach level 99 in the Thieving skill.	Reach level 99 Thieving.	99 Thieving	200	<0.1%
+1040	Global	Reach level 99 in the Woodcutting skill.	Reach level 99 Woodcutting.	99 Woodcutting	200	<0.1%
+1041	Global	Reach level 110 in the Mining skill.	Reach level 110 Mining.	110 Mining	200	<0.1%
+1042	Global	Reach level 110 in the Smithing skill.	Reach level 110 Smithing.	110 Smithing	200	<0.1%
+1043	Global	Reach level 110 in the Crafting skill.	Reach level 110 Crafting	110 Crafting	200	<0.1%
+1044	Global	Reach level 110 in the Firemaking skill.	Reach level 110 Firemaking.	110 Firemaking	200	<0.1%
+1045	Global	Reach level 110 in the Fletching skill.	Reach level 110 Fletching.	110 Fletching	200	<0.1%
+1046	Global	Reach level 110 in the Woodcutting skill.	Reach level 110 Woodcutting.	110 Woodcutting	200	<0.1%
+1047	Global	Reach level 110 in the Runecrafting skill.	Reach level 110 Runecrafting.	110 Runecrafting	200	<0.1%
+1048	Global	Reach level 120 in the Dungeoneering skill.	Reach level 120 Dungeoneering.	120 Dungeoneering	200	<0.1%
+1049	Global	Reach level 120 in the Farming skill.	Reach level 120 Farming.	120 Farming	200	<0.1%
+1050	Global	Reach level 120 in the Herblore skill.	Reach level 120 Herblore.	120 Herblore	200	<0.1%
+1051	Global	Reach level 120 in the Slayer skill.	Reach level 120 Slayer.	120 Slayer	200	<0.1%
+1052	Global	Reach level 120 in the Invention skill.	Reach level 120 Invention.	120 Invention	200	<0.1%
+1053	Global	Reach level 120 in the Archaeology skill.	Reach level 120 Archaeology	120 Archaeology	200	<0.1%
+1054	Global	Reach level 120 in the Necromancy skill.	Reach level 120 Necromancy.	120 Necromancy	200	<0.1%
+1055	Global	Obtain 50 Million Agility XP.	Obtain 50 million Agility XP.	50,000,000 Agility XP	200	<0.1%
+1056	Global	Obtain 50 Million Construction XP.	Obtain 50 million Construction XP.	50,000,000 Construction XP	200	<0.1%
+1057	Global	Obtain 50 Million Cooking XP.	Obtain 50 million Cooking XP.	50,000,000 Cooking XP	200	<0.1%
+1058	Global	Obtain 50 Million Crafting XP.	Obtain 50 million Crafting XP.	50,000,000 Crafting XP	200	<0.1%
+1059	Global	Obtain 50 Million Farming XP.	Obtain 50 million Farming XP.	50,000,000 Farming XP	200	<0.1%
+1060	Global	Obtain 50 Million Firemaking XP.	Obtain 50 million Firemaking XP.	50,000,000 Firemaking XP	200	<0.1%
+1061	Global	Obtain 50 Million Fishing XP.	Obtain 50 million Fishing XP.	50,000,000 Fishing XP	200	<0.1%
+1062	Global	Obtain 50 Million Fletching XP.	Obtain 50 million Fletching XP.	50,000,000 Fletching XP	200	<0.1%
+1063	Global	Obtain 50 Million Herblore XP.	Obtain 50 million Herblore XP.	50,000,000 Herblore XP	200	<0.1%
+1064	Global	Obtain 50 Million Hunter XP.	Obtain 50 million Hunter XP.	50,000,000 Hunter XP	200	<0.1%
+1065	Global	Obtain 50 Million Mining XP.	Obtain 50 million Mining XP.	50,000,000 Mining XP	200	<0.1%
+1066	Global	Obtain 50 Million Prayer XP.	Obtain 50 million Prayer XP.	50,000,000 Prayer XP	200	<0.1%
+1067	Global	Obtain 50 Million Runecrafting XP.	Obtain 50 million Runecrafting XP.	50,000,000 Runecrafting XP	200	<0.1%
+1068	Global	Obtain 50 Million Slayer XP.	Obtain 50 million Slayer XP.	50,000,000 Slayer XP	200	<0.1%
+1069	Global	Obtain 50 Million Smithing XP.	Obtain 50 million Smithing XP.	50,000,000 Smithing XP	200	<0.1%
+1070	Global	Obtain 50 Million Thieving XP.	Obtain 50 million Thieving XP.	50,000,000 Thieving XP	200	<0.1%
+1071	Global	Obtain 50 Million Woodcutting XP.	Obtain 50 million Woodcutting XP.	50,000,000 Woodcutting XP	200	<0.1%
+1072	Global	Obtain 50 Million Dungeoneering XP.	Obtain 50 million Dungeoneering XP.	50,000,000 Dungeoneering XP	200	<0.1%
+1073	Global	Obtain 50 Million Invention XP.	Obtain 50 million Invention XP.	50,000,000 Invention XP	200	<0.1%
+1074	Global	Obtain 50 Million Divination XP.	Obtain 50 million Divination XP.	50,000,000 Divination XP	200	<0.1%
+1075	Global	Obtain 50 Million Archaeology XP.	Obtain 50 million Archaeology XP.	50,000,000 Archaeology XP	200	<0.1%
+1076	Global	Obtain 50 Million Attack XP.	Obtain 50 million Attack XP.	50,000,000 Attack XP	200	<0.1%
+1077	Global	Obtain 50 Million Constitution XP.	Obtain 50 million Constitution XP.	50,000,000 Constitution XP	200	<0.1%
+1078	Global	Obtain 50 Million Strength XP.	Obtain 50 million Strength XP.	50,000,000 Strength XP	200	<0.1%
+1079	Global	Obtain 50 Million Defence XP.	Obtain 50 million Defence XP.	50,000,000 Defence XP	200	<0.1%
+1080	Global	Obtain 50 Million Ranged XP.	Obtain 50 million Ranged XP.	50,000,000 Ranged XP	200	<0.1%
+1081	Global	Obtain 50 Million Magic XP.	Obtain 50 million Magic XP.	50,000,000 Magic XP	200	<0.1%
+1082	Global	Obtain 50 Million Summoning XP.	Obtain 50 million Summoning XP.	50,000,000 Summoning XP	200	<0.1%
+1083	Global	Obtain 50 Million Necromancy XP.	Obtain 50 million Necromancy XP.	50,000,000 Necromancy XP	200	<0.1%
+1084	Global	Complete 750 clues of any tier.	Complete 750 clues of any tier.	N/A	200	<0.1%
+1085	Global	Complete 1000 clues of any tier.	Complete 1000 clues of any tier.	N/A	200	<0.1%
+1086	Global	Make 5 Elder Overload Salve Potions.	Make 5 elder overload salves.	107 Herblore	200	<0.1%
+1087	Global	Equip an Eternal Magic shortbow.	Equip an eternal magic shortbow.	95 Ranged, 90 Defence	200	<0.1%
+1094	Global	Equip a full set of Primal armour.	Equip a full set of primal armour.	99 Smithing, 99 Defence	200	<0.1%
+1103	Global	Reach level 90 in any skill.	Reach level 90 in any skill.	Any skill at level 90	200	11.3%
+1104	Global	Reach level 95 in any skill.	Reach level 95 in any skill.	Any skill at level 95	200	2.1%
+1109	Global	Reach at least level 80 in all non-elite skills.	Reach at least level 80 in all non-elite skills.	All skills except Invention at level 80	200	<0.1%
+1110	Global	Reach at least level 90 in all non-elite skills.	Reach at least level 90 in all non-elite skills.	All skills except Invention at level 90	200	<0.1%
+447	Global	Help the Archivist recover all core memory data in the Hall of Memories.	Recover all core memory data in the Hall of Memories.	70 Divination	200	<0.1%
+448	Global	Attune and hand all engrams in to the Memorial to Guthix.	Hand all engrams in to the Memorial to Guthix.	82 Divination	200	<0.1%
+146	Global	Reach maximum total level.	Reach maximum total level.	Maximum total level	200	<0.1%
+963	Global	Complete 150 Master clue scrolls.	Complete 150 master clue scrolls.	N/A	200	<0.1%
+1088	Global	Work with Ramarno (in Camdozaal) to obtain a pickaxe of life and death.	Create a pickaxe of life and death.	99 Mining	200	<0.1%
+1089	Global	Have something planted and living in every farming patch.	Have something planted and living in every farming patch.	99 Farming	200	<0.1%
+1090	Global	Work with Ramarno (in Camdozaal) to obtain a hatchet of bloom and blight.	Create a hatchet of bloom and blight.	99 Woodcutting	200	<0.1%
+1091	Global	Equip any Masterwork weapon.	Equip any masterwork weapon.	92 Attack	200	<0.1%
+1092	Global	Equip a full set of Masterwork armour.	Equip a full set of masterwork armour.	99 Smithing, 92 Defence	200	<0.1%
+1093	Global	Unlock the Richie pet from helping Richie accumulate wealth at the Grand Exchange.	Donate 100,000,000 GP to Richie.	100,000,000 gp	200	<0.1%
+1095	Global	Obtain 200 Million XP in any single skill.	Obtain 200 Million XP in any single skill.	200,000,000 XP in any skill	200	<0.1%
+1096	Global	Fill all of the Treasure Trail hidey-holes. You can find a complete list of hidey-holes at the noticeboard by Zaida.	Fill all of the Treasure Trail hidey-holes.	Various	200	<0.1%
+1097	Global	Obtain a dye, or a piece of Third-age or Second-age gear from a clue scroll.	Obtain a dye, or a piece of Third-age or Second-age gear from a clue scroll.	N/A	200	<0.1%
+1111	Global	Reach at least level 95 in all non-elite skills.	Reach at least level 95 in all non-elite skills.	All skills except Invention at level 95	200	<0.1%
 403	Kandarin: Gnomes	Complete the Gnome Stronghold Agility Course.	Complete the Gnome Stronghold Agility Course.	1 Agility	10	39.8%
 404	Kandarin: Feldip Hills	Catch a Crimson Swift in the Feldip Hills.	Catch a crimson swift in the Feldip Hills.	1 Hunter	10	7.1%
 405	Kandarin: Ardougne	Defeat a Tortoise with riders in Kandarin.	Defeat a tortoise with riders in Kandarin.	N/A	10	29.3%
@@ -718,16 +718,16 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 442	Kandarin: Feldip Hills	Equip an Ogre Expert hat.	Equip an Ogre Expert hat.	1,000 chompy bird kills	80	<0.1%
 445	Kandarin: Seers Village	Use the Piety Prayer.	Use the Piety Prayer.	70 Prayer, 70 Defence	80	0.5%
 446	Kandarin: Ardougne	Complete the task set: Hard Ardougne.	Complete the Hard Ardougne achievements.	Achievement: Hard Ardougne	80	<0.1%
-449	Kandarin: Ardougne	Equip a dragon full helm.	Equip a dragon full helm.	60 Defence	150	<0.1%
-450	Kandarin: Ardougne	Chop an Elder Tree until it no longer has logs remaining.	Chop an elder tree until it no longer has logs remaining.	90 Woodcutting	150	<0.1%
-451	Kandarin: Ardougne	Obtain a Crystal Geode from a Crystal Tree.	Obtain a crystal geode from a crystal tree.	94 Farming	150	<0.1%
-452	Kandarin: Ardougne	Reach Howl's Workshop in the Stormguard Citadel.	Partial completion of the Howl's Floating Workshop mystery.	95 Archaeology	150	<0.1%
-453	Kandarin: Feldip Hills	Equip a Dragon Archer hat.	Equip a Dragon Archer hat.	2,000 chompy bird kills	150	<0.1%
-454	Kandarin: Ardougne	Complete the task set: Elite Ardougne.	Complete the Elite Ardougne achievements.	Achievement: Elite Ardougne	150	<0.1%
-455	Kandarin: Ardougne	Successfully breed a royal dragon.	Breed a royal dragon.	92 Farming	150	<0.1%
-457	Kandarin: Ardougne	Defeat an Automaton after 'The World Wakes'.	Defeat an automaton after The World Wakes.	N/A	150	<0.1%
-456	Kandarin: Feldip Hills	Equip an Expert Dragon Archer hat.	Equip an Expert Dragon Archer hat.	4,000 chompy bird kills	150	<0.1%
-458	Kandarin: Ardougne	Throw 100,000,000 gold coins into the Whirlpool at the Deep Sea Fishing platform.	Throw 100,000,000 gold coins into the Whirlpool at the Deep Sea Fishing platform.	68 Fishing	150	<0.1%
+449	Kandarin: Ardougne	Equip a dragon full helm.	Equip a dragon full helm.	60 Defence	200	<0.1%
+450	Kandarin: Ardougne	Chop an Elder Tree until it no longer has logs remaining.	Chop an elder tree until it no longer has logs remaining.	90 Woodcutting	200	<0.1%
+451	Kandarin: Ardougne	Obtain a Crystal Geode from a Crystal Tree.	Obtain a crystal geode from a crystal tree.	94 Farming	200	<0.1%
+452	Kandarin: Ardougne	Reach Howl's Workshop in the Stormguard Citadel.	Partial completion of the Howl's Floating Workshop mystery.	95 Archaeology	200	<0.1%
+453	Kandarin: Feldip Hills	Equip a Dragon Archer hat.	Equip a Dragon Archer hat.	2,000 chompy bird kills	200	<0.1%
+454	Kandarin: Ardougne	Complete the task set: Elite Ardougne.	Complete the Elite Ardougne achievements.	Achievement: Elite Ardougne	200	<0.1%
+455	Kandarin: Ardougne	Successfully breed a royal dragon.	Breed a royal dragon.	92 Farming	200	<0.1%
+457	Kandarin: Ardougne	Defeat an Automaton after 'The World Wakes'.	Defeat an automaton after The World Wakes.	N/A	200	<0.1%
+456	Kandarin: Feldip Hills	Equip an Expert Dragon Archer hat.	Equip an Expert Dragon Archer hat.	4,000 chompy bird kills	200	<0.1%
+458	Kandarin: Ardougne	Throw 100,000,000 gold coins into the Whirlpool at the Deep Sea Fishing platform.	Throw 100,000,000 gold coins into the Whirlpool at the Deep Sea Fishing platform.	68 Fishing	200	<0.1%
 572	Karamja	Collect 5 seaweed from anywhere on Karamja.	Collect 5 seaweed from anywhere on Karamja.	N/A	10	43.5%
 573	Karamja	Fill up Luthas' crate near the Musa Point plantation with bananas and receive 30 coins for your work.	Fill up Luthas' crate near the Banana plantation with bananas and talk to him to receive 30 coins for your work.	N/A	10	39.4%
 574	Karamja	Claim a ticket from Brimhaven Agility Arena.	Claim a ticket from Brimhaven Agility Arena.	1 Agility	10	23.9%
@@ -780,12 +780,12 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 623	Karamja	Equip a TokHaar-Kal-Mor.	Equip a TokHaar-Kal-Mor.	Completion of The Elder Kiln	80	0.1%
 624	Karamja	Complete the Fight Kiln and collect an uncut onyx.	Complete the Fight Kiln and collect an uncut onyx.	Completion of The Elder Kiln	80	0.1%
 629	Karamja	Complete all TzTok-Jad combat achievements.	Complete all TzTok-Jad combat achievements.	Achievement: TzTok-Jad	80	<0.1%
-616	Karamja	Purchase an uncut onyx from Tzhaar-Hur-Lek's ore and gem store.	Purchase an uncut onyx from TzHaar-Hur-Lek's Ore and Gem Store.	N/A	150	<0.1%
-619	Karamja	Defeat the Har-Aken. (10 times)	Defeat Har-Aken 10 times.	Completion of The Elder Kiln	150	<0.1%
-625	Karamja	Defeat 10 gemstone dragons inside the Gemstone cavern.	Defeat 10 gemstone dragons inside the Gemstone cavern.	95 Slayer	150	<0.1%
-626	Karamja	Equip a piece of Gemstone armour.	Equip a piece of gemstone armour.	95 Slayer, 80 Defence, 80 Smithing	150	<0.1%
-627	Karamja	Complete the task set: Elite Karamja.	Complete the Elite Karamja achievements.	Achievement: Elite Karamja	150	<0.1%
-628	Karamja	Complete all Har-Aken combat achievements.	Complete all Har-Aken combat achievements.	Achievement: Har-Aken	150	<0.1%
+616	Karamja	Purchase an uncut onyx from Tzhaar-Hur-Lek's ore and gem store.	Purchase an uncut onyx from TzHaar-Hur-Lek's Ore and Gem Store.	N/A	200	<0.1%
+619	Karamja	Defeat the Har-Aken. (10 times)	Defeat Har-Aken 10 times.	Completion of The Elder Kiln	200	<0.1%
+625	Karamja	Defeat 10 gemstone dragons inside the Gemstone cavern.	Defeat 10 gemstone dragons inside the Gemstone cavern.	95 Slayer	200	<0.1%
+626	Karamja	Equip a piece of Gemstone armour.	Equip a piece of gemstone armour.	95 Slayer, 80 Defence, 80 Smithing	200	<0.1%
+627	Karamja	Complete the task set: Elite Karamja.	Complete the Elite Karamja achievements.	Achievement: Elite Karamja	200	<0.1%
+628	Karamja	Complete all Har-Aken combat achievements.	Complete all Har-Aken combat achievements.	Achievement: Har-Aken	200	<0.1%
 0	Misthalin: Lumbridge	Progress through the Leagues tutorial to unlock your first relic.	Progress through the Leagues tutorial to unlock your first relic.	N/A	10	100%
 2	Misthalin: Draynor Village	Climb to the top of the Wizards' Tower.	Climb to the top of the Wizards' Tower.	N/A	10	78.8%
 3	Misthalin: Draynor Village	Have Ned make you some rope from balls of wool.	Have Ned make you some rope from 4 balls of wool.	N/A	10	53%
@@ -896,40 +896,40 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 762	Misthalin: City of Um	Defeat Nakatra, Devourer Eternal.	Defeat Nakatra, Devourer Eternal.	Completion of Soul Searching	80	0.1%
 764	Misthalin: City of Um	Cleanse the Gate of Elidinis.	Cleanse the Gate of Elidinis.	Completion of Ode of the Devourer	80	10%
 766	Misthalin: City of Um	Complete the task set: Hard Underworld.	Complete the Hard Underworld achievements.	Achievement: Hard City of Um	80	<0.1%
-11	Misthalin: Draynor Village	Navigate the RuneSpan using a Greater Conjuration Platorm.	Navigate the RuneSpan using a greater conjuration platform.	81 Runecrafting	150	<0.1%
-13	Misthalin: Draynor Village	Obtain the Greater Runic Staff from the RuneSpan.	Obtain the greater runic staff from the RuneSpan.	75 Runecrafting	150	<0.1%
-21	Misthalin: Edgeville	Complete the task set: Elite Varrock.	Given by Vannaka in Edgeville for completing all of the Elite Varrock achievements.	Achievement: Elite Varrock	150	<0.1%
-25	Misthalin: Fort Forinthry	Upgrade the guardhouse in Fort Forinthry to Tier 3.	Upgrade the guardhouse in Fort Forinthry to tier 3.	77 Construction	150	<0.1%
-59	Misthalin: Lumbridge	Defeat 150 tormented demons.	Defeat 150 tormented demons.	Completion of While Guthix Sleeps	150	<0.1%
-60	Misthalin: Lumbridge	Equip a dragon crossbow.	Equip a dragon crossbow.	64 Ranged	150	<0.1%
-85	Misthalin: City of Um	Defeat Rasial, the First Necromancer.	Defeat Rasial, the First Necromancer once.	Completion of all Necromancy quests	150	<0.1%
-86	Misthalin: City of Um	Defeat Rasial, the First Necromancer. (100 times)	Defeat Rasial, the First Necromancer 100 times.	Completion of all Necromancy quests	150	<0.1%
-87	Misthalin: City of Um	Equip an Omni guard.	Equip an omni guard.	95 Necromancy	150	<0.1%
-88	Misthalin: City of Um	Equip a Soulbound lantern.	Equip a soulbound lantern	95 Necromancy	150	<0.1%
-89	Misthalin: City of Um	Equip a full set of Robes of the First Necromancer.	Equip a full set of First Necromancer's equipment.	95 Defence	150	<0.1%
-90	Misthalin: City of Um	Give a blueberry pie to Thalmund in the City of Um.	Give a blueberry pie to Thalmund in the City of Um.	30 Cooking	150	<0.1%
-91	Misthalin: City of Um	Track 8 of the owls in the City of Um.	Track 8 of the owls in the City of Um. See Birds of Prey for details.	Completion of all Necromancy quests	150	<0.1%
-92	Misthalin: Varrock	Defeat Croesus.	Defeat Croesus 1 time.	88 Woodcutting, 88 Mining, 88 Fishing, 88 Hunter	150	<0.1%
-93	Misthalin: Varrock	Defeat Croesus. (100 times)	Defeat Croesus 100 times.	88 Woodcutting, 88 Mining, 88 Fishing, 88 Hunter	150	<0.1%
-119	Misthalin: Varrock	Defeat Kerapac, the bound. (100 times)	Defeat Kerapac, the bound 100 times.	N/A	150	<0.1%
-121	Misthalin: Varrock	Defeat the Arch-Glacor in hard mode. (100 times)	Defeat the Arch-Glacor in hard mode 100 times.	N/A	150	<0.1%
-124	Misthalin: Varrock	Equip either a Dark Shard of Leng or a Dark Sliver of Leng.	Equip either a Dark Shard of Leng or a Dark Sliver of Leng.	92 Attack	150	<0.1%
-125	Misthalin: Varrock	Craft 100 earth runes simultaneously without aid from an explorer's ring, pouches or familiars.	Craft 100 earth runes simultaneously without aid from an explorer's ring, Runecrafting pouches or familiars.	99 Runecrafting	150	<0.1%
-126	Misthalin: Varrock	Bake a summer pie in the Cooking Guild from scratch.	Bake a summer pie in the Cooking Guild from scratch.	95 Cooking	150	<0.1%
-758	Misthalin: Varrock	Defeat TzKal-Zuk.	Defeat TzKal-Zuk once.	N/A	150	<0.1%
-759	Misthalin: Varrock	Defeat TzKal-Zuk. (10 times)	Defeat TzKal-Zuk 10 times.	N/A	150	<0.1%
-760	Misthalin: City of Um	Craft a soul rune at the soul altar with a soul cape equipped.	Craft a soul rune at the soul altar with a soul cape equipped.	90 Runecrafting	150	<0.1%
-761	Misthalin: City of Um	Upgrade a set of Death Skull equipment to tier 90.	Upgrade a set of Death Skull equipment to tier 90.	90 Necromancy	150	<0.1%
-763	Misthalin: City of Um	Defeat Nakatra, Devourer Eternal. (100 times)	Defeat Nakatra, Devourer Eternal 100 times.	Completion of Soul Searching	150	<0.1%
-765	Misthalin: City of Um	Cleanse the Gate of Elidinis. (100 times)	Cleanse The Gate of Elidinis 100 times.	Completion of Ode of the Devourer	150	<0.1%
-769	Misthalin: City of Um	Complete the task set: Elite Underworld.	Complete the Elite Underworld achievements.	Achievement: Elite City of Um	150	<0.1%
-1114	Misthalin: Fort Forinthry	Defeat Zemouregal & Vorkath.	Defeat Zemouregal & Vorkath.	N/A	150	<0.1%
-1115	Misthalin: Fort Forinthry	Defeat Zemouregal & Vorkath. (100 times)	Defeat Zemouregal & Vorkath 100 times.	N/A	150	<0.1%
-122	Misthalin: Varrock	Equip an Ek-ZekKil.	Equip an Ek-ZekKil.	95 Melee	150	<0.1%
-123	Misthalin: Varrock	Equip a Fractured Staff of Armadyl.	Equip a Fractured Staff of Armadyl.	95 Magic	150	<0.1%
-767	Misthalin: City of Um	Complete all Sanctum of Rebirth combat achievements.	Complete all Sanctum of Rebirth combat achievements.	Achievement: Sanctum of Rebirth	150	<0.1%
-768	Misthalin: City of Um	Complete all of Rasial, the First Necromancer's combat achievements.	Complete all of Rasial, the First Necromancer's combat achievements.	Achievement: Rasial, the First Necromancer	150	<0.1%
-1116	Misthalin: Varrock	Equip an igneous Kal-Zuk cape.	Equip an igneous Kal-Zuk cape.	99 Defence	150	<0.1%
+11	Misthalin: Draynor Village	Navigate the RuneSpan using a Greater Conjuration Platorm.	Navigate the RuneSpan using a greater conjuration platform.	81 Runecrafting	200	<0.1%
+13	Misthalin: Draynor Village	Obtain the Greater Runic Staff from the RuneSpan.	Obtain the greater runic staff from the RuneSpan.	75 Runecrafting	200	<0.1%
+21	Misthalin: Edgeville	Complete the task set: Elite Varrock.	Given by Vannaka in Edgeville for completing all of the Elite Varrock achievements.	Achievement: Elite Varrock	200	<0.1%
+25	Misthalin: Fort Forinthry	Upgrade the guardhouse in Fort Forinthry to Tier 3.	Upgrade the guardhouse in Fort Forinthry to tier 3.	77 Construction	200	<0.1%
+59	Misthalin: Lumbridge	Defeat 150 tormented demons.	Defeat 150 tormented demons.	Completion of While Guthix Sleeps	200	<0.1%
+60	Misthalin: Lumbridge	Equip a dragon crossbow.	Equip a dragon crossbow.	64 Ranged	200	<0.1%
+85	Misthalin: City of Um	Defeat Rasial, the First Necromancer.	Defeat Rasial, the First Necromancer once.	Completion of all Necromancy quests	200	<0.1%
+86	Misthalin: City of Um	Defeat Rasial, the First Necromancer. (100 times)	Defeat Rasial, the First Necromancer 100 times.	Completion of all Necromancy quests	200	<0.1%
+87	Misthalin: City of Um	Equip an Omni guard.	Equip an omni guard.	95 Necromancy	200	<0.1%
+88	Misthalin: City of Um	Equip a Soulbound lantern.	Equip a soulbound lantern	95 Necromancy	200	<0.1%
+89	Misthalin: City of Um	Equip a full set of Robes of the First Necromancer.	Equip a full set of First Necromancer's equipment.	95 Defence	200	<0.1%
+90	Misthalin: City of Um	Give a blueberry pie to Thalmund in the City of Um.	Give a blueberry pie to Thalmund in the City of Um.	30 Cooking	200	<0.1%
+91	Misthalin: City of Um	Track 8 of the owls in the City of Um.	Track 8 of the owls in the City of Um. See Birds of Prey for details.	Completion of all Necromancy quests	200	<0.1%
+92	Misthalin: Varrock	Defeat Croesus.	Defeat Croesus 1 time.	88 Woodcutting, 88 Mining, 88 Fishing, 88 Hunter	200	<0.1%
+93	Misthalin: Varrock	Defeat Croesus. (100 times)	Defeat Croesus 100 times.	88 Woodcutting, 88 Mining, 88 Fishing, 88 Hunter	200	<0.1%
+119	Misthalin: Varrock	Defeat Kerapac, the bound. (100 times)	Defeat Kerapac, the bound 100 times.	N/A	200	<0.1%
+121	Misthalin: Varrock	Defeat the Arch-Glacor in hard mode. (100 times)	Defeat the Arch-Glacor in hard mode 100 times.	N/A	200	<0.1%
+124	Misthalin: Varrock	Equip either a Dark Shard of Leng or a Dark Sliver of Leng.	Equip either a Dark Shard of Leng or a Dark Sliver of Leng.	92 Attack	200	<0.1%
+125	Misthalin: Varrock	Craft 100 earth runes simultaneously without aid from an explorer's ring, pouches or familiars.	Craft 100 earth runes simultaneously without aid from an explorer's ring, Runecrafting pouches or familiars.	99 Runecrafting	200	<0.1%
+126	Misthalin: Varrock	Bake a summer pie in the Cooking Guild from scratch.	Bake a summer pie in the Cooking Guild from scratch.	95 Cooking	200	<0.1%
+758	Misthalin: Varrock	Defeat TzKal-Zuk.	Defeat TzKal-Zuk once.	N/A	200	<0.1%
+759	Misthalin: Varrock	Defeat TzKal-Zuk. (10 times)	Defeat TzKal-Zuk 10 times.	N/A	200	<0.1%
+760	Misthalin: City of Um	Craft a soul rune at the soul altar with a soul cape equipped.	Craft a soul rune at the soul altar with a soul cape equipped.	90 Runecrafting	200	<0.1%
+761	Misthalin: City of Um	Upgrade a set of Death Skull equipment to tier 90.	Upgrade a set of Death Skull equipment to tier 90.	90 Necromancy	200	<0.1%
+763	Misthalin: City of Um	Defeat Nakatra, Devourer Eternal. (100 times)	Defeat Nakatra, Devourer Eternal 100 times.	Completion of Soul Searching	200	<0.1%
+765	Misthalin: City of Um	Cleanse the Gate of Elidinis. (100 times)	Cleanse The Gate of Elidinis 100 times.	Completion of Ode of the Devourer	200	<0.1%
+769	Misthalin: City of Um	Complete the task set: Elite Underworld.	Complete the Elite Underworld achievements.	Achievement: Elite City of Um	200	<0.1%
+1114	Misthalin: Fort Forinthry	Defeat Zemouregal & Vorkath.	Defeat Zemouregal & Vorkath.	N/A	200	<0.1%
+1115	Misthalin: Fort Forinthry	Defeat Zemouregal & Vorkath. (100 times)	Defeat Zemouregal & Vorkath 100 times.	N/A	200	<0.1%
+122	Misthalin: Varrock	Equip an Ek-ZekKil.	Equip an Ek-ZekKil.	95 Melee	200	<0.1%
+123	Misthalin: Varrock	Equip a Fractured Staff of Armadyl.	Equip a Fractured Staff of Armadyl.	95 Magic	200	<0.1%
+767	Misthalin: City of Um	Complete all Sanctum of Rebirth combat achievements.	Complete all Sanctum of Rebirth combat achievements.	Achievement: Sanctum of Rebirth	200	<0.1%
+768	Misthalin: City of Um	Complete all of Rasial, the First Necromancer's combat achievements.	Complete all of Rasial, the First Necromancer's combat achievements.	Achievement: Rasial, the First Necromancer	200	<0.1%
+1116	Misthalin: Varrock	Equip an igneous Kal-Zuk cape.	Equip an igneous Kal-Zuk cape.	99 Defence	200	<0.1%
 693	Morytania	Take an easy companion through an easy route of Temple Trekking.	Complete an Easy Temple Trek.	Completion of In Aid of the Myreque	10	0.6%
 694	Morytania	Craft your own snelm in Morytania.	Craft a snelm.	15 Crafting	10	25.2%
 695	Morytania	Defeat a Werewolf in Morytania.	Defeat a Werewolf in Morytania.	N/A	10	41.6%
@@ -972,29 +972,29 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 732	Morytania	Fully level up all Temple Trekking companions.	Fully level up all Temple Trekking companions.	Completion of In Aid of the Myreque	80	<0.1%
 733	Morytania	Catch 5 sharks in Burgh de Rott.	Catch 5 sharks in Burgh de Rott.	76 Fishing	80	<0.1%
 734	Morytania	Complete the task set: Hard Morytania.	Complete the Hard Morytania achievements.	Achievement: Hard Morytania	80	<0.1%
-735	Morytania	Defeat 30 Abyssal Demons.	Defeat 30 abyssal demons.	85 Slayer	150	0.2%
-736	Morytania	Harvest 200 radiant energy from Radiant Wisps.	Harvest 200 radiant energy from radiant wisps.	85 Divination	150	0.1%
-737	Morytania	Defeat 20 Celestial Dragons.	Defeat 20 celestial dragons.	Completion of One of a Kind	150	<0.1%
-738	Morytania	Defeat Araxxi.	Defeat Araxxi once.	N/A	150	<0.1%
-739	Morytania	Defeat Araxxi. (100 times)	Defeat Araxxi 100 times.	N/A	150	<0.1%
-740	Morytania	Defeat the empowered Barrows Brothers.	Complete one Rise of the Six encounter.	N/A	150	<0.1%
-741	Morytania	Defeat the empowered Barrows Brothers.	Complete 100 Rise of the Six encounters.	N/A	150	<0.1%
-742	Morytania	Equip a Noxious Scythe.	Equip a noxious scythe.	90 Attack	150	<0.1%
-743	Morytania	Equip a Noxious Staff.	Equip a noxious staff.	90 Magic	150	<0.1%
-744	Morytania	Equip a Noxious Bow.	Equip a noxious bow.	90 Ranged	150	<0.1%
-745	Morytania	Equip a full set of Linza's equipment, including the hammer and shield.	Equip a full set of Linza the Disgraced's equipment, including the hammer and shield.	80 Defence, 80 Attack	150	<0.1%
-746	Morytania	Equip a full set of Akrisae's equipment, including the war mace.	Equip a full set of Akrisae the Doomed's equipment, including the war mace.	80 Defence, 80 Attack	150	<0.1%
-747	Morytania	Equip a Malevolent Kiteshield.	Equip a malevolent kiteshield.	90 Defence	150	<0.1%
-748	Morytania	Equip a Merciless Kiteshield.	Equip a merciless kiteshield.	90 Defence	150	<0.1%
-749	Morytania	Equip a Vengeful Kiteshield.	Equip a vengeful kiteshield.	90 Defence	150	<0.1%
-750	Morytania	Complete all the Everlight mysteries.	Complete all of the Everlight Dig Site mysteries.	98 Archaeology	150	<0.1%
-751	Morytania	Obtain an Araxyte Pheremone drop.	Obtain an araxyte pheremone drop.	N/A	150	<0.1%
-752	Morytania	Complete the task set: Elite Morytania.	Complete the Elite Morytania achievements.	Achievement: Elite Morytania	150	<0.1%
-753	Morytania	Enter the Morytania Slayer Tower resource dungeon.	Enter the Morytania Slayer Tower resource dungeon.	95 Dungeoneering	150	<0.1%
-757	Morytania	Read the book acquired from Roberta outside the Everlight porcelain clay mine.	Read On the Origin of Centaurs.	42 Archaeology	150	<0.1%
-754	Morytania	Fully explore the history of the Everlight Dig Site.	Complete the Mastery - Everlight achievements.	98 Archaeology	150	<0.1%
-755	Morytania	Complete all Araxxor and Araxxi combat achievements.	Complete all Araxxor and Araxxi combat achievements.	Achievement: Araxxor	150	<0.1%
-756	Morytania	Complete the quest: River of Blood.	Complete River of Blood.	Quest: River of Blood	150	<0.1%
+735	Morytania	Defeat 30 Abyssal Demons.	Defeat 30 abyssal demons.	85 Slayer	200	0.2%
+736	Morytania	Harvest 200 radiant energy from Radiant Wisps.	Harvest 200 radiant energy from radiant wisps.	85 Divination	200	0.1%
+737	Morytania	Defeat 20 Celestial Dragons.	Defeat 20 celestial dragons.	Completion of One of a Kind	200	<0.1%
+738	Morytania	Defeat Araxxi.	Defeat Araxxi once.	N/A	200	<0.1%
+739	Morytania	Defeat Araxxi. (100 times)	Defeat Araxxi 100 times.	N/A	200	<0.1%
+740	Morytania	Defeat the empowered Barrows Brothers.	Complete one Rise of the Six encounter.	N/A	200	<0.1%
+741	Morytania	Defeat the empowered Barrows Brothers.	Complete 100 Rise of the Six encounters.	N/A	200	<0.1%
+742	Morytania	Equip a Noxious Scythe.	Equip a noxious scythe.	90 Attack	200	<0.1%
+743	Morytania	Equip a Noxious Staff.	Equip a noxious staff.	90 Magic	200	<0.1%
+744	Morytania	Equip a Noxious Bow.	Equip a noxious bow.	90 Ranged	200	<0.1%
+745	Morytania	Equip a full set of Linza's equipment, including the hammer and shield.	Equip a full set of Linza the Disgraced's equipment, including the hammer and shield.	80 Defence, 80 Attack	200	<0.1%
+746	Morytania	Equip a full set of Akrisae's equipment, including the war mace.	Equip a full set of Akrisae the Doomed's equipment, including the war mace.	80 Defence, 80 Attack	200	<0.1%
+747	Morytania	Equip a Malevolent Kiteshield.	Equip a malevolent kiteshield.	90 Defence	200	<0.1%
+748	Morytania	Equip a Merciless Kiteshield.	Equip a merciless kiteshield.	90 Defence	200	<0.1%
+749	Morytania	Equip a Vengeful Kiteshield.	Equip a vengeful kiteshield.	90 Defence	200	<0.1%
+750	Morytania	Complete all the Everlight mysteries.	Complete all of the Everlight Dig Site mysteries.	98 Archaeology	200	<0.1%
+751	Morytania	Obtain an Araxyte Pheremone drop.	Obtain an araxyte pheremone drop.	N/A	200	<0.1%
+752	Morytania	Complete the task set: Elite Morytania.	Complete the Elite Morytania achievements.	Achievement: Elite Morytania	200	<0.1%
+753	Morytania	Enter the Morytania Slayer Tower resource dungeon.	Enter the Morytania Slayer Tower resource dungeon.	95 Dungeoneering	200	<0.1%
+757	Morytania	Read the book acquired from Roberta outside the Everlight porcelain clay mine.	Read On the Origin of Centaurs.	42 Archaeology	200	<0.1%
+754	Morytania	Fully explore the history of the Everlight Dig Site.	Complete the Mastery - Everlight achievements.	98 Archaeology	200	<0.1%
+755	Morytania	Complete all Araxxor and Araxxi combat achievements.	Complete all Araxxor and Araxxi combat achievements.	Achievement: Araxxor	200	<0.1%
+756	Morytania	Complete the quest: River of Blood.	Complete River of Blood.	Quest: River of Blood	200	<0.1%
 514	Elven Lands: Tirranwn	Cook a Rabbit in Tirannwn.	Cook a raw rabbit in Tirannwn.	1 Cooking	10	27.4%
 515	Elven Lands: Tirranwn	Attempt to pass a leaf trap.	Attempt to pass a leaf trap.	N/A	10	36.2%
 516	Elven Lands: Tirranwn	Use the Bank in Lletya.	Use the bank in Lletya.	N/A	10	33%
@@ -1032,27 +1032,27 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 548	Elven Lands: Tirranwn	Open the crystal chest in Prifddinas 10 times.	Open the crystal chest in Prifddinas 10 times.	N/A	80	4.1%
 549	Elven Lands: Tirranwn	Charge a piece of Dragonstone jewellery using the Tears of Seren.	Charge a piece of dragonstone jewellery using the Tears of Seren.	Completion of Legends' Quest	80	<0.1%
 550	Elven Lands: Tirranwn	Complete the task set: Hard Tirannwn.	Complete the Hard Tirannwn achievements.	Achievement: Hard Tirannwn	80	<0.1%
-551	Elven Lands: Tirranwn	Enter the Gorajo Hoardstalker resource dungeon.	Enter the Gorajo Hoardstalker resource dungeon.	95 Dungeoneering	150	<0.1%
-552	Elven Lands: Tirranwn	Have Lady Ithell create a crystal pickaxe, hatchet, or mattock.	Have Lady Ithell create a crystal pickaxe, hatchet, or mattock.	70 Smithing, 70 Invention	150	<0.1%
-553	Elven Lands: Tirranwn	Find all of the memoriam crystals in Prifddinas.	Find all of the memoriam crystals in Prifddinas.	N/A	150	<0.1%
-554	Elven Lands: Tirranwn	Aid Lord Amlodd in cleansing shadow cores.	Complete the I'm Forever Washing Shadows achievement.	71 Divination	150	<0.1%
-555	Elven Lands: Tirranwn	Help Lady Ithell with crystal singing research.	Complete the Sing for the Lady achievement.	75 Smithing, 75 Crafting	150	<0.1%
-556	Elven Lands: Tirranwn	Aid Lady Trahaearn in removing some corruption by smelting 100 corrupted ore.	Complete the Uncorrupted Ore achievement.	75 Mining, 75 Smithing	150	<0.1%
-557	Elven Lands: Tirranwn	Check a grown Crystal Tree in the Tower of Voices.	Check a grown crystal tree in the Tower of Voices.	94 Farming	150	<0.1%
-558	Elven Lands: Tirranwn	Have 4 elven clans suspect you of thieving at the same time.	Have 4 elven clans suspect you of thieving at the same time. If you have the Five Finger Discount relic this task is completed when pickpocketing an elf.	75 Thieving	150	<0.1%
-559	Elven Lands: Tirranwn	Chop a log from an elder tree you have grown in the Prifddinas farming patch, then fletch it into a shortbow.	Chop a log from an elder tree you have grown in the Prifddinas farming patch, then fletch it into an elder shortbow.	90 Farming, 90 Woodcutting, 90 Fletching	150	<0.1%
-560	Elven Lands: Tirranwn	Catch a Crystal impling.	Catch a crystal impling.	80 Hunter	150	<0.1%
-561	Elven Lands: Tirranwn	Craft an Attuned crystal teleport seed.	Craft an attuned crystal teleport seed.	85 Crafting, 85 Smithing	150	<0.1%
-562	Elven Lands: Tirranwn	Mine 50 Light animica in Isafdar.	Mine 50 light animica in Isafdar.	90 Mining	150	<0.1%
-563	Elven Lands: Tirranwn	Chop 25 Elder logs in Tirannwn.	Chop 25 elder logs in Tirannwn.	90 Woodcutting	150	<0.1%
-564	Elven Lands: Tirranwn	Catch 75 Crystal skillchompas in Isafdar.	Catch 75 crystal skillchompas in Isafdar.	97 Hunter	150	<0.1%
-565	Elven Lands: Tirranwn	Complete the task set: Elite Tirannwn.	Complete the Elite Tirannwn achievements.	Achievement: Elite Tirannwn	150	<0.1%
-566	Elven Lands: Tirranwn	Complete a Seren symbol.	Create a Seren's symbol.	75 Farming, 75 Prayer	150	<0.1%
-567	Elven Lands: Tirranwn	Obtain the titles of the elven clans.	Obtain the titles of the elven clans.	Various	150	<0.1%
-568	Elven Lands: Tirranwn	Perform well enough in Rush of Blood to impress Morvran.	Complete the Make Them Bleed achievement.	N/A	150	<0.1%
-569	Elven Lands: Tirranwn	Reach inside the Motherlode Maw 5 times.	Reach inside the Motherlode Maw 5 times.	115 Dungeoneering	150	<0.1%
-570	Elven Lands: Tirranwn	Obtain 'the Elven' title by purchasing each of the elven clan capes.	Obtain the Elven title by purchasing each of the elven clan capes.	Various	150	<0.1%
-571	Elven Lands: Tirranwn	Obtain the 'Dark Lord' title by unlocking a selection of titles from Prifddinas.	Obtain the Dark Lord title by completing the Sort of Crystally achievement.	Various	150	<0.1%
+551	Elven Lands: Tirranwn	Enter the Gorajo Hoardstalker resource dungeon.	Enter the Gorajo Hoardstalker resource dungeon.	95 Dungeoneering	200	<0.1%
+552	Elven Lands: Tirranwn	Have Lady Ithell create a crystal pickaxe, hatchet, or mattock.	Have Lady Ithell create a crystal pickaxe, hatchet, or mattock.	70 Smithing, 70 Invention	200	<0.1%
+553	Elven Lands: Tirranwn	Find all of the memoriam crystals in Prifddinas.	Find all of the memoriam crystals in Prifddinas.	N/A	200	<0.1%
+554	Elven Lands: Tirranwn	Aid Lord Amlodd in cleansing shadow cores.	Complete the I'm Forever Washing Shadows achievement.	71 Divination	200	<0.1%
+555	Elven Lands: Tirranwn	Help Lady Ithell with crystal singing research.	Complete the Sing for the Lady achievement.	75 Smithing, 75 Crafting	200	<0.1%
+556	Elven Lands: Tirranwn	Aid Lady Trahaearn in removing some corruption by smelting 100 corrupted ore.	Complete the Uncorrupted Ore achievement.	75 Mining, 75 Smithing	200	<0.1%
+557	Elven Lands: Tirranwn	Check a grown Crystal Tree in the Tower of Voices.	Check a grown crystal tree in the Tower of Voices.	94 Farming	200	<0.1%
+558	Elven Lands: Tirranwn	Have 4 elven clans suspect you of thieving at the same time.	Have 4 elven clans suspect you of thieving at the same time. If you have the Five Finger Discount relic this task is completed when pickpocketing an elf.	75 Thieving	200	<0.1%
+559	Elven Lands: Tirranwn	Chop a log from an elder tree you have grown in the Prifddinas farming patch, then fletch it into a shortbow.	Chop a log from an elder tree you have grown in the Prifddinas farming patch, then fletch it into an elder shortbow.	90 Farming, 90 Woodcutting, 90 Fletching	200	<0.1%
+560	Elven Lands: Tirranwn	Catch a Crystal impling.	Catch a crystal impling.	80 Hunter	200	<0.1%
+561	Elven Lands: Tirranwn	Craft an Attuned crystal teleport seed.	Craft an attuned crystal teleport seed.	85 Crafting, 85 Smithing	200	<0.1%
+562	Elven Lands: Tirranwn	Mine 50 Light animica in Isafdar.	Mine 50 light animica in Isafdar.	90 Mining	200	<0.1%
+563	Elven Lands: Tirranwn	Chop 25 Elder logs in Tirannwn.	Chop 25 elder logs in Tirannwn.	90 Woodcutting	200	<0.1%
+564	Elven Lands: Tirranwn	Catch 75 Crystal skillchompas in Isafdar.	Catch 75 crystal skillchompas in Isafdar.	97 Hunter	200	<0.1%
+565	Elven Lands: Tirranwn	Complete the task set: Elite Tirannwn.	Complete the Elite Tirannwn achievements.	Achievement: Elite Tirannwn	200	<0.1%
+566	Elven Lands: Tirranwn	Complete a Seren symbol.	Create a Seren's symbol.	75 Farming, 75 Prayer	200	<0.1%
+567	Elven Lands: Tirranwn	Obtain the titles of the elven clans.	Obtain the titles of the elven clans.	Various	200	<0.1%
+568	Elven Lands: Tirranwn	Perform well enough in Rush of Blood to impress Morvran.	Complete the Make Them Bleed achievement.	N/A	200	<0.1%
+569	Elven Lands: Tirranwn	Reach inside the Motherlode Maw 5 times.	Reach inside the Motherlode Maw 5 times.	115 Dungeoneering	200	<0.1%
+570	Elven Lands: Tirranwn	Obtain 'the Elven' title by purchasing each of the elven clan capes.	Obtain the Elven title by purchasing each of the elven clan capes.	Various	200	<0.1%
+571	Elven Lands: Tirranwn	Obtain the 'Dark Lord' title by unlocking a selection of titles from Prifddinas.	Obtain the Dark Lord title by completing the Sort of Crystally achievement.	Various	200	<0.1%
 630	Wilderness: General	Use the bank at the Mage Arena.	Use the Mage Arena bank.	N/A	10	45.7%
 631	Wilderness: General	Defeat the Chaos Elemental.	Defeat the Chaos Elemental once.	N/A	10	19.3%
 632	Wilderness: General	Defeat the Chaos Elemental. (100 times)	Defeat the Chaos Elemental 100 times.	N/A	10	1.4%
@@ -1093,26 +1093,26 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 667	Wilderness: General	Equip a pair of Ragefire boots.	Equip a pair of ragefire boots.	85 Defence	80	<0.1%
 668	Wilderness: General	Complete the task set: Hard Wilderness.	Complete the Hard Wilderness achievements.	Achievement: Hard Wilderness	80	<0.1%
 678	Wilderness: Daemonheim	Equip a Chaotic weapon or kiteshield.	Equip a chaotic weapon or kiteshield.	80 Dungeoneering, 80 Attack OR 80 Ranged OR 80 Magic OR 80 Defence	80	0.1%
-669	Wilderness: General	Equip the Hellfire bow.	Equip the hellfire bow.	N/A	150	<0.1%
-670	Wilderness: General	Complete a slayer task from Mandrith.	Complete a slayer task from Mandrith.	N/A	150	<0.1%
-671	Wilderness: General	Chop 20 Bloodwood logs in the Wilderness.	Chop 20 bloodwood logs in the Wilderness.	85 Woodcutting	150	<0.1%
-672	Wilderness: General	Unlock the Greater Flurry, Barge, and Fury abilities.	Unlock the Greater Flurry, Barge, and Fury abilities.	Various	150	<0.1%
-673	Wilderness: General	Crack 6 safes inside the Rogues' Castle.	Crack 6 safes inside the Rogues' Castle.	62 Thieving	150	<0.1%
-674	Wilderness: General	Defeat 5 Ripper Demons.	Defeat 5 ripper demons.	96 Slayer	150	<0.1%
-675	Wilderness: General	Defeat 10 Lava Strykewyrms in the Wilderness, south of the Lava Maze.	Defeat 10 lava strykewyrms in the Wilderness, south of the Lava Maze.	94 Slayer	150	<0.1%
-676	Wilderness: General	Equip Annihilation, Decimation, or Obliteration.	Equip Annihilation, Decimation, or Obliteration.	87 Attack, 87 Ranged, 87 Magic	150	<0.1%
-677	Wilderness: Daemonheim	Kill Blink in a solo Dungeoneering instance, without dying.	Kill Blink in a solo Dungeoneering instance without dying.	117 Dungeoneering	150	<0.1%
-679	Wilderness: General	Defeat every miniboss inside the Dragonkin Laboratory.	Defeat every miniboss inside the Dragonkin Laboratory.	95 Dungeoneering	150	<0.1%
-680	Wilderness: General	Defeat the Black Stone Dragon.	Defeat the black stone dragon once.	N/A	150	<0.1%
-681	Wilderness: General	Defeat the Black Stone Dragon. (25 times)	Defeat the black stone dragon 25 times.	N/A	150	<0.1%
-682	Wilderness: General	Complete the task set: Elite Wilderness.	Complete the Elite Wilderness achievements.	Achievement: Elite Wilderness	150	<0.1%
-683	Wilderness: General	Defeat 25 Hydrix dragons in the Wilderness.	Defeat 25 hydrix dragons in the Wilderness.	101 Slayer	150	<0.1%
-684	Wilderness: General	Defeat 10 Abyssal lords in the Wilderness.	Defeat 10 abyssal lords in the Wilderness.	115 Slayer	150	<0.1%
-685	Wilderness: Daemonheim	Mine 30 Primal ores.	Mine 30 primal ores.	99 Mining	150	<0.1%
-686	Wilderness: Daemonheim	Smelt 150 Primal bars.	Smelt 150 primal bars.	99 Smithing	150	<0.1%
-687	Wilderness: Daemonheim	Defeat Kal'Ger the Warmonger.	Defeat Kal'Ger the Warmonger.	90 Dungeoneering	150	<0.1%
-689	Wilderness: General	Defeat the Ambassador.	Defeat the Ambassador once.	N/A	150	<0.1%
-690	Wilderness: General	Defeat the Ambassador. (25 times)	Defeat the Ambassador 25 times.	N/A	150	<0.1%
-691	Wilderness: General	Equip a Spectral, Arcane, Elysian, or Divine spirit shield.	Equip a spectral, arcane, Elysian, or divine spirit shield.	75 Defence, 75 Prayer	150	<0.1%
-692	Wilderness: General	Defeat the Ambassador after allowing 4 unstable black holes to explode.	Defeat the Ambassador after allowing 4 unstable black holes to explode.	N/A	150	<0.1%
-688	Wilderness: General	Equip an Eldritch Crossbow.	Equip an eldritch crossbow.	92 Ranged	150	<0.1%
+669	Wilderness: General	Equip the Hellfire bow.	Equip the hellfire bow.	N/A	200	<0.1%
+670	Wilderness: General	Complete a slayer task from Mandrith.	Complete a slayer task from Mandrith.	N/A	200	<0.1%
+671	Wilderness: General	Chop 20 Bloodwood logs in the Wilderness.	Chop 20 bloodwood logs in the Wilderness.	85 Woodcutting	200	<0.1%
+672	Wilderness: General	Unlock the Greater Flurry, Barge, and Fury abilities.	Unlock the Greater Flurry, Barge, and Fury abilities.	Various	200	<0.1%
+673	Wilderness: General	Crack 6 safes inside the Rogues' Castle.	Crack 6 safes inside the Rogues' Castle.	62 Thieving	200	<0.1%
+674	Wilderness: General	Defeat 5 Ripper Demons.	Defeat 5 ripper demons.	96 Slayer	200	<0.1%
+675	Wilderness: General	Defeat 10 Lava Strykewyrms in the Wilderness, south of the Lava Maze.	Defeat 10 lava strykewyrms in the Wilderness, south of the Lava Maze.	94 Slayer	200	<0.1%
+676	Wilderness: General	Equip Annihilation, Decimation, or Obliteration.	Equip Annihilation, Decimation, or Obliteration.	87 Attack, 87 Ranged, 87 Magic	200	<0.1%
+677	Wilderness: Daemonheim	Kill Blink in a solo Dungeoneering instance, without dying.	Kill Blink in a solo Dungeoneering instance without dying.	117 Dungeoneering	200	<0.1%
+679	Wilderness: General	Defeat every miniboss inside the Dragonkin Laboratory.	Defeat every miniboss inside the Dragonkin Laboratory.	95 Dungeoneering	200	<0.1%
+680	Wilderness: General	Defeat the Black Stone Dragon.	Defeat the black stone dragon once.	N/A	200	<0.1%
+681	Wilderness: General	Defeat the Black Stone Dragon. (25 times)	Defeat the black stone dragon 25 times.	N/A	200	<0.1%
+682	Wilderness: General	Complete the task set: Elite Wilderness.	Complete the Elite Wilderness achievements.	Achievement: Elite Wilderness	200	<0.1%
+683	Wilderness: General	Defeat 25 Hydrix dragons in the Wilderness.	Defeat 25 hydrix dragons in the Wilderness.	101 Slayer	200	<0.1%
+684	Wilderness: General	Defeat 10 Abyssal lords in the Wilderness.	Defeat 10 abyssal lords in the Wilderness.	115 Slayer	200	<0.1%
+685	Wilderness: Daemonheim	Mine 30 Primal ores.	Mine 30 primal ores.	99 Mining	200	<0.1%
+686	Wilderness: Daemonheim	Smelt 150 Primal bars.	Smelt 150 primal bars.	99 Smithing	200	<0.1%
+687	Wilderness: Daemonheim	Defeat Kal'Ger the Warmonger.	Defeat Kal'Ger the Warmonger.	90 Dungeoneering	200	<0.1%
+689	Wilderness: General	Defeat the Ambassador.	Defeat the Ambassador once.	N/A	200	<0.1%
+690	Wilderness: General	Defeat the Ambassador. (25 times)	Defeat the Ambassador 25 times.	N/A	200	<0.1%
+691	Wilderness: General	Equip a Spectral, Arcane, Elysian, or Divine spirit shield.	Equip a spectral, arcane, Elysian, or divine spirit shield.	75 Defence, 75 Prayer	200	<0.1%
+692	Wilderness: General	Defeat the Ambassador after allowing 4 unstable black holes to explode.	Defeat the Ambassador after allowing 4 unstable black holes to explode.	N/A	200	<0.1%
+688	Wilderness: General	Equip an Eldritch Crossbow.	Equip an eldritch crossbow.	92 Ranged	200	<0.1%
