@@ -41,7 +41,7 @@
     "locality": "Anachronia",
     "task": "Complete the quest: Helping Laniakea (miniquest).",
     "information": "Complete the Helping Laniakea miniquest.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Helping Laniakea (miniquest)",
     "points": 10
   },
   {
@@ -50,7 +50,7 @@
     "locality": "Anachronia",
     "task": "Complete the quest: Raksha, the Shadow Colossus.",
     "information": "Complete Raksha, the Shadow Colossus quest.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Raksha, the Shadow Colossus",
     "points": 10
   },
   {
@@ -167,7 +167,7 @@
     "locality": "Anachronia",
     "task": "Complete the quest: Osseous Rex.",
     "information": "Complete the Osseous Rex quest.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Osseous Rex",
     "points": 80
   },
   {
@@ -203,7 +203,7 @@
     "locality": "Anachronia",
     "task": "Complete the quest: Desperate Times.",
     "information": "Complete the Desperate Times quest.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Desperate Times",
     "points": 80
   },
   {
@@ -374,7 +374,7 @@
     "locality": "Anachronia",
     "task": "Complete the quest: Desperate Measures.",
     "information": "Complete the Desperate Measures quest.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Desperate Measures",
     "points": 150
   },
   {
@@ -473,7 +473,7 @@
     "locality": "Anachronia",
     "task": "Complete the quest: Extinction.",
     "information": "Complete the Extinction quest.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Extinction",
     "points": 150
   },
   {
@@ -500,7 +500,7 @@
     "locality": "Asgarnia: Falador",
     "task": "Complete the quest: Witch's House.",
     "information": "Complete Witch's House",
-    "requirements": "See quest page",
+    "requirements": "Quest: Witch's House",
     "points": 10
   },
   {
@@ -1085,7 +1085,7 @@
     "locality": "Desert: General",
     "task": "Complete the quest: One Piercing Note.",
     "information": "Complete One Piercing Note.",
-    "requirements": "See quest page",
+    "requirements": "Quest: One Piercing Note",
     "points": 30
   },
   {
@@ -1211,7 +1211,7 @@
     "locality": "Desert: General",
     "task": "Complete the quest: Smoking Kills.",
     "information": "Complete Smoking Kills.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Smoking Kills",
     "points": 30
   },
   {
@@ -1220,7 +1220,7 @@
     "locality": "Desert: General",
     "task": "Complete the quest: Desert Treasure.",
     "information": "Complete Desert Treasure.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Desert Treasure",
     "points": 30
   },
   {
@@ -1454,7 +1454,7 @@
     "locality": "Desert: Menaphos",
     "task": "Complete the quest: Beneath Scabaras' Sands.",
     "information": "Complete Beneath Scabaras' Sands.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Beneath Scabaras' Sands",
     "points": 80
   },
   {
@@ -1742,7 +1742,7 @@
     "locality": "Fremennik: Mainland",
     "task": "Complete the quest: Throne of Miscellania.",
     "information": "Complete Throne of Miscellania.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Throne of Miscellania",
     "points": 30
   },
   {
@@ -1751,7 +1751,7 @@
     "locality": "Fremennik: Mainland",
     "task": "Complete the quest: Royal Trouble.",
     "information": "Complete Royal Trouble.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Royal Trouble",
     "points": 30
   },
   {
@@ -3974,7 +3974,7 @@
     "locality": "Global",
     "task": "Complete the quest: The Needle Skips.",
     "information": "Complete The Needle Skips.",
-    "requirements": "See quest page",
+    "requirements": "Quest: The Needle Skips",
     "points": 30
   },
   {
@@ -6170,7 +6170,7 @@
     "locality": "Kandarin: Seers Village",
     "task": "Complete the quest: You Are It.",
     "information": "Complete You Are It.",
-    "requirements": "See quest page",
+    "requirements": "Quest: You Are It",
     "points": 10
   },
   {
@@ -6332,7 +6332,7 @@
     "locality": "Kandarin: Seers Village",
     "task": "Complete the quest: Elemental Workshop II.",
     "information": "Complete Elemental Workshop II.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Elemental Workshop II",
     "points": 30
   },
   {
@@ -6728,7 +6728,7 @@
     "locality": "Karamja",
     "task": "Complete the quest: Dragon Slayer.",
     "information": "Complete Dragon Slayer.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Dragon Slayer",
     "points": 30
   },
   {
@@ -7205,7 +7205,7 @@
     "locality": "Misthalin: Lumbridge",
     "task": "Complete the quest: The Blood Pact.",
     "information": "Complete The Blood Pact.",
-    "requirements": "See quest page",
+    "requirements": "Quest: The Blood Pact",
     "points": 10
   },
   {
@@ -7277,7 +7277,7 @@
     "locality": "Misthalin: Draynor Village",
     "task": "Complete the quest: Necromancy!.",
     "information": "Complete Necromancy!",
-    "requirements": "See quest page",
+    "requirements": "Quest: Necromancy!",
     "points": 10
   },
   {
@@ -7511,7 +7511,7 @@
     "locality": "Misthalin: Fort Forinthry",
     "task": "Complete the quest: New Foundations.",
     "information": "Complete New Foundations.",
-    "requirements": "See quest page",
+    "requirements": "Quest: New Foundations",
     "points": 30
   },
   {
@@ -7529,7 +7529,7 @@
     "locality": "Misthalin: Draynor Village",
     "task": "Complete the quest: Duck Quest.",
     "information": "Complete Duck Quest.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Duck Quest",
     "points": 30
   },
   {
@@ -7583,7 +7583,7 @@
     "locality": "Misthalin: Lumbridge",
     "task": "Complete the quest: Sheep Shearer (miniquest).",
     "information": "Complete Sheep Shearer miniquest.",
-    "requirements": "N/A",
+    "requirements": "Quest: Sheep Shearer (miniquest)",
     "points": 30
   },
   {
@@ -7763,7 +7763,7 @@
     "locality": "Misthalin: Varrock",
     "task": "Complete the quest: Demon Slayer.",
     "information": "Complete Demon Slayer.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Demon Slayer",
     "points": 30
   },
   {
@@ -7772,7 +7772,7 @@
     "locality": "Misthalin: Varrock",
     "task": "Complete the quest: Vampyre Slayer.",
     "information": "Complete Vampyre Slayer.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Vampyre Slayer",
     "points": 30
   },
   {
@@ -8600,7 +8600,7 @@
     "locality": "Morytania",
     "task": "Complete the quest: Haunted Mine.",
     "information": "Complete Haunted Mine.",
-    "requirements": "See quest page",
+    "requirements": "Quest: Haunted Mine",
     "points": 30
   },
   {
@@ -8717,7 +8717,7 @@
     "locality": "Morytania",
     "task": "Complete the quest: The Branches of Darkmeyer.",
     "information": "Complete The Branches of Darkmeyer.",
-    "requirements": "See quest page",
+    "requirements": "Quest: The Branches of Darkmeyer",
     "points": 80
   },
   {
@@ -8960,7 +8960,7 @@
     "locality": "Morytania",
     "task": "Complete the quest: River of Blood.",
     "information": "Complete River of Blood.",
-    "requirements": "See quest page",
+    "requirements": "Quest: River of Blood",
     "points": 150
   },
   {
