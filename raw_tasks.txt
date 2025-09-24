@@ -1,0 +1,910 @@
+Locality	Task	Information	Requirements	Pts	Comp%
+Anachronia	Complete the base camp tutorial on Anachronia.	Complete the Anachronia base camp tutorial.	N/A	 10	48.5%
+Anachronia	Observe all the large dragonkin statues around Anachronia.	Observe all the large dragonkin statues around Anachronia.	N/A	 10	2.7%
+Anachronia	Surge under the spine on Anachronia.	Complete Spinal Surgery.	5 Agility Agility 	 10	27.6%
+Anachronia	Set sail for Anachronia.	Set sail for Anachronia on The Stormbreaker docked at Varrock Dig Site.	N/A	 10	49.5%
+Anachronia	Complete the quest: Helping Laniakea (miniquest).	Complete the Helping Laniakea miniquest.	See quest page	 10	0.1%
+Anachronia	Complete the quest: Raksha, the Shadow Colossus.	Complete Raksha, the Shadow Colossus quest.	See quest page	 10	6.6%
+Anachronia	Obtain 100 potent herbs from Herby Werby.	Obtain 100 potent herbs from Herby Werby.	1 Herblore Herblore 	 10	32.8%
+Asgarnia: Burthorpe	Complete a lap of the Burthorpe Agility course.	Complete a lap of the Burthorpe Agility Course.	1 Agility Agility 	 10	76.8%
+Asgarnia: Falador	Kill a goblin raider boss in the Goblin Village.	Kill 15 goblins in the Goblin Village to spawn a Goblin raider boss.	N/A	 10	46.9%
+Asgarnia: Falador	Complete the quest: Witch's House.	Complete Witch's House	See quest page	 10	34.9%
+Asgarnia: Falador	Sit down with Tiffy in Falador park.	Sit on the bench with Sir Tiffy Cashien in Falador Park.	N/A	 10	73.2%
+Asgarnia: Falador	Pray to Bandos's remains.	Pray to Bandos's remains (just south-east of Goblin Village.	N/A	 10	60.8%
+Asgarnia: Falador	Dance in the Falador party room.	Dance in the Falador party room.	N/A	 10	69.7%
+Asgarnia: Port Sarim	Give Thurgo a redberry pie.	Give Thurgo a redberry pie.	10 Cooking Cooking
+Partial completion of  The Knight's Sword	 10	30.8%
+Asgarnia: Taverley	Build a God statue in Taverley.	Build a God statue in Taverley.	N/A	 10	59.2%
+Desert: Menaphos	Enter Menaphos.	Enter Menaphos.	N/A	 10	50.5%
+Desert: General	Catch a whirligig at Het's Oasis.	Catch a whirligig at Het's Oasis.	1 Hunter Hunter 	 10	47.1%
+Desert: General	Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem.	Search the grand gold chest in room 1 of Pyramid Plunder in Sophanem.	21 Thieving Thieving
+Partial completion of  Icthlarin's Little Helper	 10	4%
+Desert: General	Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem.	Search the grand gold chest in room 2 of Pyramid Plunder in Sophanem.	31 Thieving Thieving
+Partial completion of  Icthlarin's Little Helper	 10	4%
+Desert: General	Search the Grand Gold Chest in room 3 of Pyramid Plunder in Sophanem.	Search the grand gold chest in room 3 of Pyramid Plunder in Sophanem.	41 Thieving Thieving
+Partial completion of  Icthlarin's Little Helper	 10	3.9%
+Desert: General	Mine a gem rock at the Al Kharid mine.	Mine a gem rock at the Al Kharid mine. A common gem rock can be mined with level 1 Mining.	1 Mining Mining 	 10	72.6%
+Desert: General	Kill a crocodile.	Kill a crocodile.	N/A	 10	36.2%
+Desert: General	Create a spirit kalphite pouch at the obelisk south west of Pollnivneach.	Create a spirit kalphite pouch at the obelisk south west of Pollnivneach.	25 Summoning Summoning
+A pouch, 51 spirit shards, a blue charm, and a potato cactus	 10	1.3%
+Desert: Menaphos	Squish 10 corrupted scarabs.	Squish 10 corrupted scarabs.	N/A	 10	13.3%
+Desert: General	Sell a pyramid top to Simon.	Hand Simon Templeton a pyramid top.	30 Agility Agility 	 10	11.5%
+Desert: General	Use any of the magic carpets in the desert.	Use any of the magic carpets in the desert.	1,000	 10	49.7%
+Desert: General	Harvest a rose at Het's Oasis.	Harvest a rose at Het's Oasis.	30 Farming Farming 	 10	26.6%
+Fremennik: Lunar Isles	Switch to the Lunar Spellbook at the astral altar.	Switch to the Lunar Spellbook at the astral altar.	Completion of  Lunar Diplomacy	 10	0.6%
+Fremennik: Mainland	Defeat a Rock Crab in the Fremennik Province.	Defeat a Rock Crab in the Fremennik Province.	N/A	 10	36.7%
+Fremennik: Mainland	Defeat a Cockatrice in the Fremennik Province.	Defeat a cockatrice in the Fremennik Province.	25 Slayer Slayer
+A mirror shield	 10	18.9%
+Fremennik: Mainland	Defeat a Troll in the Fremennik Province.	Defeat a troll in the Fremennik Province.	N/A	 10	10.6%
+Fremennik: Mainland	Deposit an item with Peer the Seer.	Deposit an item with Peer the Seer.	Completion of the easy Fremennik achievements	 10	0.6%
+Fremennik: Mainland	Use the Bank on Jatizso or Neitiznot.	Use the Bank on Jatizso or Neitiznot.	Partial completion of  The Fremennik Isles	 10	1.5%
+Fremennik: Mainland	Catch a Sapphire Glacialis.	Catch a Sapphire Glacialis.	25 Hunter Hunter
+A butterfly net and jar	 10	6.6%
+Global	Level up any of your skills for the first time.	Level up any of your skills for the first time.	N/A	 10	98.4%
+Global	Reach level 5 in any skill.	Reach level 5 in any skill.	N/A	 10	97.7%
+Global	Reach level 10 in any skill.	Reach level 10 in any skill.	N/A	 10	97%
+Global	Reach level 20 in any skill.	Reach level 20 in any skill.	N/A	 10	95.5%
+Global	Reach combat level 5.	Reach combat level 5.	N/A	 10	94.4%
+Global	Reach combat level 10.	Reach combat level 10.	N/A	 10	91.3%
+Global	Reach total level 50.	Reach total level 50.	N/A	 10	97.3%
+Global	Reach total level 100.	Reach total level 100.	N/A	 10	94.4%
+Global	Mine a copper ore.	Mine copper ore from a copper rock.	1 Mining Mining 	 10	93.1%
+Global	Mine 10 copper ore.	Mine 10 copper ore.	1 Mining Mining 	 10	92.2%
+Global	Mine a tin ore.	Mine tin ore from a tin rock.	1 Mining Mining 	 10	91.3%
+Global	Mine 10 tin ore.	Mine 10 tin ore.	1 Mining Mining 	 10	89.9%
+Global	Smelt a bronze bar.	Smelt a bronze bar.	1 Smithing Smithing 	 10	92.7%
+Global	Smelt 10 bronze bars.	Smelt 10 bronze bars.	1 Smithing Smithing 	 10	92.2%
+Global	Smith any bronze item.	Smith any bronze item.	1 Smithing Smithing 	 10	87.5%
+Global	Mine clay.	Mine clay.	1 Mining Mining 	 10	87.2%
+Global	Make some soft clay.	Make soft clay by using clay on a water source or with a container of water	N/A	 10	77.5%
+Global	Mine any ore 5 times.	Mine any ore 5 times.	1 Mining Mining 	 10	93.4%
+Global	Chop any tree 5 times.	Chop any tree 5 times.	1 Woodcutting Woodcutting 	 10	90.1%
+Global	Chop a basic tree.	Chop a basic tree.	1 Woodcutting Woodcutting 	 10	93.2%
+Global	Chop 10 basic trees.	Chop 10 basic trees.	1 Woodcutting Woodcutting 	 10	88.5%
+Global	Chop an oak tree.	Chop an oak tree.	10 Woodcutting Woodcutting 	 10	83.9%
+Global	Burn any logs.	Burn any logs.	1 Firemaking Firemaking 	 10	91.8%
+Global	Burn any logs 5 times.	Burn any logs 5 times.	1 Firemaking Firemaking 	 10	87.2%
+Global	Catch a shrimp.	Catch a raw shrimp.	1 Fishing Fishing 	 10	87.7%
+Global	Catch 10 shrimp.	Catch 10 raw shrimps.	1 Fishing Fishing 	 10	86.7%
+Global	Catch an anchovy.	Catch a raw anchovy.	15 Fishing Fishing 	 10	72%
+Global	Catch a herring.	Catch a raw herring.	10 Fishing Fishing 	 10	65.9%
+Global	Cook shrimp, meat, or chicken.	Cook raw shrimps, raw meat, or raw chicken.	1 Cooking Cooking 	 10	92.3%
+Global	Cook 10 shrimp, meat, or chicken.	Cook 10 raw shrimps, raw meat, or raw chicken.	1 Cooking Cooking 	 10	86.8%
+Global	Burn any food.	Burn any food.	1 Cooking Cooking 	 10	86.5%
+Global	Catch any fish 5 times.	Catch any fish 5 times.	1 Fishing Fishing 	 10	88.8%
+Global	Bury any bones.	Bury any bones.	1 Prayer Prayer 	 10	94.4%
+Global	Bury any bones 10 times.	Bury any bones 10 times.	1 Prayer Prayer 	 10	86.9%
+Global	Activate the thick skin, rock skin, or steel skin Prayer.	Activate the Thick Skin, Rock Skin, or Steel Skin prayer.	1 Prayer Prayer 	 10	86%
+Global	Run out of Prayer points.	Run out of Prayer points.	1 Prayer Prayer 	 10	85.1%
+Misthalin: Draynor Village	Harvest a memory from a pale wisp.	Harvest a pale memory from a pale wisp.	1 Divination Divination 	 10	82.6%
+Misthalin: Draynor Village	Harvest 10 memories from a pale wisp.	Harvest 10 pale memories from a pale wisp.	1 Divination Divination 	 10	81.8%
+Global	Harvest any memory from a wisp 5 times.	Harvest any memory from a wisp 5 times.	1 Divination Divination 	 10	82.5%
+Global	Pickpocket from a man or woman.	Pickpocket from a man or woman.	1 Thieving Thieving 	 10	89.2%
+Global	Pickpocket from a man or woman 10 times.	Pickpocket from a man or woman 10 times.	1 Thieving Thieving 	 10	86.2%
+Global	Steal from any stall.	Steal from any stall.	2 Thieving Thieving  for Vegetable Stalls	 10	86.2%
+Global	Steal from any stall 10 times.	Steal from any stall 10 times.	2 Thieving Thieving  for Vegetable Stalls	 10	84.7%
+Global	Pickpocket anyone 5 times.	Pickpocket anyone 5 times.	1 Thieving Thieving 	 10	88.1%
+Global	Rake any farming patch.	Rake any farming patch.	1 Farming Farming 	 10	81.7%
+Global	Plant seeds in any farming patch.	Plant seeds in any farming patch.	1 Farming Farming 	 10	72.6%
+Global	Plant seeds in any farming patch 10 times.	Plant seeds in any farming patch 10 times.	1 Farming Farming 	 10	58.5%
+Global	Add any compostable item to a compost bin.	Add any compostable item to a compost bin.	N/A	 10	66.6%
+Global	Have a tool leprechaun note any produce.	Have a tool leprechaun note any produce.	N/A	 10	59.5%
+Global	Use the Home Teleport spell to return to Lumbridge.	Use the Home Teleport spell to return to Lumbridge.	N/A	 10	91.2%
+Global	Eat a cabbage.	Eat a cabbage.	N/A	 10	83.3%
+Global	Eat a baked potato.	Eat a baked potato.	7 Cooking Cooking 	 10	60%
+Global	Eat an onion.	Eat an onion.	N/A	 10	75.3%
+Global	Kill an imp.	Kill an imp.	N/A	 10	81.2%
+Global	Kill a chicken.	Kill a chicken.	N/A	 10	85.3%
+Global	Claim a free item from any store.	Claim a free item from any store e.g. a tinderbox from Lumbridge General Store	N/A	 10	86.5%
+Global	Return a free item to any store.	Return a free item to any store e.g. a tinderbox from Lumbridge General Store	N/A	 10	74.2%
+Global	Sell an item to any store.	Sell an item to any store.	N/A	 10	86.4%
+Global	Listen to any musician.	Listen to any musician.	N/A	 10	79.2%
+Global	Pick wheat from a field.	Pick wheat from a field.	N/A	 10	83.3%
+Global	Prospect any rock.	Prospect any rock.	1 Mining Mining 	 10	76.8%
+Global	View the skillguide.	View the skill guide.	N/A	 10	94.9%
+Global	Create a Guthix Rest Potion.	Create a Guthix rest potion.	18 Herblore Herblore
+Partial completion of  One Small Favour	 10	1.6%
+Global	Make 5 potions of any kind.	Make 5 potions of any kind.	1 Herblore Herblore 	 10	54.5%
+Global	Drink a Strength Potion.	Drink a Strength Potion.	Giving a limpwurt root and red spiders' eggs to the Apothecary	 10	33%
+Global	Make an Attack Potion.	Make an Attack potion.	1 Herblore Herblore
+A clean guam and an eye of newt	 10	63.2%
+Global	Make a Necromancy Potion.	Make a Necromancy potion.	11 Herblore Herblore
+A clean marrentill and cadava berries	 10	18.6%
+Global	Clean 5 Grimy Guam.	Clean 5 grimy guam.	1 Herblore Herblore
+5 grimy guam	 10	61.9%
+Global	Clean 15 Grimy Tarromin.	Clean 15 grimy tarromin.	5 Herblore Herblore
+15 grimy tarromin	 10	36.1%
+Global	Clean 5 of any herb.	Clean 5 of any herb.	1 Herblore Herblore
+5 of any grimy herb	 10	64.9%
+Global	Clean 10 of any herb	Clean 10 of any herb	1 Herblore Herblore
+10 of any grimy herb	 10	61.6%
+Global	Fletch an Oak Shortbow (unstrung).	Fletch an unstrung oak shortbow.	20 Fletching Fletching
+Oak logs	 10	52.1%
+Global	Fletch some arrow shafts.	Fletch some arrow shafts.	1 Fletching Fletching
+Logs of any kind	 10	81.1%
+Global	Fletch 50 Bronze bolts.	Fletch 50 bronze bolts.	9 Fletching Fletching
+A bronze bar and 50 feathers	 10	52.9%
+Global	Complete 10 laps of any Agility course.	Complete 10 laps of any Agility course.	1 Agility Agility 	 10	67%
+Global	Smith 10 of any metal weapon or armour piece.	Smith 10 of any metal weapon or armour piece.	1 Smithing Smithing
+10 of any metal bar	 10	81.7%
+Global	Open 30 Sedimentary Geodes.	Open 30 sedimentary geodes. These are found randomly while mining.	1 Mining Mining 	 10	70.5%
+Global	Maintain nearly maximum stamina when mining for 60 seconds.	Maintain nearly maximum stamina when mining for 60 seconds.	1 Mining Mining 	 10	69.8%
+Global	Harvest a Grimy Marrentill.	Harvest a grimy marrentill.	9 Farming Farming
+Marrentill seed	 10	38.6%
+Global	Harvest 10 Grimy Tarromin.	Harvest 10 grimy tarromin.	19 Farming Farming
+Tarromin seeds	 10	37.3%
+Global	Cook 5 fish.	Cook 5 fish.	1 Cooking Cooking
+5 of any raw fish	 10	87.4%
+Global	Make some Bread.	Make some bread. Bread dough can be created by using a pot of flour with water, it must be cooked at a range.	1 Cooking Cooking
+Bread dough	 10	54.9%
+Global	Make some flour.	Make a pot of flour by grinding wheat at a windmill and collecting the flour in an empty pot.	Wheat and an empty pot	 10	77.8%
+Global	Offer 5 bones of any kind to an altar.	Offer 5 bones (ashes also work) at the chaos altar in the Wilderness, the altar in Fort Forinthry, or an altar in the player-owned house chapel	1 Prayer Prayer 	 10	52.2%
+Global	Offer 25 bones of any kind to an altar.	Offer 25 bones (ashes also work) at the chaos altar in the Wilderness, the altar in Fort Forinthry, or an altar in the player-owned house chapel	1 Prayer Prayer 	 10	49%
+Global	Scatter some Ashes.	Scatter some ashes.	1 Prayer Prayer
+Any demonic ashes	 10	74.3%
+Global	Scatter 25 ashes of any kind.	Scatter 25 ashes of any kind.	1 Prayer Prayer
+25 of any demonic ashes	 10	38.3%
+Global	Restore 50 Prayer Points at an Altar at once.	Restore 50 Prayer Points at an Altar at once.	5 Prayer Prayer 	 10	73.7%
+Global	Activate Superhuman or Ultimate Strength and Improved or Incredible Reflexes prayers at the same time.	Activate Superhuman or Ultimate Strength and Improved or Incredible Reflexes prayers at the same time.	16 Prayer Prayer 	 10	61.9%
+Global	Catch a Baby Impling.	Catch a baby impling.	17 Hunter Hunter 	 10	26%
+Global	Catch 10 Implings of any kind.	Catch 10 implings of any kind.	17 Hunter Hunter 	 10	9.7%
+Global	Catch 5 Hunter creatures.	Catch 5 Hunter creatures.	1 Hunter Hunter 	 10	56.1%
+Global	Complete 5 Slayer tasks.	Complete 5 Slayer assignments.	1 Slayer Slayer 	 10	45.9%
+Global	Pick 5 Flax.	Pick 5 flax from flax fields.	N/A	 10	70.1%
+Global	Spin 5 bowstring.	Spin 5 bowstrings by using flax on a spinning wheel.	1 Fletching Fletching
+5 flax	 10	68.1%
+Global	Surge a distance of one tile.	Surge a distance of one tile.	5 Agility Agility 	 10	68.7%
+Global	Spin a Ball of Wool.	Spin a ball of wool by using wool at a spinning wheel.	1 Fletching Fletching
+Wool	 10	74.4%
+Global	Equip a full set of Iron armour without any upgrades.	Equip an iron full helm, iron platebody, iron platelegs / iron plateskirt, iron gauntlets, iron armoured boots, and an iron kiteshield. Substitutes for pieces (e.g. med helm instead of full helm, chainbody instead of platebody, square shield instead of kite shield) will work. Iron armour can be bought at Horvik's Armour Shop.	10 Defence Defence 	 10	58.1%
+Global	Equip a full set of Green Dragonhide armour.	Equip a full set of green dragonhide armour.	40 Defence Defence 	 10	24.6%
+Global	Equip a full set of Imphide robes.	Equip a full set of imphide robes.	10 Defence Defence 	 10	50.3%
+Global	Equip a full set of Spider silk robes.	Equip a full set of spider silk robes.	20 Defence Defence 	 10	50.4%
+Global	Store the items required for an emote clue in a Treasure Trail hidey-hole.	Store the items required for an emote clue in a Treasure Trail hidey-hole.	27 Construction Construction
+4 planks and 10 of any nails for an easy hidey-hole	 10	9%
+Global	Complete an Easy clue scroll.	Complete an easy clue scroll.	N/A	 10	43.8%
+Global	Collect 10 unique items for the General clue rewards collection log.	Collect 10 unique items for the general clue rewards collection log.	N/A	 10	29.6%
+Kandarin: Gnomes	Complete the Gnome Stronghold Agility Course.	Complete the Gnome Stronghold Agility Course.	1 Agility Agility 	 10	39.8%
+Kandarin: Feldip Hills	Catch a Crimson Swift in the Feldip Hills.	Catch a crimson swift in the Feldip Hills.	1 Hunter Hunter
+A bird snare	 10	7.1%
+Kandarin: Ardougne	Defeat a Tortoise with riders in Kandarin.	Defeat a tortoise with riders in Kandarin.	N/A	 10	29.3%
+Kandarin: Seers Village	Complete the quest: You Are It.	Complete You Are It.	See quest page	 10	16.5%
+Kandarin: Gnomes	Let Brimstail teleport you to the Rune Essence mine.	Let Brimstail teleport you to the Rune Essence mine.	N/A	 10	19.4%
+Kandarin: Feldip Hills	Equip a Marksman hat.	Equip a marksman hat.	125 chompy bird kills	 10	<0.1%
+Global	Obtain a Naragi engram from Orla Fairweather.	Obtain a Naragi engram from Orla Fairweather. The engram is given to the player during the tutorial for Memorial to Guthix	1 Divination Divination 	 10	23.1%
+Kandarin: Ardougne	Learn how many beans make five (complete the Player Owned Farm tutorial).	Complete the player-owned farm tutorial at Manor Farm.	17 Farming Farming  20 Construction Construction 	 10	39.2%
+Global	Catch a Wild Kebbit.	Catch a wild kebbit.	23 Hunter Hunter
+Logs of any kind	 10	5%
+Kandarin: Ardougne	Teleport to the Wilderness using the lever in Ardougne.	Pull the lever in Ardougne.	N/A	 10	49%
+Kandarin: Yanille	Use a ring of duelling to teleport to Castle Wars.	Teleport to Castle Wars with a ring of duelling.	27 Magic Magic  27 Crafting Crafting
+Materials to make a ring of duelling	 10	14.4%
+Kandarin: Gnomes	Make a Pineapple Punch cocktail.	Make a pineapple punch cocktail.	8 Cooking Cooking
+See pineapple punch for ingredients	 10	7.4%
+Karamja	Collect 5 seaweed from anywhere on Karamja.	Collect 5 seaweed from anywhere on Karamja.	N/A	 10	43.5%
+Karamja	Fill up Luthas' crate near the Musa Point plantation with bananas and receive 30 coins for your work.	Fill up Luthas' crate near the Banana plantation with bananas and talk to him to receive 30 coins for your work.	N/A	 10	39.4%
+Karamja	Claim a ticket from Brimhaven Agility Arena.	Claim a ticket from Brimhaven Agility Arena.	1 Agility Agility 	 10	23.9%
+Karamja	Kill a snake.	Kill a snake.	N/A	 10	49.1%
+Karamja	Catch a Karambwanji.	Catch a raw karambwanji.	5 Fishing Fishing 	 10	21.2%
+Karamja	Be assigned a Slayer task in Shilo Village.	Be assigned a Slayer task in Shilo Village.	100 Combat Combat 50 Slayer Slayer
+Completion of  Shilo Village	 10	4.4%
+Karamja	Defeat a Greater Demon on Karamja.	Defeat a greater demon on Karamja.	N/A	 10	27.2%
+Karamja	Pick a pineapple on Karamja.	Pick a pineapple on Karamja from the pineapple plants near the lodestone.	N/A	 10	43.4%
+Karamja	Enter the Brimhaven Dungeon.	Enter the Brimhaven Dungeon.	875 coins	 10	48.1%
+Karamja	Cross the spiky pit using the stepping stones within Brimhaven Dungeon.	Cross the spiky pit using the stepping stones within Brimhaven Dungeon.	12 Agility Agility 	 10	37.3%
+Misthalin: Lumbridge	Progress through the Leagues tutorial to unlock your first relic.	Progress through the Leagues tutorial to unlock your first relic.	N/A	 10	100%
+Misthalin: Draynor Village	Climb to the top of the Wizards' Tower.	Climb to the top of the Wizards' Tower.	N/A	 10	78.8%
+Misthalin: Draynor Village	Have Ned make you some rope from balls of wool.	Have Ned make you some rope from 4 balls of wool.	N/A	 10	53%
+Misthalin: Draynor Village	Siphon from a fire essling in the Runespan.	Siphon from a fire essling in the Runespan.	14 Runecrafting Runecrafting 	 10	45.3%
+Misthalin: Draynor Village	Convert at least one pale memory into energy.	Convert at least one pale memory into energy.	1 Divination Divination 	 10	68.7%
+Misthalin: Edgeville	Kill a mugger near the Edgeville lodestone.	Kill a mugger near the Edgeville lodestone.	N/A	 10	71.7%
+Misthalin: Edgeville	Mine some coal in the centre of Barbarian village.	Mine some coal in the centre of Barbarian Village.	20 Mining Mining 	 10	69.1%
+Misthalin: Fort Forinthry	Use the bank in the workshop at Fort Forinthry.	Use the bank in the workshop at Fort Forinthry.	N/A	 10	52.4%
+Misthalin: Lumbridge	Kill a giant rat in Lumbridge Swamp.	Kill a giant rat in Lumbridge Swamp.	N/A	 10	90.9%
+Misthalin: Lumbridge	Kill a goblin in Lumbridge.	Kill a goblin in Lumbridge.	N/A	 10	94.7%
+Misthalin: Lumbridge	Kill a giant spider in Lumbridge or Lumbridge Swamp.	Kill a giant spider in Lumbridge or Lumbridge Swamp.	N/A	 10	90.9%
+Misthalin: Lumbridge	Milk a cow.	Milk a cow.	A bucket	 10	88.2%
+Misthalin: Lumbridge	Talk to Hans and find out how old you are.	Talk to Hans and find out how old you are.	N/A	 10	90.7%
+Misthalin: Lumbridge	Complete the quest: The Blood Pact.	Complete The Blood Pact.	See quest page	 10	79%
+Misthalin: Draynor Village	Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.	Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.	1 Fishing Fishing 	 10	84.8%
+Misthalin: Lumbridge	Smelt a steel bar in the furnace in Lumbridge.	Smelt a steel bar in the furnace in Lumbridge.	20 Smithing Smithing 	 10	63.1%
+Misthalin: Lumbridge	Cook some rat meat on a fire in Lumbridge Swamp.	Cook some rat meat on a campfire in Lumbridge Swamp.	1 Cooking Cooking 	 10	87.3%
+Misthalin: Lumbridge	Mine iron ore from the mining site south-west of Lumbridge Swamp.	Mine iron ore from the mining site south-west of Lumbridge Swamp.	10 Mining Mining 	 10	84.7%
+Misthalin: Lumbridge	Craft a water rune at the Water Altar.	Craft a water rune at the Water altar.	5 Runecrafting Runecrafting 	 10	44.7%
+Misthalin: Lumbridge	Complete a task from Jacquelyn, the Lumbridge Slayer master.	Complete a task from Jacquelyn, the Lumbridge Slayer master.	1 Slayer Slayer 	 10	79%
+Misthalin: Lumbridge	Fill a Charmed Sack with corruption at the Nexus in Lumbridge Swamp.	Fill a charmed sack with corruption at the Nexus in Lumbridge Swamp.	1 Prayer Prayer 	 10	78.4%
+Misthalin: Draynor Village	Complete the quest: Necromancy!.[sic]	Complete Necromancy!	See quest page	 10	70.2%
+Misthalin: City of Um	Upgrade a piece of Death Skull or Deathwarden equipment to tier 20.	Upgrade a piece of death skull or deathwarden equipment to tier 20.	20 Necromancy Necromancy , 15 Smithing Smithing  (death skull) OR 15 Crafting Crafting  (Deathwarden)
+Completion of  Kili Row	 10	27.3%
+Misthalin: City of Um	Craft some spirit or bone runes.	Craft some spirit or bone runes.	1 Runecrafting Runecrafting
+Partial completion of  Rune Mythos	 10	24.1%
+Misthalin: City of Um	Complete a Lesser Necroplasm ritual.	Complete a Lesser Necroplasm ritual.	5 Necromancy Necromancy 	 10	47.1%
+Misthalin: City of Um	Conjure a skeleton at the City of Um ritual site.	Conjure a Skeleton Warrior at the Um ritual site.	2 Necromancy Necromancy
+Conjure Skeleton Warrior unlocked at the Well of Souls	 10	45.1%
+Misthalin: City of Um	Conjure a zombie at the City of Um ritual site.	Conjure a Putrid Zombie at the Um ritual site.	40 Necromancy Necromancy
+Conjure Putrid Zombie unlocked at the Well of Souls	 10	7.8%
+Misthalin: City of Um	Conjure a ghost  at the City of Um ritual site.[sic]	Conjure a Vengeful Ghost at the Um ritual site.	40 Necromancy Necromancy
+Conjure Vengeful Ghost unlocked at the Well of Souls	 10	9.2%
+Misthalin: Varrock	Kill a dark wizard.	Kill a dark wizard.	N/A	 10	79.1%
+Misthalin: Varrock	Enter the Earth Altar using an earth tiara or talisman.	Enter the earth altar using an earth tiara or talisman.	1 Runecrafting Runecrafting 	 10	35%
+Misthalin: Varrock	Have Elsie tell you a story.	Have Elsie tell you a story, she is found upstairs in the church in Varrock. You must give her a cup of tea	A cup of tea	 10	60.3%
+Misthalin: Varrock	Give a bone to one of Varrock's stray dogs (or to your pet stray dog if you have one).	Use some bones on one of Varrock's stray dogs (or to your pet stray dog if you have one).	N/A	 10	69.8%
+Misthalin: Varrock	Claim a free clue scroll from Zaida at the Grand Exchange.	Claim a free clue scroll from Zaida at the Grand Exchange.	N/A	 10	69.1%
+Misthalin: Fort Forinthry	Give Bill a beer in Fort Forinthry.	Give Bill a beer in Fort Forinthry.	A beer, partial completion of  New Foundations	 10	29.1%
+Misthalin: Varrock	Complete the Archaeology tutorial.	Complete the Archaeology tutorial.	1 Archaeology Archaeology 	 10	72.2%
+Misthalin: Fort Forinthry	Make a plank yourself on the sawmill in Fort Forinthry.	Make a plank yourself on the sawmill in Fort Forinthry.	1 Construction Construction
+Partial completion of  New Foundations	 10	45%
+Misthalin: Varrock	Mine some iron ore in the mining spot south-west of Varrock.	Mine some iron ore in the mining spot south-west of Varrock.	10 Mining Mining 	 10	78.3%
+Misthalin: Varrock	Steal from the Varrock tea stall.	Steal from the Varrock tea stall.	5 Thieving Thieving 	 10	69.2%
+Misthalin: Varrock	Pan in the river at the Digsite.	This can only be completed after the point during The Dig Site quest where the panning guide teaches you how to pan for gold. You can then use the panning point. If you complete the quest without completing this achievement the task will be completed by attempting to pan with a panning tray in your inventory.	Partial completion of  The Dig Site	 10	12.6%
+Morytania	Take an easy companion through an easy route of Temple Trekking.	Complete an Easy Temple Trek.	Completion of  In Aid of the Myreque	 10	0.6%
+Morytania	Craft your own snelm in Morytania.	Craft a snelm.	15 Crafting Crafting
+Any blamish shell	 10	25.2%
+Morytania	Defeat a Werewolf in Morytania.	Defeat a Werewolf in Morytania.	N/A	 10	41.6%
+Morytania	Pass through the Holy barrier.	Pass through the Holy barrier.	Defeat a Ghoul (Paterdomus)	 10	57.9%
+Morytania	Enter through the western gate of Port Phasmatys.	Pass through the western gate of Port Phasmatys.	N/A	 10	9.9%
+Morytania	Activate the lodestone in Canifis.	Activate the Canifis lodestone.	Access to Morytania	 10	57.5%
+Morytania	Kill anything on the ground floor of the Slayer Tower.	Kill anything on the ground floor of the Slayer Tower.	1 Slayer Slayer
+Access to Morytania	 10	40.5%
+Morytania	Using either a Silver Sickle or the Ivandis Flail, grow some fungus in the swamp using Bloom.	Cast Bloom using a blessed sickle or the Ivandis flail in Mort Myre Swamp.	18 Crafting Crafting
+Completion of  Nature Spirit	 10	14%
+Morytania	Defeat 5 Feral Vampyres in the Haunted Woods.	Defeat 5 feral vampyres in the Haunted Woods.	Access to Morytania	 10	35.2%
+Morytania	Use an ectophial to return to Port Phasmatys.	Use an ectophial to return to Port Phasmatys.	Completion of  Ghosts Ahoy	 10	13.2%
+Morytania	Visit Dragontooth Island by boat.	Visit Dragontooth Island by boat.	Ghostspeak amulet	 10	16%
+Elven Lands: Tirranwn	Cook a Rabbit in Tirannwn.	Cook a raw rabbit in Tirannwn.	1 Cooking Cooking 	 10	27.4%
+Elven Lands: Tirranwn	Attempt to pass a leaf trap.	Attempt to pass a leaf trap.	N/A	 10	36.2%
+Elven Lands: Tirranwn	Use the Bank in Lletya.	Use the bank in Lletya.	N/A	 10	33%
+Elven Lands: Tirranwn	Charter a ship from Port Tyras.	Charter a ship from Port Tyras.	N/A	 10	25.2%
+Elven Lands: Tirranwn	Climb the Tower of Voices.	Climb the Tower of Voices.	N/A	 10	34.4%
+Elven Lands: Tirranwn	Burn some logs using the everlasting bonfire in the Tower of Voices.	Burn some logs using the everlasting bonfire in the Tower of Voices.	1 Firemaking Firemaking 	 10	38.1%
+Elven Lands: Tirranwn	Activate the lodestone in Prifddinas.	Activate the Prifddinas lodestone.	N/A	 10	60.5%
+Elven Lands: Tirranwn	Activate the lodestone in Tirannwn.	Activate the Tirannwn lodestone.	N/A	 10	37.1%
+Elven Lands: Tirranwn	Restore your prayer using the altar in Lletya.	Restore your prayer using the altar in Lletya.	1 Prayer Prayer 	 10	28.5%
+Wilderness: General	Use the bank at the Mage Arena.	Use the Mage Arena bank.	N/A	 10	45.7%
+Wilderness: General	Defeat the Chaos Elemental.	Defeat the Chaos Elemental once.	N/A	 10	19.3%
+Wilderness: General	Defeat the Chaos Elemental. (100 times)	Defeat the Chaos Elemental 100 times.	N/A	 10	1.4%
+Wilderness: General	Reach a score of 10 using the strange switches in the Wilderness.	Reach a score of 10 using the strange switches in the Wilderness.	N/A	 10	10.8%
+Wilderness: General	Jump over the Wilderness wall.	Jump over the Wilderness wall.	N/A	 10	74.1%
+Wilderness: General	Activate the lodestone near the Wilderness Crater.	Activate the Wilderness Crater lodestone.	N/A	 10	69.7%
+Wilderness: Daemonheim	Complete a Frozen floor in Daemonheim.	Complete a Frozen floor in Daemonheim.	1 Dungeoneering Dungeoneering 	 10	34.4%
+Wilderness: Daemonheim	Make use of either an autoheater, gem bag, herbicide, bonecrusher or charming imp.	Make use of either an autoheater, gem bag, herbicide, bonecrusher or charming imp.	The gem bag is the cheapest reward at 2000 dungeoneering token, and upgrading it is required for a later task.	 10	50.6%
+Wilderness: General	Enter the chaos tunnels from an entrance in the Wilderness.	Enter the Chaos Tunnels from an entrance in the Wilderness.	N/A	 10	43.2%
+Wilderness: General	Defeat a Black Unicorn in the Wilderness.	Defeat a black unicorn in the Wilderness.	N/A	 10	54.6%
+Anachronia	Build your Player Lodge on Anachronia.	Build your Player Lodge on Anachronia.	40 Construction Construction 	 30	0.4%
+Anachronia	Purchase the herb bag and the herb bag upgrade from the Herby Werby reward shop.	Purchase the herb bag and the herb bag upgrade from the Herby Werby reward shop.	1 Herblore Herblore
+Requires 4 weeks worth of potent herbs	 30	<0.1%
+Anachronia	Give Snoop some clean Dwarf weed.	Give Snoop some clean dwarf weed.	70 Herblore Herblore  if cleaning the herb yourself	 30	0.3%
+Anachronia	Harvest produce from 5 animals on Anachronia farm.	Harvest produce from 5 animals on Anachronia farm.	42 Farming Farming , 45 Construction Construction 	 30	0.2%
+Anachronia	Complete the beginner sections of the Anachronia agility course.	Complete the beginner sections of the Anachronia agility course.	30 Agility Agility 	 30	14.4%
+Anachronia	Complete the novice sections of the Anachronia agility course.	Complete the novice sections of the Anachronia agility course.	50 Agility Agility 	 30	9.2%
+Asgarnia: Burthorpe	Enter the Warriors Guild.	Enter the Warriors Guild.	Combined Attack and Strength level of 130, or 99 Attack Attack , or 99 Strength Strength 	 30	17.6%
+Asgarnia: Burthorpe	Equip a defender.	Equip a defender.	Combined Attack and Strength level of 130, or 99 Attack Attack , or 99 Strength Strength 	 30	7.9%
+Asgarnia: Burthorpe	Charge an Amulet of Glory in the Heroes' Guild.	Charge an amulet of glory in the Heroes' Guild.	If not as a drop from revenant knights, 80 Crafting Crafting  and 68 Magic Magic  to make it from scratch, or 83 Hunter Hunter  to catch dragon implings
+Completion of  Heroes' Quest	 30	0.3%
+Asgarnia: Falador	Enter the Crafting Guild.	Enter the Crafting Guild.	40 Crafting Crafting 	 30	40.9%
+Asgarnia: Falador	Complete the task set: Easy Falador.		See Easy Falador achievements page	 30	2.8%
+Asgarnia: Falador	Complete the task set: Medium Falador.		See Medium Falador achievements page	 30	<0.1%
+Asgarnia: Falador	Defeat the Giant Mole.	Kill the giant mole.	N/A	 30	31.1%
+Asgarnia: Falador	Defeat the Giant Mole. (50 times)	Kill the giant mole 50 times.	N/A	 30	0.2%
+Asgarnia: Falador	Steal some Wine of Zamorak from the Captured Temple, south of Goblin Village.	Steal some wine of Zamorak from the Captured Temple, south of Goblin Village.	33 Magic Magic  for Telekinetic Grab	 30	18.4%
+Asgarnia: Falador	Set up a dwarf cannon.	Set up a dwarf multicannon.	Completion of  Dwarf Cannon	 30	1.5%
+Asgarnia: Falador	Complete a ceremonial sword at the Artisans' Workshop.	Complete a ceremonial sword at the Artisans' Workshop.	1 Smithing Smithing 	 30	23.8%
+Asgarnia: Falador	Mine some orichalcite in the Mining Guild.	Mine some orichalcite ore in the Mining Guild.	60 Mining Mining 	 30	61.8%
+Asgarnia: Burthorpe	Harvest a herb from the troll stronghold herb patch.	Harvest a herb from the troll stronghold herb patch.	9 Farming Farming  to plant the lowest Herb seed.
+Completion of  My Arm's Big Adventure	 30	0.1%
+Asgarnia: Taverley	Kill a blue dragon in Taverley dungeon.	Kill a blue dragon in Taverley dungeon.	Dusty key or 70 Agility Agility 	 30	19.5%
+Asgarnia: Taverley	Open the crystal chest in Taverley.	Open the crystal chest in Taverley.	A crystal key	 30	14.9%
+Desert: General	Clear the Fort debris at the Kharid-et Dig Site.	Clear the fort debris at the Kharid-et Dig Site.	12 Archaeology Archaeology 	 30	60.1%
+Desert: General	Complete the quest: One Piercing Note.	Complete One Piercing Note.	See quest page	 30	20.9%
+Desert: General	Complete a lap of the Het's Oasis agility course.	Complete a lap of the Het's Oasis agility course.	65 Agility Agility 	 30	8.6%
+Desert: General	Defeat the Kalphite Queen.	Defeat the Kalphite Queen.	N/A	 30	7.2%
+Desert: General	Defeat the Kalphite Queen. (100 times)	Defeat the Kalphite Queen 100 times.	N/A	 30	<0.1%
+Desert: General	Defeat 100 bosses in the Dominion Tower.	Defeat 100 bosses in the Dominion Tower.	Completion of at least 20 various quests	 30	<0.1%
+Desert: General	Complete the task set: Easy Desert.	Easy desert tasks.	See Easy Desert achievements page	 30	0.3%
+Desert: General	Complete the task set: Medium Desert.	Medium desert tasks.	See Medium Desert achievements page	 30	<0.1%
+Desert: Menaphos	Steal from the lamp stall in Menaphos.	Steal from the lamp stall in Menaphos.	46 Thieving Thieving 	 30	9.3%
+Desert: General	Buy some runes from Ali Morrisane.	Buy some runes from Ali Morrisane.	Completion of the runes portion of Ali the Trader	 30	0.5%
+Desert: Menaphos	Catch a catfish.	Catch a raw catfish.	60 Fishing Fishing 	 30	12.1%
+Desert: General	Restore a Pontifex signet ring.	Restore a pontifex signet ring.	58 Archaeology Archaeology
+A cut dragonstone, which may require 55 Crafting Crafting 	 30	2.2%
+Desert: General	Search the Grand Gold Chest in room 4 of Pyramid Plunder in Sophanem.	Search the Grand Gold Chest in room 4 of Pyramid Plunder in Sophanem.	51 Thieving Thieving 	 30	3.3%
+Desert: General	Search the Grand Gold Chest in room 5 of Pyramid Plunder in Sophanem.	Search the Grand Gold Chest in room 5 of Pyramid Plunder in Sophanem.	61 Thieving Thieving 	 30	2.3%
+Desert: General	Search the Grand Gold Chest in room 6 of Pyramid Plunder in Sophanem.	Search the Grand Gold Chest in room 6 of Pyramid Plunder in Sophanem.	71 Thieving Thieving 	 30	1.7%
+Desert: General	Complete the quest: Smoking Kills.	Complete Smoking Kills.	See quest page	 30	4.5%
+Desert: General	Complete the quest: Desert Treasure.	Complete Desert Treasure.	See quest page	 30	0.5%
+Desert: General	Fully repair the statue of Het.	Repair the statue of Het at Het's Oasis.	200 pieces of Het	 30	0.9%
+Fremennik: Lunar Isles	Cast Moonclan Teleport.	Cast Moonclan Teleport.	69 Magic Magic 	 30	0.7%
+Fremennik: Mainland	Move Your House to Rellekka.	Move your player-owned house's location to Rellekka by speaking to an estate agent.	30 Construction Construction
+10,000	 30	12.9%
+Fremennik: Lunar Isles	Craft 50 Astral Runes.	Craft 50 astral runes.	40 Runecrafting Runecrafting
+Completion of  Lunar Diplomacy	 30	0.3%
+Fremennik: Mainland	Complete the Penguin Agility Course.	Complete the Penguin Agility Course.	30 Agility Agility
+Completion of  Cold War	 30	0.3%
+Fremennik: Mainland	Catch a Snowy Knight.	Catch a Snowy Knight.	35 Hunter Hunter
+A butterfly net and jar	 30	5.9%
+Fremennik: Mainland	Defeat a Kurask in the Fremennik Province.	Defeat a Kurask in the Fremennik Province.	70 Slayer Slayer
+Leaf-bladed spear or other special weapon	 30	5.8%
+Fremennik: Mainland	Defeat a Dagannoth in the Fremennik Province.	Defeat a dagannoth in the Fremennik Province.	N/A	 30	22.8%
+Fremennik: Mainland	Equip a Helm of Neitiznot.	Equip a Helm of Neitiznot.	55 Defence Defence
+Completion of  The Fremennik Isles	 30	1%
+Fremennik: Mainland	Defeat a Jelly in the Fremennik Province.	Defeat a jelly in the Fremennik Province.	52 Slayer Slayer 	 30	17.1%
+Fremennik: Mainland	Complete the quest: Throne of Miscellania.	Complete Throne of Miscellania.	See quest page	 30	1.6%
+Fremennik: Mainland	Complete the quest: Royal Trouble.	Complete Royal Trouble.	See quest page	 30	1.3%
+Fremennik: Mainland	Equip a Granite Shield.	Equip a granite shield.	55 Defence Defence , 55 Strength Strength
+Either completion of  Eadgar's Ruse or partial completion of  The Fremennik Isles	 30	0.4%
+Fremennik: Mainland	Equip a full set of Graahk, Larupia or Kyatt hunter gear.	Equip a full set of graahk, larupia or kyatt hunter gear.	31 Hunter Hunter  to hunt spined larupia	 30	1.7%
+Fremennik: Mainland	Defeat any of the Dagannoth Kings.	Defeat any of the Dagannoth Kings 1 time.	N/A	 30	7%
+Fremennik: Mainland	Defeat any of the Dagannoth Kings.	Defeat any of the Dagannoth Kings 100 times.	N/A	 30	0.4%
+Fremennik: Mainland	Complete the task set: Easy Fremennik.		N/A	 30	0.9%
+Fremennik: Mainland	Ride a mine cart into Keldagrim.	Ride a mine cart into Keldagrim.	Completion of  The Giant Dwarf	 30	2.7%
+Fremennik: Mainland	Travel to the Mammoth Iceberg.	Travel to the Mammoth Iceberg.	N/A	 30	11.4%
+Fremennik: Mainland	Steal from the fish stall in Rellekka.	Steal from the fish stall in Rellekka.	42 Thieving Thieving
+Completion of  The Fremennik Trials	 30	2%
+Fremennik: Mainland	Harvest 100 sparkling energy from Sparkling Wisps.	Harvest 100 sparkling energy from sparkling wisps.	40 Divination Divination 	 30	26.8%
+Fremennik: Mainland	Climb to the top of the lighthouse.	Climb to the top of the lighthouse.	Completion of  Horror from the Deep	 30	1.6%
+Fremennik: Mainland	Chop 10 Artic[sic] Pine trees.	Chop 10 arctic pine trees.	54 Woodcutting Woodcutting
+Partial completion of  The Fremennik Isles	 30	1.4%
+Fremennik: Mainland	Kill 25 Yaks.	Kill 25 yaks.	Partial completion of  The Fremennik Isles	 30	1.1%
+Fremennik: Mainland	Interact with a pet rock.	Interact with a pet rock.	Partial completion of  The Fremennik Trials	 30	2.2%
+Fremennik: Mainland	Complete the task set: Medium Fremennik.	Complete the Medium Fremennik achievements.	See Medium Fremennik achievements page	 30	<0.1%
+Global	Reach level 50 in any skill.	Reach level 50 in any skill.	Any skill at level 50	 30	84.8%
+Global	Reach at least level 5 in all non-elite skills.	Reach at least level 5 in all non-elite skills.	All skills except Invention at level 5	 30	41.8%
+Global	Reach at least level 10 in all non-elite skills.	Reach at least level 10 in all non-elite skills.	All skills except Invention at level 10	 30	36.9%
+Global	Reach at least level 20 in all non-elite skills.	Reach at least level 20 in all non-elite skills.	All skills except Invention at level 20	 30	24.3%
+Global	Reach combat level 50.	Reach combat level 50.	50 Combat level Combat level	 30	65.3%
+Global	Reach total level 500.	Reach total level 500. This task is currently bugged and may complete before you have reached 500 total levels	500 Skills Total level	 30	77%
+Global	Mine any ore 200 times.	Mine any ore 200 times.	1 Mining Mining 	 30	86.3%
+Global	Chop any tree 200 times.	Chop any tree 200 times.	1 Woodcutting Woodcutting 	 30	63%
+Global	Chop a willow tree.	Chop a willow tree.	20 Woodcutting Woodcutting 	 30	75.6%
+Global	Burn any logs 200 times.	Burn any logs 200 times.	1 Firemaking Firemaking 	 30	33.8%
+Global	Catch any fish 200 times.	Catch any fish 200 times.	1 Fishing Fishing 	 30	63.5%
+Global	Harvest any memory from a wisp 200 times.	Harvest any memory from a wisp 200 times.	1 Divination Divination 	 30	60%
+Global	Pickpocket anyone 200 times.	Pickpocket anyone 200 times.	1 Thieving Thieving 	 30	40.6%
+Global	Plant seeds in any farming patch 100 times.	Plant seeds in any farming patch 100 times.	1 Farming Farming 	 30	23.7%
+Global	Unlock all of the Free to Play Lodestones.	Unlock all of the Free to Play Lodestones.	N/A	 30	42.4%
+Global	Make 200 potions of any kind.	Make 200 potions of any kind.	1 Herblore Herblore 	 30	12.9%
+Global	Clean 200 of any herb.	Clean 200 of any herb.	1 Herblore Herblore 	 30	34.9%
+Global	Fletch 1,000 arrow shafts.	Fletch 1,000 Arrow Shafts.	1 Fletching Fletching 	 30	67%
+Global	Complete 25 laps of any Agility course.	Complete 25 laps of any Agility course.	1 Agility Agility 	 30	39.5%
+Global	Smith 25 of any metal weapon or armour piece.	Smith 25 of any metal weapon or armour piece.	1 Smithing Smithing 	 30	70.6%
+Global	Cook 200 fish.	Cook 200 fish.	1 Cooking Cooking 	 30	50.5%
+Global	Offer 100 bones of any kind to an altar.	Offer 100 bones (ashes also work) at the chaos altar in the Wilderness, the altar in Fort Forinthry, or an altar in the player-owned house chapel	1 Prayer Prayer 	 30	37.7%
+Global	Scatter 100 ashes of any kind.	Scatter 100 ashes of any kind.	1 Prayer Prayer 	 30	20.4%
+Global	Restore 500 Prayer Points at an Altar at once.	Restore 500 Prayer Points at an Altar at once.	50 Prayer Prayer 	 30	37.1%
+Global	Catch 25 Implings of any kind.	Catch 25 implings of any kind.	17 Hunter Hunter 	 30	3.4%
+Global	Catch 35 Implings of any kind.	Catch 35 Implings of any kind.	17 Hunter Hunter 	 30	2.2%
+Global	Catch 200 Hunter creatures.	Catch 200 Hunter creatures.	1 Hunter Hunter 	 30	12.2%
+Global	Complete 25 Easy clue scrolls.	Complete 25 easy clue scrolls.	N/A	 30	3.6%
+Global	Complete 75 Easy clue scrolls.	Complete 75 easy clue scrolls.	N/A	 30	0.4%
+Global	Collect 25 unique items for the General clue rewards collection log.	Collect 25 unique items for the general clue rewards collection log.	N/A	 30	11.5%
+Global	Make 30 Prayer Potions.	Make 30 prayer potions.	38 Herblore Herblore 	 30	16%
+Global	Make a 4-dose Potion.	Make a 4-dose potion.	1 Herblore Herblore
+A botanist's amulet, Morytania legs 4, Underworld Grimoire 1, or a varanusaur pen with a farm totem at the Anachronia Dinosaur Farm	 30	3.6%
+Global	Make 20 Super Attack Potions.	Make 20 super attack potions.	45 Herblore Herblore 	 30	10%
+Global	Clean 50 Grimy Ranarr.	Clean 50 grimy ranarr.	25 Herblore Herblore 	 30	21.9%
+Global	Clean 50 Grimy Avantoe.	Clean 50 grimy avantoe.	48 Herblore Herblore 	 30	6.3%
+Global	Harvest 5 Grimy Ranarr.	Harvest 5 grimy ranarr.	32 Farming Farming 	 30	31.2%
+Global	Equip an Iron Crossbow.	Equip an iron crossbow.	10 Ranged Ranged 	 30	25.5%
+Global	Equip a Maple shieldbow.	Equip a maple shieldbow.	30 Ranged Ranged , 30 Defence Defence 	 30	17.7%
+Global	Fletch 50 Maple shieldbow (unstrung).	Fletch 50 unstrung maple shieldbows.	55 Fletching Fletching 	 30	16.4%
+Global	Fletch 400 Steel arrows.	Fletch 400 steel arrows.	30 Fletching Fletching 	 30	34.7%
+Global	Fletch 100 Iron bolts.	Fletch 100 iron bolts.	39 Fletching Fletching 	 30	27.2%
+Global	Mine some Ore With a Rune Pickaxe.	Mine some ore with a rune pickaxe.	50 Mining Mining 	 30	49.7%
+Global	Mine 20 Mithril Ore.	Mine 20 mithril ore.	30 Mining Mining 	 30	79%
+Global	Mine 30 Adamant Ore.	Mine 30 adamantite ore.	40 Mining Mining 	 30	74.3%
+Global	Mine 40 Runite Ore.	Mine 40 runite ore.	50 Mining Mining 	 30	68.5%
+Global	Open 20 Igenous[sic] Geodes.	Open 20 igneous geodes. These are found randomly while mining from rocks which require at least level 60 Mining	60 Mining Mining 	 30	41.6%
+Global	Check a grown Fruit Tree.	Check a tree grown in a fruit tree patch.	27 Farming Farming 	 30	27.8%
+Global	Catch 100 Lobsters.	Catch 100 lobsters.	40 Fishing Fishing 	 30	43.5%
+Global	Catch 50 Swordfish.	Catch 50 swordfish.	50 Fishing Fishing 	 30	31.7%
+Global	Catch 50 Salmon.	Catch 50 salmon.	30 Fishing Fishing 	 30	53.6%
+Global	Catch 10 Pike.	Catch 10 pike.	25 Fishing Fishing 	 30	51.9%
+Global	Make a Pineapple pizza.	Make a pineapple pizza by adding pineapple chunks or a pineapple ring to a plain pizza.	65 Cooking Cooking
+Plain pizza and pineapple	 30	1.7%
+Global	Make a Stew.	Make a stew: add a raw potato to a bowl of water, then add either cooked meat or chicken, and cook the stew at a range.	25 Cooking Cooking 	 30	9.7%
+Global	Make a Chocolate Cake.	Make a chocolate cake by adding a chocolate bar to a cooked cake.	50 Cooking Cooking
+Cake and chocolate bar	 30	10.2%
+Global	Bury some Baby Dragon bones.	Bury some baby dragon bones.	N/A	 30	24.4%
+Global	Bury 5 Dragon bones.	Bury 5 dragon bones.	1 Prayer Prayer 	 30	30.5%
+Global	Activate Protect from Melee prayer.	Activate the Protect from Melee prayer.	43 Prayer Prayer 	 30	48.8%
+Global	Catch a Gourmet Impling.	Catch a gourmet impling.	28 Hunter Hunter 	 30	22.4%
+Global	Light a Bullseye Lantern.	Light a bullseye lantern.	49 Firemaking Firemaking
+Either 36 Thieving Thieving  and completion of  Death to the Dorgeshuun; or 50 Quest points Quest points and the Lorehound pet unlocked; or 20 Smithing Smithing  and 49 Crafting Crafting  to create from scratch	 30	8.4%
+Global	Teleport using Law runes.	Teleport using law runes. The lowest level teleport spell is South Feldip Hills Teleport which also requires one air and one water rune	10 Magic Magic
+A law rune	 30	45.8%
+Global	Craft some Combination runes.	Craft some combination runes: mist runes have the lowest level requirement. They can made by using a pure essence and 1 water rune and a water talisman at the air altar or 1 air rune and an air talisman at the water altar	6 Runecrafting Runecrafting
+A pure essence	 30	20.3%
+Global	Craft 100 runes.	Craft 100 runes.	1 Runecrafting Runecrafting 	 30	48.8%
+Global	Craft 1,000 runes.	Craft 1,000 runes.	1 Runecrafting Runecrafting 	 30	14.4%
+Global	Equip a full set of Steel armour.	Equip a full set of steel armour (helm, body, legs, boots, and gauntlets).	20 Defence Defence 	 30	54%
+Global	Equip a full set of Mithril armour.	Equip a full set of mithril armour (full helm, platebody, legs, boots, and gauntlets).	30 Defence Defence 	 30	51.3%
+Global	Equip a full set of Adamant armour.	Equip a full set of adamant armour (full helm, platebody, legs, boots, and gauntlets).	40 Defence Defence 	 30	45.7%
+Global	Equip a full set of Rune armour.	Equip a full set of rune armour (full helm, platebody, legs, boots, and gauntlets).	50 Defence Defence 	 30	38.8%
+Global	Equip a full set of Blue Dragonhide armour.	Equip a full set of blue dragonhide armour.	50 Defence Defence 	 30	14%
+Global	Equip a full set of Red Dragonhide armour.	Equip a full set of red Dragonhide armour.	55 Defence Defence 	 30	4.4%
+Global	Equip a full set of Batwing robes.	Equip a full set of batwing robes.	30 Defence Defence 	 30	44.3%
+Global	Equip a full set of Mystic robes.	Equip a full set of mystic robes.	50 Defence Defence 	 30	17%
+Global	Create a Mithril Grapple.	Create a mithril grapple.	59 Fletching Fletching , 30 Smithing Smithing 	 30	6.5%
+Global	Burn 25 Willow logs.	Burn 25 willow logs.	30 Firemaking Firemaking 	 30	57.8%
+Global	Burn 50 Maple logs.	Burn 50 maple logs.	45 Firemaking Firemaking 	 30	28.9%
+Global	Equip any elemental battlestaff.	Equip any elemental battlestaff.	30 Magic Magic 	 30	32.1%
+Global	Equip a mystic staff.	Equip a mystic staff.	40 Magic Magic 	 30	23.2%
+Global	Obtain 50 Quest Points.	Obtain 50 quest points.	50 Quest points Quest points	 30	56.9%
+Global	Complete 100 clues of any tier.	Complete 100 clues of any tier.	N/A	 30	4.6%
+Global	Complete a Medium clue scroll.	Complete a medium clue scroll.	N/A	 30	36%
+Global	Complete 25 Medium clue scrolls.	Complete 25 medium clue scrolls.	N/A	 30	6.1%
+Global	Complete 75 Medium clue scrolls.	Complete 75 medium clue scrolls.	N/A	 30	0.5%
+Global	Complete a Hard clue scroll.	Complete a hard clue scroll.	N/A	 30	32.2%
+Global	Complete 25 Hard clue scrolls.	Complete 25 hard clue scrolls.	N/A	 30	10.4%
+Global	Collect 5 unique items for the Easy clue rewards collection log.	Collect 5 unique items for the easy clue rewards collection log.	N/A	 30	34.1%
+Global	Collect 10 unique items for the Easy clue rewards collection log.	Collect 10 unique items for the easy clue rewards collection log.	N/A	 30	27.7%
+Global	Collect 5 unique items for the Medium clue rewards collection log.	Collect 5 unique items for the medium clue rewards collection log.	N/A	 30	31.3%
+Global	Collect 10 unique items for the Medium clue rewards collection log.	Collect 10 unique items for the Medium clue rewards collection log.	N/A	 30	26.4%
+Global	Collect 5 unique items for the Hard clue rewards collection log.	Collect 5 unique items for the hard clue rewards collection log.	N/A	 30	27.8%
+Global	Equip any 2 pieces of an Elegant outfit.	Equip any 2 pieces of an elegant outfit.	N/A	 30	14.9%
+Global	Equip a composite bow of any kind.	Equip a composite bow of any kind.	20 Ranged Ranged 	 30	18.8%
+Global	Perform a Special Attack.	Perform a special attack.	5 Attack Attack  or 5 Ranged Ranged  or 5 Magic Magic  (claimed from Gudrik in Port Sarim)	 30	35.7%
+Global	Reach level 30 in any skill.	Reach level 30 in any skill.	N/A	 30	93.5%
+Global	Reach level 40 in any skill.	Reach level 40 in any skill.	N/A	 30	89.9%
+Global	Reach level 60 in any skill.	Reach level 60 in any skill.	N/A	 30	78.7%
+Global	Reach at least level 30 in all non-elite skills.	Reach at least level 30 in all non-elite skills.	All skills except Invention at level 30	 30	14.6%
+Kandarin: Ardougne	Fletch 50 Maple shieldbow (unstrung) in Kandarin.	Fletch 50 unstrung maple shieldbows in Kandarin.	55 Fletching Fletching 	 30	15.5%
+Kandarin: Ardougne	Pickpocket a Knight of Ardougne 50 times.	Pickpocket a knight of Ardougne 50 times.	55 Thieving Thieving 	 30	13%
+Kandarin: Ardougne	Complete the Barbarian Outpost Agility Course.	Complete the Barbarian Outpost Agility Course.	35 Agility Agility
+Completion of  Bar Crawl (miniquest)	 30	5.7%
+Global	Equip a Spottier Cape.	Equip a spottier cape.	66 Hunter Hunter 	 30	0.6%
+Kandarin: Ardougne	Catch a red salamander from the Hunter area outside of Ourania Altar.	Catch a red salamander.	59 Hunter Hunter 	 30	1.9%
+Kandarin: Ardougne	Enter the Fishing Guild.	Enter the Fishing Guild.	68 Fishing Fishing 	 30	9.7%
+Kandarin: Gnomes	Check a grown Papaya Tree inside Tree Gnome Stronghold.	Check a grown papaya tree inside Tree Gnome Stronghold.	57 Farming Farming 	 30	3.1%
+Kandarin: Ardougne	Kill a mithril dragon.	Defeat a mithril dragon.	N/A	 30	2.9%
+Kandarin: Yanille	Enter the Magic Guild in Yanille.	Enter the Wizards' Guild.	66 Magic Magic 	 30	11.8%
+Kandarin: Ardougne	Defeat a Fire Giant in Kandarin.	Defeat a fire giant in Kandarin.	N/A	 30	17.4%
+Kandarin: Seers Village	Use the Chivalry Prayer.	Use the Chivalry prayer.	60 Prayer Prayer , 65 Defence Defence
+Completion of Knight Waves training ground	 30	0.9%
+Kandarin: Yanille	Be on the winning side in a game of Castle Wars.	Win a game of Castle Wars.	N/A	 30	0.2%
+Kandarin: Seers Village	Complete the quest: Elemental Workshop II.	Complete Elemental Workshop II.	See quest page	 30	3.8%
+Kandarin: Feldip Hills	Equip an Ogre Forester Hat.	Equip an ogre forester hat.	300 chompy bird kills	 30	<0.1%
+Kandarin: Ardougne	Complete the task set: Easy Ardougne.	Complete the Easy Ardougne achievements.	See Easy Ardougne achievements page	 30	0.7%
+Kandarin: Gnomes	Create the listed gnome cocktails.	Make one of each type of cocktail.	37 Cooking Cooking 	 30	3.4%
+Kandarin: Ardougne	Earn a total amount of 10,000 beans.	Earn a total of 10,000 beans from selling animals in player-owned farm.	17 Farming Farming 	 30	<0.1%
+Global	Hunt 10 Spotted Kebbits with the help of a falcon.	Hunt 10 spotted kebbits with using falconry.	43 Hunter Hunter 	 30	3%
+Global	Complete the quest: The Needle Skips.	Complete The Needle Skips.	See quest page	 30	2.6%
+Kandarin: Ardougne	Complete the task set: Medium Ardougne.	Complete the Medium Ardougne achievements.	See Medium Ardougne achievements page	 30	<0.1%
+Karamja	Complete the task set: Easy Karamja.	Complete the Easy Karamja achievements.	See Easy Karamja achievements page	 30	9.2%
+Karamja	Craft 50 Nature runes.	Craft 50 nature runes.	44 Runecrafting Runecrafting 	 30	9.9%
+Karamja	Catch a salmon on Karamja.	Catch a salmon on Karamja.	30 Fishing Fishing
+Completion of  Shilo Village	 30	4.5%
+Karamja	Get Stiles to exchange some of your fish for bank notes.	Get Stiles to exchange some of your fish for bank notes.	N/A	 30	23.8%
+Karamja	Convert 100 gleaming memories in an energy rift.	Convert 100 gleaming memories in an energy rift.	50 Divination Divination 	 30	21.2%
+Karamja	Mine a drakolith rock in the Tai Bwo Wannai mine.	Mine a drakolith rock in the Tai Bwo Wannai mine.	60 Mining Mining 	 30	33.8%
+Karamja	Mine a ruby from a gem rock in Shilo Village.	Mine a ruby from a gem rock in Shilo Village.	30 Mining Mining
+Completion of  Shilo Village	 30	5.4%
+Karamja	Enter the Hardwood Grove in Tai Bwo Wannai.	Enter the Hardwood Grove in Tai Bwo Wannai.	Completion of  Jungle Potion	 30	3.5%
+Karamja	Complete the quest: Dragon Slayer.	Complete Dragon Slayer.	See quest page	 30	22.9%
+Karamja	Check a grown banana tree on Karamja.	Check a grown banana tree on Karamja.	33 Farming Farming 	 30	9%
+Karamja	Defeat a TzHaar.	Defeat a TzHaar.	N/A	 30	36%
+Karamja	Equip an Obsidian cape.	Equip an obsidian cape.	N/A	 30	2.2%
+Karamja	Kill a metal dragon in Brimhaven Dungeon.	Kill a metal dragon in Brimhaven Dungeon.	N/A	 30	12.6%
+Karamja	Catch 25 lobsters on Karamja.	Catch 25 lobsters on Karamja.	40 Fishing Fishing 	 30	38.9%
+Karamja	Equip a Toktz-Ket-Xil.	Equip a Toktz-Ket-Xil.	60 Defence Defence 	 30	0.8%
+Karamja	Equip a Tzhaar-Ket-Om.	Equip a Tzhaar-Ket-Om.	60 Strength Strength 	 30	0.7%
+Karamja	Equip a Toktz-Xil-Ak.	Equip a Toktz-Xil-Ak.	60 Attack Attack 	 30	0.4%
+Karamja	Equip a Toktz-Xil-Ek.	Equip a Toktz-Xil-Ek.	60 Attack Attack 	 30	0.4%
+Karamja	Complete the task set: Medium Karamja.	Complete the Medium Karamja achievements.	See Medium Karamja achievements page	 30	<0.1%
+Misthalin: Draynor Village	Kill the lesser demon in the Wizards' Tower.	Kill the lesser demon in the Wizards' Tower.	Cannot be attacked with short-range melee	 30	57.7%
+Misthalin: Draynor Village	Hunt a yellow wizard in the RuneSpan and give them some items.	Hunt a yellow wizard in the Runespan and give them some items.	1 Runecrafting Runecrafting 	 30	28.3%
+Misthalin: Draynor Village	Use the Rune Goldberg Machine to create Vis wax.	Use the Rune Goldberg Machine to create vis wax.	50 Runecrafting Runecrafting 	 30	19.5%
+Misthalin: Draynor Village	Siphon from a nature esshound in the Runespan.	Siphon from a nature esshound in the Runespan.	44 Runecrafting Runecrafting 	 30	28.4%
+Misthalin: Draynor Village	Siphon Rune dust from a RuneSphere in the RuneSpan.	Siphon rune dust from a Runesphere in the RuneSpan.	1 Runecrafting Runecrafting 	 30	11.2%
+Misthalin: Edgeville	Fully complete the Stronghold of Player Safety.	Fully complete the Stronghold of Player Safety by pulling an old lever on the upper floor and then opening the treasure chest in the secure sector.	N/A	 30	38.1%
+Misthalin: Fort Forinthry	Complete the quest: New Foundations.	Complete New Foundations.	See quest page	 30	35.7%
+Misthalin: Lumbridge	Complete the task set: Beginner Lumbridge.	Given by Explorer Jack in Lumbridge for completing all Beginner Tasks in Lumbridge.	See Beginner Lumbridge achievements page	 30	46.6%
+Misthalin: Draynor Village	Complete the quest: Duck Quest.	Complete Duck Quest.	See quest page	 30	26.3%
+Misthalin: Lumbridge	Complete the task set: Easy Lumbridge.	Given by Bob, the axe seller in Lumbridge, for completing all Easy Tasks in Lumbridge.	See Easy Lumbridge achievements page	 30	20.1%
+Misthalin: Lumbridge	Complete the task set: Medium Lumbridge.	Given by Ned in Draynor Village for completing all Medium Tasks in Lumbridge.	See Medium Lumbridge achievements page	 30	6%
+Misthalin: Lumbridge	Drink from the Tears of Guthix.	Drink from the Tears of Guthix.	Completion of  Tears of Guthix quest	 30	3.9%
+Misthalin: Lumbridge	Complete world 25 in Shattered Worlds.	Reach world 25 in Shattered Worlds.	N/A	 30	10.5%
+Misthalin: Lumbridge	Catch 20 implings in Puro-Puro.	Catch 20 implings in Puro-Puro.	17 Hunter Hunter 	 30	5.8%
+Misthalin: Lumbridge	Complete the quest: Sheep Shearer (miniquest).	Complete Sheep Shearer miniquest.	N/A	 30	61.6%
+Misthalin: Lumbridge	Cut a willow tree east of Lumbridge Castle.	Cut the willow tree east of Lumbridge Castle, by the bridge across the River Lum.	20 Woodcutting Woodcutting 	 30	64%
+Misthalin: Lumbridge	Craft 50 Water Runes.	Craft 50 water runes.	5 Runecrafting Runecrafting
+Water talisman or equivalent	 30	43.2%
+Misthalin: Lumbridge	Pickpocket a H.A.M. member.	Pickpocket a H.A.M. member.	15 Thieving Thieving 	 30	60.3%
+Misthalin: Lumbridge	Churn some butter.	Make a pat of butter by using a bucket of milk at a dairy churn	38 Cooking Cooking
+Bucket of milk	 30	24.5%
+Misthalin: Lumbridge	Craft 50 cosmic runes.	Craft 50 cosmic runes.	27 Runecrafting Runecrafting
+Cosmic talisman or equivalent, completion of  Lost City quest	 30	7.6%
+Misthalin: Lumbridge	Steal a lantern from a cave goblin.	Steal a lantern from a cave goblin (only the ones in Dorgesh-Kaan have the lantern as a possible loot from pickpocketting).	36 Thieving Thieving
+Completion of  Death to the Dorgeshuun quest	 30	0.7%
+Misthalin: Lumbridge	Use the range in Lumbridge Castle to bake a cake.	Use the range in Lumbridge Castle to bake a cake.	40 Cooking Cooking
+Completion of  Cook's Assistant quest	 30	20.1%
+Misthalin: City of Um	Have either a Putrid Zombie or Vengeful Ghost conjured while fighting the matching creature.	Have either a Putrid Zombie or Vengeful Ghost conjured while fighting the matching creature.	40 Necromancy Necromancy
+Unlock the ability to conjure at tier 3 of talents, conduit, ectoplasm?	 30	9.7%
+Misthalin: City of Um	Learn how to craft moonstone jewellery.	Learn how to craft moonstone jewellery.	50 Necromancy Necromancy
+Brown apron or keepsaked override	 30	3.7%
+Misthalin: City of Um	Disgruntle an inhabitant of Um by wearing a bedsheet.	Disgruntle an inhabitant of Um by wearing a bedsheet, see Poor Imitation for NPCs which can be disgruntled.	Completion of  Ghosts Ahoy quest, bedsheet	 30	3.1%
+Misthalin: City of Um	Upgrade a piece of Death Skull or Deathwarden equipment to tier 50.	Upgrade a piece of Death Skull or Deathwarden equipment to tier 50.	20 Necromancy Necromancy
+Completion of  Necromancy! and  Kili Row. See also Kili's Knowledge III	 30	12.8%
+Misthalin: City of Um	Complete a communion ritual using a memento.	Complete a communion ritual using a memento.	5 Necromancy Necromancy
+Completion of  Necromancy!	 30	28.5%
+Misthalin: City of Um	Conjure a Phantom Guardian at the City of Um ritual site.	Conjure a Phantom Guardian at the Um ritual site.	70 Necromancy Necromancy
+Conjure Phantom Guardian unlocked from the Well of Souls	 30	4.2%
+Misthalin: City of Um	Complete the task set: Easy Underworld.	Complete the Easy Underworld achievements.	See Easy Underworld achievements page	 30	19.4%
+Misthalin: City of Um	Complete the task set: Medium Underworld.	Complete the Medium Underworld achievements.	See Medium Underworld achievements page	 30	4.7%
+Misthalin: Varrock	Complete the task set: Easy Varrock.	Given by Rat Burgiss south of Varrock for completing all Easy Tasks in Varrock.	See Easy Varrock achievements page	 30	3.4%
+Misthalin: Varrock	Complete the task set: Medium Varrock.	Given by Reldo in Varrock Palace's library for completing all Medium Tasks in Varrock.	See Medium Varrock achievements page	 30	<0.1%
+Misthalin: Edgeville	Browse through Oziach's Armour Shop.	Browse through Oziach's Armour Shop.	Completion of  Dragon Slayer quest	 30	20.4%
+Misthalin: Varrock	Enter the Cooks' Guild.	Enter the Cooks' Guild.	32 Cooking Cooking
+Chef's hat of equivalent, see Cooks' Guild for alternatives	 30	37.9%
+Misthalin: Varrock	Complete the quest: Demon Slayer.	Complete Demon Slayer.	See quest page	 30	41.2%
+Misthalin: Varrock	Complete the quest: Vampyre Slayer.	Complete Vampyre Slayer.	See quest page	 30	45.4%
+Misthalin: Varrock	Mine 50 pure essence.	Mine 50 pure essence.	30 Mining Mining 	 30	66.4%
+Misthalin: Varrock	Pickpocket a guard in Varrock Palace's courtyard.	Pickpocket a Varrock guard.	40 Thieving Thieving 	 30	30.2%
+Misthalin: Varrock	Gather and convert 50 bright memories.	Gather and convert 50 bright memories.	20 Divination Divination 	 30	44.2%
+Morytania	Complete the task set: Easy Morytania.	Complete the Easy Morytania achievements.	See Easy Morytania achievements page	 30	0.1%
+Morytania	Take a medium companion through a medium route of Temple Trekking.	Take a medium companion through a medium route of Temple Trekking.	Completion of  In Aid of the Myreque	 30	0.3%
+Morytania	Visit Mos Le'Harmless.	Visit Mos Le'Harmless.	Partial completion of  Cabin Fever	 30	1.6%
+Morytania	Visit Harmony Island.	Visit Harmony Island.	Partial completion of  The Great Brain Robbery	 30	<0.1%
+Morytania	Visit the Everlight dig site.	Visit the Everlight dig site.	42 Archaeology Archaeology 	 30	17.1%
+Morytania	Finish a game of Werewolf Skullball.	Finish a game of Werewolf Skullball.	25 Agility Agility
+Completion of  Creature of Fenkenstrain	 30	0.4%
+Morytania	Defeat the six Barrows Brothers and loot their chest.	Defeat the six Barrows Brothers and loot their chest once.	N/A	 30	17.6%
+Morytania	Defeat the six Barrows Brothers and loot their chest. (100 times)	Defeat the six Barrows Brothers and loot their chest 100 times.	N/A	 30	0.1%
+Morytania	Equip a Barrows weapon.	Equip a barrows weapon.	Either 70 Magic Magic , 70 Attack Attack , or 70 Ranged Ranged 	 30	3.2%
+Morytania	Equip a piece of Barrows armour.	Equip a piece of barrows armour.	70 Defence Defence 	 30	7.6%
+Morytania	Equip a Salve Amulet (e).	Equip a salve amulet (e).	Completion of  Lair of Tarn Razorlor (miniquest)	 30	6.6%
+Morytania	Make a batch of cannonballs in Port Phasmatys.	Make a batch of cannonballs in Port Phasmatys.	35 Smithing Smithing
+Completion of  Dwarf Cannon	 30	1%
+Morytania	Catch 10 Green salamanders.	Catch 10 Green salamanders.	29 Hunter Hunter 	 30	8.8%
+Morytania	Complete the quest: Haunted Mine.	Complete Haunted Mine.	See quest page	 30	14%
+Morytania	Harvest bittercap mushrooms in the farming patch near Canifis.	Harvest bittercap mushrooms in the farming patch near Canifis.	53 Farming Farming 	 30	5.7%
+Morytania	Complete the task set: Medium Morytania.		N/A	 30	<0.1%
+Elven Lands: Tirranwn	Complete the task set: Easy Tirannwn.	Complete the Easy Tirannwn achievements.	See Easy Tirannwn achievements page	 30	<0.1%
+Elven Lands: Tirranwn	Check a grown Papaya Tree in Lletya.	Check a grown papaya tree in Lletya.	57 Farming Farming 	 30	3.8%
+Elven Lands: Tirranwn	Craft 50 Death Runes.	Craft 50 death runes.	65 Runecrafting Runecrafting 	 30	1.4%
+Elven Lands: Tirranwn	Move your house to Prifddinas.	Move your player-owned house's location to Prifddinas by speaking to an estate agent.	75 Construction Construction
+50,000	 30	1.2%
+Elven Lands: Tirranwn	Use an Elven Teleport Crystal.	Use a crystal teleport seed.	N/A	 30	16%
+Elven Lands: Tirranwn	Equip Iban's staff.	Equip Iban's staff.	50 Magic Magic 	 30	2.1%
+Elven Lands: Tirranwn	Catch 10 Pawyas in Isafdar.	Catch 10 pawyas in Isafdar.	66 Hunter Hunter 	 30	0.2%
+Elven Lands: Tirranwn	Mine 200 soft clay in Prifddinas.	Mine 200 soft clay in Prifddinas.	75 Mining Mining 	 30	23.2%
+Elven Lands: Tirranwn	Use the fairy ring in the Amlodd district.	Use the fairy ring in the Amlodd district.	Partial completion of  A Fairy Tale II - Cure a Queen	 30	3.7%
+Elven Lands: Tirranwn	Complete the task set: Medium Tirannwn.	Complete the Medium Tirannwn achievements.	See Medium Tirannwn achievements page	 30	<0.1%
+Wilderness: General	Complete the task set: Easy Wilderness.	Complete the Easy Wilderness achievements.	See Easy Wilderness achievements page	 30	8.5%
+Wilderness: General	Defeat the King Black Dragon.	Defeat the King Black Dragon once.	N/A	 30	24.5%
+Wilderness: General	Defeat the King Black Dragon. (100 times)	Defeat the King Black Dragon 100 times.	N/A	 30	0.4%
+Wilderness: General	Sacrifice Dragon bones on the Chaos Altar.	Sacrifice dragon bones on the chaos altar in the Wilderness.	1 Prayer Prayer 	 30	31.6%
+Wilderness: General	Cast the Claws of Guthix special attack.	Cast the Claws of Guthix special attack.	60 Magic Magic
+Completion of Mage Arena, Guthix staff	 30	5.2%
+Wilderness: General	Defeat 5 Green dragons.	Defeat 5 green dragons.	N/A	 30	31.5%
+Wilderness: General	Complete 10 laps of the Wilderness agility course.	Complete 10 laps of the Wilderness agility course.	52 Agility Agility 	 30	17.1%
+Wilderness: General	Equip a Saradomin, Zamorak, or Guthix cape.	Equip a Saradomin, Zamorak, or Guthix cape.	60 Magic Magic
+Completion of Mage Arena	 30	8.9%
+Wilderness: General	Visit any Runecrafting altar through the Abyss.	Visit any Runecrafting altar through the Abyss.	Completion of  Enter the Abyss (miniquest)	 30	29%
+Wilderness: General	Defeat 10 Fetid Zombies.	Defeat 10 fetid zombies.	N/A	 30	26.5%
+Wilderness: General	Defeat 20 Bound Skeletons.	Defeat 20 bound skeletons.	N/A	 30	13.5%
+Wilderness: Daemonheim	Defeat the Rammernaut.	Defeat the Rammernaut.	35 Dungeoneering Dungeoneering 	 30	1.8%
+Wilderness: General	Defeat Bossy McBoss Face.	Defeat Bossy McBoss Face.	N/A	 30	2%
+Wilderness: General	Activate and teleport from each of the Wilderness teleport obelisks.	Activate and teleport from each of the Wilderness teleport obelisks.	N/A	 30	10.2%
+Wilderness: General	Defeat Bossy McBossface's first mate.	Defeat Bossy McBossface's first mate.	N/A	 30	1%
+Wilderness: General	Complete the task set: Medium Wilderness.	Complete the Medium Wilderness achievements.	See Medium Wilderness achievements page	 30	0.7%
+Anachronia	Harvest produce from 25 animals on Anachronia farm.	Harvest produce from 25 animals on Anachronia farm.	42 Farming Farming , 45 Construction Construction 	 80	<0.1%
+Anachronia	Complete the ritual to activate a totem on Anachronia.	Complete the ritual to activate a totem on Anachronia.	N/A	 80	<0.1%
+Anachronia	Complete the Anachronia agility course in under 7 minutes.	Complete the Anachronia agility course in under 7 minutes.	85 Agility Agility 	 80	1.3%
+Anachronia	Complete all frog breeds.	Complete all frog breeds.	42 Farming Farming , 45 Construction Construction 	 80	<0.1%
+Anachronia	Purchase the Quick Traps upgrade from Irwinsson's Hunter Mark shop.	Purchase the quick traps upgrade from the Hunter Mark Shop.	50 hunter marks	 80	<0.1%
+Anachronia	Complete the quest: Osseous Rex.	Complete the Osseous Rex quest.	See quest page	 80	0.7%
+Anachronia	Clear an Overgrown idol on Anachronia.	Clear an overgrown idol on Anachronia.	81 Woodcutting Woodcutting 	 80	0.2%
+Anachronia	Defeat any of the Rex Matriarchs.	Defeat any of the Rex Matriarchs once.	N/A	 80	5.9%
+Anachronia	Defeat any of the Rex Matriarchs. (100 times)	Defeat any of the Rex Matriarchs 100 times.	N/A	 80	1.1%
+Anachronia	Complete the quest: Desperate Times.	Complete the Desperate Times quest.	See quest page	 80	1%
+Anachronia	Find all the hidden Zygomites on Anachronia.	Find all of the ancient zygomites on Anachronia. See the page for a route.	85 Agility Agility 	 80	<0.1%
+Anachronia	Equip Laniakea's spear.	Equip Laniakea's spear.	82 Attack Attack 	 80	1%
+Anachronia	Harvest an Arbuck herb.	Harvest an arbuck herb.	77 Farming Farming 	 80	3.1%
+Anachronia	Complete the advanced sections of the Anachronia agility course.	Complete the advanced sections of the Anachronia agility course.	70 Agility Agility 	 80	5%
+Anachronia	Equip a Dragon Mattock.	Equip a dragon mattock.	60 Archaeology Archaeology , (optional) 75 Hunter Hunter 	 80	<0.1%
+Anachronia	Take down each dinosaur in Big Game Hunter.	Take down each dinosaur in Big Game Hunter.	96 Hunter Hunter , 76 Slayer Slayer 	 80	<0.1%
+Anachronia	Get caught by each of the big game creatures once.	Get caught by each of the Big Game Hunter creatures once.	96 Hunter Hunter , 76 Slayer Slayer 	 80	<0.1%
+Anachronia	Complete a big game encounter without using movement abilities.	Complete a Big Game Hunter encounter without using movement abilities.	75 Hunter Hunter , 55 Slayer Slayer 	 80	0.2%
+Anachronia	Defeat Raksha, the Shadow Colossus.	Defeat Raksha, the Shadow Colossus once.	Completion of  Raksha, the Shadow Colossus	 80	0.3%
+Asgarnia: Falador	Reach 100% respect at the Artisans' Workshop.	Reach 100% respect at the Artisans' Workshop.	1 Smithing Smithing 	 80	22.3%
+Asgarnia: Falador	Complete the task set: Hard Falador.	Complete the Hard Falador achievements.	See Hard Falador achievements page	 80	<0.1%
+Asgarnia: Burthorpe	Defeat any God Wars Dungeon boss 100 times.	Defeat any God Wars Dungeon boss 100 times.	Partial completion of  Troll Stronghold	 80	12.4%
+Asgarnia: Burthorpe	Defeat any God Wars Dungeon boss 250 times.	Defeat any God Wars Dungeon boss 250 times.	Partial completion of  Troll Stronghold	 80	4.3%
+Asgarnia: Burthorpe	Defeat Commander Zilyana.	Defeat Commander Zilyana	70 Agility Agility
+Partial completion of  Troll Stronghold	 80	3%
+Asgarnia: Burthorpe	Defeat General Graardor.	Defeat General Graardor	70 Strength Strength
+Partial completion of  Troll Stronghold	 80	12.1%
+Asgarnia: Burthorpe	Defeat K'ril Tsutsaroth.	Defeat K'ril Tsutsaroth	70 Constitution Constitution
+Partial completion of  Troll Stronghold	 80	8.4%
+Asgarnia: Burthorpe	Defeat Kree'arra.	Defeat Kree'arra	70 Ranged Ranged
+Partial completion of  Troll Stronghold	 80	1.6%
+Asgarnia: Burthorpe	Defeat Nex.	Defeat Nex	70 Agility Agility , 70 Strength Strength , 70 Constitution Constitution , 70 Ranged Ranged
+Partial completion of  Troll Stronghold, completion of  The Dig Site, frozen key	 80	0.5%
+Asgarnia: Burthorpe	Defeat Kree'arra. (100 times)	Defeat Kree'arra 100 times.	70 Ranged Ranged
+Partial completion of  Troll Stronghold	 80	<0.1%
+Asgarnia: Burthorpe	Assemble any godsword from the God Wars Dungeon.	Assemble any godsword from the God Wars Dungeon.	80 Smithing Smithing  and one of 70 Agility Agility , 70 Strength Strength , 70 Constitution Constitution , or 70 Ranged Ranged 	 80	0.8%
+Asgarnia: Port Sarim	Defeat the Queen Black Dragon.	Defeat the Queen Black Dragon.	60 Summoning Summoning 	 80	2.7%
+Asgarnia: Port Sarim	Defeat the Queen Black Dragon. (100 times)	Defeat the Queen Black Dragon 100 times.	60 Summoning Summoning 	 80	<0.1%
+Asgarnia: Port Sarim	Bury some frost dragon bones.	Bury some frost dragon bones.	85 Dungeoneering Dungeoneering 	 80	0.6%
+Desert: General	Defeat the Kalphite King.	Defeat the Kalphite King.	N/A	 80	4.5%
+Desert: General	Defeat the Kalphite King. (100 times)	Defeat the Kalphite King 100 times.	N/A	 80	0.1%
+Desert: General	Equip a drygore weapon.	Equip a drygore weapon.	90 Attack Attack 	 80	1.4%
+Desert: General	Become an honorary druid at the Garden of Kharid.	Purchase the Druid/Druidess title for 50,000 Crux Eqal favour	50 Farming Farming 	 80	0.7%
+Desert: General	Deploy a dreadnip.	Deploy a dreadnip.	20 of a collection of quests (see Dominion Tower#Requirements), 450 Dominion Tower kills	 80	<0.1%
+Desert: General	Complete the task set: Hard Desert.	Complete the Hard Desert achievements.	See Hard Desert achievements page	 80	<0.1%
+Desert: General	Defeat Avaryss and Nymora.	Defeat the Twin Furies.	80 Ranged Ranged 	 80	1%
+Desert: General	Defeat Gregorovic.	Defeat Gregorivic.	80 Prayer Prayer 	 80	2.5%
+Desert: General	Defeat Vindicta and Gorvek.	Defeat Vindicta.	80 Attack Attack 	 80	11.2%
+Desert: General	Defeat Helwyr.	Defeat Helwyr.	80 Magic Magic 	 80	2.2%
+Desert: General	Defeat Avaryss and Nymora. (100 times)	Defeat the Twin Furies 100 times.	80 Ranged Ranged 	 80	<0.1%
+Desert: General	Defeat Gregorovic. (100 times)	Defeat Gregorivic 100 times.	80 Prayer Prayer 	 80	<0.1%
+Desert: General	Defeat Vindicta and Gorvek. (100 times)	Defeat Vindicta 100 times.	80 Attack Attack 	 80	1.6%
+Desert: General	Defeat Helwyr. (100 times)	Defeat Helwyr 100 times.	80 Magic Magic 	 80	0.1%
+Desert: General	Equip a Dragon Rider lance.	Equip a Dragon Rider lance.	85 Attack Attack 	 80	4%
+Desert: General	Equip a wand or orb of the Cywir elders.	Equip a wand or orb of the Cywir elders.	85 Magic Magic 	 80	0.3%
+Desert: General	Equip a shadow glaive.	Equip a shadow glaive.	85 Ranged Ranged 	 80	<0.1%
+Desert: General	Equip a blade of Nymora or Avaryss.	Equip a blade of Nymora or Avaryss.	85 Attack Attack 	 80	0.1%
+Desert: Menaphos	Slay a combination of 500 corrupted or devourer creatures.	Slay a combination of 500 corrupted creatures or soul devourers.	88 Slayer Slayer
+Completion of  Icthlarin's Little Helper	 80	0.1%
+Desert: General	Defeat the Magister.	Defeat the Magister.	115 Slayer Slayer
+Key to the Crossing	 80	<0.1%
+Desert: General	Defeat the Magister. (50 times)	Defeat the Magister 50 times.	115 Slayer Slayer
+Key to the Crossing	 80	<0.1%
+Desert: Menaphos	Find an Off-hand khopesh of the Kharidian in Shifting Tombs.	Find an off-hand khopesh of the Kharidian in Shifting Tombs.	At least one of 50 Dungeoneering Dungeoneering , 50 Agility Agility , 50 Thieving Thieving , or 50 Construction Construction 	 80	<0.1%
+Desert: General	Search the Grand Gold Chest in room 7 of Pyramid Plunder in Sophanem.	Search the Grand Gold Chest in room 7 of Pyramid Plunder in Sophanem.	81 Thieving Thieving
+Partial completion of  Icthlarin's Little Helper	 80	1.4%
+Desert: General	Search the Grand Gold Chest in room 8 of Pyramid Plunder in Sophanem.	Search the Grand Gold Chest in room 8 of Pyramid Plunder in Sophanem.	91 Thieving Thieving
+Partial completion of  Icthlarin's Little Helper	 80	1.3%
+Desert: Menaphos	Complete the quest: Beneath Scabaras' Sands.	Complete Beneath Scabaras' Sands.	See quest page	 80	<0.1%
+Desert: General	Kill a desert strykewyrm wearing a Full Slayer Helm and wielding an ancient staff.	Kill a desert strykewyrm wearing a full Slayer helm and wielding an ancient staff.	77 Slayer Slayer , 50 Magic Magic , 20 Defence Defence , 55 Crafting Crafting
+Completion of  Desert Treasure and  Smoking Kills, 400 slayer points to unlock crafting slayer helmets. See also Staff on Stryke.	 80	<0.1%
+Desert: General	Defeat Telos, the Warden.	Defeat Telos, the Warden.	80 Attack Attack , 80 Prayer Prayer , 80 Magic Magic , 80 Ranged Ranged 	 80	0.6%
+Fremennik: Lunar Isles	Cast Fertile Soil.	Cast Fertile Soil.	83 Magic Magic
+Completion of  Lunar Diplomacy unless tier 6 reached	 80	0.1%
+Fremennik: Mainland	Build a Gilded Altar.	Build a gilded altar in your player-owned house's chapel.	75 Construction Construction 	 80	0.2%
+Fremennik: Mainland	Trap a Sabre-Toothed Kyatt.	Trap a sabre-toothed kyatt.	55 Hunter Hunter 	 80	1.8%
+Fremennik: Mainland	Defeat all the Dagannoth Kings without leaving a solo boss instance.	Defeat all the Dagannoth Kings without leaving a solo boss instance.	N/A	 80	0.2%
+Fremennik: Mainland	Equip a Berserker, Warrior, Seers, or Archers Ring.	Equip a Berserker, Warrior, Seers, or Archers Ring.	N/A	 80	1.5%
+Fremennik: Mainland	Use the Special Attack of a Dragon Axe.	Use the special attack of a dragon hatchet.	60 Attack Attack 	 80	0.5%
+Fremennik: Mainland	Defeat a Dagannoth King solo whilst wearing full yak-hide armour and a Fremennik round shield.	Defeat a Dagannoth King solo whilst wearing full yak-hide armour and a Fremennik round shield.	25 Defence Defence
+Partial completion of  The Fremennik Isles	 80	0.1%
+Fremennik: Mainland	Equip a full set of Skeletal, Spined, or Rockshell armour.	Equip a full skeletal, spined, or rock-shell armour set.	50 Defence Defence
+Completion of  The Fremennik Trials	 80	0.1%
+Fremennik: Mainland	Collect Miscellania Resources at Full Approval.	Collect from Managing Miscellania with a 100% approval rating.	Completion of  Throne of Miscellania	 80	0.2%
+Fremennik: Mainland	Travel to the island of Ungael.	Travel to the island of Ungael.	Partial completion of  Ancient Awakening	 80	<0.1%
+Fremennik: Mainland	Adopt a baby yak.	Obtain an unchecked/baby Fremennik yak.	71 Farming Farming
+Partial completion of  The Fremennik Isles	 80	<0.1%
+Fremennik: Mainland	Catch 50 Azure Skillchompas.	Catch 50 Azure Skillchompas.	68 Hunter Hunter 	 80	0.3%
+Fremennik: Mainland	Mine 10 Banite Ore north of Rellekka.	Mine 10 Banite ore in the arctic (azure) habitat mine.	80 Mining Mining 	 80	22.3%
+Fremennik: Mainland	Smith a piece of Bane equipment to +4 in Rellekka.	Upgrade a piece of Bane equipment to +4 in Rellekka.	80 Smithing Smithing
+Completion of  The Fremennik Trials	 80	0.7%
+Fremennik: Mainland	Use a Crystal triskelion key to obtain some treasures.	Use a Crystal triskelion to obtain some treasures.	N/A	 80	3.4%
+Fremennik: Mainland	Create a Catherby Teleport Tablet.	Create a Catherby Teleport Tablet.	87 Magic Magic , 67 Construction Construction
+Completion of  Lunar Diplomacy unless tier 6 reached	 80	<0.1%
+Fremennik: Mainland	Gather a seed from an Aquanite using Seedicide.	Gather a seed from an aquanite using Seedicide.	78 Slayer Slayer
+2,200 renown, 10,000 beans, 360 thaler, or tier 4 reached	 80	1%
+Fremennik: Mainland	Complete the task set: Hard Fremennik.	Complete the Hard Fremennik achievements.	See Hard Fremennik achievements page	 80	<0.1%
+Global	Reach at least level 50 in all non-elite skills.	Reach at least level 50 in all non-elite skills.	All skills except Invention at level 50	 80	1.3%
+Global	Reach combat level 100.	Reach combat level 100.	100 Combat Combat	 80	16.6%
+Global	Reach total level 1000.	Reach total level 1000. This task is currently bugged and may complete before you have reached 1000 total levels	1000 Skills Total level	 80	48.4%
+Global	Mine any ore 1000 times.	Mine any ore 1000 times.	N/A	 80	67%
+Global	Chop any tree 1000 times.	Chop any tree 1000 times.	N/A	 80	9.7%
+Global	Burn any logs 1000 times.	Burn any logs 1000 times.	N/A	 80	2.3%
+Global	Catch any fish 1000 times.	Catch any fish 1000 times.	N/A	 80	9%
+Global	Harvest any memory from a wisp 1000 times.	Harvest any memory from a wisp 1000 times.	N/A	 80	11.5%
+Global	Pickpocket anyone 1000 times.	Pickpocket anyone 1000 times.	N/A	 80	8.9%
+Global	Unlock all of the Lodestones.	Unlock all of the Lodestones.	N/A	 80	<0.1%
+Global	Make 1,000 potions of any kind.	Make 1,000 potions of any kind.	N/A	 80	0.5%
+Global	Clean 1,000 of any herb.	Clean 1,000 of any herb.	N/A	 80	8.4%
+Global	Complete 50 laps of any Agility course.	Complete 50 laps of any Agility course.	N/A	 80	13.3%
+Global	Complete 100 laps of any Agility course.	Complete 100 laps of any Agility course.	N/A	 80	3.7%
+Global	Smith 50 of any metal weapon or armour piece.	Smith 50 of any metal weapon or armour piece.	N/A	 80	52.5%
+Global	Smith 100 of any metal weapon or armour piece.	Smith 100 of any metal weapon or armour piece.	N/A	 80	35.4%
+Global	Cook 1,000 fish.	Cook 1,000 fish.	N/A	 80	5.3%
+Global	Catch 1,000 Hunter creatures.	Catch 1,000 Hunter creatures.	N/A	 80	0.9%
+Global	Complete 15 Slayer tasks.	Complete 15 Slayer tasks.	N/A	 80	8.1%
+Global	Complete 150 Easy clue scrolls.	Complete 150 Easy clue scrolls.	N/A	 80	0.1%
+Global	Collect 50 unique items for the General clue rewards collection log.	Collect 50 unique items for the General clue rewards collection log.	N/A	 80	<0.1%
+Global	Craft 10,000 runes.	Craft 10,000 runes.	N/A	 80	<0.1%
+Global	Craft 20,000 runes.	Craft 20,000 runes.	N/A	 80	<0.1%
+Global	Obtain 75 Quest Points.	Obtain 75 quest points.	75 Quest points Quest points	 80	21.1%
+Global	Obtain 100 Quest Points.	Obtain 100 quest points.	100 Quest points Quest points	 80	6%
+Global	Complete 150 Medium clue scrolls.	Complete 150 Medium clue scrolls.	N/A	 80	0.1%
+Global	Complete 75 Hard clue scrolls.	Complete 75 Hard clue scrolls.	N/A	 80	0.8%
+Global	Complete 150 Hard clue scrolls.	Complete 150 Hard clue scrolls.	N/A	 80	0.1%
+Global	Collect 25 unique items for the Easy clue rewards collection log.	Collect 25 unique items for the Easy clue rewards collection log.	N/A	 80	7.1%
+Global	Collect 50 unique items for the Easy clue rewards collection log.	Collect 50 unique items for the Easy clue rewards collection log.	N/A	 80	1%
+Global	Collect 25 unique items for the Medium clue rewards collection log.	Collect 25 unique items for the Medium clue rewards collection log.	N/A	 80	10.1%
+Global	Collect 50 unique items for the Medium clue rewards collection log.	Collect 50 unique items for the Medium clue rewards collection log.	N/A	 80	3.7%
+Global	Collect 10 unique items for the Hard clue rewards collection log.	Collect 10 unique items for the Hard clue rewards collection log.	N/A	 80	17.1%
+Global	Collect 25 unique items for the Hard clue rewards collection log.	Collect 25 unique items for the Hard clue rewards collection log.	N/A	 80	12.2%
+Global	Equip any Dragon mask.	Equip any Dragon mask.	N/A	 80	11.3%
+Global	Make any Perfect Juju Potion.	Make any Perfect Juju Potion.	75 Herblore Herblore 	 80	<0.1%
+Global	Make 15 Antifire Potions.	Make 15 Antifire Potions.	69 Herblore Herblore 	 80	0.6%
+Global	Clean 50 Grimy Cadantine.	Clean 50 Grimy Cadantine.	65 Herblore Herblore 	 80	0.6%
+Global	Clean 100 Grimy Lantadyme.	Clean 100 Grimy Lantadyme.	67 Herblore Herblore 	 80	0.9%
+Global	Clean 100 Dwarf Weed.	Clean 100 Dwarf Weed.	70 Herblore Herblore 	 80	0.5%
+Global	Clean 100 Arbuck.	Clean 100 Arbuck.	77 Herblore Herblore , 77 Farming Farming 	 80	0.1%
+Global	Equip a Yew shortbow.	Equip a Yew shortbow.	40 Ranged Ranged 	 80	10%
+Global	Equip a Magic shortbow.	Equip a Magic shortbow.	50 Ranged Ranged 	 80	5.3%
+Global	Fletch some Broad Arrows or Bolts.	Fletch some Broad Arrows or Bolts.	52 Fletching Fletching
+Completion of  Smoking Kills, 300 slayer points	 80	1%
+Global	Fletch 100 Yew shortbows (unstrung).	Fletch 100 Yew shortbows (unstrung).	65 Fletching Fletching 	 80	2.3%
+Global	Fletch 100 Yew stocks.	Fletch 100 Yew stocks.	69 Fletching Fletching 	 80	1.9%
+Global	Fletch a Rune Crossbow.	Fletch a Rune Crossbow.	69 Fletching Fletching 	 80	2.2%
+Global	Fletch 35 or more arrow shafts from a single log.	Fletch 35 or more Arrow shafts from a single log.	60 Fletching Fletching
+Yew logs or higher	 80	4.7%
+Global	Fletch 500 Adamant arrows.	Fletch 500 Adamant arrows.	60 Fletching Fletching 	 80	9.6%
+Global	Fletch 750 Rune arrows.	Fletch 750 Rune arrows.	75 Fletching Fletching 	 80	4.9%
+Global	Fletch 75 Onyx bolts.	Fletch 75 Onyx bolts.	73 Fletching Fletching 	 80	0.6%
+Global	Equip a Rune Ceremonial Sword.	Equip a Rune ceremonial sword.	N/A	 80	0.1%
+Global	Equip a full set of the Blacksmith's outfit.	Equip a full set of the Blacksmith's outfit.	Total of 250% Artisans' Workshop respect, unless gained from ceremonial swords	 80	2.1%
+Global	Power up the Artisan's Workshop with a Luminite Injector.	Power up the Artisan's Workshop with a Luminite Injector.	100% Artisans' Workshop respect	 80	2.6%
+Global	Mine 50 Orichalcite Ore.	Mine 50 Orichalcite Ore.	60 Mining Mining 	 80	55%
+Global	Mine 50 Drakolith.	Mine 50 Drakolith.	60 Mining Mining 	 80	41.4%
+Global	Mine 60 Necrite Ore.	Mine 60 Necrite Ore.	70 Mining Mining 	 80	37.6%
+Global	Mine 60 Phasmatite.	Mine 60 Phasmatite.	70 Mining Mining 	 80	33%
+Global	Harvest 20 Grimy Kwuarm.	Harvest 20 Grimy Kwuarm.	56 Farming Farming 	 80	7.5%
+Global	Catch 100 Shark.	Catch 100 Shark.	76 Fishing Fishing 	 80	1.5%
+Global	Catch 100 Green Blubber Jellyfish.	Catch 100 Green Blubber Jellyfish.	68 Fishing Fishing 	 80	2.2%
+Global	Catch a Spirit Impling.	Catch a Spirit Impling.	54 Hunter Hunter 	 80	1.9%
+Global	Equip a Slayer helmet.	Equip a Slayer helmet.	55 Crafting Crafting , 35 Slayer Slayer
+Completion of  Smoking Kills, 400 slayer points Note: While it does not say it explicitly, this task requires the Full slayer helmet and therefore has an implicit requirement of 77 Slayer Slayer  for Desert Strykewyrms	 80	0.2%
+Global	Complete a Soul Reaper task.	Complete a Soul Reaper task.	N/A	 80	20.6%
+Global	Complete 5 Soul Reaper tasks.	Complete 5 Soul Reaper tasks.	N/A	 80	1.1%
+Global	Equip a full set of Orikalkum armour.	Equip a full set of Orikalkum armour.	60 Smithing Smithing , 60 Defence Defence 	 80	21.3%
+Global	Equip a full set of Necronium armour.	Equip a full set of Necronium armour.	70 Smithing Smithing , 70 Defence Defence 	 80	11.2%
+Global	Equip a full set of Black Dragonhide armour.	Equip a full set of Black Dragonhide armour.	60 Defence Defence
+60 Crafting Crafting  unless getting the pieces as a drop	 80	4.1%
+Global	Equip a full set of Royal Dragonhide armour.	Equip a full set of Royal Dragonhide armour.	65 Defence Defence , 65 Crafting Crafting 	 80	2.1%
+Global	Cast a Wave spell.	Cast a Wave spell.	62 Magic Magic 	 80	11.1%
+Global	Burn 75 Yew logs.	Burn 75 Yew logs.	60 Firemaking Firemaking 	 80	3.4%
+Global	Unlock the Ring of Quests from May's Quest Caravan.	Unlock the Ring of Quests from May's Quest Caravan.	75 Quest points Quest points	 80	5.4%
+Global	Complete 250 clues of any tier.	Complete 250 clues of any tier.	N/A	 80	0.1%
+Global	Complete 500 clues of any tier.	Complete 500 clues of any tier.	N/A	 80	<0.1%
+Global	Complete an Elite clue scroll.	Complete an Elite clue scroll.	N/A	 80	16.4%
+Global	Complete 25 Elite clue scrolls.	Complete 25 Elite clue scrolls.	N/A	 80	1%
+Global	Complete a Master clue scroll.	Complete a Master clue scroll.	N/A	 80	19.9%
+Global	Collect 5 unique items for the Elite clue rewards collection log.	Collect 5 unique items for the Elite clue rewards collection log.	N/A	 80	12%
+Global	Collect 10 unique items for the Elite clue rewards collection log.	Collect 10 unique items for the Elite clue rewards collection log.	N/A	 80	8.7%
+Global	Collect 20 unique items for the Elite clue rewards collection log.	Collect 20 unique items for the Elite clue rewards collection log.	N/A	 80	5.6%
+Global	Collect 5 unique items for the Master clue rewards collection log.	Collect 5 unique items for the Master clue rewards collection log.	N/A	 80	15.1%
+Global	Catch a Manta ray.	Catch a raw manta ray.	81 Fishing Fishing  (or 68 Fishing Fishing  via swarm fishing)	 80	1.6%
+Global	Reach level 70 in any skill.	Reach level 70 in any skill.	Any skill at level 70	 80	62.6%
+Global	Reach level 80 in any skill.	Reach level 80 in any skill.	Any skill at level 80	 80	45.8%
+Global	Reach at least level 40 in all non-elite skills.	Reach at least level 40 in all non-elite skills.	All skills except Invention at level 40	 80	3.6%
+Global	Reach at least level 60 in all non-elite skills.	Reach at least level 60 in all non-elite skills.	All skills except Invention at level 60	 80	0.2%
+Global	Reach at least level 70 in all non-elite skills.	Reach at least level 70 in all non-elite skills.	All skills except Invention at level 70	 80	<0.1%
+Kandarin: Ardougne	Throw coins into the deep sea whirlpool.	Throw some gold coins into the Whirlpool at the Deep Sea Fishing platform.	68 Fishing Fishing 	 80	0.7%
+Kandarin: Ardougne	Solve the Archaeology mystery: Leap of Faith.	Solve the Leap of Faith Archaeology mystery.	70 Archaeology Archaeology 	 80	1%
+Kandarin: Ardougne	Collect all breeds of chinchompa at the Player Owned Farm.	Breed all types of Chinchompas.	54 Farming Farming , 20 Construction Construction
+97 Hunter Hunter  to catch crystal chinchompas.	 80	<0.1%
+Kandarin: Ardougne	Equip one piece of the Fishing outfit.	Equip one piece of the Fishing outfit.	140 fishing tokens	 80	0.1%
+Kandarin: Ardougne	Defeat the Penance Queen.	Defeat the Penance Queen.	N/A	 80	<0.1%
+Kandarin: Ardougne	Pickpocket a Hero.	Pickpocket a Hero.	80 Thieving Thieving 	 80	25.9%
+Kandarin: Ardougne	Catch 50 Red Chinchompas in Kandarin.	Catch 50 carnivorous chinchompas in Kandarin.	63 Hunter Hunter 	 80	0.4%
+Kandarin: Feldip Hills	Equip an Ogre Expert hat.	Equip an Ogre Expert hat.	1,000 chompy bird kills	 80	<0.1%
+Global	Catch a Monkfish.	Catch a raw monkfish.	62 Fishing Fishing
+Completion of  Swan Song or from swarm fishing	 80	2.2%
+Global	Recover all data for one memory-storage bot in the Hall of Memories.	Recover all data for memory-storage bot (Aagi) in the Hall of Memories.	70 Divination Divination 	 80	2.7%
+Kandarin: Seers Village	Use the Piety Prayer.	Use the Piety Prayer.	70 Prayer Prayer , 70 Defence Defence
+Completion of Knight Waves training ground	 80	0.5%
+Kandarin: Ardougne	Complete the task set: Hard Ardougne.	Complete the Hard Ardougne Diary.	See Hard Ardougne achievements page	 80	<0.1%
+Karamja	Use the stepping stone across the river in Shilo village.	Use the Stepping Stones Agility Shortcut in Shilo Village.	74 Agility Agility
+Completion of  Shilo Village	 80	0.4%
+Karamja	Equip a full set of Obsidian armour.	Equip a full set of Obsidian armour.	60 Defence Defence
+Completion of  The Brink of Extinction, 80 Smithing Smithing 	 80	0.1%
+Karamja	Equip a Red Topaz Machete.	Equip a Red Topaz Machete.	N/A	 80	0.4%
+Karamja	Find a Gout Tuber.	Find a Gout Tuber.	10 Woodcutting Woodcutting
+Completion of  Jungle Potion	 80	0.1%
+Karamja	Defeat TzTok-Jad.	Defeat TzTok-Jad once.	N/A	 80	7.3%
+Karamja	Defeat TzTok-Jad.	Defeat TzTok-Jad 25 times.	N/A	 80	0.1%
+Karamja	Use your fire cape on TzTok-Jad before defeating them.	Use your fire cape on TzTok-Jad before defeating them.	N/A	 80	0.4%
+Karamja	Equip a Fire Cape.	Equip a Fire Cape.	N/A	 80	7.2%
+Karamja	Defeat TokHaar-Hok in the Fight Cauldron minigame using only obsidian equipment.	Defeat TokHaar-Hok in the Fight Cauldron minigame using only obsidian equipment.	60 Defence Defence  and one of 60 Attack Attack , 60 Strength Strength , 60 Magic Magic , or 60 Ranged Ranged
+Completion of  The Brink of Extinction	 80	<0.1%
+Karamja	Repair the fairy ring inside the Kharazi jungle.	Repair the fairy ring inside the Kharazi jungle.	Partial completion of  Legends' Quest, 5 bittercap mushrooms	 80	<0.1%
+Karamja	Access the Gemstone cavern.	Access the Gemstone cavern.	Hard Karamja achievements and either an uncut dragonstone or a gemstone dragon Slayer task (requires 95 Slayer Slayer )	 80	0.1%
+Karamja	Catch a Draconic jadinko at Herblore Habitat.	Catch a Draconic jadinko at Herblore Habitat.	80 Hunter Hunter 	 80	<0.1%
+Karamja	Craft a Bolas.	Craft a Bolas.	87 Fletching Fletching , 80 Slayer Slayer 	 80	0.1%
+Karamja	Complete the task set: Hard Karamja.	Complete the hard Karamja Diary.	See Hard Karamja achievements page	 80	<0.1%
+Karamja	Collect 60 Agility Arena tickets from the Brimhaven Agility Arena.	Receive 60 Agility Arena Tickets With No Mistakes.	N/A	 80	0.7%
+Karamja	Defeat TzTok-Jad in less than 45:00.	Defeat TzTok-Jad in less than 45:00.	N/A	 80	6.9%
+Karamja	Complete the Fight Kiln.	Complete the Fight Kiln.	Completion of  The Elder Kiln, hand in a fire cape	 80	0.9%
+Karamja	Equip a TokHaar-Kal-Ket.	Equip a TokHaar-Kal-Ket.	Completion of  The Elder Kiln, hand in a fire cape (once)	 80	0.7%
+Karamja	Equip a TokHaar-Kal-Xil.	Equip a TokHaar-Kal-Xil.	Completion of  The Elder Kiln, hand in a fire cape (once)	 80	<0.1%
+Karamja	Equip a TokHaar-Kal-Mej.	Equip a TokHaar-Kal-Mej.	Completion of  The Elder Kiln, hand in a fire cape (once)	 80	<0.1%
+Karamja	Equip a TokHaar-Kal-Mor.	Equip a TokHaar-Kal-Mor.	Completion of  The Elder Kiln, hand in a fire cape (once)	 80	0.1%
+Karamja	Complete the Fight Kiln and collect an uncut onyx.	Complete the Fight Kiln and collect an uncut onyx.	Completion of  The Elder Kiln, hand in a fire cape (once)	 80	0.1%
+Karamja	Complete all TzTok-Jad combat achievements.	Complete all TzTok-Jad combat achievements.	See TzTok-Jad achievements page	 80	<0.1%
+Misthalin: Draynor Village	Siphon from a death esswraith in the RuneSpan.	Siphon from a death esswraith in the RuneSpan.	66 Runecrafting Runecrafting 	 80	3.4%
+Misthalin: Draynor Village	Obtain the Massive Pouch from the RuneSpan.	Obtain the massive pouch from the RuneSpan.	90 Runecrafting Runecrafting
+1,000 Runespan points	 80	<0.1%
+Misthalin: Draynor Village	Equip the full Master Runecrafter skilling outfit.	Equip the full master runecrafter robes set.	50 Runecrafting Runecrafting
+60,000 Runecrafting guild tokens, 16,000 Runespan points, or 2,000 thaler	 80	<0.1%
+Misthalin: Edgeville	Complete the task set: Hard Varrock.	Complete all of the Hard Varrock achievements and claim rewards from Vannaka in Edgeville.	See Hard Varrock achievements page	 80	<0.1%
+Misthalin: Edgeville	Make a waka canoe near Edgeville.	Make a waka canoe near Edgeville.	57 Woodcutting Woodcutting 	 80	12.6%
+Misthalin: Edgeville	Chop down the Edgeville elder tree.	Chop down the Edgeville elder tree.	90 Woodcutting Woodcutting 	 80	0.1%
+Misthalin: Fort Forinthry	Upgrade the workshop in Fort Forinthry to Tier 3.	Upgrade the workshop in Fort Forinthry to tier 3.	75 Construction Construction
+Completion of  New Foundations	 80	0.1%
+Misthalin: Lumbridge	Enter Zanaris via Lumbridge Swamp.	Enter Zanaris via Lumbridge Swamp.	Partial completion of  Lost City	 80	16.8%
+Misthalin: Lumbridge	Complete the task set: Hard Lumbridge.	Complete all Hard Tasks in Lumbridge and claim rewards from Ned in Draynor Village.	See Hard Lumbridge achievements page	 80	0.6%
+Misthalin: Lumbridge	Unlock the Bladed Dive ability from Shattered Worlds.	Unlock the Bladed Dive ability from Shattered Worlds.	63,000,000 shattered anima	 80	0.1%
+Misthalin: Lumbridge	Smith a mithril platebody on the anvil in the jailhouse sewers.	Smith a mithril platebody on the anvil in the jailhouse sewers.	30 Smithing Smithing 	 80	37.4%
+Misthalin: Lumbridge	Fully grow a magic tree in Lumbridge.	Fully grow a magic tree in Lumbridge.	75 Farming Farming 	 80	0.6%
+Misthalin: City of Um	Defeat Hermod, the Spirit of War.	Defeat Hermod, the Spirit of War once.	Completion of  The Spirit of War	 80	<0.1%
+Misthalin: City of Um	Defeat Hermod, the Spirit of War.	Defeat Hermod, the Spirit of War 100 times.	Completion of  The Spirit of War	 80	<0.1%
+Misthalin: City of Um	Rest whilst listening to the Dead Beats in the City of Um.	Rest whilst listening to the Dead Beats in the City of Um.	Completion of  That Old Black Magic	 80	<0.1%
+Misthalin: City of Um	Smelt a necronium bar at the smithy in the City of Um.	Smelt a necronium bar at the smithy in the City of Um.	70 Smithing Smithing
+Partial completion of  Necromancy!	 80	4%
+Misthalin: City of Um	Create a passing bracelet, performing each step in the City of Um.	Create a passing bracelet, performing each step in the City of Um.	60 Necromancy Necromancy  for bar, 79 Crafting Crafting , 68 Magic Magic
+Ensouled bar, moonstone, runes for Lvl-5 Enchant. The moonstone is most easily obtained from completing  Housing of Parliament, which requires 54 Necromancy Necromancy .	 80	0.1%
+Misthalin: City of Um	Catch a ghostly impling while wearing a full set of ghostly robes.	Catch a ghostly impling while wearing a full set of ghostly robes.	68 Hunter Hunter
+Completion of  The Curse of Zaros (miniquest)	 80	<0.1%
+Misthalin: City of Um	Upgrade a set of Death Skull equipment to tier 70.	Upgrade a set of Death Skull equipment to tier 70.	70 Necromancy Necromancy
+Completion of  The Spirit of War. See also Kili's Knowledge V.	 80	2.1%
+Misthalin: City of Um	Complete a Powerful Communion ritual.	Complete a powerful communion ritual.	90 Necromancy Necromancy 	 80	0.2%
+Misthalin: City of Um	Conjure an undead army at the City of Um ritual site.	Conjure an undead army at the City of Um ritual site.	99 Necromancy Necromancy
+Conjure Undead Army unlocked in the Well of Souls	 80	0.2%
+Misthalin: Varrock	Obtain a new set of Family Crest gauntlets from Dimintheis.	Obtain a new set of Family Crest gauntlets from Dimintheis.	Completion of  Family Crest	 80	0.3%
+Misthalin: Varrock	Talk to Romily Weaklax and give him a wild pie.	Talk to Romily Weaklax and give him a wild pie.	85 Cooking Cooking  to make it from scratch, or 50 Hunter Hunter  to get it as a rare drop from eclectic implings	 80	<0.1%
+Misthalin: Varrock	Harness the power of three relics at once.	Activate 3 Archaeology relics at once	25 Archaeology Archaeology
+A Ring of Luck to unlock the Hand of Glory relic.	 80	1.1%
+Misthalin: Varrock	Mine 50 Dark Animica from the Empty Throne Room.	Mine 50 dark animica from the Empty Throne Room mine.	90 Mining Mining 	 80	5%
+Misthalin: Varrock	Defeat Kerapac, the bound.	Defeat Kerapac, the bound once.	N/A	 80	1.7%
+Misthalin: Varrock	Defeat the Arch-Glacor.	Defeat the Arch-Glacor.	N/A	 80	11.7%
+Misthalin: City of Um	Defeat Nakatra, Devourer Eternal.	Defeat Nakatra, Devourer Eternal.	Completion of  Necromancy!, completion of  Soul Searching	 80	0.1%
+Misthalin: City of Um	Cleanse the Gate of Elidinis.	Cleanse the Gate of Elidinis.	Completion of  Ode of the Devourer (or  Soul Searching if tier 4 reached)	 80	10%
+Misthalin: City of Um	Complete the task set: Hard Underworld.	Complete the Hard Underworld achievements.	See Hard Underworld achievements page	 80	<0.1%
+Morytania	Take a hard companion through a hard route of Temple Trekking.	Take a hard companion through a hard route of Temple Trekking.	Completion of  In Aid of the Myreque	 80	0.1%
+Morytania	Mine 30 Phasmatite.	Mine 30 phasmatite near Port Phasmatys.	70 Mining Mining 	 80	29.7%
+Morytania	Defeat 25 Gargoyles.	Defeat 25 Gargoyles.	75 Slayer Slayer 	 80	2.4%
+Morytania	Defeat 35 Aberrant Spectres.	Defeat 35 Aberrant Spectres.	60 Slayer Slayer 	 80	7.1%
+Morytania	Equip a full set of Ahrim's equipment, including the staff.	Equip a full set of Ahrim's equipment, including the staff.	70 Defence Defence , 70 Magic Magic 	 80	<0.1%
+Morytania	Equip a full set of Dharok's equipment, including the greataxe.	Equip a full set of Dharok's equipment, including the greataxe.	70 Defence Defence , 70 Attack Attack 	 80	<0.1%
+Morytania	Equip a full set of Guthan's equipment, including the warspear.	Equip a full set of Guthan's equipment, including the Guthan's warspear.	70 Defence Defence , 70 Attack Attack 	 80	<0.1%
+Morytania	Equip a full set of Torag's equipment, including the hammer.	Equip a full set of Torag's equipment, including the hammer.	70 Defence Defence , 70 Attack Attack 	 80	<0.1%
+Morytania	Equip a full set of Verac's equipment, including the flail.	Equip a full set of Verac's equipment, including the flail.	70 Defence Defence , 70 Attack Attack 	 80	<0.1%
+Morytania	Equip a full set of Karil's equipment, including the 2h crossbow.	Equip a full set of Karil's equipment, including the 2h crossbow.	70 Defence Defence , 70 Ranged Ranged 	 80	<0.1%
+Morytania	Complete the quest: The Branches of Darkmeyer.	Complete The Branches of Darkmeyer.	See quest page	 80	0.1%
+Morytania	Burn 20 Blisterwood logs.	Burn 20 Blisterwood logs.	76 Woodcutting Woodcutting , 76 Firemaking Firemaking
+Partial completion of  The Branches of Darkmeyer	 80	<0.1%
+Morytania	Fully level up all Temple Trekking companions.	Fully level up all Temple Trekking companions.	Completion of  In Aid of the Myreque	 80	<0.1%
+Morytania	Catch 5 sharks in Burgh de Rott.	Catch 5 sharks in Burgh de Rott.	76 Fishing Fishing
+Partial completion of  In Aid of the Myreque	 80	<0.1%
+Morytania	Complete the task set: Hard Morytania.	Complete the hard Morytania Diary.	See Hard Morytania achievements page	 80	<0.1%
+Elven Lands: Tirranwn	Plant a mushroom seed in the mushroom patch in Isafdar.	Plant a mushroom seed in the mushroom patch in Isafdar.	53 Farming Farming
+Completion of the medium Tirannwn achievements.	 80	<0.1%
+Elven Lands: Tirranwn	Defeat 30 Cadarn warriors in Prifddinas.	Defeat 30 Cadarn warriors in Prifddinas.	N/A	 80	4.4%
+Elven Lands: Tirranwn	Harvest some harmony moss from a harmony pillar.	Harvest some harmony moss from a harmony pillar.	75 Farming Farming 	 80	1%
+Elven Lands: Tirranwn	Complete the Hefin Agility course with a light creature familiar summoned.	Complete the Hefin Agility course with a light creature familiar summoned.	77 Agility Agility , 88 Summoning Summoning , 71 Divination Divination 	 80	<0.1%
+Elven Lands: Tirranwn	Cleanse the Corrupted Seren stone with 5 cleansing crystals.	Cleanse the Corrupted Seren stone with 5 cleansing crystals.	75 Prayer Prayer 	 80	3.9%
+Elven Lands: Tirranwn	Complete 10 laps of the Hefin agility course.	Complete 10 laps of the Hefin agility course.	77 Agility Agility 	 80	4.4%
+Elven Lands: Tirranwn	Harvest 100 Incandescent energy from Incandescent Wisps.	Harvest 100 Incandescent energy from Incandescent Wisps.	95 Divination Divination 	 80	0.1%
+Elven Lands: Tirranwn	Equip a Dark bow.	Equip a Dark bow.	90 Slayer Slayer , 70 Ranged Ranged , 70 Defence Defence 	 80	0.1%
+Elven Lands: Tirranwn	Defeat 30 Dark beasts in Tirannwn.	Defeat 30 Dark beasts in Tirannwn.	90 Slayer Slayer 	 80	0.8%
+Elven Lands: Tirranwn	Equip a Crystal halberd.	Equip a Crystal halberd.	50 Agility Agility , 70 Attack Attack 	 80	6.4%
+Elven Lands: Tirranwn	Equip a Crystal shield.	Equip a Crystal shield.	50 Agility Agility , 70 Defence Defence 	 80	1.4%
+Elven Lands: Tirranwn	Equip a Crystal bow.	Equip a Crystal bow.	50 Agility Agility , 70 Ranged Ranged 	 80	1%
+Elven Lands: Tirranwn	Catch 25 Grenwalls in Isafdar.	Catch 25 Grenwalls in Isafdar.	77 Hunter Hunter 	 80	<0.1%
+Elven Lands: Tirranwn	Defeat 10 Elf warriors in Lletya.	Defeat 10 Elf warriors in Lletya.	N/A	 80	14.1%
+Elven Lands: Tirranwn	Chop 50 Magic logs in Tirannwn.	Chop 50 Magic logs in Tirannwn.	80 Woodcutting Woodcutting 	 80	0.6%
+Elven Lands: Tirranwn	Open the crystal chest in Prifddinas 10 times.	Open the crystal chest in Prifddinas 10 times.	N/A	 80	4.1%
+Elven Lands: Tirranwn	Charge a piece of Dragonstone jewellery using the Tears of Seren.	Charge a piece of Dragonstone jewellery using the Tears of Seren.	Completion of  Legends' Quest	 80	<0.1%
+Elven Lands: Tirranwn	Complete the task set: Hard Tirannwn.	Complete the hard Tirannwn Diary.	See Hard Tirannwn achievements page	 80	<0.1%
+Wilderness: General	Defeat the King Black Dragon while wearing black dragonhide in six equipment slots. Can only be completed in a solo instance.	Defeat the King Black Dragon while wearing black dragonhide in six equipment slots.	60 Defence Defence 	 80	1.6%
+Wilderness: General	Defeat one of each revenant creature in the Forinthry dungeon.	Defeat one of each revenant creature in the Forinthry dungeon.	N/A	 80	2.1%
+Wilderness: General	Equip a Statius's warhammer.	Equip a Statius's warhammer.	78 Attack Attack 	 80	<0.1%
+Wilderness: General	Catch 25 Black Salamanders.	Catch 25 Black Salamanders.	67 Hunter Hunter 	 80	0.4%
+Wilderness: Daemonheim	Restore an artefact from the Daemonheim digsite.	Restore an artefact from the Daemonheim digsite.	73 Archaeology Archaeology 	 80	0.7%
+Wilderness: General	Defeat the Corporeal Beast.	Defeat the Corporeal Beast once.	Completion of  Summer's End	 80	<0.1%
+Wilderness: General	Defeat the Corporeal Beast.	Defeat the Corporeal Beast 100 times.	Completion of  Summer's End	 80	<0.1%
+Wilderness: Daemonheim	Defeat the Skeletal Trio.	Defeat the Skeletal Trio.	71 Dungeoneering Dungeoneering 	 80	0.4%
+Wilderness: Daemonheim	Upgrade your Gem bag.	Upgrade your Gem bag.	40 Dungeoneering Dungeoneering , 45 Crafting Crafting
+20,000 dungeoneering tokens	 80	0.4%
+Wilderness: General	Equip a pair of Steadfast boots.	Equip a pair of Steadfast boots.	85 Defence Defence 	 80	<0.1%
+Wilderness: General	Equip a pair of Glaiven boots.	Equip a pair of Glaiven boots.	85 Defence Defence 	 80	<0.1%
+Wilderness: General	Equip a pair of Ragefire boots.	Equip a pair of Ragefire boots.	85 Defence Defence 	 80	<0.1%
+Wilderness: General	Complete the task set: Hard Wilderness.	Complete the hard Wilderness Diary.	See Hard Wilderness achievements page	 80	<0.1%
+Wilderness: Daemonheim	Equip a Chaotic weapon or kiteshield.	Equip a Chaotic weapon or kiteshield.	80 Dungeoneering Dungeoneering , 80 Attack Attack  OR 80 Ranged Ranged  OR 80 Magic Magic  OR 80 Defence Defence 	 80	0.1%
+]
