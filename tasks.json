@@ -589,8 +589,8 @@
     "taskId": 227,
     "locality": "Asgarnia: Falador",
     "task": "Complete the task set: Easy Falador.",
-    "information": "See Easy Falador achievements page",
-    "requirements": "See Easy Falador achievements page",
+    "information": "Achievement: Easy Falador",
+    "requirements": "Achievement: Easy Falador",
     "points": 30
   },
   {
@@ -598,8 +598,8 @@
     "taskId": 228,
     "locality": "Asgarnia: Falador",
     "task": "Complete the task set: Medium Falador.",
-    "information": "See Medium Falador achievements page",
-    "requirements": "See Medium Falador achievements page",
+    "information": "Achievement: Medium Falador",
+    "requirements": "Achievement: Medium Falador",
     "points": 30
   },
   {
@@ -698,7 +698,7 @@
     "locality": "Asgarnia: Falador",
     "task": "Complete the task set: Hard Falador.",
     "information": "Complete the Hard Falador achievements.",
-    "requirements": "See Hard Falador achievements page",
+    "requirements": "Achievement: Hard Falador",
     "points": 80
   },
   {
@@ -815,7 +815,7 @@
     "locality": "Asgarnia: Falador",
     "task": "Complete the task set: Elite Falador.",
     "information": "Complete the Elite Falador achievements.",
-    "requirements": "See Elite Falador achievements page",
+    "requirements": "Achievement: Elite Falador",
     "points": 150
   },
   {
@@ -1130,7 +1130,7 @@
     "locality": "Desert: General",
     "task": "Complete the task set: Easy Desert.",
     "information": "Easy desert tasks.",
-    "requirements": "See Easy Desert achievements page",
+    "requirements": "Achievement: Easy Desert",
     "points": 30
   },
   {
@@ -1139,7 +1139,7 @@
     "locality": "Desert: General",
     "task": "Complete the task set: Medium Desert.",
     "information": "Medium desert tasks.",
-    "requirements": "See Medium Desert achievements page",
+    "requirements": "Achievement: Medium Desert",
     "points": 30
   },
   {
@@ -1283,7 +1283,7 @@
     "locality": "Desert: General",
     "task": "Complete the task set: Hard Desert.",
     "information": "Complete the Hard Desert achievements.",
-    "requirements": "See Hard Desert achievements page",
+    "requirements": "Achievement: Hard Desert",
     "points": 80
   },
   {
@@ -1481,7 +1481,7 @@
     "locality": "Desert: General",
     "task": "Complete the task set: Elite Desert.",
     "information": "Complete the Elite Desert achievements.",
-    "requirements": "See Elite Desert achievements page",
+    "requirements": "Achievement: Elite Desert",
     "points": 150
   },
   {
@@ -1796,7 +1796,7 @@
     "locality": "Fremennik: Mainland",
     "task": "Complete the task set: Easy Fremennik.",
     "information": "Complete the Easy Fremennik achievements.",
-    "requirements": "See Easy Fremennik achievements page",
+    "requirements": "Achievement: Easy Fremennik Province",
     "points": 30
   },
   {
@@ -1877,7 +1877,7 @@
     "locality": "Fremennik: Mainland",
     "task": "Complete the task set: Medium Fremennik.",
     "information": "Complete the Medium Fremennik achievements.",
-    "requirements": "See Medium Fremennik achievements page",
+    "requirements": "Achievement: Medium Fremennik Province",
     "points": 30
   },
   {
@@ -2039,7 +2039,7 @@
     "locality": "Fremennik: Mainland",
     "task": "Complete the task set: Hard Fremennik.",
     "information": "Complete the Hard Fremennik achievements.",
-    "requirements": "See Hard Fremennik achievements page",
+    "requirements": "Achievement: Hard Fremennik Province",
     "points": 80
   },
   {
@@ -2129,7 +2129,7 @@
     "locality": "Fremennik: Mainland",
     "task": "Complete the task set: Elite Fremennik.",
     "information": "Complete the Elite Fremennik achievements.",
-    "requirements": "See Elite Fremennik achievements page",
+    "requirements": "Achievement: Elite Fremennik Province",
     "points": 150
   },
   {
@@ -6350,7 +6350,7 @@
     "locality": "Kandarin: Ardougne",
     "task": "Complete the task set: Easy Ardougne.",
     "information": "Complete the Easy Ardougne achievements.",
-    "requirements": "See Easy Ardougne achievements page",
+    "requirements": "Achievement: Easy Ardougne",
     "points": 30
   },
   {
@@ -6377,7 +6377,7 @@
     "locality": "Kandarin: Ardougne",
     "task": "Complete the task set: Medium Ardougne.",
     "information": "Complete the Medium Ardougne achievements.",
-    "requirements": "See Medium Ardougne achievements page",
+    "requirements": "Achievement: Medium Ardougne",
     "points": 30
   },
   {
@@ -6467,7 +6467,7 @@
     "locality": "Kandarin: Ardougne",
     "task": "Complete the task set: Hard Ardougne.",
     "information": "Complete the Hard Ardougne achievements.",
-    "requirements": "See Hard Ardougne achievements page",
+    "requirements": "Achievement: Hard Ardougne",
     "points": 80
   },
   {
@@ -6521,7 +6521,7 @@
     "locality": "Kandarin: Ardougne",
     "task": "Complete the task set: Elite Ardougne.",
     "information": "Complete the Elite Ardougne achievements.",
-    "requirements": "See Elite Ardougne achievements page",
+    "requirements": "Achievement: Elite Ardougne",
     "points": 150
   },
   {
@@ -6656,7 +6656,7 @@
     "locality": "Karamja",
     "task": "Complete the task set: Easy Karamja.",
     "information": "Complete the Easy Karamja achievements.",
-    "requirements": "See Easy Karamja achievements page",
+    "requirements": "Achievement: Easy Karamja",
     "points": 30
   },
   {
@@ -6818,7 +6818,7 @@
     "locality": "Karamja",
     "task": "Complete the task set: Medium Karamja.",
     "information": "Complete the Medium Karamja achievements.",
-    "requirements": "See Medium Karamja achievements page",
+    "requirements": "Achievement: Medium Karamja",
     "points": 30
   },
   {
@@ -6944,7 +6944,7 @@
     "locality": "Karamja",
     "task": "Complete the task set: Hard Karamja.",
     "information": "Complete the Hard Karamja achievements.",
-    "requirements": "See Hard Karamja achievements page",
+    "requirements": "Achievement: Hard Karamja",
     "points": 80
   },
   {
@@ -7025,7 +7025,7 @@
     "locality": "Karamja",
     "task": "Complete all TzTok-Jad combat achievements.",
     "information": "Complete all TzTok-Jad combat achievements.",
-    "requirements": "See TzTok-Jad achievements page",
+    "requirements": "Achievement: TzTok-Jad",
     "points": 80
   },
   {
@@ -7070,7 +7070,7 @@
     "locality": "Karamja",
     "task": "Complete the task set: Elite Karamja.",
     "information": "Complete the Elite Karamja achievements.",
-    "requirements": "See Elite Karamja achievements page",
+    "requirements": "Achievement: Elite Karamja",
     "points": 150
   },
   {
@@ -7079,7 +7079,7 @@
     "locality": "Karamja",
     "task": "Complete all Har-Aken combat achievements.",
     "information": "Complete all Har-Aken combat achievements.",
-    "requirements": "See Har-Aken achievements page",
+    "requirements": "Achievement: Har-Aken",
     "points": 150
   },
   {
@@ -7520,7 +7520,7 @@
     "locality": "Misthalin: Lumbridge",
     "task": "Complete the task set: Beginner Lumbridge.",
     "information": "Given by Explorer Jack in Lumbridge for completing all Beginner Tasks in Lumbridge.",
-    "requirements": "See Beginner Lumbridge achievements page",
+    "requirements": "Achievement: Beginner Lumbridge & Draynor",
     "points": 30
   },
   {
@@ -7538,7 +7538,7 @@
     "locality": "Misthalin: Lumbridge",
     "task": "Complete the task set: Easy Lumbridge.",
     "information": "Given by Bob, the axe seller in Lumbridge, for completing all Easy Tasks in Lumbridge.",
-    "requirements": "See Easy Lumbridge achievements page",
+    "requirements": "Achievement: Easy Lumbridge & Draynor",
     "points": 30
   },
   {
@@ -7547,7 +7547,7 @@
     "locality": "Misthalin: Lumbridge",
     "task": "Complete the task set: Medium Lumbridge.",
     "information": "Given by Ned in Draynor Village for completing all Medium Tasks in Lumbridge.",
-    "requirements": "See Medium Lumbridge achievements page",
+    "requirements": "Achievement: Medium Lumbridge & Draynor",
     "points": 30
   },
   {
@@ -7709,7 +7709,7 @@
     "locality": "Misthalin: City of Um",
     "task": "Complete the task set: Easy Underworld.",
     "information": "Complete the Easy Underworld achievements.",
-    "requirements": "See Easy Underworld achievements page",
+    "requirements": "Achievement: Easy City of Um",
     "points": 30
   },
   {
@@ -7718,7 +7718,7 @@
     "locality": "Misthalin: City of Um",
     "task": "Complete the task set: Medium Underworld.",
     "information": "Complete the Medium Underworld achievements.",
-    "requirements": "See Medium Underworld achievements page",
+    "requirements": "Achievement: Medium City of Um",
     "points": 30
   },
   {
@@ -7727,7 +7727,7 @@
     "locality": "Misthalin: Varrock",
     "task": "Complete the task set: Easy Varrock.",
     "information": "Given by Rat Burgiss south of Varrock for completing all Easy Tasks in Varrock.",
-    "requirements": "See Easy Varrock achievements page",
+    "requirements": "Achievement: Easy Varrock",
     "points": 30
   },
   {
@@ -7736,7 +7736,7 @@
     "locality": "Misthalin: Varrock",
     "task": "Complete the task set: Medium Varrock.",
     "information": "Given by Reldo in Varrock Palace's library for completing all Medium Tasks in Varrock.",
-    "requirements": "See Medium Varrock achievements page",
+    "requirements": "Achievement: Medium Varrock",
     "points": 30
   },
   {
@@ -7835,7 +7835,7 @@
     "locality": "Misthalin: Edgeville",
     "task": "Complete the task set: Hard Varrock.",
     "information": "Complete all of the Hard Varrock achievements and claim rewards from Vannaka in Edgeville.",
-    "requirements": "See Hard Varrock achievements page",
+    "requirements": "Achievement: Hard Varrock",
     "points": 80
   },
   {
@@ -7880,7 +7880,7 @@
     "locality": "Misthalin: Lumbridge",
     "task": "Complete the task set: Hard Lumbridge.",
     "information": "Complete all Hard Tasks in Lumbridge and claim rewards from Ned in Draynor Village.",
-    "requirements": "See Hard Lumbridge achievements page",
+    "requirements": "Achievement: Hard Lumbridge & Draynor",
     "points": 80
   },
   {
@@ -8069,7 +8069,7 @@
     "locality": "Misthalin: City of Um",
     "task": "Complete the task set: Hard Underworld.",
     "information": "Complete the Hard Underworld achievements.",
-    "requirements": "See Hard Underworld achievements page",
+    "requirements": "Achievement: Hard City of Um",
     "points": 80
   },
   {
@@ -8096,7 +8096,7 @@
     "locality": "Misthalin: Edgeville",
     "task": "Complete the task set: Elite Varrock.",
     "information": "Given by Vannaka in Edgeville for completing all of the Elite Varrock achievements.",
-    "requirements": "See Elite Varrock achievements page",
+    "requirements": "Achievement: Elite Varrock",
     "points": 150
   },
   {
@@ -8312,7 +8312,7 @@
     "locality": "Misthalin: City of Um",
     "task": "Complete the task set: Elite Underworld.",
     "information": "Complete the Elite Underworld achievements.",
-    "requirements": "See Elite Underworld achievements page",
+    "requirements": "Achievement: Elite City of Um",
     "points": 150
   },
   {
@@ -8357,7 +8357,7 @@
     "locality": "Misthalin: City of Um",
     "task": "Complete all Sanctum of Rebirth combat achievements.",
     "information": "Complete all Sanctum of Rebirth combat achievements.",
-    "requirements": "See Sanctum of Rebirth achievements page",
+    "requirements": "Achievement: Sanctum of Rebirth",
     "points": 150
   },
   {
@@ -8366,7 +8366,7 @@
     "locality": "Misthalin: City of Um",
     "task": "Complete all of Rasial, the First Necromancer's combat achievements.",
     "information": "Complete all of Rasial, the First Necromancer's combat achievements.",
-    "requirements": "See Rasial, the First Necromancer achievements page",
+    "requirements": "Achievement: Rasial, the First Necromancer",
     "points": 150
   },
   {
@@ -8483,7 +8483,7 @@
     "locality": "Morytania",
     "task": "Complete the task set: Easy Morytania.",
     "information": "Complete the Easy Morytania achievements.",
-    "requirements": "See Easy Morytania achievements page",
+    "requirements": "Achievement: Easy Morytania",
     "points": 30
   },
   {
@@ -8618,7 +8618,7 @@
     "locality": "Morytania",
     "task": "Complete the task set: Medium Morytania.",
     "information": "Complete the Medium Morytania achievements.",
-    "requirements": "See Medium Morytania achievements page",
+    "requirements": "Achievement: Medium Morytania",
     "points": 30
   },
   {
@@ -8753,7 +8753,7 @@
     "locality": "Morytania",
     "task": "Complete the task set: Hard Morytania.",
     "information": "Complete the Hard Morytania achievements.",
-    "requirements": "See Hard Morytania achievements page",
+    "requirements": "Achievement: Hard Morytania",
     "points": 80
   },
   {
@@ -8915,7 +8915,7 @@
     "locality": "Morytania",
     "task": "Complete the task set: Elite Morytania.",
     "information": "Complete the Elite Morytania achievements.",
-    "requirements": "See Elite Morytania achievements page",
+    "requirements": "Achievement: Elite Morytania",
     "points": 150
   },
   {
@@ -8951,7 +8951,7 @@
     "locality": "Morytania",
     "task": "Complete all Araxxor and Araxxi combat achievements.",
     "information": "Complete all Araxxor and Araxxi combat achievements.",
-    "requirements": "See Araxxor achievements page",
+    "requirements": "Achievement: Araxxor",
     "points": 150
   },
   {
@@ -9050,7 +9050,7 @@
     "locality": "Elven Lands: Tirranwn",
     "task": "Complete the task set: Easy Tirannwn.",
     "information": "Complete the Easy Tirannwn achievements.",
-    "requirements": "See Easy Tirannwn achievements page",
+    "requirements": "Achievement: Easy Tirannwn",
     "points": 30
   },
   {
@@ -9131,7 +9131,7 @@
     "locality": "Elven Lands: Tirranwn",
     "task": "Complete the task set: Medium Tirannwn.",
     "information": "Complete the Medium Tirannwn achievements.",
-    "requirements": "See Medium Tirannwn achievements page",
+    "requirements": "Achievement: Medium Tirannwn",
     "points": 30
   },
   {
@@ -9293,7 +9293,7 @@
     "locality": "Elven Lands: Tirranwn",
     "task": "Complete the task set: Hard Tirannwn.",
     "information": "Complete the Hard Tirannwn achievements.",
-    "requirements": "See Hard Tirannwn achievements page",
+    "requirements": "Achievement: Hard Tirannwn",
     "points": 80
   },
   {
@@ -9428,7 +9428,7 @@
     "locality": "Elven Lands: Tirranwn",
     "task": "Complete the task set: Elite Tirannwn.",
     "information": "Complete the Elite Tirannwn achievements.",
-    "requirements": "See Elite Tirannwn achievements page",
+    "requirements": "Achievement: Elite Tirannwn",
     "points": 150
   },
   {
@@ -9581,7 +9581,7 @@
     "locality": "Wilderness: General",
     "task": "Complete the task set: Easy Wilderness.",
     "information": "Complete the Easy Wilderness achievements.",
-    "requirements": "See Easy Wilderness achievements page",
+    "requirements": "Achievement: Easy Wilderness",
     "points": 30
   },
   {
@@ -9716,7 +9716,7 @@
     "locality": "Wilderness: General",
     "task": "Complete the task set: Medium Wilderness.",
     "information": "Complete the Medium Wilderness achievements.",
-    "requirements": "See Medium Wilderness achievements page",
+    "requirements": "Achievement: Medium Wilderness",
     "points": 30
   },
   {
@@ -9833,7 +9833,7 @@
     "locality": "Wilderness: General",
     "task": "Complete the task set: Hard Wilderness.",
     "information": "Complete the Hard Wilderness achievements.",
-    "requirements": "See Hard Wilderness achievements page",
+    "requirements": "Achievement: Hard Wilderness",
     "points": 80
   },
   {
@@ -9959,7 +9959,7 @@
     "locality": "Wilderness: General",
     "task": "Complete the task set: Elite Wilderness.",
     "information": "Complete the Elite Wilderness achievements.",
-    "requirements": "See Elite Wilderness achievements page",
+    "requirements": "Achievement: Elite Wilderness",
     "points": 150
   },
   {
