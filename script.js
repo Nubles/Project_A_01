@@ -167,7 +167,7 @@ function populateFilters() {
         10: 'Easy',
         30: 'Medium',
         80: 'Hard',
-        150: 'Elite',
+        200: 'Elite',
         400: 'Master'
     };
     pointsFilter.innerHTML = '<option value="all">All Points</option>';
