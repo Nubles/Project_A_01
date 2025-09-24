@@ -513,7 +513,7 @@ Misthalin: Lumbridge	Churn some butter.	Make a pat of butter by using a bucket o
 Bucket of milk	 30	24.5%
 Misthalin: Lumbridge	Craft 50 cosmic runes.	Craft 50 cosmic runes.	27 Runecrafting Runecrafting
 Cosmic talisman or equivalent, completion of  Lost City quest	 30	7.6%
-Misthalin: Lumbridge	Steal a lantern from a cave goblin.	Steal a lantern from a cave goblin (only the ones in Dorgesh-Kaan have the lantern as a possible loot from pickpocketting).	36 Thieving Thieving
+Misthalin: Lumbridge	Steal a lantern from a cave goblin.	Steal a lantern from a cave goblin (only the ones in Dorgesh-Kaan have the lantern as a possible loot from pickpocketting).	36 Thieving, Quest: Death to the Dorgeshuun
 Completion of  Death to the Dorgeshuun quest	 30	0.7%
 Misthalin: Lumbridge	Use the range in Lumbridge Castle to bake a cake.	Use the range in Lumbridge Castle to bake a cake.	40 Cooking Cooking
 Completion of  Cook's Assistant quest	 30	20.1%

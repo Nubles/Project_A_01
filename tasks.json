@@ -3584,7 +3584,7 @@
     "locality": "Misthalin: Lumbridge",
     "task": "Steal a lantern from a cave goblin.",
     "information": "Steal a lantern from a cave goblin (only the ones in Dorgesh-Kaan have the lantern as a possible loot from pickpocketting).",
-    "requirements": "36 Thieving, Completion of Death to the Dorgeshuun quest",
+    "requirements": "36 Thieving, Quest: Death to the Dorgeshuun",
     "points": 30
   },
   {
