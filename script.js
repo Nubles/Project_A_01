@@ -2,6 +2,7 @@ let allTasks = [];
 let availableTasks = [];
 let completedTasks = new Set(JSON.parse(localStorage.getItem('completedTasks')) || []);
 let pinnedTasks = new Set(JSON.parse(localStorage.getItem('pinnedTasks')) || []);
+let taskIdMap = new Map();
 
 const randomizeBtn = document.getElementById('randomize-btn');
 const taskTitleEl = document.getElementById('task-title');
@@ -81,6 +82,20 @@ async function fetchPlayerStats() {
             throw new Error(`Player not found or API error (status: ${response.status})`);
         }
         const data = await response.json();
+
+        completedTasks.clear();
+        // The API returns completed tasks in a `tasks` property.
+        if (data.tasks && Array.isArray(data.tasks)) {
+            data.tasks.forEach(completedTaskId => {
+                if (taskIdMap.has(completedTaskId)) {
+                    const internalId = taskIdMap.get(completedTaskId);
+                    completedTasks.add(internalId);
+                }
+            });
+        }
+        localStorage.setItem('completedTasks', JSON.stringify([...completedTasks]));
+        renderCompletedTasks();
+
         playerStats = data.levels;
         renderPlayerStats();
         updateAvailableTasks(); // Re-filter tasks with the new stats
@@ -336,6 +351,9 @@ async function initializeApp() {
         allTasks = await response.json();
 
         allTasks.forEach(task => {
+            if (task.taskId !== undefined) {
+                taskIdMap.set(task.taskId, task.id);
+            }
             task.skills = [];
             const skillRegex = /(\d+)\s+(\w+)/g;
             let match;
