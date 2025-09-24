@@ -28,8 +28,8 @@ const taskBrowserTableBody = document.querySelector('#task-browser-table tbody')
 let currentTask = null;
 let playerStats = null;
 
-const playerNameInput = document.getElementById('player-name');
-const lookupBtn = document.getElementById('lookup-btn');
+const playerNameInput = document.getElementById('player-name-sidebar');
+const lookupBtn = document.getElementById('lookup-btn-sidebar');
 const statsContentEl = document.getElementById('stats-content');
 const completableToggle = document.getElementById('completable-toggle');
 
@@ -455,6 +455,27 @@ document.addEventListener('DOMContentLoaded', () => {
         renderTaskBrowser();
     });
     lookupBtn.addEventListener('click', fetchPlayerStats);
+
+    // Tab switching logic
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+
+    tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const paneId = button.dataset.pane;
+
+            tabButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+
+            tabPanes.forEach(pane => {
+                if (pane.id === paneId) {
+                    pane.classList.add('active');
+                } else {
+                    pane.classList.remove('active');
+                }
+            });
+        });
+    });
 
     initializeApp();
 });

@@ -896,7 +896,7 @@ Task ID	Locality	Task	Information	Requirements	Pts	Comp%
 762	Misthalin: City of Um	Defeat Nakatra, Devourer Eternal.	Defeat Nakatra, Devourer Eternal.	Completion of Soul Searching	80	0.1%
 764	Misthalin: City of Um	Cleanse the Gate of Elidinis.	Cleanse the Gate of Elidinis.	Completion of Ode of the Devourer	80	10%
 766	Misthalin: City of Um	Complete the task set: Hard Underworld.	Complete the Hard Underworld achievements.	Achievement: Hard City of Um	80	<0.1%
-11	Misthalin: Draynor Village	Navigate the RuneSpan using a Greater Conjuration Platorm.	Navigate the RuneSpan using a greater conjuration platform.	81 Runecrafting	200	<0.1%
+11	Misthalin: Draynor Village	Navigate the RuneSpan using a Greater Conjuration Platorm.	Navigate the RuneSpan using a greater conjuration platform.	95 Runecrafting	200	<0.1%
 13	Misthalin: Draynor Village	Obtain the Greater Runic Staff from the RuneSpan.	Obtain the greater runic staff from the RuneSpan.	75 Runecrafting	200	<0.1%
 21	Misthalin: Edgeville	Complete the task set: Elite Varrock.	Given by Vannaka in Edgeville for completing all of the Elite Varrock achievements.	Achievement: Elite Varrock	200	<0.1%
 25	Misthalin: Fort Forinthry	Upgrade the guardhouse in Fort Forinthry to Tier 3.	Upgrade the guardhouse in Fort Forinthry to tier 3.	77 Construction	200	<0.1%
