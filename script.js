@@ -2,7 +2,6 @@ let allTasks = [];
 let availableTasks = [];
 let completedTasks = new Set(JSON.parse(localStorage.getItem('completedTasks')) || []);
 let pinnedTasks = new Set(JSON.parse(localStorage.getItem('pinnedTasks')) || []);
-let taskIdMap = new Map();
 
 const randomizeBtn = document.getElementById('randomize-btn');
 const taskTitleEl = document.getElementById('task-title');
@@ -82,20 +81,6 @@ async function fetchPlayerStats() {
             throw new Error(`Player not found or API error (status: ${response.status})`);
         }
         const data = await response.json();
-
-        completedTasks.clear();
-        // The API returns completed tasks in a `league_tasks` property.
-        if (data.league_tasks && Array.isArray(data.league_tasks)) {
-            data.league_tasks.forEach(completedTaskId => {
-                if (taskIdMap.has(completedTaskId)) {
-                    const internalId = taskIdMap.get(completedTaskId);
-                    completedTasks.add(internalId);
-                }
-            });
-        }
-        localStorage.setItem('completedTasks', JSON.stringify([...completedTasks]));
-        renderCompletedTasks();
-
         playerStats = data.levels;
         renderPlayerStats();
         updateAvailableTasks(); // Re-filter tasks with the new stats
@@ -162,31 +147,18 @@ function populateFilters() {
         locationFilter.appendChild(option);
     });
 
-    // Use a hardcoded map for points to ensure correct tiers and labels
-    const pointsTiers = {
-        10: 'Easy',
-        30: 'Medium',
-        80: 'Hard',
-        200: 'Elite',
-        400: 'Master'
-    };
+    const points = [...new Set(allTasks.map(task => task.points))];
     pointsFilter.innerHTML = '<option value="all">All Points</option>';
-    for (const [value, label] of Object.entries(pointsTiers)) {
+    points.sort((a, b) => a - b).forEach(point => {
         const option = document.createElement('option');
-        option.value = value;
-        option.textContent = `${label} (${value} pts)`;
+        option.value = point;
+        option.textContent = `${point} pts`;
         pointsFilter.appendChild(option);
-    }
+    });
 
-    // Use a hardcoded list of official skills to prevent incorrect entries
-    const officialSkills = [
-        "Attack", "Strength", "Defence", "Ranged", "Prayer", "Magic", "Runecrafting", "Construction", "Constitution",
-        "Agility", "Herblore", "Thieving", "Crafting", "Fletching", "Slayer", "Hunter", "Mining", "Smithing",
-        "Fishing", "Cooking", "Firemaking", "Woodcutting", "Farming", "Divination", "Summoning",
-        "Dungeoneering", "Invention", "Archaeology", "Necromancy"
-    ];
+    const skills = [...new Set(allTasks.flatMap(task => task.skills || []))];
     skillFilter.innerHTML = '<option value="all">All Skills</option>';
-    officialSkills.sort().forEach(skill => {
+    skills.sort().forEach(skill => {
         const option = document.createElement('option');
         option.value = skill;
         option.textContent = skill;
@@ -195,36 +167,26 @@ function populateFilters() {
 }
 
 function formatRequirements(requirements) {
-    if (!requirements || requirements.trim().toLowerCase() === 'n/a') {
-        return 'None';
-    }
-
     let html = '';
+    const questRegex = /quest:\s*([^,]+)/gi;
+    const skillRegex = /(\d+\s+\w+)/g;
+
     let questMatches = [];
     let skillMatches = [];
-    let achievementMatches = [];
     let otherReqs = requirements;
 
-    const questRegex = /(?:completion of|quest:)\s*([^,]+)/gi;
     let match;
-    while ((match = questRegex.exec(otherReqs)) !== null) {
+    while ((match = questRegex.exec(requirements)) !== null) {
         questMatches.push(match[1].trim());
+        otherReqs = otherReqs.replace(match[0], '');
     }
-    otherReqs = otherReqs.replace(questRegex, '');
 
-    const achievementRegex = /Achievement:\s*([^,]+)/gi;
-    while ((match = achievementRegex.exec(otherReqs)) !== null) {
-        achievementMatches.push(match[1].trim());
-    }
-    otherReqs = otherReqs.replace(achievementRegex, '');
-
-    const skillRegex = /(\d[\d,]*)\s+([a-zA-Z]+(?:\s+[a-zA-Z]+)*)/g;
     while ((match = skillRegex.exec(otherReqs)) !== null) {
-        skillMatches.push(match[0].trim());
+        skillMatches.push(match[1].trim());
+        otherReqs = otherReqs.replace(match[1], '');
     }
-    otherReqs = otherReqs.replace(skillRegex, '');
 
-    otherReqs = otherReqs.replace(/,/g, ' ').replace(/\s\s+/g, ' ').trim();
+    otherReqs = otherReqs.replace(/,/g, ' ').trim();
 
     if (questMatches.length > 0) {
         html += '<div class="req-section"><strong>Quests:</strong><ul>';
@@ -235,24 +197,8 @@ function formatRequirements(requirements) {
         html += '</ul></div>';
     }
 
-    if (achievementMatches.length > 0) {
-        html += '<div class="req-section"><strong>Achievements:</strong><ul>';
-        achievementMatches.forEach(ach => {
-            let achLink;
-            const specialCases = ["TzTok-Jad", "Har-Aken", "Sanctum of Rebirth", "Rasial, the First Necromancer", "Araxxor"];
-            if (specialCases.includes(ach)) {
-                 achLink = `https://runescape.wiki/w/Combat_Achievements#${ach.replace(/ /g, '_')}`;
-            } else {
-                 achLink = `https://runescape.wiki/w/${ach.replace(/ /g, '_')}_achievements`;
-            }
-            html += `<li><a href="${achLink}" target="_blank">${ach}</a></li>`;
-        });
-        html += '</ul></div>';
-    }
-
-
     if (skillMatches.length > 0) {
-        html += '<div class="req-section"><strong>Skills & Items:</strong><ul>';
+        html += '<div class="req-section"><strong>Skills:</strong><ul>';
         skillMatches.forEach(skill => {
             html += `<li>${skill}</li>`;
         });
@@ -390,9 +336,6 @@ async function initializeApp() {
         allTasks = await response.json();
 
         allTasks.forEach(task => {
-            if (task.taskId !== undefined) {
-                taskIdMap.set(task.taskId, task.id);
-            }
             task.skills = [];
             const skillRegex = /(\d+)\s+(\w+)/g;
             let match;
@@ -437,14 +380,13 @@ document.addEventListener('DOMContentLoaded', () => {
         renderTaskBrowser();
     });
 
-    const changeFilterElements = [locationFilter, pointsFilter, skillFilter, completableToggle];
-    changeFilterElements.forEach(el => {
+    const filterElements = [locationFilter, pointsFilter, skillFilter, keywordFilter, completableToggle];
+    filterElements.forEach(el => {
         el.addEventListener('change', () => {
             updateAvailableTasks();
             renderTaskBrowser();
         });
     });
-
     keywordFilter.addEventListener('input', () => {
         updateAvailableTasks();
         renderTaskBrowser();
