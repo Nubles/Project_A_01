@@ -50,8 +50,9 @@ function renderPlayerStats() {
     ];
 
     for (const skill of skillOrder) {
-        if (playerStats[skill]) {
-            const level = playerStats[skill];
+        const lowerCaseSkill = skill.toLowerCase();
+        if (playerStats[lowerCaseSkill]) {
+            const level = playerStats[lowerCaseSkill];
             totalLevel += level;
             const statItem = document.createElement('div');
             statItem.className = 'stat-item';
@@ -97,7 +98,13 @@ async function fetchPlayerStats() {
         localStorage.setItem('completedTasks', JSON.stringify([...completedTasks]));
         renderCompletedTasks();
 
-        playerStats = data.levels;
+        const normalizedLevels = {};
+        if (data.levels) {
+            for (const skill in data.levels) {
+                normalizedLevels[skill.toLowerCase()] = data.levels[skill];
+            }
+        }
+        playerStats = normalizedLevels;
         renderPlayerStats();
         updateAvailableTasks(); // Re-filter tasks with the new stats
     } catch (error) {
@@ -130,14 +137,14 @@ function getFilteredTasks() {
         let meetsRequirements = true;
         if (showOnlyCompletable && playerStats) {
             const reqString = task.requirements;
-            const skillReqRegex = /(\d+)\s+(\w+)/g;
+            const skillReqRegex = /([\d,]+)\s+([a-zA-Z]+(?:\s+XP)?)/g;
             let match;
             while ((match = skillReqRegex.exec(reqString)) !== null) {
-                const requiredLevel = parseInt(match[1], 10);
-                const skillName = match[2].toLowerCase();
+                const requiredValue = parseInt(match[1].replace(/,/g, ''), 10);
+                const skillName = match[2].toLowerCase().replace(' xp', '');
                 const playerLevel = playerStats[skillName] || 0;
 
-                if (playerLevel < requiredLevel) {
+                if (playerLevel < requiredValue) {
                     meetsRequirements = false;
                     break;
                 }
@@ -219,12 +226,12 @@ function formatRequirements(requirements) {
     }
     otherReqs = otherReqs.replace(achievementRegex, '');
 
-    const skillRegex = /(\d+)\s+([a-zA-Z]+)/g;
+    const skillRegex = /([\d,]+)\s+([a-zA-Z]+(?:\s+XP)?)/g;
     while ((match = skillRegex.exec(otherReqs)) !== null) {
-        const requiredLevel = parseInt(match[1], 10);
-        const skillName = match[2];
-        const playerLevel = playerStats ? (playerStats[skillName.toLowerCase()] || 0) : 0;
-        const met = playerStats && playerLevel >= requiredLevel;
+        const requiredValue = parseInt(match[1].replace(/,/g, ''), 10);
+        const skillName = match[2].toLowerCase().replace(' xp', '');
+        const playerLevel = playerStats ? (playerStats[skillName] || 0) : 0;
+        const met = playerStats && playerLevel >= requiredValue;
         skillMatches.push({
             text: match[0].trim(),
             met: met
@@ -431,10 +438,10 @@ async function initializeApp() {
                 taskIdMap.set(task.taskId, task.id);
             }
             task.skills = [];
-            const skillRegex = /(\d+)\s+(\w+)/g;
+            const skillRegex = /([\d,]+)\s+([a-zA-Z]+(?:\s+XP)?)/g;
             let match;
             while ((match = skillRegex.exec(task.requirements)) !== null) {
-                task.skills.push(match[2]);
+                task.skills.push(match[2].replace(' XP', ''));
             }
         });
 
