@@ -50,9 +50,8 @@ function renderPlayerStats() {
     ];
 
     for (const skill of skillOrder) {
-        const lowerCaseSkill = skill.toLowerCase();
-        if (playerStats[lowerCaseSkill]) {
-            const level = playerStats[lowerCaseSkill];
+        if (playerStats[skill]) {
+            const level = playerStats[skill];
             totalLevel += level;
             const statItem = document.createElement('div');
             statItem.className = 'stat-item';
@@ -98,13 +97,7 @@ async function fetchPlayerStats() {
         localStorage.setItem('completedTasks', JSON.stringify([...completedTasks]));
         renderCompletedTasks();
 
-        const normalizedLevels = {};
-        if (data.levels) {
-            for (const skill in data.levels) {
-                normalizedLevels[skill.toLowerCase()] = data.levels[skill];
-            }
-        }
-        playerStats = normalizedLevels;
+        playerStats = data.levels;
         renderPlayerStats();
         updateAvailableTasks(); // Re-filter tasks with the new stats
     } catch (error) {
@@ -137,14 +130,14 @@ function getFilteredTasks() {
         let meetsRequirements = true;
         if (showOnlyCompletable && playerStats) {
             const reqString = task.requirements;
-            const skillReqRegex = /([\d,]+)\s+([a-zA-Z]+(?:\s+XP)?)/g;
+            const skillReqRegex = /(\d+)\s+(\w+)/g;
             let match;
             while ((match = skillReqRegex.exec(reqString)) !== null) {
-                const requiredValue = parseInt(match[1].replace(/,/g, ''), 10);
-                const skillName = match[2].toLowerCase().replace(' xp', '');
+                const requiredLevel = parseInt(match[1], 10);
+                const skillName = match[2].toLowerCase();
                 const playerLevel = playerStats[skillName] || 0;
 
-                if (playerLevel < requiredValue) {
+                if (playerLevel < requiredLevel) {
                     meetsRequirements = false;
                     break;
                 }
@@ -226,16 +219,9 @@ function formatRequirements(requirements) {
     }
     otherReqs = otherReqs.replace(achievementRegex, '');
 
-    const skillRegex = /([\d,]+)\s+([a-zA-Z]+(?:\s+XP)?)/g;
+    const skillRegex = /(\d[\d,]*)\s+([a-zA-Z]+(?:\s+[a-zA-Z]+)*)/g;
     while ((match = skillRegex.exec(otherReqs)) !== null) {
-        const requiredValue = parseInt(match[1].replace(/,/g, ''), 10);
-        const skillName = match[2].toLowerCase().replace(' xp', '');
-        const playerLevel = playerStats ? (playerStats[skillName] || 0) : 0;
-        const met = playerStats && playerLevel >= requiredValue;
-        skillMatches.push({
-            text: match[0].trim(),
-            met: met
-        });
+        skillMatches.push(match[0].trim());
     }
     otherReqs = otherReqs.replace(skillRegex, '');
 
@@ -269,8 +255,7 @@ function formatRequirements(requirements) {
     if (skillMatches.length > 0) {
         html += '<div class="req-section"><strong>Skills & Items:</strong><ul>';
         skillMatches.forEach(skill => {
-            const className = playerStats ? (skill.met ? 'req-met' : 'req-unmet') : '';
-            html += `<li class="${className}">${skill.text}</li>`;
+            html += `<li>${skill}</li>`;
         });
         html += '</ul></div>';
     }
@@ -317,6 +302,7 @@ function completeCurrentTask() {
         }
         displayRandomTask();
         renderCompletedTasks();
+        updateProgressVisualization();
     }
 }
 
@@ -334,6 +320,7 @@ function renderCompletedTasks() {
             localStorage.setItem('completedTasks', JSON.stringify([...completedTasks]));
             renderCompletedTasks();
             updateAvailableTasks();
+            updateProgressVisualization();
         };
         li.appendChild(undoBtn);
         completedTasksListEl.appendChild(li);
@@ -375,36 +362,73 @@ function togglePin() {
     renderPinnedTasks();
 }
 
+function updateProgressVisualization() {
+    const totalTasks = allTasks.length;
+    const completedCount = completedTasks.size;
+    const totalPoints = allTasks.reduce((sum, task) => sum + task.points, 0);
+    const completedPoints = allTasks
+        .filter(task => completedTasks.has(task.id))
+        .reduce((sum, task) => sum + task.points, 0);
+
+    const pointsTiers = {
+        10: 'Easy',
+        30: 'Medium',
+        80: 'Hard',
+        200: 'Elite',
+        400: 'Master'
+    };
+
+    const tierCounts = {};
+    const completedTierCounts = {};
+
+    for (const points in pointsTiers) {
+        tierCounts[points] = allTasks.filter(task => task.points === parseInt(points)).length;
+        completedTierCounts[points] = allTasks.filter(task => task.points === parseInt(points) && completedTasks.has(task.id)).length;
+    }
+
+    const totalProgressBar = document.getElementById('total-progress-bar');
+    const totalProgressText = document.getElementById('total-progress-text');
+    const totalPointsText = document.getElementById('total-points-text');
+    const tierProgressContainer = document.getElementById('tier-progress-container');
+
+    const progressPercentage = totalTasks > 0 ? (completedCount / totalTasks) * 100 : 0;
+    totalProgressBar.style.width = `${progressPercentage}%`;
+    totalProgressText.textContent = `${completedCount} / ${totalTasks} Tasks Completed`;
+    totalPointsText.textContent = `Total Points: ${completedPoints.toLocaleString()} / ${totalPoints.toLocaleString()}`;
+
+    tierProgressContainer.innerHTML = '';
+    for (const points in pointsTiers) {
+        const tierName = pointsTiers[points];
+        const total = tierCounts[points];
+        const completed = completedTierCounts[points];
+        const percentage = total > 0 ? (completed / total) * 100 : 0;
+
+        const tierDiv = document.createElement('div');
+        tierDiv.className = 'tier-progress';
+        tierDiv.innerHTML = `
+            <div class="tier-name">${tierName}</div>
+            <div class="progress-bar-container">
+                <div class="progress-bar" style="width: ${percentage}%;"></div>
+            </div>
+            <div class="tier-text">${completed} / ${total}</div>
+        `;
+        tierProgressContainer.appendChild(tierDiv);
+    }
+}
+
 function resetTasks() {
     if (confirm('Are you sure you want to reset all completed tasks? This cannot be undone.')) {
         completedTasks.clear();
         localStorage.removeItem('completedTasks');
         updateAvailableTasks();
         renderCompletedTasks();
+        updateProgressVisualization();
     }
 }
 
-let sortColumn = 'task';
-let sortDirection = 'asc';
-
 function renderTaskBrowser() {
     taskBrowserTableBody.innerHTML = '';
-    let tasksToRender = getFilteredTasks();
-
-    tasksToRender.sort((a, b) => {
-        let aValue = a[sortColumn];
-        let bValue = b[sortColumn];
-
-        if (sortColumn === 'points') {
-            aValue = parseInt(aValue, 10);
-            bValue = parseInt(bValue, 10);
-        }
-
-        if (aValue < bValue) return sortDirection === 'asc' ? -1 : 1;
-        if (aValue > bValue) return sortDirection === 'asc' ? 1 : -1;
-        return 0;
-    });
-
+    const tasksToRender = getFilteredTasks();
     tasksToRender.forEach(task => {
         const row = document.createElement('tr');
         row.innerHTML = `
@@ -414,14 +438,6 @@ function renderTaskBrowser() {
             <td>${task.requirements}</td>
         `;
         taskBrowserTableBody.appendChild(row);
-    });
-
-    // Update header classes for sorting indicators
-    document.querySelectorAll('#task-browser-table th').forEach(header => {
-        header.classList.remove('th-sort-asc', 'th-sort-desc');
-        if (header.dataset.column === sortColumn) {
-            header.classList.add(sortDirection === 'asc' ? 'th-sort-asc' : 'th-sort-desc');
-        }
     });
 }
 
@@ -438,10 +454,10 @@ async function initializeApp() {
                 taskIdMap.set(task.taskId, task.id);
             }
             task.skills = [];
-            const skillRegex = /([\d,]+)\s+([a-zA-Z]+(?:\s+XP)?)/g;
+            const skillRegex = /(\d+)\s+(\w+)/g;
             let match;
             while ((match = skillRegex.exec(task.requirements)) !== null) {
-                task.skills.push(match[2].replace(' XP', ''));
+                task.skills.push(match[2]);
             }
         });
 
@@ -449,6 +465,7 @@ async function initializeApp() {
         updateAvailableTasks();
         renderCompletedTasks();
         renderPinnedTasks();
+        updateProgressVisualization();
         renderTaskBrowser();
         taskTitleEl.textContent = 'Welcome!';
         taskPointsEl.textContent = '';
@@ -496,19 +513,6 @@ document.addEventListener('DOMContentLoaded', () => {
         renderTaskBrowser();
     });
     lookupBtn.addEventListener('click', fetchPlayerStats);
-
-    document.querySelectorAll('#task-browser-table th[data-column]').forEach(header => {
-        header.addEventListener('click', () => {
-            const column = header.dataset.column;
-            if (sortColumn === column) {
-                sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
-            } else {
-                sortColumn = column;
-                sortDirection = 'asc';
-            }
-            renderTaskBrowser();
-        });
-    });
 
     // Tab switching logic
     const tabButtons = document.querySelectorAll('.tab-btn');
