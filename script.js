@@ -163,21 +163,22 @@ function populateFilters() {
         locationFilter.appendChild(option);
     });
 
-    // Use a hardcoded map for points to ensure correct tiers and labels
-    const pointsTiers = {
-        10: 'Easy',
-        30: 'Medium',
-        80: 'Hard',
-        200: 'Elite',
-        400: 'Master'
+    const tiers = [...new Set(allTasks.map(task => task.tier))];
+    const tierPointMap = {
+        'Easy': 10,
+        'Medium': 30,
+        'Hard': 80,
+        'Elite': 200,
+        'Master': 400
     };
     pointsFilter.innerHTML = '<option value="all">All Points</option>';
-    for (const [value, label] of Object.entries(pointsTiers)) {
+    tiers.sort((a, b) => tierPointMap[a] - tierPointMap[b]).forEach(tier => {
+        const points = Object.keys(tierPointMap).find(key => tierPointMap[key] === (allTasks.find(t => t.tier === tier)?.points || 0)) || 0;
         const option = document.createElement('option');
-        option.value = value;
-        option.textContent = `${label} (${value} pts)`;
+        option.value = points;
+        option.textContent = `${tier} (${points} pts)`;
         pointsFilter.appendChild(option);
-    }
+    });
 
     // Use a hardcoded list of official skills to prevent incorrect entries
     const officialSkills = [
@@ -370,21 +371,21 @@ function updateProgressVisualization() {
         .filter(task => completedTasks.has(task.id))
         .reduce((sum, task) => sum + task.points, 0);
 
-    const pointsTiers = {
-        10: 'Easy',
-        30: 'Medium',
-        80: 'Hard',
-        200: 'Elite',
-        400: 'Master'
+    const tierPointMap = {
+        'Easy': 10,
+        'Medium': 30,
+        'Hard': 80,
+        'Elite': 200,
+        'Master': 400
     };
-
+    const tiers = Object.keys(tierPointMap);
     const tierCounts = {};
     const completedTierCounts = {};
 
-    for (const points in pointsTiers) {
-        tierCounts[points] = allTasks.filter(task => task.points === parseInt(points)).length;
-        completedTierCounts[points] = allTasks.filter(task => task.points === parseInt(points) && completedTasks.has(task.id)).length;
-    }
+    tiers.forEach(tier => {
+        tierCounts[tier] = allTasks.filter(task => task.tier === tier).length;
+        completedTierCounts[tier] = allTasks.filter(task => task.tier === tier && completedTasks.has(task.id)).length;
+    });
 
     const totalProgressBar = document.getElementById('total-progress-bar');
     const totalProgressText = document.getElementById('total-progress-text');
@@ -397,16 +398,15 @@ function updateProgressVisualization() {
     totalPointsText.textContent = `Total Points: ${completedPoints.toLocaleString()} / ${totalPoints.toLocaleString()}`;
 
     tierProgressContainer.innerHTML = '';
-    for (const points in pointsTiers) {
-        const tierName = pointsTiers[points];
-        const total = tierCounts[points];
-        const completed = completedTierCounts[points];
+    for (const tier of tiers) {
+        const total = tierCounts[tier];
+        const completed = completedTierCounts[tier];
         const percentage = total > 0 ? (completed / total) * 100 : 0;
 
         const tierDiv = document.createElement('div');
         tierDiv.className = 'tier-progress';
         tierDiv.innerHTML = `
-            <div class="tier-name">${tierName}</div>
+            <div class="tier-name">${tier}</div>
             <div class="progress-bar-container">
                 <div class="progress-bar" style="width: ${percentage}%;"></div>
             </div>
