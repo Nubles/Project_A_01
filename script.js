@@ -50,8 +50,9 @@ function renderPlayerStats() {
     ];
 
     for (const skill of skillOrder) {
-        if (playerStats[skill]) {
-            const level = playerStats[skill];
+        const lowerCaseSkill = skill.toLowerCase();
+        if (playerStats[lowerCaseSkill]) {
+            const level = playerStats[lowerCaseSkill];
             totalLevel += level;
             const statItem = document.createElement('div');
             statItem.className = 'stat-item';
@@ -97,7 +98,13 @@ async function fetchPlayerStats() {
         localStorage.setItem('completedTasks', JSON.stringify([...completedTasks]));
         renderCompletedTasks();
 
-        playerStats = data.levels;
+        const normalizedLevels = {};
+        if (data.levels) {
+            for (const skill in data.levels) {
+                normalizedLevels[skill.toLowerCase()] = data.levels[skill];
+            }
+        }
+        playerStats = normalizedLevels;
         renderPlayerStats();
         updateAvailableTasks(); // Re-filter tasks with the new stats
     } catch (error) {
