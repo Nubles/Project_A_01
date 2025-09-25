@@ -520,12 +520,8 @@ input:checked + .slider:before {
     }
 }
 
-.req-met {
-    color: #28a745;
-    background-color: rgba(40, 167, 69, 0.1);
-    padding: 1rem;
-    border-radius: var(--border-radius);
-    margin: 0;
+li.req-met {
+    color: #28a745; /* Green */
 }
 
 #task-browser-table {
@@ -544,8 +540,11 @@ input:checked + .slider:before {
     background-color: var(--card-bg);
     color: var(--primary-accent);
     font-weight: 600;
-    cursor: pointer;
     position: relative;
+}
+
+#task-browser-table th[data-column] {
+    cursor: pointer;
 }
 
 #task-browser-table th::after {
@@ -573,12 +572,8 @@ input:checked + .slider:before {
     background-color: var(--card-bg);
 }
 
-.req-unmet {
-    color: #dc3545;
-    background-color: rgba(220, 53, 69, 0.1);
-    padding: 1rem;
-    border-radius: var(--border-radius);
-    margin: 0;
+li.req-unmet {
+    color: #dc3545; /* Red */
 }
 
 .req-note {
