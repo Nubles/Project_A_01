@@ -219,9 +219,16 @@ function formatRequirements(requirements) {
     }
     otherReqs = otherReqs.replace(achievementRegex, '');
 
-    const skillRegex = /(\d[\d,]*)\s+([a-zA-Z]+(?:\s+[a-zA-Z]+)*)/g;
+    const skillRegex = /(\d+)\s+([a-zA-Z]+)/g;
     while ((match = skillRegex.exec(otherReqs)) !== null) {
-        skillMatches.push(match[0].trim());
+        const requiredLevel = parseInt(match[1], 10);
+        const skillName = match[2];
+        const playerLevel = playerStats ? (playerStats[skillName.toLowerCase()] || 0) : 0;
+        const met = playerStats && playerLevel >= requiredLevel;
+        skillMatches.push({
+            text: match[0].trim(),
+            met: met
+        });
     }
     otherReqs = otherReqs.replace(skillRegex, '');
 
@@ -255,7 +262,8 @@ function formatRequirements(requirements) {
     if (skillMatches.length > 0) {
         html += '<div class="req-section"><strong>Skills & Items:</strong><ul>';
         skillMatches.forEach(skill => {
-            html += `<li>${skill}</li>`;
+            const className = playerStats ? (skill.met ? 'req-met' : 'req-unmet') : '';
+            html += `<li class="${className}">${skill.text}</li>`;
         });
         html += '</ul></div>';
     }
@@ -369,9 +377,27 @@ function resetTasks() {
     }
 }
 
+let sortColumn = 'task';
+let sortDirection = 'asc';
+
 function renderTaskBrowser() {
     taskBrowserTableBody.innerHTML = '';
-    const tasksToRender = getFilteredTasks();
+    let tasksToRender = getFilteredTasks();
+
+    tasksToRender.sort((a, b) => {
+        let aValue = a[sortColumn];
+        let bValue = b[sortColumn];
+
+        if (sortColumn === 'points') {
+            aValue = parseInt(aValue, 10);
+            bValue = parseInt(bValue, 10);
+        }
+
+        if (aValue < bValue) return sortDirection === 'asc' ? -1 : 1;
+        if (aValue > bValue) return sortDirection === 'asc' ? 1 : -1;
+        return 0;
+    });
+
     tasksToRender.forEach(task => {
         const row = document.createElement('tr');
         row.innerHTML = `
@@ -381,6 +407,14 @@ function renderTaskBrowser() {
             <td>${task.requirements}</td>
         `;
         taskBrowserTableBody.appendChild(row);
+    });
+
+    // Update header classes for sorting indicators
+    document.querySelectorAll('#task-browser-table th').forEach(header => {
+        header.classList.remove('th-sort-asc', 'th-sort-desc');
+        if (header.dataset.column === sortColumn) {
+            header.classList.add(sortDirection === 'asc' ? 'th-sort-asc' : 'th-sort-desc');
+        }
     });
 }
 
@@ -455,6 +489,19 @@ document.addEventListener('DOMContentLoaded', () => {
         renderTaskBrowser();
     });
     lookupBtn.addEventListener('click', fetchPlayerStats);
+
+    document.querySelectorAll('#task-browser-table th[data-column]').forEach(header => {
+        header.addEventListener('click', () => {
+            const column = header.dataset.column;
+            if (sortColumn === column) {
+                sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+            } else {
+                sortColumn = column;
+                sortDirection = 'asc';
+            }
+            renderTaskBrowser();
+        });
+    });
 
     // Tab switching logic
     const tabButtons = document.querySelectorAll('.tab-btn');
