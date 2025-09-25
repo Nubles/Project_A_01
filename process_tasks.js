@@ -46,6 +46,28 @@ function processRecord(recordLines, id) {
         return null;
     }
 
+    let tier;
+    if (columns[2].trim().toLowerCase().includes('master')) {
+        tier = 'Master';
+    } else {
+        switch (points) {
+            case 10:
+                tier = 'Easy';
+                break;
+            case 30:
+                tier = 'Medium';
+                break;
+            case 80:
+                tier = 'Hard';
+                break;
+            case 200:
+                tier = 'Elite';
+                break;
+            default:
+                tier = 'Unknown';
+        }
+    }
+
     return {
         id: id,
         taskId: taskId,
@@ -53,7 +75,8 @@ function processRecord(recordLines, id) {
         task: columns[2].trim(),
         information: columns[3].trim(),
         requirements: columns[4].trim(),
-        points: points
+        points: points,
+        tier: tier
     };
 }
 
